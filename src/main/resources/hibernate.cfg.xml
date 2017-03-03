@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.1.31:3306/Popcorn</property>
+        <property name="hibernate.connection.username">steven</property>
+        <property name="hibernate.connection.password">crystalgems</property>
+
+        <mapping class="com.crystalgems.popcorn.model.Actor"/>
+        <mapping class="com.crystalgems.popcorn.model.Age"/>
+        <mapping class="com.crystalgems.popcorn.model.Color"/>
+        <mapping class="com.crystalgems.popcorn.model.Costumedesigner"/>
+        <mapping class="com.crystalgems.popcorn.model.Country"/>
+        <mapping class="com.crystalgems.popcorn.model.Countrycode"/>
+        <mapping class="com.crystalgems.popcorn.model.Currency"/>
+        <mapping class="com.crystalgems.popcorn.model.Director"/>
+        <mapping class="com.crystalgems.popcorn.model.Distributor"/>
+        <mapping class="com.crystalgems.popcorn.model.Gender"/>
+        <mapping class="com.crystalgems.popcorn.model.Genre"/>
+        <mapping class="com.crystalgems.popcorn.model.Keyword"/>
+        <mapping class="com.crystalgems.popcorn.model.Language"/>
+        <mapping class="com.crystalgems.popcorn.model.Linktype"/>
+        <mapping class="com.crystalgems.popcorn.model.Movieactor"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviebusiness"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviecolor"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviecostumedesigner"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviecountry"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviedirector"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviedistributor"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviegenre"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviekeyword"/>
+        <mapping class="com.crystalgems.popcorn.model.Movielanguage"/>
+        <mapping class="com.crystalgems.popcorn.model.Movielink"/>
+        <mapping class="com.crystalgems.popcorn.model.Movielocation"/>
+        <mapping class="com.crystalgems.popcorn.model.Movieproducer"/>
+        <mapping class="com.crystalgems.popcorn.model.Movieproductioncompany"/>
+        <mapping class="com.crystalgems.popcorn.model.Movieproductiondesigner"/>
+        <mapping class="com.crystalgems.popcorn.model.Movierating"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviereleasedate"/>
+        <mapping class="com.crystalgems.popcorn.model.Movierunningtime"/>
+        <mapping class="com.crystalgems.popcorn.model.Movies"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviesound"/>
+        <mapping class="com.crystalgems.popcorn.model.Movietype"/>
+        <mapping class="com.crystalgems.popcorn.model.Moviewritter"/>
+        <mapping class="com.crystalgems.popcorn.model.Movieyear"/>
+        <mapping class="com.crystalgems.popcorn.model.Occupation"/>
+        <mapping class="com.crystalgems.popcorn.model.Producer"/>
+        <mapping class="com.crystalgems.popcorn.model.Productiondesigner"/>
+        <mapping class="com.crystalgems.popcorn.model.Productor"/>
+        <mapping class="com.crystalgems.popcorn.model.Sound"/>
+        <mapping class="com.crystalgems.popcorn.model.Type"/>
+        <mapping class="com.crystalgems.popcorn.model.User"/>
+        <mapping class="com.crystalgems.popcorn.model.Userrating"/>
+        <mapping class="com.crystalgems.popcorn.model.Writter"/>
+        <mapping class="com.crystalgems.popcorn.model.Zone"/>
+        <!-- DB schema will be updated if needed -->
+
+    </session-factory>
+</hibernate-configuration>
