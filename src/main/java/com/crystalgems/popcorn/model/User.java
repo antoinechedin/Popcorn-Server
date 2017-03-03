@@ -1,15 +1,13 @@
 package com.crystalgems.popcorn.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.sql.Date;
 
 /**
  * Created by Antoine on 03/03/2017.
  */
 @Entity
+@Table(name = "user")
 public class User {
     private int userId;
     private String login;

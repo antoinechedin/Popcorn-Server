@@ -1,14 +1,12 @@
 package com.crystalgems.popcorn.model;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 /**
  * Created by Antoine on 03/03/2017.
  */
 @Entity
+@Table(name = "actor")
 public class Actor {
     private int actorId;
     private String lastName;
