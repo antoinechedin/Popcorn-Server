@@ -12,9 +12,6 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.List;
 
-/**
- * Created by Antoine on 03/03/2017.
- */
 @Path("movies")
 public class MoviesService {
 
