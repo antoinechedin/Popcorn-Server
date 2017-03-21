@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -12,6 +13,7 @@ public class Director {
     private int movieQuantity;
     private String lastName;
     private String firstName;
+    private Set<Movies> movies;
 
     @Id
     @Column(name = "DirectorId")
@@ -51,6 +53,20 @@ public class Director {
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "moviedirector",
+            joinColumns = @JoinColumn(name = "MovieId"),
+            inverseJoinColumns = @JoinColumn(name = "DirectorId")
+    )
+    public Set<Movies> getMovies() {
+        return movies;
+    }
+
+    public void setMovies(Set<Movies> movies) {
+        this.movies = movies;
     }
 
     @Override

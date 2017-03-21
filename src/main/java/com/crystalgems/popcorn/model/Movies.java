@@ -2,6 +2,7 @@ package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -13,6 +14,7 @@ public class Movies {
     private String titleMovieLens;
     private String titleImdb;
     private Date date;
+    private Set<Director> directors;
 
     @Id
     @Column(name = "MovieId")
@@ -52,6 +54,20 @@ public class Movies {
 
     public void setDate(Date date) {
         this.date = date;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "moviedirector",
+            joinColumns = @JoinColumn(name = "DirectorId"),
+            inverseJoinColumns = @JoinColumn(name = "MovieId")
+    )
+    public Set<Director> getDirectors() {
+        return directors;
+    }
+
+    public void setDirectors(Set<Director> directors) {
+        this.directors = directors;
     }
 
     @Override
