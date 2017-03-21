@@ -9,8 +9,8 @@ import java.util.Set;
  */
 @Entity
 @Table(name = "movies")
-public class Movies {
-    private int movieId;
+public class Movie {
+    private Integer movieId;
     private String titleMovieLens;
     private String titleImdb;
     private Date date;
@@ -75,13 +75,13 @@ public class Movies {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Movies movies = (Movies) o;
+        Movie movie = (Movie) o;
 
-        if (movieId != movies.movieId) return false;
-        if (titleMovieLens != null ? !titleMovieLens.equals(movies.titleMovieLens) : movies.titleMovieLens != null)
+        if (movieId != movie.movieId) return false;
+        if (titleMovieLens != null ? !titleMovieLens.equals(movie.titleMovieLens) : movie.titleMovieLens != null)
             return false;
-        if (titleImdb != null ? !titleImdb.equals(movies.titleImdb) : movies.titleImdb != null) return false;
-        return date != null ? date.equals(movies.date) : movies.date == null;
+        if (titleImdb != null ? !titleImdb.equals(movie.titleImdb) : movie.titleImdb != null) return false;
+        return date != null ? date.equals(movie.date) : movie.date == null;
     }
 
     @Override

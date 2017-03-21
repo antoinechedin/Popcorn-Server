@@ -1,7 +1,7 @@
 package com.crystalgems.popcorn.sevices;
 
 import com.crystalgems.popcorn.hibernate.HibernateUtil;
-import com.crystalgems.popcorn.model.Movies;
+import com.crystalgems.popcorn.model.Movie;
 import org.hibernate.HibernateException;
 
 import javax.ws.rs.GET;
@@ -21,9 +21,9 @@ public class MoviesService {
         String res = "";
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
-            List movies = HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movies").list();
+            List movies = HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie").list();
             for (Iterator iterator = movies.iterator(); iterator.hasNext(); ) {
-                Movies movie = (Movies) iterator.next();
+                Movie movie = (Movie) iterator.next();
                 res += movie.getTitleMovieLens() + " (" + movie.getDate() + ")\n";
             }
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
@@ -37,12 +37,12 @@ public class MoviesService {
     @GET
     @Path("/json")
     @Produces(MediaType.APPLICATION_JSON)
-    public Movies getMovieInJSON() {
-        Movies movies = new Movies();
-        movies.setMovieId(1);
-        movies.setDate(new Date(System.currentTimeMillis()));
-        movies.setTitleImdb("My movie IMB");
-        movies.setTitleMovieLens("My movie ML");
-        return movies;
+    public Movie getMovieInJSON() {
+        Movie movie = new Movie();
+        movie.setMovieId(1);
+        movie.setDate(new Date(System.currentTimeMillis()));
+        movie.setTitleImdb("My movie IMB");
+        movie.setTitleMovieLens("My movie ML");
+        return movie;
     }
 }

@@ -5,6 +5,7 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Popcorn</property>
         <property name="hibernate.connection.username">steven</property>
         <property name="hibernate.connection.password">crystalgems</property>
@@ -43,7 +44,7 @@
         <mapping class="com.crystalgems.popcorn.model.Movierating"/>
         <mapping class="com.crystalgems.popcorn.model.Moviereleasedate"/>
         <mapping class="com.crystalgems.popcorn.model.Movierunningtime"/>
-        <mapping class="com.crystalgems.popcorn.model.Movies"/>
+        <mapping class="com.crystalgems.popcorn.model.Movie"/>
         <mapping class="com.crystalgems.popcorn.model.Moviesound"/>
         <mapping class="com.crystalgems.popcorn.model.Movietype"/>
         <mapping class="com.crystalgems.popcorn.model.Moviewritter"/>
@@ -58,7 +59,6 @@
         <mapping class="com.crystalgems.popcorn.model.Userrating"/>
         <mapping class="com.crystalgems.popcorn.model.Writter"/>
         <mapping class="com.crystalgems.popcorn.model.Zone"/>
-        <!-- DB schema will be updated if needed -->
 
     </session-factory>
 </hibernate-configuration>

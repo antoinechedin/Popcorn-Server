@@ -13,7 +13,7 @@ public class Director {
     private int movieQuantity;
     private String lastName;
     private String firstName;
-    private Set<Movies> movies;
+    private Set<Movie> movies;
 
     @Id
     @Column(name = "DirectorId")
@@ -61,11 +61,11 @@ public class Director {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "DirectorId")
     )
-    public Set<Movies> getMovies() {
+    public Set<Movie> getMovies() {
         return movies;
     }
 
-    public void setMovies(Set<Movies> movies) {
+    public void setMovies(Set<Movie> movies) {
         this.movies = movies;
     }
 
