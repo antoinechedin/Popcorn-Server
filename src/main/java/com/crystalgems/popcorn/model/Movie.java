@@ -10,7 +10,7 @@ import java.util.Set;
 @Entity
 @Table(name = "movies")
 public class Movie {
-    private Integer movieId;
+    private int movieId;
     private String titleMovieLens;
     private String titleImdb;
     private Date date;
@@ -18,6 +18,7 @@ public class Movie {
 
     @Id
     @Column(name = "MovieId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getMovieId() {
         return movieId;
     }
@@ -77,7 +78,6 @@ public class Movie {
 
         Movie movie = (Movie) o;
 
-        if (movieId != movie.movieId) return false;
         if (titleMovieLens != null ? !titleMovieLens.equals(movie.titleMovieLens) : movie.titleMovieLens != null)
             return false;
         if (titleImdb != null ? !titleImdb.equals(movie.titleImdb) : movie.titleImdb != null) return false;
