@@ -18,6 +18,7 @@ public class HibernateTest {
     private Director director1 = new Director();
     private Actor actor1 = new Actor();
     private Genre genre1 = new Genre();
+    private Keyword keyword1 = new Keyword();
 
     private Country country1 = new Country();
     private Distributor distributor1 = new Distributor();
@@ -47,12 +48,16 @@ public class HibernateTest {
         // Distributor 1
         distributor1.setDistributionCompany("DistributionCompany");
         distributor1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Keyword 1
+        keyword1.setKeyword("keyword");
+        keyword1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
         // Movie 1 Relation
         movie1.setDirectors(new HashSet<>(Collections.singletonList(director1)));
         movie1.setActors(new HashSet<>(Collections.singletonList(actor1)));
         movie1.setGenres(new HashSet<>(Collections.singletonList(genre1)));
         movie1.setCountries(new HashSet<>(Collections.singletonList(country1)));
         movie1.setDistributors(new HashSet<>(Collections.singletonList(distributor1)));
+        movie1.setKeywords(new HashSet<>(Collections.singletonList(keyword1)));
 
         // Init Transaction
         HibernateUtilTest.getSessionFactory().getCurrentSession().beginTransaction();
@@ -78,6 +83,9 @@ public class HibernateTest {
         // Save Distributor
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(distributor1);
         int distributorId = distributor1.getDistributorId();
+        // Save Keyword
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(keyword1);
+        int keywordId = keyword1.getKeywordId();
 
         // Load movie
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
@@ -103,6 +111,9 @@ public class HibernateTest {
         // Load Distributor
         Distributor distributorLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Distributor.class, distributorId);
         Assert.assertEquals(distributor1.getDistributionCompany(), distributorLoaded1.getDistributionCompany());
+        // Load Keyword
+        Keyword keywordLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Keyword.class, keywordId);
+        Assert.assertEquals(keyword1.getKeyword(), keywordLoaded1.getKeyword());
 
         // Check relation
         // Movie
@@ -111,6 +122,7 @@ public class HibernateTest {
         Assert.assertNotNull(movieLoaded1.getGenres());
         Assert.assertNotNull(movieLoaded1.getCountries());
         Assert.assertNotNull(movieLoaded1.getDistributors());
+        Assert.assertNotNull(movieLoaded1.getKeywords());
         // Director
         Assert.assertNotNull(directorLoaded1.getMovies());
         // Actor
@@ -121,6 +133,8 @@ public class HibernateTest {
         Assert.assertNotNull(countryLoaded1.getMovies());
         // Distributor
         Assert.assertNotNull(distributorLoaded1.getMovies());
+        // Keyword
+        Assert.assertNotNull(keywordLoaded1.getMovies());
     }
 
     @After
