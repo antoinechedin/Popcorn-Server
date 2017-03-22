@@ -9,7 +9,7 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/popcorntest</property>
         <property name="hibernate.connection.username">test</property>
         <property name="hibernate.connection.password">test</property>
-        <property name="hbm2ddl.auto">create-drop</property>
+        <property name="hbm2ddl.auto">validate</property>
         <!-- Enable thread-bound strategy -->
         <property name="hibernate.current_session_context_class">thread</property>
 
@@ -30,7 +30,6 @@
         <mapping class="com.crystalgems.popcorn.model.Moviebusiness"/>
         <mapping class="com.crystalgems.popcorn.model.Moviecolor"/>
         <mapping class="com.crystalgems.popcorn.model.Moviecountry"/>
-        <mapping class="com.crystalgems.popcorn.model.Moviedirector"/>
         <mapping class="com.crystalgems.popcorn.model.Moviedistributor"/>
         <mapping class="com.crystalgems.popcorn.model.Moviegenre"/>
         <mapping class="com.crystalgems.popcorn.model.Moviekeyword"/>

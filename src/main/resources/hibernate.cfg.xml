@@ -29,7 +29,6 @@
         <mapping class="com.crystalgems.popcorn.model.Moviebusiness"/>
         <mapping class="com.crystalgems.popcorn.model.Moviecolor"/>
         <mapping class="com.crystalgems.popcorn.model.Moviecountry"/>
-        <mapping class="com.crystalgems.popcorn.model.Moviedirector"/>
         <mapping class="com.crystalgems.popcorn.model.Moviedistributor"/>
         <mapping class="com.crystalgems.popcorn.model.Moviegenre"/>
         <mapping class="com.crystalgems.popcorn.model.Moviekeyword"/>
