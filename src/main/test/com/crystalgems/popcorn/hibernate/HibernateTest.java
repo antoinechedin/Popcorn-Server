@@ -19,9 +19,9 @@ public class HibernateTest {
     private Actor actor1 = new Actor();
     private Genre genre1 = new Genre();
     private Keyword keyword1 = new Keyword();
-
     private Country country1 = new Country();
     private Distributor distributor1 = new Distributor();
+    private Language language1 = new Language();
 
     @Before
     public void before() {
@@ -51,6 +51,9 @@ public class HibernateTest {
         // Keyword 1
         keyword1.setKeyword("keyword");
         keyword1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Language 1
+        language1.setLanguage("language");
+        language1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
         // Movie 1 Relation
         movie1.setDirectors(new HashSet<>(Collections.singletonList(director1)));
         movie1.setActors(new HashSet<>(Collections.singletonList(actor1)));
@@ -58,6 +61,7 @@ public class HibernateTest {
         movie1.setCountries(new HashSet<>(Collections.singletonList(country1)));
         movie1.setDistributors(new HashSet<>(Collections.singletonList(distributor1)));
         movie1.setKeywords(new HashSet<>(Collections.singletonList(keyword1)));
+        movie1.setLanguages(new HashSet<>(Collections.singletonList(language1)));
 
         // Init Transaction
         HibernateUtilTest.getSessionFactory().getCurrentSession().beginTransaction();
@@ -86,6 +90,9 @@ public class HibernateTest {
         // Save Keyword
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(keyword1);
         int keywordId = keyword1.getKeywordId();
+        // Save Language
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(language1);
+        int languageId = language1.getLanguageId();
 
         // Load movie
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
@@ -114,27 +121,33 @@ public class HibernateTest {
         // Load Keyword
         Keyword keywordLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Keyword.class, keywordId);
         Assert.assertEquals(keyword1.getKeyword(), keywordLoaded1.getKeyword());
+        // Load Language
+        Language languageLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Language.class, languageId);
+        Assert.assertEquals(language1.getLanguage(), languageLoaded1.getLanguage());
 
         // Check relation
         // Movie
-        Assert.assertNotNull(movieLoaded1.getDirectors());
-        Assert.assertNotNull(movieLoaded1.getActors());
-        Assert.assertNotNull(movieLoaded1.getGenres());
-        Assert.assertNotNull(movieLoaded1.getCountries());
-        Assert.assertNotNull(movieLoaded1.getDistributors());
-        Assert.assertNotNull(movieLoaded1.getKeywords());
+        Assert.assertEquals(director1.getLastName(), ((Director) movieLoaded1.getDirectors().toArray()[0]).getLastName());
+        Assert.assertEquals(actor1.getLastName(), ((Actor) movieLoaded1.getActors().toArray()[0]).getLastName());
+        Assert.assertEquals(genre1.getGenre(), ((Genre) movieLoaded1.getGenres().toArray()[0]).getGenre());
+        Assert.assertEquals(country1.getCountry(), ((Country) movieLoaded1.getCountries().toArray()[0]).getCountry());
+        Assert.assertEquals(distributor1.getDistributionCompany(), ((Distributor) movieLoaded1.getDistributors().toArray()[0]).getDistributionCompany());
+        Assert.assertEquals(keyword1.getKeyword(), ((Keyword) movieLoaded1.getKeywords().toArray()[0]).getKeyword());
+        Assert.assertEquals(language1.getLanguage(), ((Language) movieLoaded1.getLanguages().toArray()[0]).getLanguage());
         // Director
-        Assert.assertNotNull(directorLoaded1.getMovies());
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) directorLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Actor
-        Assert.assertNotNull(actorLoaded1.getMovies());
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) actorLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Genre
-        Assert.assertNotNull(genreLoaded1.getMovies());
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) genreLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Country
-        Assert.assertNotNull(countryLoaded1.getMovies());
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) countryLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Distributor
-        Assert.assertNotNull(distributorLoaded1.getMovies());
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) distributorLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Keyword
-        Assert.assertNotNull(keywordLoaded1.getMovies());
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) keywordLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
+        // Language
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) languageLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
     }
 
     @After

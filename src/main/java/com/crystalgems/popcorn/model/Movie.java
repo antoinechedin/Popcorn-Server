@@ -20,6 +20,7 @@ public class Movie {
     private Set<Country> countries;
     private Set<Distributor> distributors;
     private Set<Keyword> keywords;
+    private Set<Language> languages;
 
     @Id
     @Column(name = "MovieId")
@@ -145,6 +146,20 @@ public class Movie {
 
     public void setKeywords(Set<Keyword> keywords) {
         this.keywords = keywords;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "movielanguage",
+            joinColumns = @JoinColumn(name = "MovieId"),
+            inverseJoinColumns = @JoinColumn(name = "LanguageId")
+    )
+    public Set<Language> getLanguages() {
+        return languages;
+    }
+
+    public void setLanguages(Set<Language> languages) {
+        this.languages = languages;
     }
 
     @Override
