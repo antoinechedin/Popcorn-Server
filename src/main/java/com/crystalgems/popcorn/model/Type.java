@@ -14,6 +14,7 @@ public class Type {
 
     @Id
     @Column(name = "TypeId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getTypeId() {
         return typeId;
     }

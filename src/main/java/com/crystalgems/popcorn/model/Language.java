@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -10,9 +11,11 @@ import javax.persistence.*;
 public class Language {
     private int languageId;
     private String language;
+    private Set<Movie> movies;
 
     @Id
     @Column(name = "LanguageId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getLanguageId() {
         return languageId;
     }
@@ -29,6 +32,20 @@ public class Language {
 
     public void setLanguage(String language) {
         this.language = language;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "movielanguage",
+            joinColumns = @JoinColumn(name = "LanguageId"),
+            inverseJoinColumns = @JoinColumn(name = "MovieId")
+    )
+    public Set<Movie> getMovies() {
+        return movies;
+    }
+
+    public void setMovies(Set<Movie> movies) {
+        this.movies = movies;
     }
 
     @Override

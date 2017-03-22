@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -17,9 +18,11 @@ public class Country {
     private String uNumericalCode;
     private String continent;
     private String secondaryContinent;
+    private Set<Movie> movies;
 
     @Id
     @Column(name = "CountryId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getCountryId() {
         return countryId;
     }
@@ -106,6 +109,20 @@ public class Country {
 
     public void setSecondaryContinent(String secondaryContinent) {
         this.secondaryContinent = secondaryContinent;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "moviecountry",
+            joinColumns = @JoinColumn(name = "CountryId", referencedColumnName = "CountryId"),
+            inverseJoinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId")
+    )
+    public Set<Movie> getMovies() {
+        return movies;
+    }
+
+    public void setMovies(Set<Movie> movies) {
+        this.movies = movies;
     }
 
     @Override

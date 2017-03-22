@@ -13,6 +13,7 @@ public class Gender {
 
     @Id
     @Column(name = "GenderId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getGenderId() {
         return genderId;
     }

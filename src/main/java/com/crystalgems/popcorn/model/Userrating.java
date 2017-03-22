@@ -16,6 +16,7 @@ public class Userrating {
 
     @Id
     @Column(name = "UserRatingLinkId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getUserRatingLinkId() {
         return userRatingLinkId;
     }

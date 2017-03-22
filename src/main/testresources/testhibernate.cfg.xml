@@ -6,9 +6,10 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Popcorn</property>
-        <property name="hibernate.connection.username">steven</property>
-        <property name="hibernate.connection.password">crystalgems</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/popcorntest</property>
+        <property name="hibernate.connection.username">test</property>
+        <property name="hibernate.connection.password">test</property>
+        <property name="hbm2ddl.auto">validate</property>
         <!-- Enable thread-bound strategy -->
         <property name="hibernate.current_session_context_class">thread</property>
 
@@ -25,8 +26,6 @@
         <mapping class="com.crystalgems.popcorn.model.Keyword"/>
         <mapping class="com.crystalgems.popcorn.model.Language"/>
         <mapping class="com.crystalgems.popcorn.model.Linktype"/>
-        <mapping class="com.crystalgems.popcorn.model.Moviebusiness"/>
-        <mapping class="com.crystalgems.popcorn.model.Moviecolor"/>
         <mapping class="com.crystalgems.popcorn.model.Movie"/>
         <mapping class="com.crystalgems.popcorn.model.Movietype"/>
         <mapping class="com.crystalgems.popcorn.model.Occupation"/>

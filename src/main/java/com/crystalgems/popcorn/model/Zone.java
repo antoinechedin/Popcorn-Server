@@ -14,6 +14,7 @@ public class Zone {
 
     @Id
     @Column(name = "ZoneId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getZoneId() {
         return zoneId;
     }

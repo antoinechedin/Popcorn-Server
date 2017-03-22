@@ -15,6 +15,7 @@ public class Writter {
 
     @Id
     @Column(name = "WritterId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getWritterId() {
         return writterId;
     }
