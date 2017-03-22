@@ -59,8 +59,8 @@ public class Director {
     @ManyToMany
     @JoinTable(
             name = "moviedirector",
-            joinColumns = @JoinColumn(name = "MovieId"),
-            inverseJoinColumns = @JoinColumn(name = "DirectorId")
+            joinColumns = @JoinColumn(name = "DirectorId", referencedColumnName = "DirectorId"),
+            inverseJoinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId")
     )
     public Set<Movie> getMovies() {
         return movies;
