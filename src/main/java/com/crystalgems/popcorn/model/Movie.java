@@ -15,6 +15,7 @@ public class Movie {
     private String titleImdb;
     private Date date;
     private Set<Director> directors;
+    private Set<Actor> actors;
 
     @Id
     @Column(name = "MovieId")
@@ -70,6 +71,20 @@ public class Movie {
 
     public void setDirectors(Set<Director> directors) {
         this.directors = directors;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "movieactor",
+            joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
+            inverseJoinColumns = @JoinColumn(name = "ActorId", referencedColumnName = "ActorId")
+    )
+    public Set<Actor> getActors() {
+        return actors;
+    }
+
+    public void setActors(Set<Actor> actors) {
+        this.actors = actors;
     }
 
     @Override
