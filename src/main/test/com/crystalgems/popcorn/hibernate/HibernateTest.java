@@ -1,9 +1,6 @@
 package com.crystalgems.popcorn.hibernate;
 
-import com.crystalgems.popcorn.model.Actor;
-import com.crystalgems.popcorn.model.Director;
-import com.crystalgems.popcorn.model.Genre;
-import com.crystalgems.popcorn.model.Movie;
+import com.crystalgems.popcorn.model.*;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
@@ -22,6 +19,9 @@ public class HibernateTest {
     private Actor actor1 = new Actor();
     private Genre genre1 = new Genre();
 
+    private Country country1 = new Country();
+    private Countrycode countrycode1 = new Countrycode();
+
     @Before
     public void before() {
         // Movie 1
@@ -36,41 +36,45 @@ public class HibernateTest {
         //Actor 1
         actor1.setFirstName("firstName");
         actor1.setLastName("lastName");
-        // Movie 1 + Director 1 + Actor 1 + Genre 1
+        // Country 1
+        country1.setContinent("continent");
+        country1.setCountry("country");
+        country1.setLongName("longName");
+        // Movie 1 + Director 1 + Actor 1 + Genre 1 + Country 1
         movie1.setDirectors(new HashSet<>(Collections.singletonList(director1)));
         movie1.setActors(new HashSet<>(Collections.singletonList(actor1)));
         movie1.setGenres(new HashSet<>(Collections.singletonList(genre1)));
+        movie1.setCountries(new HashSet<>(Collections.singletonList(country1)));
+
         director1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+
         actor1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+
         genre1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+
+        country1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
 
         // Init Transaction
         HibernateUtilTest.getSessionFactory().getCurrentSession().beginTransaction();
     }
 
     @Test
-    public void testSave() {
-        // Save
-        Assert.assertEquals(0, movie1.getMovieId());
-        HibernateUtilTest.getSessionFactory().getCurrentSession().save(movie1);
-        Assert.assertNotEquals(0, movie1.getMovieId());
-    }
-
-    @Test
-    public void testLoad() {
-        // Save a movie and a director to load them
-        // Movie
+    public void testSaveAndLoad() {
+        // Save movie
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(movie1);
         int movieId = movie1.getMovieId();
-        // Genre
+        // Save genre
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(genre1);
         int genreId = genre1.getGenreId();
-        // Director
+        // Save Director
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(director1);
         int directorId = director1.getDirectorId();
-        //Actor
+        // Save Actor
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(actor1);
         int actorId = actor1.getActorId();
+        // Save Country
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(country1);
+        int countryId = country1.getCountryId();
 
         // Load movie
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
@@ -88,18 +92,26 @@ public class HibernateTest {
         Actor actorLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Actor.class, actorId);
         Assert.assertEquals(actor1.getFirstName(), actorLoaded1.getFirstName());
         Assert.assertEquals(actor1.getLastName(), actorLoaded1.getLastName());
+        // Load Country
+        Country countryLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Country.class, countryId);
+        Assert.assertEquals(country1.getContinent(), countryLoaded1.getContinent());
+        Assert.assertEquals(country1.getCountry(), countryLoaded1.getCountry());
+        Assert.assertEquals(country1.getLongName(), countryLoaded1.getLongName());
 
         // Check relation
         // Movie
         Assert.assertNotNull(movieLoaded1.getDirectors());
         Assert.assertNotNull(movieLoaded1.getActors());
         Assert.assertNotNull(movieLoaded1.getGenres());
+        Assert.assertNotNull(movieLoaded1.getCountries());
         // Director
         Assert.assertNotNull(directorLoaded1.getMovies());
         // Actor
         Assert.assertNotNull(actorLoaded1.getMovies());
         // Genre
         Assert.assertNotNull(genreLoaded1.getMovies());
+        // Country
+        Assert.assertNotNull(countryLoaded1.getMovies());
     }
 
     @After
