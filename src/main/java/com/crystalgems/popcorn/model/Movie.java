@@ -18,6 +18,7 @@ public class Movie {
     private Set<Actor> actors;
     private Set<Genre> genres;
     private Set<Country> countries;
+    private Set<Distributor> distributors;
 
     @Id
     @Column(name = "MovieId")
@@ -92,7 +93,7 @@ public class Movie {
     @ManyToMany
     @JoinTable(
             name = "moviegenre",
-            joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "Movieid"),
+            joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "GenreId", referencedColumnName = "GenreId")
     )
     public Set<Genre> getGenres() {
@@ -115,6 +116,20 @@ public class Movie {
 
     public void setCountries(Set<Country> countries) {
         this.countries = countries;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "moviedistributor",
+            joinColumns = @JoinColumn(name = "MovieId"),
+            inverseJoinColumns = @JoinColumn(name = "DistributionCompanyId")
+    )
+    public Set<Distributor> getDistributors() {
+        return distributors;
+    }
+
+    public void setDistributors(Set<Distributor> distributors) {
+        this.distributors = distributors;
     }
 
     @Override

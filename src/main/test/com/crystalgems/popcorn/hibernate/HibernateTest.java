@@ -20,7 +20,7 @@ public class HibernateTest {
     private Genre genre1 = new Genre();
 
     private Country country1 = new Country();
-    private Countrycode countrycode1 = new Countrycode();
+    private Distributor distributor1 = new Distributor();
 
     @Before
     public void before() {
@@ -30,29 +30,29 @@ public class HibernateTest {
         movie1.setDate(new Date(0));
         // Genre 1
         genre1.setGenre("genre");
+        genre1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
         // Director 1
         director1.setFirstName("firstName");
         director1.setLastName("lastName");
+        director1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
         //Actor 1
         actor1.setFirstName("firstName");
         actor1.setLastName("lastName");
+        actor1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
         // Country 1
         country1.setContinent("continent");
         country1.setCountry("country");
         country1.setLongName("longName");
-        // Movie 1 + Director 1 + Actor 1 + Genre 1 + Country 1
+        country1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Distributor 1
+        distributor1.setDistributionCompany("DistributionCompany");
+        distributor1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Movie 1 Relation
         movie1.setDirectors(new HashSet<>(Collections.singletonList(director1)));
         movie1.setActors(new HashSet<>(Collections.singletonList(actor1)));
         movie1.setGenres(new HashSet<>(Collections.singletonList(genre1)));
         movie1.setCountries(new HashSet<>(Collections.singletonList(country1)));
-
-        director1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
-
-        actor1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
-
-        genre1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
-
-        country1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        movie1.setDistributors(new HashSet<>(Collections.singletonList(distributor1)));
 
         // Init Transaction
         HibernateUtilTest.getSessionFactory().getCurrentSession().beginTransaction();
@@ -75,6 +75,9 @@ public class HibernateTest {
         // Save Country
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(country1);
         int countryId = country1.getCountryId();
+        // Save Distributor
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(distributor1);
+        int distributorId = distributor1.getDistributorId();
 
         // Load movie
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
@@ -97,6 +100,9 @@ public class HibernateTest {
         Assert.assertEquals(country1.getContinent(), countryLoaded1.getContinent());
         Assert.assertEquals(country1.getCountry(), countryLoaded1.getCountry());
         Assert.assertEquals(country1.getLongName(), countryLoaded1.getLongName());
+        // Load Distributor
+        Distributor distributorLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Distributor.class, distributorId);
+        Assert.assertEquals(distributor1.getDistributionCompany(), distributorLoaded1.getDistributionCompany());
 
         // Check relation
         // Movie
@@ -104,6 +110,7 @@ public class HibernateTest {
         Assert.assertNotNull(movieLoaded1.getActors());
         Assert.assertNotNull(movieLoaded1.getGenres());
         Assert.assertNotNull(movieLoaded1.getCountries());
+        Assert.assertNotNull(movieLoaded1.getDistributors());
         // Director
         Assert.assertNotNull(directorLoaded1.getMovies());
         // Actor
@@ -112,6 +119,8 @@ public class HibernateTest {
         Assert.assertNotNull(genreLoaded1.getMovies());
         // Country
         Assert.assertNotNull(countryLoaded1.getMovies());
+        // Distributor
+        Assert.assertNotNull(distributorLoaded1.getMovies());
     }
 
     @After
