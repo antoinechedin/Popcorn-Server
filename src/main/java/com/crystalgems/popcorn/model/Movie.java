@@ -16,6 +16,7 @@ public class Movie {
     private Date date;
     private Set<Director> directors;
     private Set<Actor> actors;
+    private Set<Genre> genres;
 
     @Id
     @Column(name = "MovieId")
@@ -85,6 +86,20 @@ public class Movie {
 
     public void setActors(Set<Actor> actors) {
         this.actors = actors;
+    }
+
+    @ManyToMany
+    @JoinTable(
+            name = "moviegenre",
+            joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "Movieid"),
+            inverseJoinColumns = @JoinColumn(name = "GenreId", referencedColumnName = "GenreId")
+    )
+    public Set<Genre> getGenres() {
+        return genres;
+    }
+
+    public void setGenres(Set<Genre> genres) {
+        this.genres = genres;
     }
 
     @Override
