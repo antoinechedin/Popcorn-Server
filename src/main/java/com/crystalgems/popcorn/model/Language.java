@@ -13,6 +13,7 @@ public class Language {
 
     @Id
     @Column(name = "LanguageId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getLanguageId() {
         return languageId;
     }

@@ -15,6 +15,7 @@ public class Actor {
 
     @Id
     @Column(name = "ActorId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getActorId() {
         return actorId;
     }

@@ -14,6 +14,7 @@ public class Currency {
 
     @Id
     @Column(name = "CurrencyId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getCurrencyId() {
         return currencyId;
     }

@@ -13,6 +13,7 @@ public class Color {
 
     @Id
     @Column(name = "ColorId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getColorId() {
         return colorId;
     }

@@ -13,6 +13,7 @@ public class Linktype {
 
     @Id
     @Column(name = "LinkTypeId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getLinkTypeId() {
         return linkTypeId;
     }

@@ -20,6 +20,7 @@ public class Country {
 
     @Id
     @Column(name = "CountryId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getCountryId() {
         return countryId;
     }

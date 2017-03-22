@@ -15,6 +15,7 @@ public class Producer {
 
     @Id
     @Column(name = "ProducerId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getProducerId() {
         return producerId;
     }

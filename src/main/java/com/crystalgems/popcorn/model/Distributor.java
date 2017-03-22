@@ -13,6 +13,7 @@ public class Distributor {
 
     @Id
     @Column(name = "DistributorId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getDistributorId() {
         return distributorId;
     }

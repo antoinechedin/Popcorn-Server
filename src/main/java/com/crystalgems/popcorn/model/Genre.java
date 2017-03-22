@@ -13,6 +13,7 @@ public class Genre {
 
     @Id
     @Column(name = "GenreId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getGenreId() {
         return genreId;
     }

@@ -14,6 +14,7 @@ public class Keyword {
 
     @Id
     @Column(name = "KeywordId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getKeywordId() {
         return keywordId;
     }

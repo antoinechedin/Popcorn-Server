@@ -14,6 +14,7 @@ public class Countrycode {
 
     @Id
     @Column(name = "CountryCode")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public String getCountryCode() {
         return countryCode;
     }

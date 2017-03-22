@@ -13,6 +13,7 @@ public class Occupation {
 
     @Id
     @Column(name = "OccupationId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getOccupationId() {
         return occupationId;
     }

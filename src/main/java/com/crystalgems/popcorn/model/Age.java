@@ -14,6 +14,7 @@ public class Age {
 
     @Id
     @Column(name = "AgeId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getAgeId() {
         return ageId;
     }

@@ -17,6 +17,7 @@ public class Director {
 
     @Id
     @Column(name = "DirectorId")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     public int getDirectorId() {
         return directorId;
     }
@@ -76,7 +77,6 @@ public class Director {
 
         Director director = (Director) o;
 
-        if (directorId != director.directorId) return false;
         if (movieQuantity != director.movieQuantity) return false;
         if (lastName != null ? !lastName.equals(director.lastName) : director.lastName != null) return false;
         return firstName != null ? firstName.equals(director.firstName) : director.firstName == null;
