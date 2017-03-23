@@ -15,7 +15,7 @@ public class User {
     private Date birthdate;
     private int genderId;
     private int ageId;
-    private int occupationId;
+    //private int occupationId;
 
     @Id
     @Column(name = "UserId")
@@ -77,7 +77,7 @@ public class User {
     public void setAgeId(int ageId) {
         this.ageId = ageId;
     }
-
+/*
     @Basic
     @Column(name = "OccupationId")
     public int getOccupationId() {
@@ -87,7 +87,7 @@ public class User {
     public void setOccupationId(int occupationId) {
         this.occupationId = occupationId;
     }
-
+*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -98,7 +98,7 @@ public class User {
         if (userId != user.userId) return false;
         if (genderId != user.genderId) return false;
         if (ageId != user.ageId) return false;
-        if (occupationId != user.occupationId) return false;
+        //if (occupationId != user.occupationId) return false;
         if (login != null ? !login.equals(user.login) : user.login != null) return false;
         if (password != null ? !password.equals(user.password) : user.password != null) return false;
         return birthdate != null ? birthdate.equals(user.birthdate) : user.birthdate == null;
@@ -112,7 +112,7 @@ public class User {
         result = 31 * result + (birthdate != null ? birthdate.hashCode() : 0);
         result = 31 * result + genderId;
         result = 31 * result + ageId;
-        result = 31 * result + occupationId;
+        //result = 31 * result + occupationId;
         return result;
     }
 }

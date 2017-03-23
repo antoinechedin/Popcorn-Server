@@ -13,11 +13,11 @@ public class Country {
     private String country;
     private String longName;
     private String domainCode;
-    private String iso2Code;
-    private String iso3Code;
-    private String uNumericalCode;
+    //private String iso2Code;
+    //private String iso3Code;
+    //private String uNumericalCode;
     private String continent;
-    private String secondaryContinent;
+    //private String secondaryContinent;
     private Set<Movie> movies;
 
     @Id
@@ -60,7 +60,7 @@ public class Country {
     public void setDomainCode(String domainCode) {
         this.domainCode = domainCode;
     }
-
+/*
     @Basic
     @Column(name = "ISO2Code")
     public String getIso2Code() {
@@ -90,7 +90,7 @@ public class Country {
     public void setuNumericalCode(String uNumericalCode) {
         this.uNumericalCode = uNumericalCode;
     }
-
+*/
     @Basic
     @Column(name = "Continent")
     public String getContinent() {
@@ -100,7 +100,7 @@ public class Country {
     public void setContinent(String continent) {
         this.continent = continent;
     }
-
+/*
     @Basic
     @Column(name = "SecondaryContinent")
     public String getSecondaryContinent() {
@@ -110,7 +110,7 @@ public class Country {
     public void setSecondaryContinent(String secondaryContinent) {
         this.secondaryContinent = secondaryContinent;
     }
-
+*/
     @ManyToMany
     @JoinTable(
             name = "moviecountry",
@@ -136,12 +136,12 @@ public class Country {
         if (country != null ? !country.equals(country1.country) : country1.country != null) return false;
         if (longName != null ? !longName.equals(country1.longName) : country1.longName != null) return false;
         if (domainCode != null ? !domainCode.equals(country1.domainCode) : country1.domainCode != null) return false;
-        if (iso2Code != null ? !iso2Code.equals(country1.iso2Code) : country1.iso2Code != null) return false;
-        if (iso3Code != null ? !iso3Code.equals(country1.iso3Code) : country1.iso3Code != null) return false;
-        if (uNumericalCode != null ? !uNumericalCode.equals(country1.uNumericalCode) : country1.uNumericalCode != null)
-            return false;
+        //if (iso2Code != null ? !iso2Code.equals(country1.iso2Code) : country1.iso2Code != null) return false;
+        //if (iso3Code != null ? !iso3Code.equals(country1.iso3Code) : country1.iso3Code != null) return false;
+        //if (uNumericalCode != null ? !uNumericalCode.equals(country1.uNumericalCode) : country1.uNumericalCode != null)
+        //    return false;
         if (continent != null ? !continent.equals(country1.continent) : country1.continent != null) return false;
-        return secondaryContinent != null ? secondaryContinent.equals(country1.secondaryContinent) : country1.secondaryContinent == null;
+        //return secondaryContinent != null ? secondaryContinent.equals(country1.secondaryContinent) : country1.secondaryContinent == null;
     }
 
     @Override
@@ -150,11 +150,11 @@ public class Country {
         result = 31 * result + (country != null ? country.hashCode() : 0);
         result = 31 * result + (longName != null ? longName.hashCode() : 0);
         result = 31 * result + (domainCode != null ? domainCode.hashCode() : 0);
-        result = 31 * result + (iso2Code != null ? iso2Code.hashCode() : 0);
-        result = 31 * result + (iso3Code != null ? iso3Code.hashCode() : 0);
-        result = 31 * result + (uNumericalCode != null ? uNumericalCode.hashCode() : 0);
+        //result = 31 * result + (iso2Code != null ? iso2Code.hashCode() : 0);
+        //result = 31 * result + (iso3Code != null ? iso3Code.hashCode() : 0);
+        //result = 31 * result + (uNumericalCode != null ? uNumericalCode.hashCode() : 0);
         result = 31 * result + (continent != null ? continent.hashCode() : 0);
-        result = 31 * result + (secondaryContinent != null ? secondaryContinent.hashCode() : 0);
+        //result = 31 * result + (secondaryContinent != null ? secondaryContinent.hashCode() : 0);
         return result;
     }
 }

@@ -10,7 +10,7 @@ import javax.persistence.*;
 public class Countrycode {
     private String countryCode;
     private int countryId;
-    private String description;
+    //private String description;
 
     @Id
     @Column(name = "CountryCode")
@@ -32,7 +32,7 @@ public class Countrycode {
     public void setCountryId(int countryId) {
         this.countryId = countryId;
     }
-
+/*
     @Basic
     @Column(name = "Description")
     public String getDescription() {
@@ -42,7 +42,7 @@ public class Countrycode {
     public void setDescription(String description) {
         this.description = description;
     }
-
+*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -52,14 +52,14 @@ public class Countrycode {
 
         if (countryId != that.countryId) return false;
         if (countryCode != null ? !countryCode.equals(that.countryCode) : that.countryCode != null) return false;
-        return description != null ? description.equals(that.description) : that.description == null;
+        //return description != null ? description.equals(that.description) : that.description == null;
     }
 
     @Override
     public int hashCode() {
         int result = countryCode != null ? countryCode.hashCode() : 0;
         result = 31 * result + countryId;
-        result = 31 * result + (description != null ? description.hashCode() : 0);
+        //result = 31 * result + (description != null ? description.hashCode() : 0);
         return result;
     }
 }

@@ -10,7 +10,7 @@ import javax.persistence.*;
 public class Moviecolor {
     private int movieId;
     private int colorId;
-    private String colorInfo;
+    //private String colorInfo;
 
     @Id
     @Column(name = "MovieId")
@@ -31,7 +31,7 @@ public class Moviecolor {
     public void setColorId(int colorId) {
         this.colorId = colorId;
     }
-
+/*
     @Basic
     @Column(name = "ColorInfo")
     public String getColorInfo() {
@@ -41,7 +41,7 @@ public class Moviecolor {
     public void setColorInfo(String colorInfo) {
         this.colorInfo = colorInfo;
     }
-
+*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -51,14 +51,14 @@ public class Moviecolor {
 
         if (movieId != that.movieId) return false;
         if (colorId != that.colorId) return false;
-        return colorInfo != null ? colorInfo.equals(that.colorInfo) : that.colorInfo == null;
+        //return colorInfo != null ? colorInfo.equals(that.colorInfo) : that.colorInfo == null;
     }
 
     @Override
     public int hashCode() {
         int result = movieId;
         result = 31 * result + colorId;
-        result = 31 * result + (colorInfo != null ? colorInfo.hashCode() : 0);
+        //result = 31 * result + (colorInfo != null ? colorInfo.hashCode() : 0);
         return result;
     }
 }

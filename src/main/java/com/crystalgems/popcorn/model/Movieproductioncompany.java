@@ -12,7 +12,7 @@ public class Movieproductioncompany {
     private int movieId;
     private String countryCode;
     private int productionCompanyId;
-    private String companyInfo;
+    //private String companyInfo;
 
     @Id
     @Column(name = "MovieProductionCompnyLinkId")
@@ -53,7 +53,7 @@ public class Movieproductioncompany {
     public void setProductionCompanyId(int productionCompanyId) {
         this.productionCompanyId = productionCompanyId;
     }
-
+/*
     @Basic
     @Column(name = "CompanyInfo")
     public String getCompanyInfo() {
@@ -63,7 +63,7 @@ public class Movieproductioncompany {
     public void setCompanyInfo(String companyInfo) {
         this.companyInfo = companyInfo;
     }
-
+*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -75,7 +75,7 @@ public class Movieproductioncompany {
         if (movieId != that.movieId) return false;
         if (productionCompanyId != that.productionCompanyId) return false;
         if (countryCode != null ? !countryCode.equals(that.countryCode) : that.countryCode != null) return false;
-        return companyInfo != null ? companyInfo.equals(that.companyInfo) : that.companyInfo == null;
+        //return companyInfo != null ? companyInfo.equals(that.companyInfo) : that.companyInfo == null;
     }
 
     @Override
@@ -84,7 +84,7 @@ public class Movieproductioncompany {
         result = 31 * result + movieId;
         result = 31 * result + (countryCode != null ? countryCode.hashCode() : 0);
         result = 31 * result + productionCompanyId;
-        result = 31 * result + (companyInfo != null ? companyInfo.hashCode() : 0);
+        //result = 31 * result + (companyInfo != null ? companyInfo.hashCode() : 0);
         return result;
     }
 }

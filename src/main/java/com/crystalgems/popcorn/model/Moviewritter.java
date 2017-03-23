@@ -11,7 +11,7 @@ public class Moviewritter {
     private int movieWritterLinkId;
     private int movieId;
     private int writterId;
-    private String writterInfo;
+    //private String writterInfo;
 
     @Id
     @Column(name = "MovieWritterLinkId")
@@ -42,7 +42,7 @@ public class Moviewritter {
     public void setWritterId(int writterId) {
         this.writterId = writterId;
     }
-
+/*
     @Basic
     @Column(name = "WritterInfo")
     public String getWritterInfo() {
@@ -52,7 +52,7 @@ public class Moviewritter {
     public void setWritterInfo(String writterInfo) {
         this.writterInfo = writterInfo;
     }
-
+*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -63,7 +63,7 @@ public class Moviewritter {
         if (movieWritterLinkId != that.movieWritterLinkId) return false;
         if (movieId != that.movieId) return false;
         if (writterId != that.writterId) return false;
-        return writterInfo != null ? writterInfo.equals(that.writterInfo) : that.writterInfo == null;
+        //return writterInfo != null ? writterInfo.equals(that.writterInfo) : that.writterInfo == null;
     }
 
     @Override
@@ -71,7 +71,7 @@ public class Moviewritter {
         int result = movieWritterLinkId;
         result = 31 * result + movieId;
         result = 31 * result + writterId;
-        result = 31 * result + (writterInfo != null ? writterInfo.hashCode() : 0);
+        //result = 31 * result + (writterInfo != null ? writterInfo.hashCode() : 0);
         return result;
     }
 }

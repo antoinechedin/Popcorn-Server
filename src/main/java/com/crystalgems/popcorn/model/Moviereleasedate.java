@@ -14,7 +14,7 @@ public class Moviereleasedate {
     private int countryId;
     private String releaseDate;
     private Date releaseYear;
-    private String releaseInfo;
+    //private String releaseInfo;
 
     @Id
     @Column(name = "MoveiReleaseDateLink")
@@ -65,7 +65,7 @@ public class Moviereleasedate {
     public void setReleaseYear(Date releaseYear) {
         this.releaseYear = releaseYear;
     }
-
+/*
     @Basic
     @Column(name = "ReleaseInfo")
     public String getReleaseInfo() {
@@ -75,7 +75,7 @@ public class Moviereleasedate {
     public void setReleaseInfo(String releaseInfo) {
         this.releaseInfo = releaseInfo;
     }
-
+*/
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -88,7 +88,7 @@ public class Moviereleasedate {
         if (countryId != that.countryId) return false;
         if (releaseDate != null ? !releaseDate.equals(that.releaseDate) : that.releaseDate != null) return false;
         if (releaseYear != null ? !releaseYear.equals(that.releaseYear) : that.releaseYear != null) return false;
-        return releaseInfo != null ? releaseInfo.equals(that.releaseInfo) : that.releaseInfo == null;
+        //return releaseInfo != null ? releaseInfo.equals(that.releaseInfo) : that.releaseInfo == null;
     }
 
     @Override
@@ -98,7 +98,7 @@ public class Moviereleasedate {
         result = 31 * result + countryId;
         result = 31 * result + (releaseDate != null ? releaseDate.hashCode() : 0);
         result = 31 * result + (releaseYear != null ? releaseYear.hashCode() : 0);
-        result = 31 * result + (releaseInfo != null ? releaseInfo.hashCode() : 0);
+        //result = 31 * result + (releaseInfo != null ? releaseInfo.hashCode() : 0);
         return result;
     }
 }
