@@ -1,5 +1,7 @@
 package com.crystalgems.popcorn.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Set;
 
@@ -51,6 +53,7 @@ public class Keyword {
             joinColumns = @JoinColumn(name = "KeywordId"),
             inverseJoinColumns = @JoinColumn(name = "MovieId")
     )
+    @JsonIgnore
     public Set<Movie> getMovies() {
         return movies;
     }

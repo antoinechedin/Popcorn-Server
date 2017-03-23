@@ -1,5 +1,7 @@
 package com.crystalgems.popcorn.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Date;
 import java.util.Set;
@@ -70,6 +72,7 @@ public class Movie {
             inverseJoinColumns = @JoinColumn(name = "DirectorId", referencedColumnName = "DirectorId")
 
     )
+    @JsonIgnore
     public Set<Director> getDirectors() {
         return directors;
     }
@@ -84,6 +87,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "ActorId", referencedColumnName = "ActorId")
     )
+    @JsonIgnore
     public Set<Actor> getActors() {
         return actors;
     }
@@ -98,6 +102,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "GenreId", referencedColumnName = "GenreId")
     )
+    @JsonIgnore
     public Set<Genre> getGenres() {
         return genres;
     }
@@ -112,6 +117,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "CountryId", referencedColumnName = "CountryId")
     )
+    @JsonIgnore
     public Set<Country> getCountries() {
         return countries;
     }
@@ -126,6 +132,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "DistributionCompanyId")
     )
+    @JsonIgnore
     public Set<Distributor> getDistributors() {
         return distributors;
     }
@@ -140,6 +147,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "KeywordId")
     )
+    @JsonIgnore
     public Set<Keyword> getKeywords() {
         return keywords;
     }
@@ -154,6 +162,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "LanguageId")
     )
+    @JsonIgnore
     public Set<Language> getLanguages() {
         return languages;
     }
