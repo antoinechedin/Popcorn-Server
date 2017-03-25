@@ -13,9 +13,9 @@ public class User {
     private String login;
     private String password;
     private Date birthdate;
-    private int genderId;
-    private int ageId;
-    private int occupationId;
+    private Gender gender;
+    private Age age;
+    private Occupation occupation;
 
     @Id
     @Column(name = "UserId")
@@ -58,34 +58,34 @@ public class User {
         this.birthdate = birthdate;
     }
 
-    @Basic
-    @Column(name = "GenderId")
-    public int getGenderId() {
-        return genderId;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "GenderId")
+    public Gender getGender() {
+        return gender;
     }
 
-    public void setGenderId(int genderId) {
-        this.genderId = genderId;
+    public void setGender(Gender gender) {
+        this.gender = gender;
     }
 
-    @Basic
-    @Column(name = "AgeId")
-    public int getAgeId() {
-        return ageId;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "AgeId")
+    public Age getAge() {
+        return age;
     }
 
-    public void setAgeId(int ageId) {
-        this.ageId = ageId;
+    public void setAge(Age age) {
+        this.age = age;
     }
 
-    @Basic
-    @Column(name = "OccupationId")
-    public int getOccupationId() {
-        return occupationId;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "OccupationId")
+    public Occupation getOccupation() {
+        return occupation;
     }
 
-    public void setOccupationId(int occupationId) {
-        this.occupationId = occupationId;
+    public void setOccupation(Occupation occupation) {
+        this.occupation = occupation;
     }
 
     @Override
@@ -96,9 +96,8 @@ public class User {
         User user = (User) o;
 
         if (userId != user.userId) return false;
-        if (genderId != user.genderId) return false;
-        if (ageId != user.ageId) return false;
-        if (occupationId != user.occupationId) return false;
+        if (age != user.age) return false;
+        if (occupation != user.occupation) return false;
         if (login != null ? !login.equals(user.login) : user.login != null) return false;
         if (password != null ? !password.equals(user.password) : user.password != null) return false;
         return birthdate != null ? birthdate.equals(user.birthdate) : user.birthdate == null;
@@ -110,9 +109,9 @@ public class User {
         result = 31 * result + (login != null ? login.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
         result = 31 * result + (birthdate != null ? birthdate.hashCode() : 0);
-        result = 31 * result + genderId;
-        result = 31 * result + ageId;
-        result = 31 * result + occupationId;
+        result = 31 * result + (gender != null ? gender.hashCode() : 0);
+        result = 31 * result + (age != null ? age.hashCode() : 0);
+        result = 31 * result + (occupation != null ? occupation.hashCode() : 0);
         return result;
     }
 }

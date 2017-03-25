@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -10,6 +11,7 @@ import javax.persistence.*;
 public class Occupation {
     private int occupationId;
     private String occupation;
+    private Set<User> users;
 
     @Id
     @Column(name = "OccupationId")
@@ -30,6 +32,15 @@ public class Occupation {
 
     public void setOccupation(String occupation) {
         this.occupation = occupation;
+    }
+
+    @OneToMany(mappedBy = "occupation")
+    public Set<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(Set<User> users) {
+        this.users = users;
     }
 
     @Override

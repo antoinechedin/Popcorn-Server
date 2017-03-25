@@ -22,6 +22,11 @@ public class HibernateTest {
     private Distributor distributor1 = new Distributor();
     private Language language1 = new Language();
 
+    private User user1 = new User();
+    private Gender gender1 = new Gender();
+    private Age age1 = new Age();
+    private Occupation occupation1 = new Occupation();
+
     @Before
     public void before() {
         // Movie 1
@@ -62,6 +67,24 @@ public class HibernateTest {
         movie1.setKeywords(new HashSet<>(Collections.singletonList(keyword1)));
         movie1.setLanguages(new HashSet<>(Collections.singletonList(language1)));
 
+        // User 1
+        user1.setLogin("login");
+        user1.setPassword("password");
+        // Gender 1
+        gender1.setGender("gender");
+        gender1.setUsers(new HashSet<>(Collections.singletonList(user1)));
+        // Age 1
+        age1.setMaxAge(1);
+        age1.setMinAge(0);
+        age1.setUsers(new HashSet<>(Collections.singletonList(user1)));
+        // Occupation
+        occupation1.setOccupation("occupation");
+        occupation1.setUsers(new HashSet<>(Collections.singletonList(user1)));
+        // User 1 Relation
+        user1.setGender(gender1);
+        user1.setAge(age1);
+        user1.setOccupation(occupation1);
+
         // Init Transaction
         HibernateUtilTest.getSessionFactory().getCurrentSession().beginTransaction();
     }
@@ -92,6 +115,18 @@ public class HibernateTest {
         // Save Language
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(language1);
         int languageId = language1.getLanguageId();
+        // Save User
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(user1);
+        int userId = user1.getUserId();
+        // Save Gender
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(gender1);
+        int genderId = gender1.getGenderId();
+        // Save Age
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(age1);
+        int ageId = age1.getAgeId();
+        // Save Occupation
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(occupation1);
+        int occupationId = occupation1.getOccupationId();
 
         // Load movie
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
@@ -123,6 +158,21 @@ public class HibernateTest {
         // Load Language
         Language languageLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Language.class, languageId);
         Assert.assertEquals(language1.getLanguage(), languageLoaded1.getLanguage());
+        // Load User
+        User userLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(User.class, userId);
+        Assert.assertEquals(user1.getLogin(), userLoaded1.getLogin());
+        Assert.assertEquals(user1.getPassword(), userLoaded1.getPassword());
+        // Load Gender
+        Gender genderLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Gender.class, genderId);
+        Assert.assertEquals(gender1.getGender(), genderLoaded1.getGender());
+        Assert.assertEquals(gender1.getGender(), genderLoaded1.getGender());
+        // Load Age
+        Age ageLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Age.class, ageId);
+        Assert.assertEquals(age1.getMaxAge(), ageLoaded1.getMaxAge());
+        Assert.assertEquals(age1.getMinAge(), ageLoaded1.getMinAge());
+        // Load Occupation
+        Occupation occupationLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Occupation.class, occupationId);
+        Assert.assertEquals(occupation1.getOccupation(), occupationLoaded1.getOccupation());
 
         // Check relation
         // Movie
@@ -147,6 +197,17 @@ public class HibernateTest {
         Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) keywordLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Language
         Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) languageLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
+
+        // User
+        Assert.assertEquals(gender1.getGender(), userLoaded1.getGender().getGender());
+        Assert.assertEquals(age1.getMinAge(), userLoaded1.getAge().getMinAge());
+        Assert.assertEquals(occupation1.getOccupation(), userLoaded1.getOccupation().getOccupation());
+        // Gender
+        Assert.assertEquals(user1.getLogin(), ((User) genderLoaded1.getUsers().toArray()[0]).getLogin());
+        // Age
+        Assert.assertEquals(user1.getLogin(), ((User) ageLoaded1.getUsers().toArray()[0]).getLogin());
+        // Occupation
+        Assert.assertEquals(user1.getLogin(), ((User) occupationLoaded1.getUsers().toArray()[0]).getLogin());
     }
 
     @After
