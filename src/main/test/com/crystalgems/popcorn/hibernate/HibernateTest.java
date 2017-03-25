@@ -131,15 +131,15 @@ public class HibernateTest {
         // Save Type
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(type1);
         int typeId = type1.getTypeId();
+        // Save Age
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(age1);
+        int ageId = age1.getAgeId();
         // Save User
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(user1);
         int userId = user1.getUserId();
         // Save Gender
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(gender1);
         int genderId = gender1.getGenderId();
-        // Save Age
-        HibernateUtilTest.getSessionFactory().getCurrentSession().save(age1);
-        int ageId = age1.getAgeId();
         // Save Occupation
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(occupation1);
         int occupationId = occupation1.getOccupationId();

@@ -10,7 +10,24 @@ import javax.ws.rs.core.MediaType;
  * Created by Antoine on 23/03/2017.
  */
 @Path("")
-public class WebService {
+public class MovieService {
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("movie")
+    public Movie getMovieById(@QueryParam("id") int id) {
+        Movie movie;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, id);
+            movie.getTitleMovieLens();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return movie;
+    }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
@@ -41,6 +58,7 @@ public class WebService {
                     break;
                 case "language":
                     o = movie.getLanguages().toArray();
+                    break;
             }
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {

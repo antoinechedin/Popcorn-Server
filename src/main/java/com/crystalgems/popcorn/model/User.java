@@ -1,6 +1,6 @@
 package com.crystalgems.popcorn.model;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.sql.Date;

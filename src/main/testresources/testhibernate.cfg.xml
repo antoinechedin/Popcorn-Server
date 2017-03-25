@@ -6,9 +6,9 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/popcorntest</property>
-        <property name="hibernate.connection.username">test</property>
-        <property name="hibernate.connection.password">test</property>
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.1.31:3306/Popcorn</property>
+        <property name="hibernate.connection.username">steven</property>
+        <property name="hibernate.connection.password">crystalgems</property>
         <property name="hbm2ddl.auto">validate</property>
         <!-- Enable thread-bound strategy -->
         <property name="hibernate.current_session_context_class">thread</property>
