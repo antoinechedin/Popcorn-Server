@@ -14,7 +14,7 @@ public class MovieService {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
-    @Path("movie")
+    @Path("get/movie")
     public Movie getMovieById(@QueryParam("id") int id) {
         Movie movie;
         try {
@@ -31,7 +31,7 @@ public class MovieService {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
-    @Path("{objectType}")
+    @Path("get/{objectType}")
     public Object[] getByMovieId(@PathParam("objectType") String objectType, @QueryParam("movieId") int movieId) {
         Object[] o = null;
         try {
@@ -59,6 +59,8 @@ public class MovieService {
                 case "language":
                     o = movie.getLanguages().toArray();
                     break;
+                case "rating":
+                    o = movie.getRatings().toArray();
             }
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {

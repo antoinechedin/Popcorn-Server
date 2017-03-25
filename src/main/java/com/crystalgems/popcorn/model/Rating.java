@@ -1,5 +1,7 @@
 package com.crystalgems.popcorn.model;
 
+import com.owlike.genson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 
 /**
@@ -27,6 +29,7 @@ public class Rating {
 
     @ManyToOne
     @JoinColumn(name = "UserId")
+    @JsonIgnore
     public User getUser() {
         return user;
     }
@@ -37,6 +40,7 @@ public class Rating {
 
     @ManyToOne
     @JoinColumn(name = "MovieId")
+    @JsonIgnore
     public Movie getMovie() {
         return movie;
     }

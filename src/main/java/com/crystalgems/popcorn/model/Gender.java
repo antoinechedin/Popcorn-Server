@@ -1,5 +1,7 @@
 package com.crystalgems.popcorn.model;
 
+import com.owlike.genson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Set;
 
@@ -35,6 +37,7 @@ public class Gender {
     }
 
     @OneToMany(mappedBy = "gender")
+    @JsonIgnore
     public Set<User> getUsers() {
         return users;
     }
