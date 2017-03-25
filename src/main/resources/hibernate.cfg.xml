@@ -9,6 +9,7 @@
         <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/Popcorn</property>
         <property name="hibernate.connection.username">steven</property>
         <property name="hibernate.connection.password">crystalgems</property>
+        <property name="hbm2ddl.auto">validate</property>
         <!-- Enable thread-bound strategy -->
         <property name="hibernate.current_session_context_class">thread</property>
 

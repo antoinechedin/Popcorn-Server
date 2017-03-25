@@ -7,7 +7,6 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.Collections;
-import java.util.Date;
 import java.util.HashSet;
 
 /**
@@ -28,7 +27,7 @@ public class HibernateTest {
         // Movie 1
         movie1.setTitleMovieLens("titleMovieLens");
         movie1.setTitleImdb("titleIMDB");
-        movie1.setDate(new Date(0));
+        movie1.setYear(1990);
         // Genre 1
         genre1.setGenre("genre");
         genre1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
@@ -98,7 +97,7 @@ public class HibernateTest {
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
         Assert.assertEquals(movie1.getTitleMovieLens(), movieLoaded1.getTitleMovieLens());
         Assert.assertEquals(movie1.getTitleImdb(), movieLoaded1.getTitleImdb());
-        Assert.assertEquals(movie1.getDate(), movieLoaded1.getDate());
+        Assert.assertEquals(movie1.getYear(), movieLoaded1.getYear());
         // Load genre
         Genre genreLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Genre.class, genreId);
         Assert.assertEquals(genre1.getGenre(), genreLoaded1.getGenre());
