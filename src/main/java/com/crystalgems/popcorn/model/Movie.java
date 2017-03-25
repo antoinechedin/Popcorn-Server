@@ -22,6 +22,7 @@ public class Movie {
     private Set<Distributor> distributors;
     private Set<Keyword> keywords;
     private Set<Language> languages;
+    private Set<Rating> ratings;
 
     @Id
     @Column(name = "MovieId")
@@ -168,6 +169,16 @@ public class Movie {
 
     public void setLanguages(Set<Language> languages) {
         this.languages = languages;
+    }
+
+    @OneToMany(mappedBy = "movie")
+    @JsonIgnore
+    public Set<Rating> getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(Set<Rating> ratings) {
+        this.ratings = ratings;
     }
 
     @Override

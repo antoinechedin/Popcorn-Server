@@ -7,10 +7,10 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "userrating")
-public class Userrating {
+public class Rating {
     private int userRatingLinkId;
-    private int userId;
-    private int movieId;
+    private User user;
+    private Movie movie;
     private int rating;
     private int timeStamp;
 
@@ -25,24 +25,24 @@ public class Userrating {
         this.userRatingLinkId = userRatingLinkId;
     }
 
-    @Basic
-    @Column(name = "UserId")
-    public int getUserId() {
-        return userId;
+    @ManyToOne
+    @JoinColumn(name = "UserId")
+    public User getUser() {
+        return user;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setUser(User user) {
+        this.user = user;
     }
 
-    @Basic
-    @Column(name = "MovieId")
-    public int getMovieId() {
-        return movieId;
+    @ManyToOne
+    @JoinColumn(name = "MovieId")
+    public Movie getMovie() {
+        return movie;
     }
 
-    public void setMovieId(int movieId) {
-        this.movieId = movieId;
+    public void setMovie(Movie movie) {
+        this.movie = movie;
     }
 
     @Basic
@@ -70,11 +70,11 @@ public class Userrating {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
 
-        Userrating that = (Userrating) o;
+        Rating that = (Rating) o;
 
         if (userRatingLinkId != that.userRatingLinkId) return false;
-        if (userId != that.userId) return false;
-        if (movieId != that.movieId) return false;
+        if (user != that.user) return false;
+        if (movie != that.movie) return false;
         if (rating != that.rating) return false;
         return timeStamp == that.timeStamp;
     }
@@ -82,8 +82,8 @@ public class Userrating {
     @Override
     public int hashCode() {
         int result = userRatingLinkId;
-        result = 31 * result + userId;
-        result = 31 * result + movieId;
+        result = result + (user != null ? user.hashCode() : 0);
+        result = result + (movie != null ? movie.hashCode() : 0);
         result = 31 * result + rating;
         result = 31 * result + timeStamp;
         return result;

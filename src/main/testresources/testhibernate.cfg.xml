@@ -33,7 +33,7 @@
         <mapping class="com.crystalgems.popcorn.model.Productor"/>
         <mapping class="com.crystalgems.popcorn.model.Type"/>
         <mapping class="com.crystalgems.popcorn.model.User"/>
-        <mapping class="com.crystalgems.popcorn.model.Userrating"/>
+        <mapping class="com.crystalgems.popcorn.model.Rating"/>
         <mapping class="com.crystalgems.popcorn.model.Writter"/>
         <mapping class="com.crystalgems.popcorn.model.Zone"/>
 

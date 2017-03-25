@@ -1,7 +1,10 @@
 package com.crystalgems.popcorn.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.sql.Date;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -16,6 +19,7 @@ public class User {
     private Gender gender;
     private Age age;
     private Occupation occupation;
+    private Set<Rating> ratings;
 
     @Id
     @Column(name = "UserId")
@@ -86,6 +90,16 @@ public class User {
 
     public void setOccupation(Occupation occupation) {
         this.occupation = occupation;
+    }
+
+    @OneToMany(mappedBy = "user")
+    @JsonIgnore
+    public Set<Rating> getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(Set<Rating> ratings) {
+        this.ratings = ratings;
     }
 
     @Override
