@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="Popcorn-Server:war exploded">
-    <output-path>$PROJECT_DIR$/target/popcornServer</output-path>
+    <output-path>$PROJECT_DIR$/target/popcorn</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
