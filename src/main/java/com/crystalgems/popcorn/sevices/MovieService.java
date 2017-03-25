@@ -20,7 +20,7 @@ public class MovieService {
         Movie movie;
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
-            movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, id);
+            movie = (Movie) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie M where M.movieId = " + id).getSingleResult();
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
@@ -77,6 +77,7 @@ public class MovieService {
                     break;
                 case "rating":
                     o = movie.getRatings().toArray();
+                    break;
                 default:
                     throw new HTTPException(501);
             }

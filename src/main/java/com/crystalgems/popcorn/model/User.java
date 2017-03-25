@@ -3,7 +3,6 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.sql.Date;
 import java.util.Set;
 
 /**
@@ -15,7 +14,6 @@ public class User {
     private int userId;
     private String login;
     private String password;
-    private Date birthdate;
     private Gender gender;
     private Age age;
     private Set<Rating> ratings;
@@ -43,22 +41,13 @@ public class User {
 
     @Basic
     @Column(name = "Password")
+    @JsonIgnore
     public String getPassword() {
         return password;
     }
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    @Basic
-    @Column(name = "Birthdate")
-    public Date getBirthdate() {
-        return birthdate;
-    }
-
-    public void setBirthdate(Date birthdate) {
-        this.birthdate = birthdate;
     }
 
     @ManyToOne(fetch = FetchType.EAGER)
@@ -101,8 +90,8 @@ public class User {
         if (userId != user.userId) return false;
         if (age != user.age) return false;
         if (login != null ? !login.equals(user.login) : user.login != null) return false;
-        if (password != null ? !password.equals(user.password) : user.password != null) return false;
-        return birthdate != null ? birthdate.equals(user.birthdate) : user.birthdate == null;
+        return password != null ? !password.equals(user.password) : user.password != null;
+
     }
 
     @Override
@@ -110,7 +99,6 @@ public class User {
         int result = userId;
         result = 31 * result + (login != null ? login.hashCode() : 0);
         result = 31 * result + (password != null ? password.hashCode() : 0);
-        result = 31 * result + (birthdate != null ? birthdate.hashCode() : 0);
         result = 31 * result + (gender != null ? gender.hashCode() : 0);
         result = 31 * result + (age != null ? age.hashCode() : 0);
         return result;
