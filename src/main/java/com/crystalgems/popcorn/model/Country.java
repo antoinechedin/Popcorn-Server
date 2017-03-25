@@ -143,8 +143,7 @@ public class Country {
         //if (iso3Code != null ? !iso3Code.equals(country1.iso3Code) : country1.iso3Code != null) return false;
         //if (uNumericalCode != null ? !uNumericalCode.equals(country1.uNumericalCode) : country1.uNumericalCode != null)
         //    return false;
-        if (continent != null ? !continent.equals(country1.continent) : country1.continent != null) return false;
-        //return secondaryContinent != null ? secondaryContinent.equals(country1.secondaryContinent) : country1.secondaryContinent == null;
+        return continent != null ? !continent.equals(country1.continent) : country1.continent != null;
     }
 
     @Override

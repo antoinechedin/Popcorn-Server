@@ -62,7 +62,7 @@ public class Moviewritter {
 
         if (movieWritterLinkId != that.movieWritterLinkId) return false;
         if (movieId != that.movieId) return false;
-        if (writterId != that.writterId) return false;
+        return writterId != that.writterId;
         //return writterInfo != null ? writterInfo.equals(that.writterInfo) : that.writterInfo == null;
     }
 

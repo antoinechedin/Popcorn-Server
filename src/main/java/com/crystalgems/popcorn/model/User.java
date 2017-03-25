@@ -18,7 +18,6 @@ public class User {
     private Date birthdate;
     private Gender gender;
     private Age age;
-    private Occupation occupation;
     private Set<Rating> ratings;
 
     @Id
@@ -82,16 +81,6 @@ public class User {
         this.age = age;
     }
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "OccupationId")
-    public Occupation getOccupation() {
-        return occupation;
-    }
-
-    public void setOccupation(Occupation occupation) {
-        this.occupation = occupation;
-    }
-
     @OneToMany(mappedBy = "user")
     @JsonIgnore
     public Set<Rating> getRatings() {
@@ -111,7 +100,6 @@ public class User {
 
         if (userId != user.userId) return false;
         if (age != user.age) return false;
-        if (occupation != user.occupation) return false;
         if (login != null ? !login.equals(user.login) : user.login != null) return false;
         if (password != null ? !password.equals(user.password) : user.password != null) return false;
         return birthdate != null ? birthdate.equals(user.birthdate) : user.birthdate == null;
@@ -125,7 +113,6 @@ public class User {
         result = 31 * result + (birthdate != null ? birthdate.hashCode() : 0);
         result = 31 * result + (gender != null ? gender.hashCode() : 0);
         result = 31 * result + (age != null ? age.hashCode() : 0);
-        result = 31 * result + (occupation != null ? occupation.hashCode() : 0);
         return result;
     }
 }

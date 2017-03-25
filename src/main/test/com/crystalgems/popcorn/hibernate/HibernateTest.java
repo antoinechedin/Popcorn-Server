@@ -25,7 +25,6 @@ public class HibernateTest {
     private User user1 = new User();
     private Gender gender1 = new Gender();
     private Age age1 = new Age();
-    private Occupation occupation1 = new Occupation();
     private Rating rating1 = new Rating();
 
     @Before
@@ -73,9 +72,6 @@ public class HibernateTest {
         age1.setMaxAge(1);
         age1.setMinAge(0);
         age1.setUsers(new HashSet<>(Collections.singletonList(user1)));
-        // Occupation
-        occupation1.setOccupation("occupation");
-        occupation1.setUsers(new HashSet<>(Collections.singletonList(user1)));
         // Rating
         rating1.setRating(3);
         rating1.setTimeStamp(0);
@@ -95,7 +91,6 @@ public class HibernateTest {
         // User 1 Relation
         user1.setGender(gender1);
         user1.setAge(age1);
-        user1.setOccupation(occupation1);
         user1.setRatings(new HashSet<>(Collections.singletonList(rating1)));
 
         // Init Transaction
@@ -140,9 +135,6 @@ public class HibernateTest {
         // Save Gender
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(gender1);
         int genderId = gender1.getGenderId();
-        // Save Occupation
-        HibernateUtilTest.getSessionFactory().getCurrentSession().save(occupation1);
-        int occupationId = occupation1.getOccupationId();
         // Save Rating
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(rating1);
         int ratingId = rating1.getUserRatingLinkId();
@@ -192,9 +184,6 @@ public class HibernateTest {
         Age ageLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Age.class, ageId);
         Assert.assertEquals(age1.getMaxAge(), ageLoaded1.getMaxAge());
         Assert.assertEquals(age1.getMinAge(), ageLoaded1.getMinAge());
-        // Load Occupation
-        Occupation occupationLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Occupation.class, occupationId);
-        Assert.assertEquals(occupation1.getOccupation(), occupationLoaded1.getOccupation());
         // Load Rating
         Rating ratingLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Rating.class, ratingId);
         Assert.assertEquals(rating1.getRating(), ratingLoaded1.getRating());
@@ -229,14 +218,11 @@ public class HibernateTest {
         // User
         Assert.assertEquals(gender1.getGender(), userLoaded1.getGender().getGender());
         Assert.assertEquals(age1.getMinAge(), userLoaded1.getAge().getMinAge());
-        Assert.assertEquals(occupation1.getOccupation(), userLoaded1.getOccupation().getOccupation());
         Assert.assertEquals(rating1.getRating(), ((Rating) userLoaded1.getRatings().toArray()[0]).getRating());
         // Gender
         Assert.assertEquals(user1.getLogin(), ((User) genderLoaded1.getUsers().toArray()[0]).getLogin());
         // Age
         Assert.assertEquals(user1.getLogin(), ((User) ageLoaded1.getUsers().toArray()[0]).getLogin());
-        // Occupation
-        Assert.assertEquals(user1.getLogin(), ((User) occupationLoaded1.getUsers().toArray()[0]).getLogin());
         // Rating
         Assert.assertEquals(user1.getLogin(), ratingLoaded1.getUser().getLogin());
         Assert.assertEquals(movie1.getTitleMovieLens(), ratingLoaded1.getMovie().getTitleMovieLens());
