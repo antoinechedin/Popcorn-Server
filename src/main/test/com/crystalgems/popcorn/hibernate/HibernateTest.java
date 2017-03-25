@@ -21,7 +21,7 @@ public class HibernateTest {
     private Country country1 = new Country();
     private Distributor distributor1 = new Distributor();
     private Language language1 = new Language();
-
+    private Type type1 = new Type();
     private User user1 = new User();
     private Gender gender1 = new Gender();
     private Age age1 = new Age();
@@ -59,6 +59,10 @@ public class HibernateTest {
         // Language 1
         language1.setLanguage("language");
         language1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Type 1
+        type1.setType("type");
+        type1.setTypeDescription("typeDescription");
+        type1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
         // User 1
         user1.setLogin("login");
         user1.setPassword("password");
@@ -87,6 +91,7 @@ public class HibernateTest {
         movie1.setKeywords(new HashSet<>(Collections.singletonList(keyword1)));
         movie1.setLanguages(new HashSet<>(Collections.singletonList(language1)));
         movie1.setRatings(new HashSet<>(Collections.singletonList(rating1)));
+        movie1.setType(type1);
         // User 1 Relation
         user1.setGender(gender1);
         user1.setAge(age1);
@@ -123,6 +128,9 @@ public class HibernateTest {
         // Save Language
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(language1);
         int languageId = language1.getLanguageId();
+        // Save Type
+        HibernateUtilTest.getSessionFactory().getCurrentSession().save(type1);
+        int typeId = type1.getTypeId();
         // Save User
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(user1);
         int userId = user1.getUserId();
@@ -169,6 +177,9 @@ public class HibernateTest {
         // Load Language
         Language languageLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Language.class, languageId);
         Assert.assertEquals(language1.getLanguage(), languageLoaded1.getLanguage());
+        // Load Language
+        Type typeLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Type.class, typeId);
+        Assert.assertEquals(type1.getType(), typeLoaded1.getType());
         // Load User
         User userLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(User.class, userId);
         Assert.assertEquals(user1.getLogin(), userLoaded1.getLogin());
@@ -198,6 +209,7 @@ public class HibernateTest {
         Assert.assertEquals(keyword1.getKeyword(), ((Keyword) movieLoaded1.getKeywords().toArray()[0]).getKeyword());
         Assert.assertEquals(language1.getLanguage(), ((Language) movieLoaded1.getLanguages().toArray()[0]).getLanguage());
         Assert.assertEquals(rating1.getRating(), ((Rating) movieLoaded1.getRatings().toArray()[0]).getRating());
+        Assert.assertEquals(type1.getType(), movieLoaded1.getType().getType());
         // Director
         Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) directorLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Actor
@@ -212,6 +224,8 @@ public class HibernateTest {
         Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) keywordLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // Language
         Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) languageLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
+        // Type
+        Assert.assertEquals(movie1.getTitleMovieLens(), ((Movie) typeLoaded1.getMovies().toArray()[0]).getTitleMovieLens());
         // User
         Assert.assertEquals(gender1.getGender(), userLoaded1.getGender().getGender());
         Assert.assertEquals(age1.getMinAge(), userLoaded1.getAge().getMinAge());

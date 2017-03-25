@@ -23,6 +23,7 @@ public class Movie {
     private Set<Keyword> keywords;
     private Set<Language> languages;
     private Set<Rating> ratings;
+    private Type type;
 
     @Id
     @Column(name = "MovieId")
@@ -179,6 +180,20 @@ public class Movie {
 
     public void setRatings(Set<Rating> ratings) {
         this.ratings = ratings;
+    }
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "movietype",
+            joinColumns = @JoinColumn(name = "MovieId"),
+            inverseJoinColumns = @JoinColumn(name = "TypeId")
+    )
+    public Type getType() {
+        return type;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
     }
 
     @Override

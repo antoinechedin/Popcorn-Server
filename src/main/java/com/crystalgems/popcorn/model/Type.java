@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -11,6 +12,7 @@ public class Type {
     private int typeId;
     private String type;
     private String typeDescription;
+    private Set<Movie> movies;
 
     @Id
     @Column(name = "TypeId")
@@ -41,6 +43,15 @@ public class Type {
 
     public void setTypeDescription(String typeDescription) {
         this.typeDescription = typeDescription;
+    }
+
+    @OneToMany(mappedBy = "type")
+    public Set<Movie> getMovies() {
+        return movies;
+    }
+
+    public void setMovies(Set<Movie> movies) {
+        this.movies = movies;
     }
 
     @Override

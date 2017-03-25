@@ -29,7 +29,6 @@
         <mapping class="com.crystalgems.popcorn.model.Moviebusiness"/>
         <mapping class="com.crystalgems.popcorn.model.Moviecolor"/>
         <mapping class="com.crystalgems.popcorn.model.Movie"/>
-        <mapping class="com.crystalgems.popcorn.model.Movietype"/>
         <mapping class="com.crystalgems.popcorn.model.Occupation"/>
         <mapping class="com.crystalgems.popcorn.model.Producer"/>
         <mapping class="com.crystalgems.popcorn.model.Productor"/>
