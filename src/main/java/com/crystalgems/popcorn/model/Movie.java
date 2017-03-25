@@ -3,7 +3,6 @@ package com.crystalgems.popcorn.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
-import java.util.Date;
 import java.util.Set;
 
 /**
@@ -15,7 +14,7 @@ public class Movie {
     private int movieId;
     private String titleMovieLens;
     private String titleImdb;
-    private Date date;
+    private int year;
     private Set<Director> directors;
     private Set<Actor> actors;
     private Set<Genre> genres;
@@ -56,13 +55,13 @@ public class Movie {
     }
 
     @Basic
-    @Column(name = "Date")
-    public Date getDate() {
-        return date;
+    @Column(name = "Date", length = 4)
+    public int getYear() {
+        return year;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setYear(int year) {
+        this.year = year;
     }
 
     @ManyToMany
@@ -181,7 +180,7 @@ public class Movie {
         if (titleMovieLens != null ? !titleMovieLens.equals(movie.titleMovieLens) : movie.titleMovieLens != null)
             return false;
         if (titleImdb != null ? !titleImdb.equals(movie.titleImdb) : movie.titleImdb != null) return false;
-        return date != null ? date.equals(movie.date) : movie.date == null;
+        return year == movie.year;
     }
 
     @Override
@@ -189,7 +188,6 @@ public class Movie {
         int result = movieId;
         result = 31 * result + (titleMovieLens != null ? titleMovieLens.hashCode() : 0);
         result = 31 * result + (titleImdb != null ? titleImdb.hashCode() : 0);
-        result = 31 * result + (date != null ? date.hashCode() : 0);
         return result;
     }
 }
