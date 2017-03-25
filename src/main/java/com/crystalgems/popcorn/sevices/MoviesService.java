@@ -6,6 +6,7 @@ import org.hibernate.HibernateException;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import java.util.Date;
@@ -43,6 +44,21 @@ public class MoviesService {
         movie.setDate(new Date(System.currentTimeMillis()));
         movie.setTitleImdb("My movie IMB");
         movie.setTitleMovieLens("My movie ML");
+        return movie;
+    }
+
+    @GET
+    @Path("{id}")
+    @Produces(MediaType.APPLICATION_JSON)
+    public Movies getMoviesById(@PathParam("id") int id) {
+        Movies movie = new Movies();
+
+        String hql = "from Movies M where M.movieId = " + id;
+
+        HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+        movie = (Movies) HibernateUtil.getSessionFactory().getCurrentSession().createQuery(hql);
+        HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+
         return movie;
     }
 }

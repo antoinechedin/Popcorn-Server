@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Popcorn-ServerTest:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Popcorn_ServerTest_war</output-path>
+    <root id="archive" name="Popcorn-ServerTest_war.war">
+      <element id="artifact" artifact-name="Popcorn-Server:war exploded" />
+    </root>
+  </artifact>
+</component>
