@@ -415,7 +415,7 @@ CREATE TABLE IF NOT EXISTS `movies` (
   `MovieId` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `TitleMovieLens` varchar(100) DEFAULT NULL,
   `TitleIMDB` varchar(100) DEFAULT NULL,
-  `Date` year(4) DEFAULT NULL,
+  `Date` int(4) DEFAULT NULL,
   PRIMARY KEY (`MovieId`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3953 ;
 
