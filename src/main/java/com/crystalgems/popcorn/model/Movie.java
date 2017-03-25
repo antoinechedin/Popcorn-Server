@@ -1,7 +1,8 @@
 package com.crystalgems.popcorn.model;
 
+import com.owlike.genson.annotation.JsonIgnore;
+
 import javax.persistence.*;
-import java.util.Date;
 import java.util.Set;
 
 /**
@@ -13,7 +14,7 @@ public class Movie {
     private int movieId;
     private String titleMovieLens;
     private String titleImdb;
-    private Date date;
+    private int year;
     private Set<Director> directors;
     private Set<Actor> actors;
     private Set<Genre> genres;
@@ -21,6 +22,8 @@ public class Movie {
     private Set<Distributor> distributors;
     private Set<Keyword> keywords;
     private Set<Language> languages;
+    private Set<Rating> ratings;
+    private Type type;
 
     @Id
     @Column(name = "MovieId")
@@ -54,13 +57,13 @@ public class Movie {
     }
 
     @Basic
-    @Column(name = "Date")
-    public Date getDate() {
-        return date;
+    @Column(name = "Date", length = 4)
+    public int getYear() {
+        return year;
     }
 
-    public void setDate(Date date) {
-        this.date = date;
+    public void setYear(int year) {
+        this.year = year;
     }
 
     @ManyToMany
@@ -70,6 +73,7 @@ public class Movie {
             inverseJoinColumns = @JoinColumn(name = "DirectorId", referencedColumnName = "DirectorId")
 
     )
+    @JsonIgnore
     public Set<Director> getDirectors() {
         return directors;
     }
@@ -84,6 +88,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "ActorId", referencedColumnName = "ActorId")
     )
+    @JsonIgnore
     public Set<Actor> getActors() {
         return actors;
     }
@@ -98,6 +103,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "GenreId", referencedColumnName = "GenreId")
     )
+    @JsonIgnore
     public Set<Genre> getGenres() {
         return genres;
     }
@@ -112,6 +118,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId", referencedColumnName = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "CountryId", referencedColumnName = "CountryId")
     )
+    @JsonIgnore
     public Set<Country> getCountries() {
         return countries;
     }
@@ -126,6 +133,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "DistributionCompanyId")
     )
+    @JsonIgnore
     public Set<Distributor> getDistributors() {
         return distributors;
     }
@@ -140,6 +148,7 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "KeywordId")
     )
+    @JsonIgnore
     public Set<Keyword> getKeywords() {
         return keywords;
     }
@@ -154,12 +163,37 @@ public class Movie {
             joinColumns = @JoinColumn(name = "MovieId"),
             inverseJoinColumns = @JoinColumn(name = "LanguageId")
     )
+    @JsonIgnore
     public Set<Language> getLanguages() {
         return languages;
     }
 
     public void setLanguages(Set<Language> languages) {
         this.languages = languages;
+    }
+
+    @OneToMany(mappedBy = "movie")
+    @JsonIgnore
+    public Set<Rating> getRatings() {
+        return ratings;
+    }
+
+    public void setRatings(Set<Rating> ratings) {
+        this.ratings = ratings;
+    }
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinTable(
+            name = "movietype",
+            joinColumns = @JoinColumn(name = "MovieId"),
+            inverseJoinColumns = @JoinColumn(name = "TypeId")
+    )
+    public Type getType() {
+        return type;
+    }
+
+    public void setType(Type type) {
+        this.type = type;
     }
 
     @Override
@@ -172,7 +206,7 @@ public class Movie {
         if (titleMovieLens != null ? !titleMovieLens.equals(movie.titleMovieLens) : movie.titleMovieLens != null)
             return false;
         if (titleImdb != null ? !titleImdb.equals(movie.titleImdb) : movie.titleImdb != null) return false;
-        return date != null ? date.equals(movie.date) : movie.date == null;
+        return year == movie.year;
     }
 
     @Override
@@ -180,7 +214,6 @@ public class Movie {
         int result = movieId;
         result = 31 * result + (titleMovieLens != null ? titleMovieLens.hashCode() : 0);
         result = 31 * result + (titleImdb != null ? titleImdb.hashCode() : 0);
-        result = 31 * result + (date != null ? date.hashCode() : 0);
         return result;
     }
 }

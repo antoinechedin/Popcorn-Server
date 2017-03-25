@@ -107,10 +107,10 @@ CREATE TABLE IF NOT EXISTS `countrycode` (
 
 DROP TABLE IF EXISTS `director`;
 CREATE TABLE IF NOT EXISTS `director` (
-  `DirectorId` int(10) unsigned NOT NULL,
-  `MovieQuantity` int(10) unsigned DEFAULT NULL,
-  `LastName` varchar(45) DEFAULT NULL,
-  `FirstName` varchar(45) DEFAULT NULL,
+  `DirectorId`    INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `MovieQuantity` int(10) unsigned          DEFAULT NULL,
+  `LastName`      varchar(45)               DEFAULT NULL,
+  `FirstName`     varchar(45)               DEFAULT NULL,
   PRIMARY KEY (`DirectorId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -149,8 +149,8 @@ CREATE TABLE IF NOT EXISTS `gender` (
 
 DROP TABLE IF EXISTS `genre`;
 CREATE TABLE IF NOT EXISTS `genre` (
-  `GenreId` int(10) unsigned NOT NULL,
-  `Genre` varchar(45) DEFAULT NULL,
+  `GenreId` INT(10) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `Genre`   varchar(45)               DEFAULT NULL,
   PRIMARY KEY (`GenreId`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 

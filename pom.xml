@@ -10,7 +10,7 @@
     <name>popcornServer</name>
 
     <build>
-        <finalName>popcornServer</finalName>
+        <finalName>popcorn</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -46,8 +46,9 @@
 
         <!-- JSON Support -->
         <dependency>
-            <groupId>org.glassfish.jersey.media</groupId>
-            <artifactId>jersey-media-moxy</artifactId>
+            <groupId>com.owlike</groupId>
+            <artifactId>genson</artifactId>
+            <version>1.4</version>
         </dependency>
 
         <!--Hibernate-->
@@ -74,7 +75,7 @@
     </dependencies>
     <properties>
         <jersey.version>2.25.1</jersey.version>
-        <hibernate.version>5.2.7.Final</hibernate.version>
+        <hibernate.version>5.2.8.Final</hibernate.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 </project>

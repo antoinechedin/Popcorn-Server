@@ -50,8 +50,7 @@ public class Moviecolor {
         Moviecolor that = (Moviecolor) o;
 
         if (movieId != that.movieId) return false;
-        if (colorId != that.colorId) return false;
-        //return colorInfo != null ? colorInfo.equals(that.colorInfo) : that.colorInfo == null;
+        return colorId != that.colorId;
     }
 
     @Override

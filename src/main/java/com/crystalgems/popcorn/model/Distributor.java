@@ -1,5 +1,7 @@
 package com.crystalgems.popcorn.model;
 
+import com.owlike.genson.annotation.JsonIgnore;
+
 import javax.persistence.*;
 import java.util.Set;
 
@@ -40,6 +42,7 @@ public class Distributor {
             joinColumns = @JoinColumn(name = "DistributionCompanyId"),
             inverseJoinColumns = @JoinColumn(name = "MovieId")
     )
+    @JsonIgnore
     public Set<Movie> getMovies() {
         return movies;
     }

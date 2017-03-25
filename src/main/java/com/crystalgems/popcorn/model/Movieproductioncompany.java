@@ -74,8 +74,7 @@ public class Movieproductioncompany {
         if (movieProductionCompnyLinkId != that.movieProductionCompnyLinkId) return false;
         if (movieId != that.movieId) return false;
         if (productionCompanyId != that.productionCompanyId) return false;
-        if (countryCode != null ? !countryCode.equals(that.countryCode) : that.countryCode != null) return false;
-        //return companyInfo != null ? companyInfo.equals(that.companyInfo) : that.companyInfo == null;
+        return countryCode != null ? !countryCode.equals(that.countryCode) : that.countryCode != null;
     }
 
     @Override

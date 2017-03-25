@@ -51,8 +51,7 @@ public class Countrycode {
         Countrycode that = (Countrycode) o;
 
         if (countryId != that.countryId) return false;
-        if (countryCode != null ? !countryCode.equals(that.countryCode) : that.countryCode != null) return false;
-        //return description != null ? description.equals(that.description) : that.description == null;
+        return countryCode != null ? countryCode.equals(that.countryCode) : that.countryCode == null;
     }
 
     @Override
