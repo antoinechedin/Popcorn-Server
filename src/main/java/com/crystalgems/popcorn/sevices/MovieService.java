@@ -5,6 +5,7 @@ import com.crystalgems.popcorn.model.Movie;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import javax.xml.ws.http.HTTPException;
 
 /**
  * Created by Antoine on 23/03/2017.
@@ -20,13 +21,28 @@ public class MovieService {
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
             movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, id);
-            movie.getTitleMovieLens();
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
             throw e;
         }
         return movie;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/movie-list")
+    public Object[] getMovieList() {
+        Object[] movies;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            movies = HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie M").setMaxResults(100).list().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return movies;
     }
 
     @GET
@@ -61,6 +77,8 @@ public class MovieService {
                     break;
                 case "rating":
                     o = movie.getRatings().toArray();
+                default:
+                    throw new HTTPException(501);
             }
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
