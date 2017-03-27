@@ -16795,16 +16795,6 @@ INSERT INTO `movieproducer` (`MovieProducerLinkId`, `MovieId`, `ProducerId`, `Pr
 (16748, 3952, 6956, '(producer)'),
 (16749, 3952, 7484, '(producer)');
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `movieproducer`
---
-ALTER TABLE `movieproducer`
-  ADD CONSTRAINT `movieproducer_ibfk_2` FOREIGN KEY (`ProducerId`) REFERENCES `producer` (`ProducerId`),
-  ADD CONSTRAINT `movieproducer_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

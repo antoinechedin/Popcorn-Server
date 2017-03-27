@@ -3809,16 +3809,6 @@ INSERT INTO `moviecolor` (`MovieId`, `ColorId`) VALUES
 (3951, 2),
 (3952, 2);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviecolor`
---
-ALTER TABLE `moviecolor`
-  ADD CONSTRAINT `moviecolor_ibfk_2` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`),
-  ADD CONSTRAINT `moviecolor_ibfk_1` FOREIGN KEY (`ColorId`) REFERENCES `color` (`ColorId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -9324,16 +9324,6 @@ INSERT INTO `moviegenre` (`MovieGenreLinkId`, `MovieId`, `GenreId`) VALUES
 (9287, 3952, 9),
 (9288, 3952, 23);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviegenre`
---
-ALTER TABLE `moviegenre`
-  ADD CONSTRAINT `moviegenre_ibfk_2` FOREIGN KEY (`GenreId`) REFERENCES `genre` (`GenreId`),
-  ADD CONSTRAINT `moviegenre_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

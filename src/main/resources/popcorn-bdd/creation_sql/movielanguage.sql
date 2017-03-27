@@ -4831,16 +4831,6 @@ INSERT INTO `movielanguage` (`MovieLanguageLinkId`, `MovieId`, `LanguageId`) VAL
 (4795, 3951, 16),
 (4796, 3952, 16);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `movielanguage`
---
-ALTER TABLE `movielanguage`
-  ADD CONSTRAINT `movielanguage_ibfk_2` FOREIGN KEY (`LanguageId`) REFERENCES `language` (`LanguageId`),
-  ADD CONSTRAINT `movielanguage_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

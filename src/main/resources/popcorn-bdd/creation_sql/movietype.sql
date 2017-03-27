@@ -3915,16 +3915,6 @@ INSERT INTO `movietype` (`MovieId`, `TypeId`) VALUES
 (3226, 5),
 (2716, 6);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `movietype`
---
-ALTER TABLE `movietype`
-  ADD CONSTRAINT `movietype_ibfk_2` FOREIGN KEY (`TypeId`) REFERENCES `type` (`TypeId`),
-  ADD CONSTRAINT `movietype_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

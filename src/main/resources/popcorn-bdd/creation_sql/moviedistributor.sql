@@ -23105,17 +23105,6 @@ INSERT INTO `moviedistributor` (`MovieDistributorLinkId`, `MovieId`, `Distributi
 (23059, 3952, 2032, 'fr'),
 (23060, 3952, 2174, 'no');
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviedistributor`
---
-ALTER TABLE `moviedistributor`
-  ADD CONSTRAINT `moviedistributor_ibfk_3` FOREIGN KEY (`CountryCode`) REFERENCES `countrycode` (`CountryCode`),
-  ADD CONSTRAINT `moviedistributor_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`),
-  ADD CONSTRAINT `moviedistributor_ibfk_2` FOREIGN KEY (`DistributionCompanyId`) REFERENCES `distributor` (`DistributorId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

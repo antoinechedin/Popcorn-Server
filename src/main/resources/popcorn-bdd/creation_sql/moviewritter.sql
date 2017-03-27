@@ -8803,16 +8803,6 @@ INSERT INTO `moviewritter` (`MovieWritterLinkId`, `MovieId`, `WritterId`) VALUES
 (8765, 3951, 1169),
 (8766, 3952, 3007);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviewritter`
---
-ALTER TABLE `moviewritter`
-  ADD CONSTRAINT `moviewritter_ibfk_2` FOREIGN KEY (`WritterId`) REFERENCES `writter` (`WritterId`),
-  ADD CONSTRAINT `moviewritter_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

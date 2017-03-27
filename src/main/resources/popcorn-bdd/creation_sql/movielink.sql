@@ -18201,17 +18201,6 @@ INSERT INTO `movielink` (`MovieLinkId`, `MovieId`, `LinkedMovieId`, `LinkTypeId`
 (18159, 3952, 1387, 9),
 (18160, 3952, 1732, 9);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `movielink`
---
-ALTER TABLE `movielink`
-  ADD CONSTRAINT `movielink_ibfk_3` FOREIGN KEY (`LinkTypeId`) REFERENCES `linktype` (`LinkTypeId`),
-  ADD CONSTRAINT `movielink_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`),
-  ADD CONSTRAINT `movielink_ibfk_2` FOREIGN KEY (`LinkedMovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

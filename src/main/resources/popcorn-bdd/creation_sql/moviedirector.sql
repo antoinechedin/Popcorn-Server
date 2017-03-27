@@ -4176,16 +4176,6 @@ INSERT INTO `moviedirector` (`MovieDirectorLinkId`, `MovieId`, `DirectorId`) VAL
 (4140, 1426, 1305),
 (4141, 2698, 1912);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviedirector`
---
-ALTER TABLE `moviedirector`
-  ADD CONSTRAINT `moviedirector_ibfk_2` FOREIGN KEY (`DirectorId`) REFERENCES `director` (`DirectorId`),
-  ADD CONSTRAINT `moviedirector_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

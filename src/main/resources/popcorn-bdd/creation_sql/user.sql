@@ -6078,28 +6078,6 @@ INSERT INTO `user` (`UserId`, `Login`, `Password`, `Birthdate`, `GenderId`, `Age
 (6039, '', '', '2010-01-01', 2, 45),
 (6040, '', '', '2010-01-01', 1, 25);
 
---
--- Déclencheurs `user`
---
-DROP TRIGGER IF EXISTS `trigger_password`;
-DELIMITER //
-CREATE TRIGGER `trigger_password` BEFORE INSERT ON `user`
- FOR EACH ROW BEGIN
-SET new.Password = SHA1(new.Password);
-END
-//
-DELIMITER ;
-
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `user`
---
-ALTER TABLE `user`
-  ADD CONSTRAINT `user_ibfk_2` FOREIGN KEY (`AgeId`) REFERENCES `age` (`AgeId`),
-  ADD CONSTRAINT `user_ibfk_1` FOREIGN KEY (`GenderId`) REFERENCES `gender` (`GenderId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

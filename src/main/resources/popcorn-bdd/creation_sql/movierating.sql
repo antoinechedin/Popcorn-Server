@@ -3897,15 +3897,6 @@ INSERT INTO `movierating` (`MovieId`, `Distribution`, `Votes`, `Rating`) VALUES
 (3951, '2311', 568, 7.3),
 (3952, '12210', 8699, 6.8);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `movierating`
---
-ALTER TABLE `movierating`
-  ADD CONSTRAINT `movierating_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

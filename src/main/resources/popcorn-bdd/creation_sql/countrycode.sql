@@ -299,15 +299,6 @@ INSERT INTO `countrycode` (`CountryCode`, `CountryId`) VALUES
 ('zm', 255),
 ('zw', 256);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `countrycode`
---
-ALTER TABLE `countrycode`
-  ADD CONSTRAINT `countrycode_ibfk_1` FOREIGN KEY (`CountryId`) REFERENCES `country` (`CountryId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

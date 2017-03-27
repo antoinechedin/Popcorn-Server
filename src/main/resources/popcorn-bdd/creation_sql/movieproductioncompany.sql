@@ -9555,17 +9555,6 @@ INSERT INTO `movieproductioncompany` (`MovieProductionCompanyLinkId`, `MovieId`,
 (9516, 3952, 'de', 3123),
 (9517, 3952, 'gb', 2053);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `movieproductioncompany`
---
-ALTER TABLE `movieproductioncompany`
-  ADD CONSTRAINT `movieproductioncompany_ibfk_3` FOREIGN KEY (`ProductionCompanyId`) REFERENCES `productor` (`ProductorsId`),
-  ADD CONSTRAINT `movieproductioncompany_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`),
-  ADD CONSTRAINT `movieproductioncompany_ibfk_2` FOREIGN KEY (`CountryCode`) REFERENCES `countrycode` (`CountryCode`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

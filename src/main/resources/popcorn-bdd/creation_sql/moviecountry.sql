@@ -5027,16 +5027,6 @@ INSERT INTO `moviecountry` (`MovieCountryLinkId`, `MovieId`, `CountryId`) VALUES
 (4992, 3952, 240),
 (4993, 3952, 241);
 
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviecountry`
---
-ALTER TABLE `moviecountry`
-  ADD CONSTRAINT `moviecountry_ibfk_2` FOREIGN KEY (`CountryId`) REFERENCES `country` (`CountryId`),
-  ADD CONSTRAINT `moviecountry_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -684,6 +684,18 @@ ALTER TABLE `userrating`
   ADD CONSTRAINT `userrating_ibfk_2` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`),
   ADD CONSTRAINT `userrating_ibfk_1` FOREIGN KEY (`UserId`) REFERENCES `user` (`UserId`);
 
+--
+-- Déclencheurs `user`
+--
+DROP TRIGGER IF EXISTS `trigger_password`;
+DELIMITER //
+CREATE TRIGGER `trigger_password` BEFORE INSERT ON `user`
+FOR EACH ROW BEGIN
+  SET new.Password = SHA1(new.Password);
+END
+//
+DELIMITER ;
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

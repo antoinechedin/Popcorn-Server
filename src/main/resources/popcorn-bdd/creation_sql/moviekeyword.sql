@@ -105199,18 +105199,6 @@ INSERT INTO `moviekeyword` (`MovieKeywordLinkId`, `MovieId`, `KeywordId`) VALUES
 (105125, 3952, 14065),
 (105126, 3952, 14068),
 (105127, 3952, 14529),
-(105128, 3952, 14673);
-
---
--- Contraintes pour les tables exportées
---
-
---
--- Contraintes pour la table `moviekeyword`
---
-ALTER TABLE `moviekeyword`
-  ADD CONSTRAINT `moviekeyword_ibfk_2` FOREIGN KEY (`KeywordId`) REFERENCES `keyword` (`KeywordId`),
-  ADD CONSTRAINT `moviekeyword_ibfk_1` FOREIGN KEY (`MovieId`) REFERENCES `movies` (`MovieId`);
 SET FOREIGN_KEY_CHECKS=1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
