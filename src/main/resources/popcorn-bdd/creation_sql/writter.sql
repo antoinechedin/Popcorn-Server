@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `writter`
---
-
-DROP TABLE IF EXISTS `writter`;
-CREATE TABLE IF NOT EXISTS `writter` (
-  `WritterId` int(10) unsigned NOT NULL,
-  `MovieQuantity` int(10) unsigned DEFAULT NULL,
-  `LastName` varchar(45) DEFAULT NULL,
-  `FirstName` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`WritterId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `writter`
 --
 

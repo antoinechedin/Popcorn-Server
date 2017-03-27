@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `distributor`
---
-
-DROP TABLE IF EXISTS `distributor`;
-CREATE TABLE IF NOT EXISTS `distributor` (
-  `DistributorId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `DistributionCompany` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`DistributorId`),
-  UNIQUE KEY `DistributorId_UNIQUE` (`DistributorId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2392 ;
-
---
 -- Vider la table avant d'insérer `distributor`
 --
 

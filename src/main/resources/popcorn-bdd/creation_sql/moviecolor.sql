@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `moviecolor`
---
-
-DROP TABLE IF EXISTS `moviecolor`;
-CREATE TABLE IF NOT EXISTS `moviecolor` (
-  `MovieId` int(10) unsigned NOT NULL,
-  `ColorId` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`MovieId`),
-  KEY `fk_color_idx` (`ColorId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `moviecolor`
 --
 

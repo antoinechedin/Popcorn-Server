@@ -24,21 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `moviewritter`
---
-
-DROP TABLE IF EXISTS `moviewritter`;
-CREATE TABLE IF NOT EXISTS `moviewritter` (
-  `MovieWritterLinkId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `MovieId` int(10) unsigned NOT NULL,
-  `WritterId` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`MovieWritterLinkId`),
-  UNIQUE KEY `MovieWritterLinkId_UNIQUE` (`MovieWritterLinkId`),
-  KEY `fk_writter_idx` (`WritterId`),
-  KEY `fk_movieWritter_idx` (`MovieId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8767 ;
-
---
 -- Vider la table avant d'insérer `moviewritter`
 --
 

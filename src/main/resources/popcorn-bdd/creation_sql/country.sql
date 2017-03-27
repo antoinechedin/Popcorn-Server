@@ -24,21 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `country`
---
-
-DROP TABLE IF EXISTS `country`;
-CREATE TABLE IF NOT EXISTS `country` (
-  `CountryId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Country` varchar(45) DEFAULT NULL,
-  `LongName` varchar(100) DEFAULT NULL,
-  `DomainCode` varchar(45) DEFAULT NULL,
-  `Continent` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`CountryId`),
-  UNIQUE KEY `CountryId_UNIQUE` (`CountryId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=257 ;
-
---
 -- Vider la table avant d'insérer `country`
 --
 

@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `color`
---
-
-DROP TABLE IF EXISTS `color`;
-CREATE TABLE IF NOT EXISTS `color` (
-  `ColorId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Color` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`ColorId`),
-  UNIQUE KEY `ColorId_UNIQUE` (`ColorId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
-
---
 -- Vider la table avant d'insérer `color`
 --
 

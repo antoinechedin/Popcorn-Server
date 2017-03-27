@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `movies`
---
-
-DROP TABLE IF EXISTS `movies`;
-CREATE TABLE IF NOT EXISTS `movies` (
-  `MovieId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `TitleMovieLens` varchar(100) DEFAULT NULL,
-  `TitleIMDB` varchar(100) DEFAULT NULL,
-  `Date` int(4) DEFAULT NULL,
-  PRIMARY KEY (`MovieId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3953 ;
-
---
 -- Vider la table avant d'insérer `movies`
 --
 

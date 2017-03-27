@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `director`
---
-
-DROP TABLE IF EXISTS `director`;
-CREATE TABLE IF NOT EXISTS `director` (
-  `DirectorId` int(10) unsigned NOT NULL,
-  `MovieQuantity` int(10) unsigned DEFAULT NULL,
-  `LastName` varchar(45) DEFAULT NULL,
-  `FirstName` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`DirectorId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `director`
 --
 

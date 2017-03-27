@@ -24,23 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `user`
---
-
-DROP TABLE IF EXISTS `user`;
-CREATE TABLE IF NOT EXISTS `user` (
-  `UserId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Login` varchar(45) DEFAULT NULL,
-  `Password` varchar(45) DEFAULT NULL,
-  `Birthdate` date DEFAULT NULL,
-  `GenderId` int(10) unsigned NOT NULL,
-  `AgeId` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`UserId`),
-  KEY `fk_gender_idx` (`GenderId`),
-  KEY `fk_ages_idx` (`AgeId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=6041 ;
-
---
 -- Vider la table avant d'insérer `user`
 --
 

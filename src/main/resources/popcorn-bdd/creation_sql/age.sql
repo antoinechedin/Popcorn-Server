@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `age`
---
-
-DROP TABLE IF EXISTS `age`;
-CREATE TABLE IF NOT EXISTS `age` (
-  `AgeId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `MinAge` int(10) unsigned DEFAULT NULL,
-  `MaxAge` int(10) unsigned DEFAULT NULL,
-  PRIMARY KEY (`AgeId`),
-  UNIQUE KEY `AgeId_UNIQUE` (`AgeId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=57 ;
-
---
 -- Vider la table avant d'insérer `age`
 --
 

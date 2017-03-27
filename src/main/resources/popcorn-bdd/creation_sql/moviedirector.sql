@@ -24,21 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `moviedirector`
---
-
-DROP TABLE IF EXISTS `moviedirector`;
-CREATE TABLE IF NOT EXISTS `moviedirector` (
-  `MovieDirectorLinkId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `MovieId` int(10) unsigned NOT NULL,
-  `DirectorId` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`MovieDirectorLinkId`),
-  UNIQUE KEY `MovieDirectorLinkId_UNIQUE` (`MovieDirectorLinkId`),
-  KEY `fk_director_idx` (`DirectorId`),
-  KEY `fk_MovieDirector_idx` (`MovieId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4142 ;
-
---
 -- Vider la table avant d'insérer `moviedirector`
 --
 

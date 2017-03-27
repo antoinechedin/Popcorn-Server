@@ -24,17 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `genre`
---
-
-DROP TABLE IF EXISTS `genre`;
-CREATE TABLE IF NOT EXISTS `genre` (
-  `GenreId` int(10) unsigned NOT NULL,
-  `Genre` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`GenreId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `genre`
 --
 

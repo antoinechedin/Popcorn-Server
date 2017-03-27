@@ -24,17 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `gender`
---
-
-DROP TABLE IF EXISTS `gender`;
-CREATE TABLE IF NOT EXISTS `gender` (
-  `GenderId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Gender` varchar(10) DEFAULT NULL,
-  PRIMARY KEY (`GenderId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
-
---
 -- Vider la table avant d'insérer `gender`
 --
 

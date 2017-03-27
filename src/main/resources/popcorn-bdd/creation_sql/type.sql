@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `type`
---
-
-DROP TABLE IF EXISTS `type`;
-CREATE TABLE IF NOT EXISTS `type` (
-  `TypeId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Type` varchar(45) DEFAULT NULL,
-  `TypeDescription` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`TypeId`),
-  UNIQUE KEY `TypeId_UNIQUE` (`TypeId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
-
---
 -- Vider la table avant d'insérer `type`
 --
 

@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/age.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/color.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/country.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/countrycode.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/director.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/distributor.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/gender.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/genre.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/keyword.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/language.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/linktype.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/moviecolor.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/moviecountry.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/moviedirector.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/moviedistributor.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/moviegenre.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/creation_sql/movies.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/main/resources/popcorn-bdd/database_creation.sql" dialect="MySQL" />
   </component>

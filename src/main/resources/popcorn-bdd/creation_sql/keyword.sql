@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `keyword`
---
-
-DROP TABLE IF EXISTS `keyword`;
-CREATE TABLE IF NOT EXISTS `keyword` (
-  `KeywordId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Keyword` varchar(45) DEFAULT NULL,
-  `MovieQuantity` int(10) unsigned DEFAULT NULL,
-  PRIMARY KEY (`KeywordId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14975 ;
-
---
 -- Vider la table avant d'insérer `keyword`
 --
 

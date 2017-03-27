@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `productor`
---
-
-DROP TABLE IF EXISTS `productor`;
-CREATE TABLE IF NOT EXISTS `productor` (
-  `ProductorsId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `ProductorCompany` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`ProductorsId`),
-  UNIQUE KEY `ProductorsId_UNIQUE` (`ProductorsId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=12022 ;
-
---
 -- Vider la table avant d'insérer `productor`
 --
 

@@ -24,19 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `countrycode`
---
-
-DROP TABLE IF EXISTS `countrycode`;
-CREATE TABLE IF NOT EXISTS `countrycode` (
-  `CountryCode` varchar(45) NOT NULL,
-  `CountryId` int(10) unsigned DEFAULT NULL,
-  PRIMARY KEY (`CountryCode`),
-  UNIQUE KEY `CountryCodeId_UNIQUE` (`CountryCode`),
-  KEY `fk_country_idx` (`CountryId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `countrycode`
 --
 

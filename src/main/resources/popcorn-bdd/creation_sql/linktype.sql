@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `linktype`
---
-
-DROP TABLE IF EXISTS `linktype`;
-CREATE TABLE IF NOT EXISTS `linktype` (
-  `LinkTypeId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `LinkType` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`LinkTypeId`),
-  UNIQUE KEY `LinkTypeId_UNIQUE` (`LinkTypeId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=16 ;
-
---
 -- Vider la table avant d'insérer `linktype`
 --
 

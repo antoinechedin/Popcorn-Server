@@ -24,23 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `movieproductioncompany`
---
-
-DROP TABLE IF EXISTS `movieproductioncompany`;
-CREATE TABLE IF NOT EXISTS `movieproductioncompany` (
-  `MovieProductionCompanyLinkId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `MovieId` int(10) unsigned NOT NULL,
-  `CountryCode` varchar(45) DEFAULT NULL,
-  `ProductionCompanyId` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`MovieProductionCompanyLinkId`),
-  UNIQUE KEY `MovieProductionCompnyLinkId_UNIQUE` (`MovieProductionCompanyLinkId`),
-  KEY `fk_productionCompaniesCountryCode_idx` (`CountryCode`),
-  KEY `fk_movieProductionCompany_idx` (`MovieId`),
-  KEY `fk_productionCompanyName_idx` (`ProductionCompanyId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9518 ;
-
---
 -- Vider la table avant d'insérer `movieproductioncompany`
 --
 

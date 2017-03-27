@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `movietype`
---
-
-DROP TABLE IF EXISTS `movietype`;
-CREATE TABLE IF NOT EXISTS `movietype` (
-  `MovieId` int(10) unsigned NOT NULL,
-  `TypeId` int(10) unsigned NOT NULL,
-  PRIMARY KEY (`MovieId`),
-  KEY `fk_type_idx` (`TypeId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `movietype`
 --
 

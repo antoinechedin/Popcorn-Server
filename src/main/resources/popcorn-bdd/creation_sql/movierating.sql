@@ -24,20 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `movierating`
---
-
-DROP TABLE IF EXISTS `movierating`;
-CREATE TABLE IF NOT EXISTS `movierating` (
-  `MovieId` int(10) unsigned NOT NULL,
-  `Distribution` varchar(10) DEFAULT NULL,
-  `Votes` int(10) unsigned DEFAULT NULL,
-  `Rating` float unsigned DEFAULT NULL,
-  PRIMARY KEY (`MovieId`),
-  UNIQUE KEY `MovieId_UNIQUE` (`MovieId`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
 -- Vider la table avant d'insérer `movierating`
 --
 

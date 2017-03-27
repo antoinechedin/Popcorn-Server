@@ -24,18 +24,6 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `language`
---
-
-DROP TABLE IF EXISTS `language`;
-CREATE TABLE IF NOT EXISTS `language` (
-  `LanguageId` int(10) unsigned NOT NULL AUTO_INCREMENT,
-  `Language` varchar(45) DEFAULT NULL,
-  PRIMARY KEY (`LanguageId`),
-  UNIQUE KEY `LanguageId_UNIQUE` (`LanguageId`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=86 ;
-
---
 -- Vider la table avant d'insérer `language`
 --
 
