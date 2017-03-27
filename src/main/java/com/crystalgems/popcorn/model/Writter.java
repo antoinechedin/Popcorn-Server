@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -58,21 +59,13 @@ public class Writter {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Writter writter = (Writter) o;
-
-        if (writterId != writter.writterId) return false;
-        if (movieQuantity != writter.movieQuantity) return false;
-        if (lastName != null ? !lastName.equals(writter.lastName) : writter.lastName != null) return false;
-        return firstName != null ? firstName.equals(writter.firstName) : writter.firstName == null;
+        return Objects.equals(lastName, writter.lastName) &&
+                Objects.equals(firstName, writter.firstName);
     }
 
     @Override
     public int hashCode() {
-        int result = writterId;
-        result = 31 * result + movieQuantity;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        return result;
+        return Objects.hash(lastName, firstName);
     }
 }

@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -36,17 +37,12 @@ public class Linktype {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Linktype linktype = (Linktype) o;
-
-        if (linkTypeId != linktype.linkTypeId) return false;
-        return linkType != null ? linkType.equals(linktype.linkType) : linktype.linkType == null;
+        return Objects.equals(linkType, linktype.linkType);
     }
 
     @Override
     public int hashCode() {
-        int result = linkTypeId;
-        result = 31 * result + (linkType != null ? linkType.hashCode() : 0);
-        return result;
+        return Objects.hash(linkType);
     }
 }

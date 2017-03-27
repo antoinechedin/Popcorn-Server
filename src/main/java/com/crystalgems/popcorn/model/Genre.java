@@ -58,7 +58,6 @@ public class Genre {
 
         Genre genre1 = (Genre) o;
 
-        if (genreId != genre1.genreId) return false;
         return genre != null ? genre.equals(genre1.genre) : genre1.genre == null;
     }
 

@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -58,21 +59,13 @@ public class Producer {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Producer producer = (Producer) o;
-
-        if (producerId != producer.producerId) return false;
-        if (movieQuantity != producer.movieQuantity) return false;
-        if (lastName != null ? !lastName.equals(producer.lastName) : producer.lastName != null) return false;
-        return firstName != null ? firstName.equals(producer.firstName) : producer.firstName == null;
+        return Objects.equals(lastName, producer.lastName) &&
+                Objects.equals(firstName, producer.firstName);
     }
 
     @Override
     public int hashCode() {
-        int result = producerId;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        result = 31 * result + movieQuantity;
-        return result;
+        return Objects.hash(lastName, firstName);
     }
 }

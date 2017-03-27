@@ -4,6 +4,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -78,20 +79,13 @@ public class Director {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Director director = (Director) o;
-
-        if (movieQuantity != director.movieQuantity) return false;
-        if (lastName != null ? !lastName.equals(director.lastName) : director.lastName != null) return false;
-        return firstName != null ? firstName.equals(director.firstName) : director.firstName == null;
+        return Objects.equals(lastName, director.lastName) &&
+                Objects.equals(firstName, director.firstName);
     }
 
     @Override
     public int hashCode() {
-        int result = directorId;
-        result = 31 * result + movieQuantity;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        return result;
+        return Objects.hash(lastName, firstName);
     }
 }

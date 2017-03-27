@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -49,6 +50,20 @@ public class Rating {
         this.movie = movie;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Rating rating = (Rating) o;
+        return Objects.equals(user, rating.user) &&
+                Objects.equals(movie, rating.movie);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(user, movie);
+    }
+
     @Basic
     @Column(name = "Rating")
     public int getRating() {
@@ -69,27 +84,4 @@ public class Rating {
         this.timeStamp = timeStamp;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Rating that = (Rating) o;
-
-        if (userRatingLinkId != that.userRatingLinkId) return false;
-        if (user != that.user) return false;
-        if (movie != that.movie) return false;
-        if (rating != that.rating) return false;
-        return timeStamp == that.timeStamp;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = userRatingLinkId;
-        result = result + (user != null ? user.hashCode() : 0);
-        result = result + (movie != null ? movie.hashCode() : 0);
-        result = 31 * result + rating;
-        result = 31 * result + timeStamp;
-        return result;
-    }
 }

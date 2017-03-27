@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -61,19 +62,13 @@ public class Age {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Age age = (Age) o;
-
-        if (ageId != age.ageId) return false;
-        if (minAge != age.minAge) return false;
-        return maxAge == age.maxAge;
+        return minAge == age.minAge &&
+                maxAge == age.maxAge;
     }
 
     @Override
     public int hashCode() {
-        int result = ageId;
-        result = 31 * result + minAge;
-        result = 31 * result + maxAge;
-        return result;
+        return Objects.hash(minAge, maxAge);
     }
 }

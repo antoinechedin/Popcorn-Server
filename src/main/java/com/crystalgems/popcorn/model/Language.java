@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -55,17 +56,12 @@ public class Language {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Language language1 = (Language) o;
-
-        if (languageId != language1.languageId) return false;
-        return language != null ? language.equals(language1.language) : language1.language == null;
+        return Objects.equals(language, language1.language);
     }
 
     @Override
     public int hashCode() {
-        int result = languageId;
-        result = 31 * result + (language != null ? language.hashCode() : 0);
-        return result;
+        return Objects.hash(language);
     }
 }
