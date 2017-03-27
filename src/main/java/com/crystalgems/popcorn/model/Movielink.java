@@ -8,19 +8,19 @@ import javax.persistence.*;
 @Entity
 @Table(name = "movielink")
 public class Movielink {
-    private int movieLinkId;
+    private int id;
     private int movieId;
     private int linkedMovieId;
     private int linkTypeId;
 
     @Id
     @Column(name = "MovieLinkId")
-    public int getMovieLinkId() {
-        return movieLinkId;
+    public int getId() {
+        return id;
     }
 
-    public void setMovieLinkId(int movieLinkId) {
-        this.movieLinkId = movieLinkId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Basic
@@ -60,7 +60,7 @@ public class Movielink {
 
         Movielink movielink = (Movielink) o;
 
-        if (movieLinkId != movielink.movieLinkId) return false;
+        if (id != movielink.id) return false;
         if (movieId != movielink.movieId) return false;
         if (linkedMovieId != movielink.linkedMovieId) return false;
         return linkTypeId == movielink.linkTypeId;
@@ -68,7 +68,7 @@ public class Movielink {
 
     @Override
     public int hashCode() {
-        int result = movieLinkId;
+        int result = id;
         result = 31 * result + movieId;
         result = 31 * result + linkedMovieId;
         result = 31 * result + linkTypeId;

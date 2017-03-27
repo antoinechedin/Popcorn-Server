@@ -12,19 +12,19 @@ import java.util.Set;
 @Entity
 @Table(name = "distributor")
 public class Distributor {
-    private int distributorId;
+    private int id;
     private String distributionCompany;
     private Set<Movie> movies;
 
     @Id
     @Column(name = "DistributorId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getDistributorId() {
-        return distributorId;
+    public int getId() {
+        return id;
     }
 
-    public void setDistributorId(int distributorId) {
-        this.distributorId = distributorId;
+    public void setId(int distributorId) {
+        this.id = distributorId;
     }
 
     @Basic

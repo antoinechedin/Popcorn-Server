@@ -12,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "keyword")
 public class Keyword {
-    private int keywordId;
+    private int id;
     private String keyword;
     private int movieQuantity;
     private Set<Movie> movies;
@@ -20,12 +20,12 @@ public class Keyword {
     @Id
     @Column(name = "KeywordId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getKeywordId() {
-        return keywordId;
+    public int getId() {
+        return id;
     }
 
-    public void setKeywordId(int keywordId) {
-        this.keywordId = keywordId;
+    public void setId(int keywordId) {
+        this.id = keywordId;
     }
 
     @Basic

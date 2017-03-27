@@ -9,7 +9,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "writter")
 public class Writter {
-    private int writterId;
+    private int id;
     private int movieQuantity;
     private String lastName;
     private String firstName;
@@ -17,12 +17,12 @@ public class Writter {
     @Id
     @Column(name = "WritterId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getWritterId() {
-        return writterId;
+    public int getId() {
+        return id;
     }
 
-    public void setWritterId(int writterId) {
-        this.writterId = writterId;
+    public void setId(int writterId) {
+        this.id = writterId;
     }
 
     @Basic

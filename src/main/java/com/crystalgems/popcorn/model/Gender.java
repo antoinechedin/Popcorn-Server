@@ -12,19 +12,19 @@ import java.util.Set;
 @Entity
 @Table(name = "gender")
 public class Gender {
-    private int genderId;
+    private int id;
     private String gender;
     private Set<User> users;
 
     @Id
     @Column(name = "GenderId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getGenderId() {
-        return genderId;
+    public int getId() {
+        return id;
     }
 
-    public void setGenderId(int genderId) {
-        this.genderId = genderId;
+    public void setId(int genderId) {
+        this.id = genderId;
     }
 
     @Basic

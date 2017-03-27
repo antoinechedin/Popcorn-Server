@@ -12,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "country")
 public class Country {
-    private int countryId;
+    private int id;
     private String country;
     private String longName;
     private String domainCode;
@@ -22,12 +22,12 @@ public class Country {
     @Id
     @Column(name = "CountryId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getCountryId() {
-        return countryId;
+    public int getId() {
+        return id;
     }
 
-    public void setCountryId(int countryId) {
-        this.countryId = countryId;
+    public void setId(int countryId) {
+        this.id = countryId;
     }
 
     @Basic

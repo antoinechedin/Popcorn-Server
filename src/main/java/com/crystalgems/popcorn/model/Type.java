@@ -12,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "type")
 public class Type {
-    private int typeId;
+    private int id;
     private String type;
     private String typeDescription;
     private Set<Movie> movies;
@@ -20,12 +20,12 @@ public class Type {
     @Id
     @Column(name = "TypeId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getTypeId() {
-        return typeId;
+    public int getId() {
+        return id;
     }
 
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
+    public void setId(int typeId) {
+        this.id = typeId;
     }
 
     @Basic

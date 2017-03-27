@@ -9,18 +9,18 @@ import java.util.Objects;
 @Entity
 @Table(name = "linktype")
 public class Linktype {
-    private int linkTypeId;
+    private int id;
     private String linkType;
 
     @Id
     @Column(name = "LinkTypeId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getLinkTypeId() {
-        return linkTypeId;
+    public int getId() {
+        return id;
     }
 
-    public void setLinkTypeId(int linkTypeId) {
-        this.linkTypeId = linkTypeId;
+    public void setId(int linkTypeId) {
+        this.id = linkTypeId;
     }
 
     @Basic

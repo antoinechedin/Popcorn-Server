@@ -20,7 +20,7 @@ public class MovieService {
         Movie movie;
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
-            movie = (Movie) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie M where M.movieId = " + id).getSingleResult();
+            movie = (Movie) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie M where M.id = " + id).getSingleResult();
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();

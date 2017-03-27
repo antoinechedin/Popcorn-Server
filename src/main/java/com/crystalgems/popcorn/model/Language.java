@@ -12,19 +12,19 @@ import java.util.Set;
 @Entity
 @Table(name = "language")
 public class Language {
-    private int languageId;
+    private int id;
     private String language;
     private Set<Movie> movies;
 
     @Id
     @Column(name = "LanguageId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getLanguageId() {
-        return languageId;
+    public int getId() {
+        return id;
     }
 
-    public void setLanguageId(int languageId) {
-        this.languageId = languageId;
+    public void setId(int languageId) {
+        this.id = languageId;
     }
 
     @Basic

@@ -9,18 +9,18 @@ import java.util.Objects;
 @Entity
 @Table(name = "color")
 public class Color {
-    private int colorId;
+    private int id;
     private String color;
 
     @Id
     @Column(name = "ColorId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getColorId() {
-        return colorId;
+    public int getId() {
+        return id;
     }
 
-    public void setColorId(int colorId) {
-        this.colorId = colorId;
+    public void setId(int colorId) {
+        this.id = colorId;
     }
 
     @Basic

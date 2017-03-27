@@ -11,7 +11,7 @@ import java.util.Objects;
 @Entity
 @Table(name = "userrating")
 public class Rating {
-    private int userRatingLinkId;
+    private int id;
     private User user;
     private Movie movie;
     private int rating;
@@ -20,12 +20,12 @@ public class Rating {
     @Id
     @Column(name = "UserRatingLinkId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getUserRatingLinkId() {
-        return userRatingLinkId;
+    public int getId() {
+        return id;
     }
 
-    public void setUserRatingLinkId(int userRatingLinkId) {
-        this.userRatingLinkId = userRatingLinkId;
+    public void setId(int userRatingLinkId) {
+        this.id = userRatingLinkId;
     }
 
     @ManyToOne

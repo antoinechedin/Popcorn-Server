@@ -22,7 +22,7 @@ public class UserService {
         User user;
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
-            user = (User) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from User U where U.userId = " + id).uniqueResult();
+            user = (User) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from User U where U.id = " + id).uniqueResult();
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();

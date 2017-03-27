@@ -9,18 +9,18 @@ import java.util.Objects;
 @Entity
 @Table(name = "productor")
 public class Productor {
-    private int productorsId;
+    private int id;
     private String productorCompany;
 
     @Id
     @Column(name = "ProductorsId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getProductorsId() {
-        return productorsId;
+    public int getId() {
+        return id;
     }
 
-    public void setProductorsId(int productorsId) {
-        this.productorsId = productorsId;
+    public void setId(int productorsId) {
+        this.id = productorsId;
     }
 
     @Basic

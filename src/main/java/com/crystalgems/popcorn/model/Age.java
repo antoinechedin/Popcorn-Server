@@ -12,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "age")
 public class Age {
-    private int ageId;
+    private int id;
     private int minAge;
     private int maxAge;
     private Set<User> users;
@@ -20,12 +20,12 @@ public class Age {
     @Id
     @Column(name = "AgeId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getAgeId() {
-        return ageId;
+    public int getId() {
+        return id;
     }
 
-    public void setAgeId(int ageId) {
-        this.ageId = ageId;
+    public void setId(int ageId) {
+        this.id = ageId;
     }
 
     @Basic

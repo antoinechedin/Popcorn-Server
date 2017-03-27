@@ -1,5 +1,6 @@
 package com.crystalgems.popcorn.hibernate;
 
+import com.crystalgems.popcorn.algo.ObjectCounter;
 import com.crystalgems.popcorn.model.*;
 import org.junit.After;
 import org.junit.Assert;
@@ -14,9 +15,13 @@ import java.util.HashSet;
  */
 public class HibernateTest {
     private Movie movie1 = new Movie();
+    private Movie movie2 = new Movie();
+    private Movie movie3 = new Movie();
     private Director director1 = new Director();
     private Actor actor1 = new Actor();
     private Genre genre1 = new Genre();
+    private Genre genre2 = new Genre();
+    private Genre genre3 = new Genre();
     private Keyword keyword1 = new Keyword();
     private Country country1 = new Country();
     private Distributor distributor1 = new Distributor();
@@ -33,9 +38,22 @@ public class HibernateTest {
         movie1.setTitleMovieLens("titleMovieLens");
         movie1.setTitleImdb("titleIMDB");
         movie1.setYear(1990);
+        // Movie 2
+        movie2.setTitleMovieLens("titleMovieLens");
+        movie2.setTitleImdb("titleIMDB");
+        movie2.setYear(1990);
+        // Movie 3
+        movie3.setTitleMovieLens("otherTitleMovieLens");
+        movie3.setTitleImdb("otherTitleIMDB");
+        movie3.setYear(1991);
         // Genre 1
         genre1.setGenre("genre");
         genre1.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Genre 2
+        genre2.setGenre("genre");
+        genre2.setMovies(new HashSet<>(Collections.singletonList(movie1)));
+        // Genre 3
+        genre3.setGenre("otherGenre");
         // Director 1
         director1.setFirstName("firstName");
         director1.setLastName("lastName");
@@ -101,43 +119,43 @@ public class HibernateTest {
     public void testSaveAndLoad() {
         // Save movie
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(movie1);
-        int movieId = movie1.getMovieId();
+        int movieId = movie1.getId();
         // Save genre
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(genre1);
-        int genreId = genre1.getGenreId();
+        int genreId = genre1.getId();
         // Save Director
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(director1);
-        int directorId = director1.getDirectorId();
+        int directorId = director1.getId();
         // Save Actor
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(actor1);
-        int actorId = actor1.getActorId();
+        int actorId = actor1.getId();
         // Save Country
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(country1);
-        int countryId = country1.getCountryId();
+        int countryId = country1.getId();
         // Save Distributor
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(distributor1);
-        int distributorId = distributor1.getDistributorId();
+        int distributorId = distributor1.getId();
         // Save Keyword
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(keyword1);
-        int keywordId = keyword1.getKeywordId();
+        int keywordId = keyword1.getId();
         // Save Language
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(language1);
-        int languageId = language1.getLanguageId();
+        int languageId = language1.getId();
         // Save Type
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(type1);
-        int typeId = type1.getTypeId();
+        int typeId = type1.getId();
         // Save Age
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(age1);
-        int ageId = age1.getAgeId();
+        int ageId = age1.getId();
         // Save Gender
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(gender1);
-        int genderId = gender1.getGenderId();
+        int genderId = gender1.getId();
         // Save User
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(user1);
-        int userId = user1.getUserId();
+        int userId = user1.getId();
         // Save Rating
         HibernateUtilTest.getSessionFactory().getCurrentSession().save(rating1);
-        int ratingId = rating1.getUserRatingLinkId();
+        int ratingId = rating1.getId();
 
         // Load movie
         Movie movieLoaded1 = HibernateUtilTest.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
@@ -226,6 +244,37 @@ public class HibernateTest {
         // Rating
         Assert.assertEquals(user1.getLogin(), ratingLoaded1.getUser().getLogin());
         Assert.assertEquals(movie1.getTitleMovieLens(), ratingLoaded1.getMovie().getTitleMovieLens());
+    }
+
+    @Test
+    public void testEquality() {
+        // Movie
+        movie1.setId(1);
+        movie2.setId(2);
+        movie3.setId(3);
+        Assert.assertEquals(movie1, movie1);
+        Assert.assertNotEquals(null, movie1);
+        Assert.assertEquals(movie2, movie1);
+        Assert.assertNotEquals(movie3, movie1);
+        // Genre
+        genre1.setId(1);
+        genre2.setId(2);
+        genre3.setId(3);
+        Assert.assertEquals(genre1, genre1);
+        Assert.assertNotEquals(null, genre1);
+        Assert.assertEquals(genre2, genre1);
+        Assert.assertNotEquals(genre3, genre1);
+
+        // ObjectCounter
+
+        ObjectCounter objectCounter1 = new ObjectCounter(movie1, 1);
+        ObjectCounter objectCounter2 = new ObjectCounter(movie2, 1);
+        ObjectCounter objectCounter3 = new ObjectCounter(movie3, 1);
+        Assert.assertEquals(objectCounter1, objectCounter1);
+        Assert.assertNotEquals(null, objectCounter1);
+        Assert.assertEquals(objectCounter2, objectCounter1);
+        Assert.assertNotEquals(objectCounter3, objectCounter1);
+
     }
 
     @After

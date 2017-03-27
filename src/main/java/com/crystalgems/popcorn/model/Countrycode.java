@@ -9,8 +9,8 @@ import java.util.Objects;
 @Entity
 @Table(name = "countrycode")
 public class Countrycode {
+    private int id;
     private String countryCode;
-    private int countryId;
 
     @Id
     @Column(name = "CountryCode")
@@ -25,12 +25,12 @@ public class Countrycode {
 
     @Basic
     @Column(name = "CountryId")
-    public int getCountryId() {
-        return countryId;
+    public int getId() {
+        return id;
     }
 
-    public void setCountryId(int countryId) {
-        this.countryId = countryId;
+    public void setId(int countryId) {
+        this.id = countryId;
     }
 
     @Override

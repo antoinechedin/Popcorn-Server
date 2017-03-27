@@ -13,7 +13,7 @@ import java.util.Set;
 @Entity
 @Table(name = "director")
 public class Director {
-    private int directorId;
+    private int id;
     private int movieQuantity;
     private String lastName;
     private String firstName;
@@ -22,12 +22,12 @@ public class Director {
     @Id
     @Column(name = "DirectorId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getDirectorId() {
-        return directorId;
+    public int getId() {
+        return id;
     }
 
-    public void setDirectorId(int directorId) {
-        this.directorId = directorId;
+    public void setId(int directorId) {
+        this.id = directorId;
     }
 
     @Basic
