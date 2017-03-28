@@ -1,0 +1,3882 @@
+MovieId;TitleMovieLens;TitleIMDB;Date
+1;ToyStory;Toy Story;1995
+2;Jumanji;Jumanji;1995
+3;GrumpierOldMen;Grumpier Old Men;1995
+4;WaitingtoExhale;Waitingto Exhale;1995
+5;FatheroftheBridePartII;Fatherofthe Bride Part I I;1995
+6;Heat;Heat;1995
+7;Sabrina;Sabrina;1995
+8;TomandHuck;Tomand Huck;1995
+9;SuddenDeath;Sudden Death;1995
+10;GoldenEye;Golden Eye;1995
+11;AmericanPresidentThe;American President The;1995
+12;DraculaDeadandLovingIt;Dracula Deadand Loving It;1995
+13;Balto;Balto;1995
+14;Nixon;Nixon;1995
+15;CutthroatIsland;Cutthroat Island;1995
+16;Casino;Casino;1995
+17;SenseandSensibility;Senseand Sensibility;1995
+18;FourRooms;Four Rooms;1995
+19;AceVenturaWhenNatureCalls;Ace Ventura When Nature Calls;1995
+20;MoneyTrain;Money Train;1995
+21;GetShorty;Get Shorty;1995
+22;Copycat;Copycat;1995
+23;Assassins;Assassins;1995
+24;Powder;Powder;1995
+25;LeavingLasVegas;Leaving Las Vegas;1995
+26;Othello;Othello;1995
+27;NowandThen;Nowand Then;1995
+28;Persuasion;Persuasion;1995
+29;CityofLostChildrenThe;Citdesenfantsperdus La;1995
+30;ShanghaiTriadYaoayaoyaodaowaipoqiao;Yaoayaoyaodaowaipoqiao;1995
+31;DangerousMinds;Dangerous Minds;1995
+32;TwelveMonkeys;Twelve Monkeys;1995
+33;WingsofCourage;Wingsof Courage;1995
+34;Babe;Babe;1995
+35;Carrington;Carrington;1995
+36;DeadManWalking;Dead Man Walking;1995
+37;AcrosstheSeaofTime;Acrossthe Seaof Time;1995
+38;ItTakesTwo;It Takes Two;1995
+39;Clueless;Clueless;1995
+40;CrytheBelovedCountry;Crythe Beloved Country;1995
+41;RichardIII;Richard I I I;1995
+42;DeadPresidents;Dead Presidents;1995
+43;Restoration;Restoration;1995
+44;MortalKombat;Mortal Kombat;1995
+45;ToDieFor;To Die For;1995
+46;HowtoMakeanAmericanQuilt;Howto Makean American Quilt;1995
+47;SevenSeen;Seen;1995
+48;Pocahontas;Pocahontas;1995
+49;WhenNightIsFalling;When Night Is Falling;1995
+50;UsualSuspectsThe;Usual Suspects The;1995
+51;GuardianAngel;Guardian Angel;1994
+52;MightyAphrodite;Mighty Aphrodite;1995
+53;Lamerica;Lamerica;1994
+54;BigGreenThe;Big Green The;1995
+55;Georgia;Georgia;1995
+56;KidsoftheRoundTable;Kidsofthe Round Table;1995
+57;HomefortheHolidays;Homeforthe Holidays;1995
+58;PostinoIlThePostman;Postino Il;1994
+59;ConfessionalTheLeConfessionnal;Confessional The;2006
+60;IndianintheCupboardThe;Indianinthe Cupboard The;1995
+61;EyeforanEye;Eyeforan Eye;1996
+62;MrHollandsOpus;Mr Hollands Opus;1995
+63;DontBeaMenacetoSouthCentralWhileDrinkingYourJuiceintheHood;Dont Bea Menaceto South Central While Drinking Your Juiceinthe Hood;1996
+64;TwoifbySea;Two Ifby Sea;1996
+65;BioDome;Bio Dome;1996
+66;LawnmowerManBeyondCyberspace;Lawnmower Man Beyond Cyberspace;1996
+67;TwoBits;Two Bits;1995
+68;FrenchTwistGazonmaudit;Gazonmaudit;1995
+69;Friday;Friday;1995
+70;FromDuskTillDawn;From Dusk Till Dawn;1996
+71;FairGame;Fair Game;1995
+72;KickingandScreaming;Kickingand Screaming;1995
+73;MisrablesLes;Misrables Les;1995
+74;BedofRoses;Bedof Roses;1996
+75;BigBully;Big Bully;1996
+76;Screamers;Screamers;1995
+77;NicoIcon;Nico Icon;1995
+78;CrossingGuardThe;Crossing Guard The;1995
+79;JurorThe;Juror The;1996
+80;WhiteBalloonTheBadkonakeSefid;Badkonakesefid;1995
+81;ThingstoDoinDenverwhenYoureDead;Thingsto Doin Denver When Youre Dead;1995
+82;AntoniasLineAntonia;Antonia;1995
+83;OnceUponaTimeWhenWeWereColored;Once Upona Time When We Were Colored;1995
+84;LastSummerintheHamptons;Last Summerinthe Hamptons;1995
+85;AngelsandInsects;Angelsand Insects;1995
+86;WhiteSquall;White Squall;1996
+87;DunstonChecksIn;Dunston Checks In;1996
+88;BlackSheep;Black Sheep;1996
+89;NickofTime;Nickof Time;1995
+90;JourneyofAugustKingThe;Journeyof August King The;1995
+92;MaryReilly;Mary Reilly;1996
+93;VampireinBrooklyn;Vampirein Brooklyn;1995
+94;BeautifulGirls;Beautiful Girls;1996
+95;BrokenArrow;Broken Arrow;1996
+96;IntheBleakMidwinter;Inthe Bleak Midwinter;1995
+97;HateHaineLa;Haine La;1995
+98;Shopping;Shopping;1994
+99;HeidiFleissHollywoodMadam;Heidi Fleiss Hollywood Madam T V;1995
+100;CityHall;City Hall;1996
+101;BottleRocket;Bottle Rocket;1996
+102;MrWrong;Mr Wrong;1996
+103;Unforgettable;Unforgettable;1996
+104;HappyGilmore;Happy Gilmore;1996
+105;BridgesofMadisonCountyThe;Bridgesof Madison County The;1995
+106;NobodyLovesMeKeinerliebtmich;Keinerliebtmich;1994
+107;MuppetTreasureIsland;Muppet Treasure Island;1996
+108;Catwalk;Catwalk;1996
+109;HeadlessBodyinToplessBar;Headless Bodyin Topless Bar;1995
+110;Braveheart;Braveheart;1995
+111;TaxiDriver;Taxi Driver;1976
+112;RumbleintheBronx;Hongfaankui;1995
+113;BeforeandAfter;Beforeand After;1996
+114;MargaretsMuseum;Margarets Museum;1995
+115;HappinessIsintheField;Bonheurestdanslepr Le;1995
+116;AnneFrankRemembered;Anne Frank Remembered T V;1995
+117;YoungPoisonersHandbookThe;Young Poisoners Handbook The;1995
+118;IfLucyFell;If Lucy Fell;1996
+119;StealBigStealLittle;Steal Big Steal Little;1995
+120;RacetheSun;Racethe Sun;1996
+121;BoysofStVincentThe;Boysof St Vincent The T V;1992
+122;Boomerang;Boomerang;1992
+123;ChungkingExpress;Chunghingsamlam;1994
+124;StarMakerTheUomodellestelleL;Uomodellestelle L;1995
+125;FlirtingWithDisaster;Flirtingwith Disaster;1996
+126;NeverEndingStoryIIIThe;Never Ending Story I I I The;1994
+127;SilenceofthePalaceTheSaimtelQusur;Samtelqusur;1994
+128;JupitersWife;Jupiters Wife;1995
+129;PieintheSky;Pieinthe Sky;1996
+130;Angela;Angela;1995
+131;FrankieStarlight;Frankie Starlight;1995
+132;Jade;Jade;1995
+133;NuebaYol;Nueba Yol;1995
+134;SonicOutlaws;Sonic Outlaws;1995
+135;DownPeriscope;Down Periscope;1996
+136;FromtheJournalsofJeanSeberg;Fromthe Journalsof Jean Seberg;1995
+137;ManoftheYear;Manofthe Year;1995
+138;NeonBibleThe;Neon Bible The;1995
+139;Target;Target;1995
+140;UpCloseandPersonal;Up Closeand Personal V;1996
+141;BirdcageThe;Birdcage The;1996
+142;ShadowsCienie;Cienie;1988
+143;Gospa;Gospa;1995
+144;BrothersMcMullenThe;Brothers Mc Mullen The;1995
+145;BadBoys;Bad Boys;1995
+146;AmazingPandaAdventureThe;Amazing Panda Adventure The;1995
+147;BasketballDiariesThe;Basketball Diaries The;1995
+148;AwfullyBigAdventureAn;Awfully Big Adventure An;1995
+149;Amateur;Amateur;1994
+150;Apollo;Apollo;1995
+151;RobRoy;Rob Roy;1995
+152;AddictionThe;Addiction The;1995
+153;BatmanForever;Batman Forever;1995
+154;Belledejour;Belledejour;1967
+155;BeyondRangoon;Beyond Rangoon;1995
+156;BlueintheFace;Blueinthe Face;1995
+157;CanadianBacon;Canadian Bacon;1995
+158;Casper;Casper;1995
+159;Clockers;Clockers;1995
+160;Congo;Congo;1995
+161;CrimsonTide;Crimson Tide;1995
+162;Crumb;Crumb;1994
+163;Desperado;Desperado;1995
+164;DevilinaBlueDress;Devilina Blue Dress;1995
+165;DieHardWithaVengeance;Die Hard Witha Vengeance;1995
+166;DoomGenerationThe;Doom Generation The;1995
+167;FeastofJuly;Feastof July;1995
+168;FirstKnight;First Knight;1995
+169;FreeWillyTheAdventureHome;Free Willy The Adventure Home;1995
+170;Hackers;Hackers;1995
+171;Jeffrey;Jeffrey;1995
+172;JohnnyMnemonic;Johnny Mnemonic;1995
+173;JudgeDredd;Judge Dredd;1995
+174;JuryDuty;Jury Duty;1995
+175;Kids;Kids;1995
+176;LivinginOblivion;Livingin Oblivion;1995
+177;LordofIllusions;Lordof Illusions;1995
+178;LoveHumanRemains;Love Human Remains;1993
+179;MadLove;Mad Love;1995
+180;Mallrats;Mallrats;1995
+181;MightyMorphinPowerRangersTheMovie;Mighty Morphin Power Rangers The Movie;1995
+182;MoonlightandValentino;Moonlightand Valentino;1995
+183;MuteWitness;Mute Witness;1994
+184;Nadja;Nadja;1994
+185;NetThe;Net The;1995
+186;NineMonths;Nine Months;1995
+187;PartyGirl;Party Girl;1995
+188;ProphecyThe;Prophecy The;1995
+189;Reckless;Reckless;1995
+190;Safe;Safe;1995
+191;ScarletLetterThe;Scarlet Letter The;1995
+192;ShowThe;Show The;1995
+193;Showgirls;Showgirls;1995
+194;Smoke;Smoke;1995
+195;SomethingtoTalkAbout;Somethingto Talk About;1995
+196;Species;Species;1995
+197;StarsFellonHenriettaThe;Stars Fellon Henrietta The;1995
+198;StrangeDays;Strange Days;1995
+199;UmbrellasofCherbourgTheParapluiesdeCherbourgLes;Parapluiesde Cherbourg Les;1964
+200;TieThatBindsThe;Tie That Binds The;1995
+201;ThreeWishes;Three Wishes;1995
+202;TotalEclipse;Total Eclipse;1995
+203;ToWongFooThanksforEverythingJulieNewmar;To Wong Foo Thanksfor Everything Julie Newmar;1995
+204;UnderSiegeDarkTerritory;Under Siege Dark Territory;1995
+205;UnstrungHeroes;Unstrung Heroes;1995
+206;Unzipped;Unzipped;1995
+207;WalkintheCloudsA;Walkinthe Clouds A;1995
+208;Waterworld;Waterworld;1995
+209;WhiteMansBurden;White Mans Burden;1995
+210;WildBill;Wild Bill;1995
+211;BrowningVersionThe;Browning Version The;1994
+212;Bushwhacked;Bushwhacked I;1995
+213;BurntBytheSunUtomlyonnyesolntsem;Utomlyonnyesolntsem;1994
+214;BeforetheRainPreddozhdot;Beforethe Rain;1994
+215;BeforeSunrise;Before Sunrise;1995
+216;BillyMadison;Billy Madison;1995
+217;BabysitterThe;Babysitter The;1995
+218;BoysontheSide;Boysonthe Side;1995
+219;CureThe;Cure The;1995
+220;CastleFreak;Castle Freak;1995
+222;CircleofFriends;Circleof Friends;1995
+223;Clerks;Clerks;1994
+224;DonJuanDeMarco;Don Juan De Marco;1995
+225;Disclosure;Disclosure;1994
+226;DreamMan;Dream Man V;1995
+227;DropZone;Drop Zone;1994
+228;DestinyTurnsontheRadio;Destiny Turnsonthe Radio;1995
+229;DeathandtheMaiden;Deathandthe Maiden;1994
+230;DoloresClaiborne;Dolores Claiborne;1995
+231;DumbDumber;Dumb Dumber;1994
+232;EatDrinkManWoman;Yinshinannu;1994
+233;Exotica;Exotica;1994
+234;ExittoEden;Exitto Eden;1994
+235;EdWood;Ed Wood;1994
+236;FrenchKiss;French Kiss;1995
+237;ForgetParis;Forget Paris;1995
+238;FarFromHomeTheAdventuresofYellowDog;Farfrom Home The Adventuresof Yellow Dog;1995
+239;GoofyMovieA;Goofy Movie A;1995
+240;Hideaway;Hideaway;1995
+241;Fluke;Fluke;1995
+242;Farinelliilcastrato;Farinelli;1994
+243;Gordy;Gordy;1995
+244;GumbyTheMovie;Gumby The Movie;1995
+245;GlassShieldThe;Glass Shield The;1994
+246;HoopDreams;Hoop Dreams;1994
+247;HeavenlyCreatures;Heavenly Creatures;1994
+248;Houseguest;Houseguest;1995
+249;ImmortalBeloved;Immortal Beloved;1994
+250;Heavyweights;Heavy Weights;1995
+251;HuntedThe;Hunted The;1995
+252;IQ;I Q;1994
+253;InterviewwiththeVampire;Interviewwiththe Vampire The Vampire Chronicles;1994
+254;JeffersoninParis;Jeffersonin Paris;1995
+255;JerkyBoysThe;Jerky Boys The;1995
+256;Junior;Junior;1994
+257;JustCause;Just Cause;1995
+258;KidinKingArthursCourtA;Kidin King Arthurs Court A;1995
+259;KissofDeath;Kissof Death I;1995
+260;StarWarsEpisodeIVANewHope;Star Wars;1977
+261;LittleWomen;Little Women;1994
+262;LittlePrincessA;Little Princess A;1995
+263;LadybirdLadybird;Ladybird Ladybird;1994
+264;EnferL;Enfer L;1994
+265;LikeWaterforChocolateComoaguaparachocolate;Comoaguaparachocolate;1992
+266;LegendsoftheFall;Legendsofthe Fall;1994
+267;MajorPayne;Major Payne;1995
+268;LittleOdessa;Little Odessa;1994
+269;MyCrazyLifeMividaloca;Mividaloca;1993
+270;LoveAffair;Love Affair;1994
+271;LosingIsaiah;Losing Isaiah;1995
+272;MadnessofKingGeorgeThe;Madnessof King George The;1994
+273;MaryShelleysFrankenstein;Frankenstein;1994
+274;ManoftheHouse;Manofthe House;1995
+275;MixedNuts;Mixed Nuts;1994
+276;MilkMoney;Milk Money;1994
+277;MiracleonthStreet;Miracleonth Street;1994
+278;MiamiRhapsody;Miami Rhapsody;1995
+279;MyFamily;My Family;1995
+280;MurderintheFirst;Murderinthe First;1995
+281;NobodysFool;Nobodys Fool;1994
+282;Nell;Nell;1994
+283;NewJerseyDrive;New Jersey Drive;1995
+284;NewYorkCop;Ny Ykunokoppu;1993
+285;BeyondBedlam;Beyond Bedlam;1993
+286;NemesisNebula;Nemesis Nebula V;1995
+287;NinaTakesaLover;Nina Takesa Lover;1994
+288;NaturalBornKillers;Natural Born Killers;1994
+289;OnlyYou;Only You;1994
+290;OnceWereWarriors;Once Were Warriors;1994
+291;PoisonIvyII;Poison Ivy I I;1996
+292;Outbreak;Outbreak;1995
+293;ProfessionalTheakaLeonTheProfessional;Lon;1994
+294;PerezFamilyThe;Perez Family The;1995
+295;PyromaniacsLoveStoryA;Pyromaniacs Love Story A;1995
+296;PulpFiction;Pulp Fiction;1994
+297;Panther;Panther;1995
+298;PushingHands;Tuishou;1992
+299;Priest;Priest;1994
+300;QuizShow;Quiz Show;1994
+301;PictureBride;Picture Bride;1994
+302;QueenMargotLaReineMargot;Reine Margot La;1994
+303;QuickandtheDeadThe;Quickandthe Dead The;1995
+304;Roommates;Roommates;1995
+305;ReadytoWearPretAPorter;Prt Porter;1994
+306;ThreeColorsRed;Troiscouleurs Rouge;1994
+307;ThreeColorsBlue;Troiscouleurs Bleu;1993
+308;ThreeColorsWhite;Trzykolory Bialy;1994
+309;RedFirecrackerGreenFirecracker;Pao Da Shuang Deng;1994
+310;RentaKid;Renta Kid T V;1995
+311;RelativeFear;Relative Fear;1994
+312;StuartSavesHisFamily;Stuart Saves His Family;1995
+313;SwanPrincessThe;Swan Princess The;1994
+314;SecretofRoanInishThe;Secretof Roan Inish The;1994
+315;SpecialistThe;Specialist The;1994
+316;Stargate;Stargate;1994
+317;SantaClauseThe;Santa Clause The;1994
+318;ShawshankRedemptionThe;Shawshank Redemption The;1994
+319;ShallowGrave;Shallow Grave;1994
+320;Suture;Suture;1993
+321;StrawberryandChocolateFresaychocolate;Fresaychocolate;1994
+322;SwimmingwithSharks;Swimmingwith Sharks;1994
+324;SumofUsThe;Sumof Us The;1994
+325;NationalLampoonsSeniorTrip;Senior Trip;1995
+326;ToLiveHuozhe;Huozhe;1994
+327;TankGirl;Tank Girl;1995
+328;TalesFromtheCryptPresentsDemonKnight;Demon Knight;1995
+329;StarTrekGenerations;Star Trek Generations;1994
+330;TalesfromtheHood;Talesfromthe Hood;1995
+331;TomViv;Tom Viv;1994
+332;VillageoftheDamned;Villageofthe Damned;1995
+333;TommyBoy;Tommy Boy;1995
+334;VanyaonndStreet;Vanyaonnd Street;1994
+335;UnderneathThe;Underneath;1995
+336;WalkingDeadThe;Walking Dead The;1995
+337;WhatsEatingGilbertGrape;Whats Eating Gilbert Grape;1993
+338;Virtuosity;Virtuosity;1995
+339;WhileYouWereSleeping;While You Were Sleeping;1995
+340;WarThe;War The;1994
+341;DoubleHappiness;Double Happiness;1994
+342;MurielsWedding;Muriels Wedding;1994
+343;BabySittersClubThe;Baby Sitters Club The;1995
+344;AceVenturaPetDetective;Ace Ventura Pet Detective;1994
+345;AdventuresofPriscillaQueenoftheDesertThe;Adventuresof Priscilla Queenofthe Desert The;1994
+346;Backbeat;Backbeat;1994
+347;BitterMoon;Bitter Moon;1992
+348;BulletsOverBroadway;Bullets Over Broadway;1994
+349;ClearandPresentDanger;Clearand Present Danger;1994
+350;ClientThe;Client The;1994
+351;CorrinaCorrina;Corrina Corrina;1994
+352;Crooklyn;Crooklyn;1994
+353;CrowThe;Crow The;1994
+354;Cobb;Cobb;1994
+355;FlintstonesThe;Flintstones The;1994
+356;ForrestGump;Forrest Gump;1994
+357;FourWeddingsandaFuneral;Four Weddingsanda Funeral;1994
+358;HigherLearning;Higher Learning;1995
+359;ILikeItLikeThat;I Like It Like That;1994
+360;ILoveTrouble;I Love Trouble;1994
+361;ItCouldHappentoYou;It Could Happento You;1994
+362;JungleBookThe;Jungle Book The;1994
+363;WonderfulHorribleLifeofLeniRiefenstahlTheDieMachtderBilder;Machtder Bilder Leni Riefenstahl Die;1993
+364;LionKingThe;Lion King The;1994
+365;LittleBuddha;Little Buddha;1993
+366;WesCravensNewNightmare;New Nightmare;1994
+367;MaskThe;Mask The;1994
+368;Maverick;Maverick;1994
+369;MrsParkerandtheViciousCircle;Mrs Parkerandthe Vicious Circle;1994
+370;NakedGunTheFinalInsult;Naked Gun The Final Insult;1994
+371;PaperThe;Paper The;1994
+372;RealityBites;Reality Bites;1994
+373;RedRockWest;Red Rock West;1992
+374;RichieRich;Rihie Rih;1994
+375;SafePassage;Safe Passage;1994
+376;RiverWildThe;River Wild The;1994
+377;Speed;Speed I;1994
+378;Speechless;Speechless;1994
+379;Timecop;Timecop;1994
+380;TrueLies;True Lies;1994
+381;WhenaManLovesaWoman;Whena Man Lovesa Woman;1994
+382;Wolf;Wolf;1994
+383;WyattEarp;Wyatt Earp;1994
+384;BadCompany;Bad Company I;1995
+385;ManofNoImportanceA;Manof No Importance A;1994
+386;SFW;S F W;1994
+387;LowDownDirtyShameA;Low Down Dirty Shame A;1994
+388;BoysLife;Boys Life;1995
+389;ColonelChabertLe;Colonel Chabert Le;1994
+390;FasterPussycatKillKill;Faster Pussycat Kill Kill;1965
+391;JasonsLyric;Jasons Lyric;1994
+392;SecretAdventuresofTomThumbThe;Secret Adventuresof Tom Thumb The;1993
+393;StreetFighter;Street Fighter;1994
+394;Coldblooded;Coldblooded;1995
+395;DesertWinds;Desert Winds;1995
+396;FallTime;Fall Time;1995
+397;FearThe;Fear The;1995
+398;FrankandOllie;Frankand Ollie;1995
+399;GirlintheCadillac;Girlinthe Cadillac;1995
+400;Homage;Homage;1995
+401;Mirage;Mirage;1995
+402;OpenSeason;Open Season;1995
+403;TwoCrimes;Doscrmenes;1995
+404;BrotherMinisterTheAssassinationofMalcolmX;Brother Minister The Assassinationof Malcolm X;1994
+405;HighlanderIIITheSorcerer;Highlander I I I The Sorcerer;1994
+406;FederalHill;Federal Hill;1994
+407;IntheMouthofMadness;Inthe Mouthof Madness;1995
+408;Seconds;Seconds;1994
+409;AbovetheRim;Abovethe Rim;1994
+410;AddamsFamilyValues;Addams Family Values;1993
+411;YouSoCrazy;You So Crazy;1994
+412;AgeofInnocenceThe;Ageof Innocence The;1993
+413;Airheads;Airheads;1994
+414;AirUpThereThe;Air Up There The;1994
+415;AnotherStakeout;Another Stakeout;1993
+416;BadGirls;Bad Girls I;1994
+417;Barcelona;Barcelona;1994
+418;BeingHuman;Being Human;1993
+419;BeverlyHillbilliesThe;Beverly Hillbillies The;1993
+420;BeverlyHillsCopIII;Beverly Hills Cop I I I;1994
+421;BlackBeauty;Black Beauty;1994
+422;Blink;Blink;1994
+423;BlownAway;Blown Away;1994
+424;BlueChips;Blue Chips;1994
+425;BlueSky;Blue Sky;1994
+426;BodySnatchers;Body Snatchers;1993
+427;BoxingHelena;Boxing Helena;1993
+428;BronxTaleA;Bronx Tale A;1993
+429;CabinBoy;Cabin Boy;1994
+430;CalendarGirl;Calendar Girl;1993
+431;CarlitosWay;Carlitos Way;1993
+432;CitySlickersIITheLegendofCurlysGold;City Slickers I I The Legendof Curlys Gold;1994
+433;CleanSlate;Clean Slate;1994
+434;Cliffhanger;Cliffhanger;1993
+435;Coneheads;Coneheads;1993
+436;ColorofNight;Colorof Night;1994
+437;CopsandRobbersons;Copsand Robbersons;1994
+438;CowboyWayThe;Cowboy Way The;1994
+439;DangerousGame;Dangerous Game;1993
+440;Dave;Dave;1993
+441;DazedandConfused;Dazedand Confused;1993
+442;DemolitionMan;Demolition Man;1993
+443;EndlessSummerThe;Endless Summer The;1994
+444;EvenCowgirlsGettheBlues;Even Cowgirls Getthe Blues;1993
+445;FatalInstinct;Fatal Instinct;1993
+446;FarewellMyConcubine;Bawangbieji;1993
+447;FavorThe;Favor The;1994
+448;Fearless;Fearless;1993
+449;FearofaBlackHat;Fearofa Black Hat;1994
+450;WithHonors;With Honors;1994
+451;FleshandBone;Fleshand Bone;1993
+452;WidowsPeak;Widows Peak;1994
+453;ForLoveorMoney;For Loveor Money;1993
+454;FirmThe;Firm The;1993
+455;FreeWilly;Free Willy;1993
+456;Fresh;Fresh;1994
+457;FugitiveThe;Fugitive The;1993
+458;GeronimoAnAmericanLegend;Geronimo An American Legend;1993
+459;GetawayThe;Getaway The;1994
+460;GettingEvenwithDad;Getting Evenwith Dad;1994
+461;GoFish;Go Fish;1994
+462;GoodManinAfricaA;Good Manin Africa A;1994
+463;GuiltyasSin;Guiltyas Sin;1993
+464;HardTarget;Hard Target;1993
+465;HeavenEarth;Heaven Earth;1993
+466;HotShotsPartDeux;Hot Shots Part Deux;1993
+467;LiveNudeGirls;Live Nude Girls;1995
+468;EnglishmanWhoWentUpaHillButCameDownaMountainThe;Englishman Who Went Upa Hill But Came Downa Mountain The;1995
+469;HouseoftheSpiritsThe;Houseofthe Spirits The;1993
+470;HouseParty;House Party;1994
+471;HudsuckerProxyThe;Hudsucker Proxy The;1994
+472;IllDoAnything;Ill Do Anything;1994
+473;IntheArmyNow;Inthe Army Now;1994
+474;IntheLineofFire;Inthe Lineof Fire;1993
+475;IntheNameoftheFather;Inthe Nameofthe Father;1993
+476;InkwellThe;Inkwell The;1994
+477;WhatsLoveGottoDowithIt;Whats Love Gotto Dowith It;1993
+478;JimmyHollywood;Jimmy Hollywood;1994
+479;JudgmentNight;Judgment Night;1993
+480;JurassicPark;Jurassic Park;1993
+481;Kalifornia;Kalifornia;1993
+482;KillingZoe;Killing Zoe;1994
+483;KingoftheHill;Kingofthe Hill;1993
+484;Lassie;Lassie;1994
+485;LastActionHero;Last Action Hero;1993
+486;LifewithMikey;Lifewith Mikey;1993
+487;LightningJack;Lightning Jack;1994
+488;MButterfly;M Butterfly;1993
+489;MadeinAmerica;Madein America;1993
+490;Malice;Malice;1993
+491;ManWithoutaFaceThe;Man Withouta Face The;1993
+492;ManhattanMurderMystery;Manhattan Murder Mystery;1993
+493;MenaceIISociety;Menace I I Society;1993
+494;ExecutiveDecision;Executive Decision;1996
+495;IntheRealmoftheSensesAinocorrida;Ainocorrida;1976
+496;WhatHappenedWas;What Happened Was;1994
+497;MuchAdoAboutNothing;Much Ado About Nothing;1993
+498;MrJones;Mr Jones;1993
+499;MrWonderful;Mr Wonderful;1993
+500;MrsDoubtfire;Mrs Doubtfire;1993
+501;Naked;Naked;1993
+502;NextKarateKidThe;Next Karate Kid The;1994
+503;NewAgeThe;New Age The;1994
+504;NoEscape;No Escape;1994
+505;North;North;1994
+506;Orlando;Orlando;1992
+507;PerfectWorldA;Perfect World A;1993
+508;Philadelphia;Philadelphia;1993
+509;PianoThe;Piano The;1993
+510;PoeticJustice;Poetic Justice;1993
+511;ProgramThe;Program The;1993
+512;RobertAHeinleinsThePuppetMasters;Puppet Masters The;1994
+513;RadiolandMurders;Radioland Murders;1994
+514;RefThe;Ref The;1994
+515;RemainsoftheDayThe;Remainsofthe Day The;1993
+516;RenaissanceMan;Renaissance Man;1994
+517;RisingSun;Rising Sun;1993
+518;RoadtoWellvilleThe;Roadto Wellville The;1994
+519;Robocop;Robo Cop;1993
+520;RobinHoodMeninTights;Robin Hood Menin Tights;1993
+521;RomeoIsBleeding;Romeo Is Bleeding;1993
+522;RomperStomper;Romper Stomper;1992
+523;RubyinParadise;Rubyin Paradise;1993
+524;Rudy;Rudy;1993
+525;SaintofFortWashingtonThe;Saintof Fort Washington The;1993
+526;SavageNightsNuitsfauvesLes;Nuitsfauves Les;1992
+527;SchindlersList;Schindlers List;1993
+528;ScoutThe;Scout The;1994
+529;SearchingforBobbyFischer;Searchingfor Bobby Fischer;1993
+530;SecondBest;Second Best;1994
+531;SecretGardenThe;Secret Garden The;1993
+532;SerialMom;Serial Mom;1994
+533;ShadowThe;Shadow The;1994
+534;Shadowlands;Shadowlands;1993
+535;ShortCuts;Short Cuts;1993
+536;SimpleTwistofFateA;Simple Twistof Fate A;1994
+537;Sirens;Sirens;1994
+538;SixDegreesofSeparation;Six Degreesof Separation;1993
+539;SleeplessinSeattle;Sleeplessin Seattle;1993
+540;Sliver;Sliver;1993
+541;BladeRunner;Blade Runner;1982
+542;SoninLaw;Sonin Law;1993
+543;SoIMarriedanAxeMurderer;So I Marriedan Axe Murderer;1993
+544;StrikingDistance;Striking Distance;1993
+545;Harlem;Sugar Hill;1994
+546;SuperMarioBros;Super Mario Bros;1993
+547;SurvivingtheGame;Survivingthe Game;1994
+548;TerminalVelocity;Terminal Velocity;1994
+549;ThirtyTwoShortFilmsAboutGlennGould;Thirty Two Short Films About Glenn Gould;1993
+550;Threesome;Threesome;1994
+551;NightmareBeforeChristmasThe;Nightmare Before Christmas The;1993
+552;ThreeMusketeersThe;Three Musketeers The;1993
+553;Tombstone;Tombstone;1993
+554;TrialbyJury;Trialby Jury;1994
+555;TrueRomance;True Romance;1993
+556;WarRoomThe;War Room The;1993
+557;MammaRoma;Mamma Roma;1962
+558;PagemasterThe;Pagemaster The;1994
+559;ParisFrance;Paris France;1993
+560;BeansofEgyptMaineThe;Beansof Egypt Maine The;1994
+561;KillerBulletproofHeart;Killer;1994
+562;WelcometotheDollhouse;Welcometothe Dollhouse;1995
+563;Germinal;Germinal;1993
+564;Chasers;Chasers;1994
+565;Cronos;Cronos;1993
+566;NakedinNewYork;Nakedin New York;1993
+567;Kika;Kika;1993
+568;BhajiontheBeach;Bhajionthe Beach;1993
+569;LittleBigLeague;Little Big League;1994
+570;SlingshotTheKdisbellan;Kdisbellan;1993
+571;WeddingGiftThe;Wide Eyedand Legless T V;1993
+572;ForeignStudent;Foreign Student;1994
+573;CiaoProfessoreIosperiamochemelacavo;Iosperiamochemelacavo;1992
+574;SpankingtheMonkey;Spankingthe Monkey;1994
+575;LittleRascalsThe;Little Rascals The;1994
+576;Fausto;Fausto;1993
+577;Andre;Andre;1994
+578;HourofthePigThe;Hourofthe Pig The;1993
+579;ScortaLa;Scorta La;1993
+580;PrincessCaraboo;Princess Caraboo;1994
+581;CelluloidClosetThe;Celluloid Closet The;1995
+582;MetisseCafauLait;Mtisse;1993
+583;DearDiaryCaroDiario;Carodiario;1994
+584;IDontWanttoTalkAboutItDeesonosehabla;Deesonosehabla;1993
+585;BradyBunchMovieThe;Brady Bunch Movie The;1995
+586;HomeAlone;Home Alone;1990
+587;Ghost;Ghost;1990
+588;Aladdin;Aladdin;1992
+589;TerminatorJudgmentDay;Terminator Judgment Day;1991
+590;DanceswithWolves;Danceswith Wolves;1990
+591;ToughandDeadly;Toughand Deadly V;1995
+592;Batman;Batman;1989
+593;SilenceoftheLambsThe;Silenceofthe Lambs The;1991
+594;SnowWhiteandtheSevenDwarfs;Snow Whiteandthe Seven Dwarfs;1937
+595;BeautyandtheBeast;Beautyandthe Beast;1991
+596;Pinocchio;Pinocchio;1940
+597;PrettyWoman;Pretty Woman;1990
+598;WindowtoParis;Oknov Parizh;1994
+599;WildBunchThe;Wild Bunch The;1969
+600;Loveanda;Loveanda;1994
+601;WoodenMansBrideTheWuKui;Wukui;1994
+602;GreatDayinHarlemA;Great Dayin Harlem A;1994
+603;ByeByeLove;Bye Bye Love;1995
+604;Criminals;Criminals;1996
+605;OneFineDay;One Fine Day;1996
+606;CandymanFarewelltotheFlesh;Candyman Farewelltothe Flesh;1995
+607;Century;Century;1993
+608;Fargo;Fargo;1996
+609;HomewardBoundIILostinSanFrancisco;Homeward Bound I I Lostin San Francisco;1996
+610;HeavyMetal;Heavy Metal;1981
+611;HellraiserBloodline;Hellraiser Bloodline;1996
+612;PallbearerThe;Pallbearer The;1996
+613;JaneEyre;Jane Eyre;1996
+614;Loaded;Loaded;1994
+615;BreadandChocolatePaneecioccolata;Paneecioccolata;1973
+616;AristocatsThe;Aristo Cats The;1970
+617;FlowerofMySecretTheLaFlordeMiSecreto;Flordemisecreto La;1995
+618;TwoMuch;Two Much;1995
+619;Ed;Ed;1996
+620;ScreamofStoneSchreiausStein;Cerro Torre Schreiaus Stein;1991
+621;MyFavoriteSeason;Masaisonprfre;1993
+623;ModernAffairA;Modern Affair A;1995
+624;ConditionRed;Condition Red;1995
+625;AsfourStah;Asfour Stah;1990
+626;ThinLineBetweenLoveandHateA;Thin Line Between Loveand Hate A;1996
+627;LastSupperThe;Last Supper The;1995
+628;PrimalFear;Primal Fear;1996
+629;Rude;Rude;1995
+630;CarriedAway;Carried Away;1996
+631;AllDogsGotoHeaven;All Dogs Goto Heaven;1996
+632;LandandFreedomTierraylibertad;Landand Freedom;1995
+633;DeniseCallsUp;Denise Calls Up;1995
+634;TheodoreRex;Theodore Rex V;1995
+635;FamilyThingA;Family Thing A;1996
+636;Frisk;Frisk;1995
+637;SgtBilko;Sgt Bilko;1996
+638;JackandSarah;Jack Sarah;1995
+639;Girl;Girl;1996
+640;Diabolique;Diabolique;1996
+641;LittleIndianBigCityUnindiendanslaville;Unindiendanslaville;1994
+642;Roula;Roula;1995
+643;PeanutsDieBankzahltalles;Peanuts Die Bankzahltalles;1996
+644;HappyWeekend;Happy Weekend;1996
+645;NellyMonsieurArnaud;Nelly Monsieur Arnaud;1995
+647;CourageUnderFire;Courage Under Fire;1996
+648;MissionImpossible;Mission Impossible;1996
+649;ColdFeverkldumklaka;Cold Fever;1995
+650;MollFlanders;Moll Flanders;1996
+651;SuperweibDas;Superweib Das;1996
+652;;;1995
+653;Dragonheart;Dragonheart;1996
+654;Undkeinerweintmirnach;Undkeinerweintmirnach;1996
+655;MuttersCourage;Mutters Courage;1995
+656;Eddie;Eddie;1996
+657;YankeeZulu;Yankee Zulu;1993
+658;BillysHoliday;Billys Holiday;1995
+659;PurpleNoon;Pleinsoleil;1960
+660;August;August;1996
+661;JamesandtheGiantPeach;Jamesandthe Giant Peach;1996
+662;Fear;Fear;1996
+663;KidsintheHallBrainCandy;Kidsinthe Hall Brain Candy;1996
+664;Faithful;Faithful;1996
+665;Underground;Underground;1995
+666;AllThingsFair;Lustochfgringstor;1995
+667;Bloodsport;Bloodsport;1996
+668;PatherPanchali;Pather Panchali;1955
+669;Aparajito;Aparajito;1957
+670;WorldofApuTheApurSansar;Apur Sansar;1959
+671;MysteryScienceTheaterTheMovie;Mystery Science Theater The Movie;1996
+672;Tarantella;Tarantella;1996
+673;SpaceJam;Space Jam;1996
+674;Barbarella;Barbarella;1968
+675;HostileIntentions;Hostile Intentions;1994
+676;TheyBite;They Bite;1996
+678;SomeFolksCallItaSlingBlade;Some Folks Call Ita Sling Blade;1994
+679;RunoftheCountryThe;Runofthe Country The;1995
+680;Alphaville;Alphavilleunetrangeaventurede Lemmy Caution;1965
+681;CleanSlateCoupdeTorchon;Coupdetorchon;1981
+682;TigreroAFilmThatWasNeverMade;Tigrero A Film That Was Never Made;1994
+683;EyeofVichyTheOeildeVichyL;Oeilde Vichy L;1993
+684;Windows;Windows;1980
+685;ItsMyParty;Its My Party;1996
+687;CountryLife;Country Life;1994
+688;OperationDumboDrop;Operation Dumbo Drop;1995
+690;PromiseTheVersprechenDas;Promise The;1993
+691;MrsWinterbourne;Mrs Winterbourne;1996
+692;Solo;Solo;1996
+693;UndertheDominTreeEtzHadomimTafus;Etz Hadomim Tafus;1994
+694;SubstituteThe;Substitute The;1996
+695;TrueCrime;True Crime;1996
+696;ButterflyKiss;Butterfly Kiss;1995
+697;FeelingMinnesota;Feeling Minnesota;1996
+698;DeltaofVenus;Deltaof Venus;1995
+699;ToCrosstheRubicon;To Crossthe Rubicon;1991
+700;Angus;Angus;1995
+701;Daens;Daens;1993
+702;Faces;Faces I;1968
+703;Boys;Boys;1996
+704;QuestThe;Quest The;1996
+705;Cosi;Cosi;1996
+706;SunsetPark;Sunset Park;1996
+707;MulhollandFalls;Mulholland Falls;1996
+708;TruthAboutCatsDogsThe;Truth About Cats Dogs The;1996
+709;OliverCompany;Oliver Company;1988
+710;CelticPride;Celtic Pride;1996
+711;Flipper;Flipper;1996
+712;Captives;Captives;1994
+713;OfLoveandShadows;Of Loveand Shadows;1994
+714;DeadMan;Dead Man;1995
+715;HorsemanontheRoofTheHussardsurletoitLe;Hussardsurletoit Le;1995
+716;SwitchbladeSisters;Switchblade Sisters;1975
+717;MouthtoMouthBocaaboca;Bocaaboca;1995
+718;VisitorsTheLesVisiteurs;Visiteurs Les;1993
+719;Multiplicity;Multiplicity;1996
+720;WallaceGromitTheBestofAardmanAnimation;Wallace Gromit The Bestof Aardman Animation V;1996
+721;HalfmoonPaulBowlesHalbmond;Paul Bowles Halbmond;1995
+722;HauntedWorldofEdwardDWoodJrThe;Haunted Worldof Edward D Wood Jr The;1996
+723;TwoFriends;Two Friends T V;1986
+724;CraftThe;Craft The;1996
+725;GreatWhiteHypeThe;Great White Hype The;1996
+726;LastDance;Last Dance;1996
+727;WarStories;War Stories;1995
+728;ColdComfortFarm;Cold Comfort Farm T V;1995
+729;InstituteBenjamentaorThisDreamPeopleCallHumanLife;Institute Benjamentaor This Dream People Call Human Life;1995
+730;LowLifeThe;Low Life The;1995
+731;HeavensPrisoners;Heavens Prisoners;1996
+732;OriginalGangstas;Original Gangstas;1996
+733;RockThe;Rock The;1996
+734;GettingAwayWithMurder;Getting Awaywith Murder;1996
+735;CemeteryManDellamorteDellamore;Dellamorte Dellamore;1994
+736;Twister;Twister;1996
+737;BarbWire;Barb Wire;1996
+738;GarcuLe;Garu Le;1995
+739;Honigmond;Honigmond;1996
+741;GhostintheShellKokakukidotai;Kkakukidtai;1995
+742;Thinner;Thinner;1996
+743;SpyHard;Spy Hard;1996
+744;BrothersinTrouble;Brothersin Trouble;1995
+745;CloseShaveA;Wallace Gromitin A Close Shave;1995
+746;ForceofEvil;Forceof Evil;1948
+747;StupidsThe;Stupids The;1996
+748;ArrivalThe;Arrival The;1996
+749;ManfromDownUnderThe;Manfrom Down Under The;1943
+750;DrStrangeloveorHowILearnedtoStopWorryingandLovetheBomb;Dr Strangeloveor How I Learnedto Stop Worryingand Lovethe Bomb;1964
+751;Careful;Careful;1992
+752;VermontIsForLovers;Vermont Isfor Lovers;1992
+753;MonthbytheLakeA;Monthbythe Lake A;1995
+754;GoldDiggersTheSecretofBearMountain;Gold Diggers The Secretof Bear Mountain;1995
+755;Kim;Kim;1950
+756;CarmenMirandaBananasIsMyBusiness;Carmen Miranda Bananas Is My Business;1995
+757;AshesofTime;Dungchesaiduk;1994
+758;JarTheKhomreh;Khomreh;1992
+759;MayaLinAStrongClearVision;Maya Lin A Strong Clear Vision;1994
+760;Stalingrad;Stalingrad;1993
+761;PhantomThe;Phantom The;1996
+762;Striptease;Striptease;1996
+763;LastoftheHighKingsTheakaSummerFling;Lastofthe High Kings The;1996
+764;Heavy;Heavy;1995
+765;Jack;Jack;1996
+766;IShotAndyWarhol;I Shot Andy Warhol;1996
+767;GrassHarpThe;Grass Harp The;1995
+768;SomeoneElsesAmerica;Someone Elses America;1995
+769;MarleneDietrichShadowandLight;Marlene Dietrich Shadowand Light T V;1996
+770;CostaBrava;Costa Brava;1946
+771;VieestbelleLaLifeisRosey;Vieestbelle La;1987
+772;QuartierMozart;Quartier Mozart;1992
+773;ToukiBoukiJourneyoftheHyena;Touki Bouki;1973
+774;WendKuuniGodsGift;Wend Kuuni;1982
+775;SpiritsoftheDeadTrePassinelDelirio;Histoiresextraordinaires;1968
+776;Babyfever;Babyfever;1994
+777;PharaohsArmy;Pharaohs Army;1995
+778;Trainspotting;Trainspotting;1996
+779;TilThereWasYou;Til There Was You;1997
+780;IndependenceDayID;Independence Day;1996
+781;StealingBeauty;Stealing Beauty;1996
+782;FanThe;Fan The;1996
+783;HunchbackofNotreDameThe;Hunchbackof Notre Dame The;1996
+784;CableGuyThe;Cable Guy The;1996
+785;Kingpin;Kingpin;1996
+786;Eraser;Eraser;1996
+787;GateofHeavenlyPeaceThe;Gateof Heavenly Peace The;1995
+788;NuttyProfessorThe;Nutty Professor The;1996
+789;IWorstofAllYolapeordetodas;Yolapeordetodas;1990
+790;AnUnforgettableSummer;Untinoubliable;1994
+791;LastKlezmerLeopoldKozlowskiHisLifeandMusicThe;Last Klezmer Leopold Kozlowski His Lifeand Music The;1994
+792;HungarianFairyTaleA;Holvoltholnemvolt;1987
+793;MyLifeandTimesWithAntoninArtaudEncompagniedAntoninArtaud;Encompagnied Antonin Artaud;1993
+794;MidnightDancersSibak;Sibak;1994
+795;SomebodytoLove;Somebodyto Love;1994
+796;VeryNaturalThingA;Very Natural Thing A;1974
+797;OldLadyWhoWalkedintheSeaTheVieillequimarchaitdanslamerLa;Vieillequimarchaitdanslamer La;1991
+798;Daylight;Daylight;1996
+799;FrightenersThe;Frighteners The;1996
+800;LoneStar;Lone Star;1996
+801;HarriettheSpy;Harrietthe Spy;1996
+802;Phenomenon;Phenomenon;1996
+803;WalkingandTalking;Walkingand Talking;1996
+804;ShestheOne;Shesthe One;1996
+805;TimetoKillA;Timeto Kill A;1996
+806;AmericanBuffalo;American Buffalo;1996
+807;RendezvousinParisRendezvousdeParisLes;Rendezvousde Paris Les;1995
+808;Alaska;Alaska;1996
+809;Fled;Fled;1996
+810;Kazaam;Kazaam;1996
+811;BewegteMannDer;Bewegte Mann Der;1994
+812;MagicHunter;Bvsvadsz;1994
+813;LargerThanLife;Larger Than Life;1996
+814;BoyCalledHateA;Boy Called Hate A;1995
+815;Power;Power;1996
+816;TwoDeaths;Two Deaths;1995
+818;VeryBradySequelA;Very Brady Sequel A;1996
+819;StefanoQuantestorie;Stefano Quantestorie;1993
+820;DeathintheGardenMortencejardinLa;Mortencejardin La;1956
+821;CrudeOasisThe;Crude Oasis The;1995
+822;HeddWyn;Hedd Wyn;1992
+823;CollectionneuseLa;Collectionneuse La;1967
+824;KasparHauser;Kaspar Hauser;1993
+825;EchteKerle;Echte Kerle;1996
+826;Diebinnen;Diebinnen;1996
+827;ConventTheConventoO;Convento O;1995
+828;AdventuresofPinocchioThe;Adventuresof Pinocchio The;1996
+829;JoesApartment;Joes Apartment;1996
+830;FirstWivesClubThe;First Wives Club The;1996
+831;Stonewall;Stonewall;1995
+832;Ransom;Ransom;1996
+833;HighSchoolHigh;High School High;1996
+834;PhatBeach;Phat Beach;1996
+835;Foxfire;Foxfire;1996
+836;ChainReaction;Chain Reaction;1996
+837;Matilda;Matilda;1996
+838;Emma;Emma;1996
+839;CrowCityofAngelsThe;Crow Cityof Angels The;1996
+840;HouseArrest;House Arrest;1996
+841;EyesWithoutaFace;Yeuxsansvisage Les;1960
+842;TalesfromtheCryptPresentsBordelloofBlood;Bordelloof Blood;1996
+843;LottoLand;Lotto Land;1995
+844;StoryofXinghuaThe;Xinghuasanyuetian;1994
+845;DaytheSunTurnedColdTheTianguoniezi;Tianguoniezi;1994
+846;Flirt;Flirt;1995
+847;BigSqueezeThe;Big Squeeze The;1996
+848;SpitfireGrillThe;Spitfire Grill The;1996
+849;EscapefromLA;Escapefrom L A;1996
+850;Cyclo;Xichlo;1995
+851;Basquiat;Basquiat;1996
+852;TinCup;Tin Cup;1996
+853;Dingo;Dingo;1991
+854;BalladofNarayamaTheNarayamaBushiko;Narayamabushiko;1958
+855;EveryOtherWeekend;Unweekendsurdeux;1990
+856;Millebolleblu;Millebolleblu;1993
+857;CrowsandSparrows;Wuyayumaque;1949
+858;GodfatherThe;Godfather The;1972
+859;HippieRevolutionThe;Hippie Revolution The;1996
+861;Supercop;Jingchagushi I I I Chaojijingcha;1992
+862;MannyLo;Manny Lo;1996
+863;CelestialClockwork;Cortzar;1994
+864;WifeThe;Wife The;1995
+865;SmallFaces;Small Faces;1996
+866;Bound;Bound;1996
+867;Carpool;Carpool;1996
+868;DeathinBrunswick;Deathin Brunswick;1991
+869;KansasCity;Kansas City;1996
+870;GoneFishin;Gone Fishin;1997
+871;LoversKnot;Lovers Knot;1996
+872;Aiqingwansui;Aiqingwansui;1994
+873;ShadowofAngelsSchattenderEngel;Schattender Engel;1976
+874;KillerAJournalofMurder;Killer A Journalof Murder;1996
+875;NothingtoLose;Nothingto Lose;1994
+876;PoliceStoryProjectSChaojijihua;Chaojijihua;1993
+877;GirlsTown;Girls Town;1996
+878;ByeBye;Bye Bye;1995
+879;RelicThe;Relic The;1997
+880;IslandofDrMoreauThe;Islandof Dr Moreau The;1996
+881;FirstKid;First Kid;1996
+882;TriggerEffectThe;Trigger Effect The;1996
+884;SweetNothing;Sweet Nothing;1996
+885;Bogus;Bogus;1996
+886;Bulletproof;Bulletproof;1996
+887;TalkofAngels;Talkof Angels;1998
+888;LandBeforeTimeIIITheTimeoftheGreatGiving;Land Before Time I I I The Timeofthe Great Giving The V;1995
+889;;;1994
+890;BatonRouge;Btonrouge;1988
+891;HalloweenTheCurseofMichaelMyers;Halloween The Curseof Michael Myers;1995
+892;TwelfthNight;Twelfth Night Or What You Will;1996
+893;MotherNight;Mother Night;1996
+894;Liebelei;Liebelei;1933
+895;VeniceVenice;Venice Venice;1992
+896;WildReeds;Roseauxsauvages Les;1994
+897;ForWhomtheBellTolls;For Whomthe Bell Tolls;1943
+898;PhiladelphiaStoryThe;Philadelphia Story The;1940
+899;SinginintheRain;Singininthe Rain;1952
+900;AmericaninParisAn;Americanin Paris An;1951
+901;FunnyFace;Funny Face;1957
+902;BreakfastatTiffanys;Breakfastat Tiffanys;1961
+903;Vertigo;Vertigo;1958
+904;RearWindow;Rear Window;1954
+905;ItHappenedOneNight;It Happened One Night;1934
+906;Gaslight;Gaslight;1944
+907;GayDivorceeThe;Gay Divorcee The;1934
+908;NorthbyNorthwest;Northby Northwest;1959
+909;ApartmentThe;Apartment The;1960
+910;SomeLikeItHot;Some Like It Hot;1959
+911;Charade;Charade;1963
+912;Casablanca;Casablanca;1942
+913;MalteseFalconThe;Maltese Falcon The;1941
+914;MyFairLady;My Fair Lady;1964
+915;Sabrina;Sabrina;1954
+916;RomanHoliday;Roman Holiday;1953
+917;LittlePrincessThe;Little Princess The;1939
+918;MeetMeinStLouis;Meet Mein St Louis;1944
+919;WizardofOzThe;Wizardof Oz The;1939
+920;GonewiththeWind;Gonewiththe Wind;1939
+921;MyFavoriteYear;My Favorite Year;1982
+922;SunsetBlvdakaSunsetBoulevard;Sunset Blvd;1950
+923;CitizenKane;Citizen Kane;1941
+924;ASpaceOdyssey;A Space Odyssey;1968
+925;GoldenEarrings;Golden Earrings;1947
+926;AllAboutEve;All About Eve;1950
+927;WomenThe;Women The;1939
+928;Rebecca;Rebecca;1940
+929;ForeignCorrespondent;Foreign Correspondent;1940
+930;Notorious;Notorious;1946
+931;Spellbound;Spellbound;1945
+932;AffairtoRememberAn;Affairto Remember An;1957
+933;ToCatchaThief;To Catcha Thief;1955
+934;FatheroftheBride;Fatherofthe Bride;1950
+935;BandWagonThe;Band Wagon The;1953
+936;Ninotchka;Ninotchka;1939
+937;LoveintheAfternoon;Loveinthe Afternoon;1957
+938;Gigi;Gigi;1958
+939;ReluctantDebutanteThe;Reluctant Debutante The;1958
+940;AdventuresofRobinHoodThe;Adventuresof Robin Hood The;1938
+941;MarkofZorroThe;Markof Zorro The;1940
+942;Laura;Laura;1944
+943;GhostandMrsMuirThe;Ghostand Mrs Muir The;1947
+944;LostHorizon;Lost Horizon;1937
+945;TopHat;Top Hat;1935
+946;ToBeorNottoBe;To Beor Notto Be;1942
+947;MyManGodfrey;My Man Godfrey;1936
+948;Giant;Giant;1956
+949;EastofEden;Eastof Eden;1955
+950;ThinManThe;Thin Man The;1934
+951;HisGirlFriday;His Girl Friday;1940
+952;AroundtheWorldinDays;Aroundthe Worldin Eighty Days;1956
+953;ItsaWonderfulLife;Itsa Wonderful Life;1946
+954;MrSmithGoestoWashington;Mr Smith Goesto Washington;1939
+955;BringingUpBaby;Bringing Up Baby;1938
+956;PennySerenade;Penny Serenade;1941
+957;ScarletLetterThe;Scarlet Letter The;1926
+958;LadyofBurlesque;Ladyof Burlesque;1943
+959;OfHumanBondage;Of Human Bondage;1934
+960;AngelonMyShoulder;Angelon My Shoulder;1946
+961;LittleLordFauntleroy;Little Lord Fauntleroy;1936
+962;TheyMadeMeaCriminal;They Made Mea Criminal;1939
+963;InspectorGeneralThe;Inspector General The;1949
+964;AngelandtheBadman;Angelandthe Badman;1947
+965;StepsThe;Steps The;1935
+966;WalkintheSunA;Walkinthe Sun A;1945
+967;OutlawThe;Outlaw The;1943
+968;NightoftheLivingDead;Nightofthe Living Dead;1968
+969;AfricanQueenThe;African Queen The;1951
+970;BeattheDevil;Beatthe Devil;1953
+971;CatonaHotTinRoof;Catona Hot Tin Roof;1958
+972;LastTimeISawParisThe;Last Time I Saw Paris The;1954
+973;MeetJohnDoe;Meet John Doe;1941
+974;Algiers;Algiers;1938
+975;SomethingtoSingAbout;Somethingto Sing About;1937
+976;FarewelltoArmsA;Farewellto Arms A;1932
+977;MoonlightMurder;Moonlight Murder;1936
+978;BlueAngelTheBlaueEngelDer;Blaue Engel Der;1930
+979;NothingPersonal;Nothing Personal;1995
+980;IntheLineofDuty;Huanggushijie;1985
+981;DangerousGround;Dangerous Ground;1997
+982;Picnic;Picnic;1955
+983;MadagascarSkin;Madagascar Skin;1995
+984;PompatusofLoveThe;Pompatusof Love The;1996
+985;SmallWonders;Small Wonders;1995
+986;FlyAwayHome;Fly Away Home;1996
+987;Bliss;Bliss;1997
+988;GraceofMyHeart;Graceof My Heart;1996
+989;SchlafesBruderBrotherofSleep;Schlafes Bruder;1995
+990;MaximumRisk;Maximum Risk;1996
+991;MichaelCollins;Michael Collins;1996
+992;RichMansWifeThe;Rich Mans Wife The;1996
+993;Infinity;Infinity;1996
+994;BigNight;Big Night;1996
+996;LastManStanding;Last Man Standing I;1996
+997;Caught;Caught;1996
+998;SetItOff;Set It Off;1996
+999;DaysintheValley;Daysinthe Valley;1996
+1000;Curdled;Curdled;1996
+1001;AssociateTheLAssocie;Associ L;1979
+1002;EdsNextMove;Eds Next Move;1996
+1003;ExtremeMeasures;Extreme Measures;1996
+1004;GlimmerManThe;Glimmer Man The;1996
+1005;DTheMightyDucks;D The Mighty Ducks;1996
+1006;ChamberThe;Chamber The;1996
+1007;AppleDumplingGangThe;Apple Dumpling Gang The;1975
+1008;DavyCrockettKingoftheWildFrontier;Davy Crockett Kingofthe Wild Frontier;1954
+1009;EscapetoWitchMountain;Escapeto Witch Mountain;1975
+1010;LoveBugThe;Love Bug The;1968
+1011;HerbieRidesAgain;Herbie Rides Again;1974
+1012;OldYeller;Old Yeller;1957
+1013;ParentTrapThe;Parent Trap The;1961
+1014;Pollyanna;Pollyanna;1960
+1015;HomewardBoundTheIncredibleJourney;Homeward Bound The Incredible Journey;1993
+1016;ShaggyDogThe;Shaggy Dog The;1959
+1017;SwissFamilyRobinson;Swiss Family Robinson;1960
+1018;ThatDarnCat;That Darn Cat;1965
+1019;LeaguesUndertheSea;Leagues Underthe Sea;1954
+1020;CoolRunnings;Cool Runnings;1993
+1021;AngelsintheOutfield;Angelsinthe Outfield;1994
+1022;Cinderella;Cinderella;1950
+1023;WinniethePoohandtheBlusteryDay;Winniethe Poohandthe Blustery Day;1968
+1024;ThreeCaballerosThe;Three Caballeros The;1944
+1025;SwordintheStoneThe;Swordinthe Stone The;1963
+1026;SoDeartoMyHeart;So Dearto My Heart;1948
+1027;RobinHoodPrinceofThieves;Robin Hood Princeof Thieves;1991
+1028;MaryPoppins;Mary Poppins;1964
+1029;Dumbo;Dumbo;1941
+1030;PetesDragon;Petes Dragon;1977
+1031;BedknobsandBroomsticks;Bedknobsand Broomsticks;1971
+1032;AliceinWonderland;Alicein Wonderland;1951
+1033;FoxandtheHoundThe;Foxandthe Hound The;1981
+1034;Freeway;Freeway;1996
+1035;SoundofMusicThe;Soundof Music The;1965
+1036;DieHard;Die Hard;1988
+1037;LawnmowerManThe;Lawnmower Man The;1992
+1038;UnhooktheStars;Unhookthe Stars;1996
+1039;SyntheticPleasures;Synthetic Pleasures;1995
+1040;SecretAgentThe;Secret Agent The;1996
+1041;SecretsLies;Secrets Lies;1996
+1042;ThatThingYouDo;That Thing You Do;1996
+1043;ToGillianonHerthBirthday;To Gillianon Herth Birthday;1996
+1044;SurvivingPicasso;Surviving Picasso;1996
+1045;LoveIsAllThereIs;Love Is All There Is;1996
+1046;BeautifulThing;Beautiful Thing;1996
+1047;LongKissGoodnightThe;Long Kiss Goodnight The;1996
+1049;GhostandtheDarknessThe;Ghostandthe Darkness The;1996
+1050;LookingforRichard;Lookingfor Richard;1996
+1051;TreesLounge;Trees Lounge;1996
+1052;ProprietorThe;Proprietor The;1996
+1053;NormalLife;Normal Life;1996
+1054;GetontheBus;Getonthe Bus;1996
+1055;ShadowConspiracy;Shadow Conspiracy;1997
+1056;Jude;Jude;1996
+1057;EveryoneSaysILoveYou;Everyone Says I Love You;1996
+1058;BitterSugarAzucarAmargo;Azcaramarga;1996
+1059;WilliamShakespearesRomeoandJuliet;Romeo Juliet;1996
+1060;Swingers;Swingers;1996
+1061;Sleepers;Sleepers;1996
+1062;SunchaserThe;Sunchaser The;1996
+1063;Johns;Johns;1996
+1064;AladdinandtheKingofThieves;Aladdinandthe Kingof Thieves V;1995
+1065;WomaninQuestionThe;Womanin Question The;1950
+1066;ShallWeDance;Shall We Dance;1937
+1067;DamselinDistressA;Damselin Distress A;1937
+1068;Crossfire;Crossfire;1947
+1069;MurderMySweet;Murder My Sweet;1944
+1070;Macao;Macao;1952
+1071;FortheMoment;Forthe Moment;1993
+1073;WillyWonkaandtheChocolateFactory;Willy Wonkathe Chocolate Factory;1971
+1075;SexualLifeoftheBelgiansThe;Viesexuelledes Belges La;1994
+1076;InnocentsThe;Innocents The;1961
+1077;Sleeper;Sleeper;1973
+1078;Bananas;Bananas;1971
+1079;FishCalledWandaA;Fish Called Wanda A;1988
+1080;MontyPythonsLifeofBrian;Lifeof Brian;1979
+1081;VictorVictoria;Victor Victoria;1982
+1082;CandidateThe;Candidate The;1972
+1083;GreatRaceThe;Great Race The;1965
+1084;BonnieandClyde;Bonnieand Clyde;1967
+1085;OldManandtheSeaThe;Old Manandthe Sea The;1958
+1086;DialMforMurder;Dial Mfor Murder;1954
+1087;MadameButterfly;Madame Butterfly;1995
+1088;DirtyDancing;Dirty Dancing;1987
+1089;ReservoirDogs;Reservoir Dogs;1992
+1090;Platoon;Platoon;1986
+1091;WeekendatBernies;Weekendat Bernies;1989
+1092;BasicInstinct;Basic Instinct;1992
+1093;DoorsThe;Doors The;1991
+1094;CryingGameThe;Crying Game The;1992
+1095;GlengarryGlenRoss;Glengarry Glen Ross;1992
+1096;SophiesChoice;Sophies Choice;1982
+1097;ETtheExtraTerrestrial;E Tthe Extra Terrestrial;1982
+1098;SearchforOneeyeJimmyThe;Searchfor Oneeye Jimmy The;1994
+1099;ChristmasCarolA;Christmas Carol A;1938
+1100;DaysofThunder;Daysof Thunder;1990
+1101;TopGun;Top Gun;1986
+1102;AmericanStrays;American Strays;1996
+1103;RebelWithoutaCause;Rebel Withouta Cause;1955
+1104;StreetcarNamedDesireA;Streetcar Named Desire A;1951
+1105;ChildrenoftheCornIVTheGathering;Childrenofthe Corn I V The Gathering V;1996
+1106;LeopardSonThe;Leopard Son The;1996
+1107;Loser;Loser;1991
+1108;PrerokbeOgnja;Prerokbe Ognja;1996
+1109;CharmsIncidents;Charms Zwischenflle;1996
+1110;BirdofPrey;Birdof Prey;1995
+1111;MicrocosmosMicrocosmosLepeupledelherbe;Microcosmos Lepeupledelherbe;1996
+1112;Palookaville;Palookaville;1995
+1113;AssociateThe;Associate The;1996
+1114;FuneralThe;Funeral The;1996
+1115;Sleepover;Sleepover;1995
+1116;SingleGirlALaFilleSeule;Filleseule La;1995
+1117;EighthDayTheLeHuitimejour;Huitimejour Le;1996
+1118;Tashunga;Tashunga;1996
+1119;Drunks;Drunks;1995
+1120;PeoplevsLarryFlyntThe;Peoplevs Larry Flynt The;1996
+1121;GloryDaze;Glory Daze;1996
+1122;PlutoniumCircus;Plutonium Circus;1995
+1123;PerfectCandidateA;Perfect Candidate A;1996
+1124;OnGoldenPond;On Golden Pond;1981
+1125;ReturnofthePinkPantherThe;Returnofthe Pink Panther The;1975
+1126;DropDeadFred;Drop Dead Fred;1991
+1127;AbyssThe;Abyss The;1989
+1128;FogThe;Fog The;1980
+1129;EscapefromNewYork;Escapefrom New York;1981
+1130;HowlingThe;Howling The;1981
+1131;JeandeFlorette;Jeande Florette;1986
+1132;ManonoftheSpringManondessources;Manondessources;1986
+1133;TalkingAboutSex;Talking About Sex;1994
+1134;JohnnyPesos;Johnnycienpesos;1993
+1135;PrivateBenjamin;Private Benjamin;1980
+1136;MontyPythonandtheHolyGrail;Monty Pythonandthe Holy Grail;1975
+1137;HustlerWhite;Hustler White;1996
+1138;Dadetown;Dadetown;1995
+1139;EverythingRelative;Everything Relative;1996
+1140;EntertainingAngelsTheDorothyDayStory;Entertaining Angels The Dorothy Day Story;1996
+1141;Hoogstetijd;Hoogstetijd;1995
+1142;GetOverIt;Get Over It;1996
+1143;ThreeLivesandOnlyOneDeath;Troisviesuneseulemort;1996
+1144;LineKingAlHirschfeldThe;Line King The Al Hirschfeld Story The;1996
+1145;Snowriders;Snowriders;1996
+1146;CurtissCharm;Curtiss Charm;1995
+1147;WhenWeWereKings;When We Were Kings;1996
+1148;WrongTrousersThe;Wallace Gromitin The Wrong Trousers;1993
+1149;JLGJLGautoportraitdedcembre;J L G J L Gautoportraitdedcembre;1995
+1150;ReturnofMartinGuerreTheRetourdeMartinGuerreLe;Retourde Martin Guerre Le;1982
+1151;Faust;Faust;1994
+1152;HeWalkedbyNight;He Walkedby Night;1948
+1153;RawDeal;Raw Deal;1948
+1154;TMen;T Men;1947
+1155;InvitationTheZaproszenie;Zaproszenie;1986
+1156;ChildrenAreWatchingusTheBambiniciguardanoI;Bambiniciguardano I;1944
+1157;SymphoniepastoraleLa;Symphoniepastorale La;1946
+1158;HereComesCookie;Here Comes Cookie;1935
+1159;LoveinBloom;Lovein Bloom;1935
+1160;SixofaKind;Sixofa Kind;1934
+1161;TinDrumTheBlechtrommelDie;Blechtrommel Die;1979
+1162;RulingClassThe;Ruling Class The;1972
+1163;MinaTannenbaum;Mina Tannenbaum;1994
+1164;TwoorThreeThingsIKnowAboutHer;ouchosesquejesaisdelle;1967
+1165;BloodyChildThe;Bloody Child The;1996
+1166;FarmerChase;Farmer Chase;1997
+1167;DearGod;Dear God;1996
+1168;BadMoon;Bad Moon;1996
+1169;AmericanDream;American Dream;1991
+1170;BestoftheBestNoTurningBack;Bestofthe Best No Turning Back;1996
+1171;BobRoberts;Bob Roberts;1992
+1172;CinemaParadiso;Nuovocinema Paradiso;1989
+1173;CooktheThiefHisWifeHerLoverThe;Cookthe Thief His Wife Her Lover The;1989
+1174;GrosseFatigue;Grossefatigue;1994
+1175;Delicatessen;Delicatessen;1991
+1176;DoubleLifeofVeroniqueTheLaDoubleViedeVronique;Doubleviede Vronique La;1991
+1177;EnchantedApril;Enchanted April;1992
+1178;PathsofGlory;Pathsof Glory;1957
+1179;GriftersThe;Grifters The;1990
+1180;HearMySong;Hear My Song;1991
+1181;ShooterThe;Shooter The;1995
+1183;EnglishPatientThe;English Patient The;1996
+1184;Mediterraneo;Mediterraneo;1991
+1185;MyLeftFoot;My Left Foot;1989
+1186;SexLiesandVideotape;Sex Liesand Videotape;1989
+1187;PassionFish;Passion Fish;1992
+1188;StrictlyBallroom;Strictly Ballroom;1992
+1189;ThinBlueLineThe;Thin Blue Line The;1988
+1190;TieMeUpTieMeDown;tame;1990
+1191;MadonnaTruthorDare;Madonna Truthor Dare;1991
+1192;ParisIsBurning;Paris Is Burning;1990
+1193;OneFlewOvertheCuckoosNest;One Flew Overthe Cuckoos Nest;1975
+1194;UpinSmoke;Upin Smoke;1978
+1196;StarWarsEpisodeVTheEmpireStrikesBack;Star Wars Episode V The Empire Strikes Back;1980
+1197;PrincessBrideThe;Princess Bride The;1987
+1198;RaidersoftheLostArk;Raidersofthe Lost Ark;1981
+1199;Brazil;Brazil;1985
+1200;Aliens;Aliens;1986
+1201;GoodTheBadandTheUglyThe;Buonoilbruttoilcattivo Il;1966
+1202;WithnailandI;Withnail I;1987
+1203;AngryMen;Angry Men;1957
+1204;LawrenceofArabia;Lawrenceof Arabia;1962
+1205;TransformersTheMovieThe;Transformers The Movie The;1986
+1206;ClockworkOrangeA;Clockwork Orange A;1971
+1207;ToKillaMockingbird;To Killa Mockingbird;1962
+1208;ApocalypseNow;Apocalypse Now;1979
+1209;OnceUponaTimeintheWest;Ceraunavoltail West;1968
+1210;StarWarsEpisodeVIReturnoftheJedi;Star Wars Episode V I Returnofthe Jedi;1983
+1211;WingsofDesireDerHimmelberBerlin;Himmelber Berlin Der;1987
+1212;ThirdManThe;Third Man The;1949
+1213;GoodFellas;Goodfellas;1990
+1214;Alien;Alien;1979
+1215;ArmyofDarkness;Armyof Darkness;1992
+1216;BigBlueTheLeGrandBleu;Big Blue The I;1988
+1217;Ran;Ran;1985
+1218;KillerTheDiexueshuangxiong;Diphyutshuenghung;1989
+1219;Psycho;Psycho;1960
+1220;BluesBrothersThe;Blues Brothers The;1980
+1221;GodfatherPartIIThe;Godfather Part I I The;1974
+1222;FullMetalJacket;Full Metal Jacket;1987
+1223;GrandDayOutA;Grand Day Outwith Wallaceand Gromit A;1989
+1224;HenryV;Henry V;1989
+1225;Amadeus;Amadeus;1984
+1226;QuietManThe;Quiet Man The;1952
+1227;OnceUponaTimeinAmerica;Once Upona Timein America;1984
+1228;RagingBull;Raging Bull;1980
+1230;AnnieHall;Annie Hall;1977
+1231;RightStuffThe;Right Stuff The;1983
+1232;Stalker;Stalker;1979
+1233;BoatTheDasBoot;Boot Das;1981
+1234;StingThe;Sting The;1973
+1235;HaroldandMaude;Haroldand Maude;1971
+1236;Trust;Trust;1990
+1237;SeventhSealTheSjundeinsegletDet;Sjundeinseglet Det;1957
+1238;LocalHero;Local Hero;1983
+1240;TerminatorThe;Terminator The;1984
+1241;Braindead;Braindead;1992
+1242;Glory;Glory;1989
+1243;RosencrantzandGuildensternAreDead;Rosencrantz Guildenstern Are Dead;1990
+1244;Manhattan;Manhattan;1979
+1245;MillersCrossing;Millers Crossing;1990
+1246;DeadPoetsSociety;Dead Poets Society;1989
+1247;GraduateThe;Graduate The;1967
+1248;TouchofEvil;Touchof Evil;1958
+1249;NikitaLaFemmeNikita;Nikita;1990
+1250;BridgeontheRiverKwaiThe;Bridgeonthe River Kwai The;1957
+1251;;;1963
+1252;Chinatown;Chinatown;1974
+1253;DaytheEarthStoodStillThe;Daythe Earth Stood Still The;1951
+1254;TreasureoftheSierraMadreThe;Treasureofthe Sierra Madre The;1948
+1255;BadTaste;Bad Taste;1987
+1256;DuckSoup;Duck Soup;1933
+1257;BetterOffDead;Better Off Dead;1985
+1258;ShiningThe;Shining The;1980
+1259;StandbyMe;Standby Me;1986
+1260;M;M;1931
+1261;EvilDeadIIDeadByDawn;Evil Dead I I;1987
+1262;GreatEscapeThe;Great Escape The;1963
+1263;DeerHunterThe;Deer Hunter The;1978
+1264;Diva;Diva;1981
+1265;GroundhogDay;Groundhog Day;1993
+1266;Unforgiven;Unforgiven;1992
+1267;ManchurianCandidateThe;Manchurian Candidate The;1962
+1268;PumpUptheVolume;Pump Upthe Volume;1990
+1269;ArsenicandOldLace;Arsenicand Old Lace;1944
+1270;BacktotheFuture;Backtothe Future;1985
+1271;FriedGreenTomatoes;Fried Green Tomatoes;1991
+1272;Patton;Patton;1970
+1273;DownbyLaw;Downby Law;1986
+1274;Akira;Akira;1988
+1275;Highlander;Highlander;1986
+1276;CoolHandLuke;Cool Hand Luke;1967
+1277;CyranodeBergerac;Cyranode Bergerac;1990
+1278;YoungFrankenstein;Young Frankenstein;1974
+1279;NightonEarth;Nighton Earth;1991
+1280;RaisetheRedLantern;Dahongdenglonggaogaogua;1991
+1281;GreatDictatorThe;Great Dictator The;1940
+1282;Fantasia;Fantasia;1940
+1283;HighNoon;High Noon;1952
+1284;BigSleepThe;Big Sleep The;1946
+1285;Heathers;Heathers;1989
+1286;SomewhereinTime;Somewherein Time;1980
+1287;BenHur;Ben Hur;1959
+1288;ThisIsSpinalTap;This Is Spinal Tap;1984
+1289;Koyaanisqatsi;Koyaanisqatsi;1982
+1290;SomeKindofWonderful;Some Kindof Wonderful;1987
+1291;IndianaJonesandtheLastCrusade;Indiana Jonesandthe Last Crusade;1989
+1292;BeingThere;Being There;1979
+1293;Gandhi;Gandhi;1982
+1294;MASH;M A S H;1970
+1295;UnbearableLightnessofBeingThe;Unbearable Lightnessof Being The;1988
+1296;RoomwithaViewA;Roomwitha View A;1985
+1297;RealGenius;Real Genius;1985
+1298;PinkFloydTheWall;Pink Floyd The Wall;1982
+1299;KillingFieldsThe;Killing Fields The;1984
+1300;MyLifeasaDogMittlivsomhund;Mittlivsomhund;1985
+1301;ForbiddenPlanet;Forbidden Planet;1956
+1302;FieldofDreams;Fieldof Dreams;1989
+1303;ManWhoWouldBeKingThe;Man Who Would Be King The;1975
+1304;ButchCassidyandtheSundanceKid;Butch Cassidyandthe Sundance Kid;1969
+1305;ParisTexas;Paris Texas;1984
+1306;UntiltheEndoftheWorldBisansEndederWelt;Bisans Endeder Welt;1991
+1307;WhenHarryMetSally;When Harry Met Sally;1989
+1308;IShotaManinVegas;I Shota Manin Vegas;1995
+1309;ParallelSons;Parallel Sons;1995
+1310;Hype;Hype;1996
+1311;SantawithMuscles;Santawith Muscles;1996
+1312;FemalePerversions;Female Perversions;1996
+1313;MadDogTime;Mad Dog Time;1996
+1314;BreathingRoom;Breathing Room;1996
+1315;ParisWasaWoman;Paris Wasa Woman;1995
+1316;Anna;Anna;1996
+1317;ImNotRappaport;Im Not Rappaport;1996
+1318;BlueJuice;Blue Juice;1995
+1319;KidsofSurvival;Kidsof Survival;1996
+1320;Alien;Alien;1992
+1321;AmericanWerewolfinLondonAn;American Werewolfin London An;1981
+1322;AmityvilleItsAboutTime;Amityville Its About Time V;1992
+1323;AmityvilleD;Amityville D;1983
+1324;AmityvilleDollhouse;Amityville Dollhouse V;1996
+1325;AmityvilleANewGeneration;Amityville A New Generation V;1993
+1326;AmityvilleIIThePossession;Amityville I I The Possession;1982
+1327;AmityvilleHorrorThe;Amityville Horror The;1979
+1328;AmityvilleCurseThe;Amityville Curse The V;1990
+1329;BloodForDraculaAndyWarholsDracula;Bloodfor Dracula;1974
+1330;AprilFoolsDay;April Fools Day I;1986
+1331;AudreyRose;Audrey Rose;1977
+1332;BelieversThe;Believers The;1987
+1333;BirdsThe;Birds The;1963
+1334;BlobThe;Blob The;1958
+1335;BloodBeach;Blood Beach;1981
+1336;BodyParts;Body Parts;1991
+1337;BodySnatcherThe;Body Snatcher The;1945
+1339;BramStokersDracula;Dracula;1992
+1340;BrideofFrankenstein;Brideof Frankenstein;1935
+1341;BurntOfferings;Burnt Offerings;1976
+1342;Candyman;Candyman;1992
+1343;CapeFear;Cape Fear;1991
+1344;CapeFear;Cape Fear;1962
+1345;Carrie;Carrie;1976
+1346;CatPeople;Cat People;1982
+1347;NightmareonElmStreetA;Nightmareon Elm Street A;1984
+1348;NosferatuNosferatueineSymphoniedesGrauens;Nosferatueine Symphoniedes Grauens;1922
+1349;NosferatuaVenezia;Nosferatua Venezia;1988
+1350;OmenThe;Omen The;1976
+1351;BloodWine;Bloodand Wine;1996
+1352;AlbinoAlligator;Albino Alligator;1996
+1353;MirrorHasTwoFacesThe;Mirror Has Two Faces The;1996
+1354;BreakingtheWaves;Breakingthe Waves;1996
+1355;Nightwatch;Nightwatch;1997
+1356;StarTrekFirstContact;Star Trek First Contact;1996
+1357;Shine;Shine;1996
+1358;SlingBlade;Sling Blade;1996
+1359;JingleAlltheWay;Jingle Allthe Way;1996
+1360;IdentificationofaWomanIdentificazionediunadonna;Identificazionediunadonna;1982
+1361;ParadiseLostTheChildMurdersatRobinHoodHills;Paradise Lost The Child Murdersat Robin Hood Hills T V;1996
+1362;GardenofFinziContiniTheGiardinodeiFinziContiniIl;Giardinodei Finzi Contini Il;1970
+1363;PreachersWifeThe;Preachers Wife The;1996
+1364;ZeroKelvinKjrlighetenskjtere;Kjrlighetenskjtere;1995
+1365;Ridicule;Ridicule;1996
+1366;CrucibleThe;Crucible The;1996
+1367;Dalmatians;Dalmatians;1996
+1368;ForbiddenChristTheCristoproibitoIl;Cristoproibito Il;1951
+1369;ICantSleepJaipassommeil;Jaipassommeil;1994
+1370;DieHard;Die Hard;1990
+1371;StarTrekTheMotionPicture;Star Trek The Motion Picture;1979
+1372;StarTrekVITheUndiscoveredCountry;Star Trek V I The Undiscovered Country;1991
+1373;StarTrekVTheFinalFrontier;Star Trek V The Final Frontier;1989
+1374;StarTrekTheWrathofKhan;Star Trek The Wrathof Khan;1982
+1375;StarTrekIIITheSearchforSpock;Star Trek I I I The Searchfor Spock;1984
+1376;StarTrekIVTheVoyageHome;Star Trek I V The Voyage Home;1986
+1377;BatmanReturns;Batman Returns;1992
+1378;YoungGuns;Young Guns;1988
+1379;YoungGunsII;Young Guns I I;1990
+1380;Grease;Grease;1978
+1381;Grease;Grease;1982
+1382;MarkedforDeath;Markedfor Death;1990
+1383;AdrenalinFeartheRush;Adrenalin Fearthe Rush;1996
+1384;SubstanceofFireThe;Substanceof Fire The;1996
+1385;UnderSiege;Under Siege;1992
+1386;TerrorinaTexasTown;Terrorina Texas Town;1958
+1387;Jaws;Jaws;1975
+1388;Jaws;Jaws;1978
+1389;JawsD;Jaws D;1983
+1390;MyFellowAmericans;My Fellow Americans;1996
+1391;MarsAttacks;Mars Attacks;1996
+1392;CitizenRuth;Citizen Ruth;1996
+1393;JerryMaguire;Jerry Maguire;1996
+1394;RaisingArizona;Raising Arizona;1987
+1395;TinMen;Tin Men;1987
+1396;Sneakers;Sneakers;1992
+1397;BastardOutofCarolina;Bastard Outof Carolina;1996
+1398;InLoveandWar;In Loveand War;1996
+1399;MarvinsRoom;Marvins Room;1996
+1400;SomebodyisWaiting;Somebody Is Waiting;1996
+1401;GhostsofMississippi;Ghostsof Mississippi;1996
+1404;NightFallsonManhattan;Night Fallson Manhattan;1997
+1405;BeavisandButtheadDoAmerica;Beavisand Butt Head Do America;1996
+1406;CrmonieLa;Crmonie La;1995
+1407;Scream;Scream I;1996
+1408;LastoftheMohicansThe;Lastofthe Mohicans The;1992
+1409;Michael;Michael;1996
+1410;EveningStarThe;Evening Star The;1996
+1411;Hamlet;Hamlet;1996
+1412;SomeMothersSon;Some Mothers Son;1996
+1413;WholeWideWorldThe;Whole Wide World The;1996
+1414;Mother;Mother I;1996
+1415;ThievesVoleursLes;Voleurs Les;1996
+1416;Evita;Evita;1996
+1417;PortraitofaLadyThe;Portraitofa Lady The;1996
+1419;Walkabout;Walkabout;1971
+1420;MessagetoLoveTheIsleofWightFestival;Messageto Love The Isleof Wight Festival;1997
+1421;GratefulDead;Grateful Dead;1995
+1422;Murderat;Murderat;1997
+1423;HeartsandMinds;Heartsand Minds;1996
+1424;Inside;Inside T V;1996
+1425;FierceCreatures;Fierce Creatures;1997
+1426;ZeusandRoxanne;Zeusand Roxanne;1997
+1427;Turbulence;Turbulence V;1997
+1428;AngelBaby;Angel Baby;1995
+1429;JackieChansFirstStrike;Jingchagushi I V Jiandanrenwu;1996
+1430;Underworld;Underworld;1996
+1431;BeverlyHillsNinja;Beverly Hills Ninja;1997
+1432;Metro;Metro;1997
+1433;MachineThe;Machine La;1994
+1434;StrangerThe;Stranger The;1994
+1436;FallinginLoveAgain;Fallingin Love Again;1980
+1437;CementGardenThe;Cement Garden The;1993
+1438;DantesPeak;Dantes Peak;1997
+1439;MeetWallySparks;Meet Wally Sparks;1997
+1440;AmosAndrew;Amos Andrew;1993
+1441;BennyJoon;Benny Joon;1993
+1442;Prefontaine;Prefontaine;1997
+1443;TickleintheHeartA;Tickleinthe Heart A;1996
+1444;Guantanamera;Guantanamera;1995
+1445;McHalesNavy;Mc Hales Navy;1997
+1446;Kolya;Kolya;1996
+1447;Gridlockd;Gridlockd;1997
+1448;FireontheMountain;Fireonthe Mountain;1996
+1449;WaitingforGuffman;Waitingfor Guffman;1996
+1450;PrisoneroftheMountainsKavkazskyPlennik;Kavkazskiyplennik;1996
+1453;BeauticianandtheBeastThe;Beauticianandthe Beast The;1997
+1454;SubUrbia;Sub Urbia;1996
+1455;HoteldeLove;Hotelde Love;1996
+1456;PestThe;Pest The;1997
+1457;FoolsRushIn;Fools Rush In;1997
+1458;Touch;Touch;1997
+1459;AbsolutePower;Absolute Power;1997
+1460;ThatDarnCat;That Darn Cat;1997
+1461;VegasVacation;Vegas Vacation;1997
+1462;UnforgottenTwentyFiveYearsAfterWillowbrook;Unforgotten Twenty Five Years After Willowbrook;1996
+1463;ThatOldFeeling;That Old Feeling;1997
+1464;LostHighway;Lost Highway;1997
+1465;Rosewood;Rosewood;1997
+1466;DonnieBrasco;Donnie Brasco;1997
+1467;Salutcousin;Salutcousin;1996
+1468;BootyCall;Booty Call;1997
+1470;RhymeReason;Rhyme Reason;1997
+1471;BoysLife;Boys Life;1997
+1472;CityofIndustry;Cityof Industry;1997
+1473;BestMen;Best Men;1997
+1474;JungleJungleakaJungleJungle;Jungle Jungle;1997
+1475;KamaSutraATaleofLove;Kama Sutra A Taleof Love;1996
+1476;PrivateParts;Private Parts;1997
+1477;LoveJones;Love Jones;1997
+1479;SaintThe;Saint The;1997
+1480;SmillasSenseofSnow;Smillas Senseof Snow;1997
+1482;VanThe;Van The;1996
+1483;Crash;Crash I;1996
+1484;DaytrippersThe;Daytrippers The;1996
+1485;LiarLiar;Liar Liar;1997
+1486;QuietRoomThe;Quiet Room The;1996
+1487;Selena;Selena;1997
+1488;DevilsOwnThe;Devils Own The;1997
+1489;CatsDontDance;Cats Dont Dance;1997
+1490;BAPS;B A P S;1997
+1493;LoveandOtherCatastrophes;Loveand Other Catastrophes;1996
+1494;SixthManThe;Sixth Man The;1997
+1495;TurboAPowerRangersMovie;Turbo A Power Rangers Movie;1997
+1496;AnnaKarenina;Anna Karenina;1997
+1497;DoubleTeam;Double Team;1997
+1498;InventingtheAbbotts;Inventingthe Abbotts;1997
+1499;Anaconda;Anaconda;1997
+1500;GrossePointeBlank;Grosse Pointe Blank;1997
+1501;KeystoTulsa;Keysto Tulsa;1997
+1502;Kissed;Kissed;1996
+1503;HeadsinaDuffelBag;Headsina Duffel Bag;1997
+1504;HollowReed;Hollow Reed;1996
+1507;ParadiseRoad;Paradise Road;1997
+1508;Traveller;Traveller;1997
+1509;AllOverMe;All Over Me;1997
+1510;BrothersKissA;Brothers Kiss A;1997
+1511;AChefinLove;Shekvarebulikulinarisatasertiretsepti;1996
+1513;RomyandMichelesHighSchoolReunion;Romyand Micheles High School Reunion;1997
+1514;TemptressMoonFengYue;Fengyue;1996
+1515;Volcano;Volcano;1997
+1516;ChildrenoftheRevolution;Childrenofthe Revolution;1996
+1517;AustinPowersInternationalManofMystery;Austin Powers International Manof Mystery;1997
+1518;Breakdown;Breakdown I;1997
+1519;BrokenEnglish;Broken English;1996
+1520;Commandments;Commandments;1997
+1522;Ripe;Ripe;1996
+1523;TruthorConsequencesNM;Truthor Consequences N M;1997
+1524;TurningThe;Turning The;1992
+1525;WarriorsofVirtue;Warriorsof Virtue;1997
+1526;FathersDay;Fathers Day;1997
+1527;FifthElementThe;Fifth Element The;1997
+1528;IntimateRelations;Intimate Relations;1996
+1529;Nowhere;Nowhere;1997
+1531;LosingChase;Losing Chase T V;1996
+1532;Sprung;Sprung;1997
+1533;PromiseTheLaPromesse;Promise The;1997
+1534;BonheurLe;Bonheur Le;1965
+1535;LoveValourCompassion;Love Valour Compassion;1997
+1537;ShallWeDanceShallWeDansu;Shallwedansu;1996
+1538;SecondJungleBookMowgliBalooThe;Second Jungle Book Mowgli Baloo The;1997
+1539;TwinTown;Twin Town;1997
+1541;AddictedtoLove;Addictedto Love;1997
+1542;BrassedOff;Brassed Off;1996
+1543;DesignatedMournerThe;Designated Mourner The;1997
+1544;LostWorldJurassicParkThe;Lost World Jurassic Park The;1997
+1545;Ponette;Ponette;1996
+1546;Schizopolis;Schizopolis;1996
+1547;Shiloh;Shiloh;1996
+1548;WaratHomeThe;Warat Home The;1996
+1549;RoughMagic;Rough Magic;1995
+1550;TrialandError;Trialand Error;1997
+1551;Buddy;Buddy;1997
+1552;ConAir;Con Air;1997
+1553;LateBloomers;Late Bloomers;1996
+1554;PillowBookThe;Pillow Book The;1996
+1555;ToHaveorNot;Enavoiroupas;0
+1556;SpeedCruiseControl;Speed Cruise Control;1997
+1557;Squeeze;Squeeze;1997
+1558;SuddenManhattan;Sudden Manhattan;1997
+1559;NextStepThe;Next Step The;1997
+1561;WeddingBellBlues;Wedding Bell Blues;1996
+1562;BatmanRobin;Batman Robin;1997
+1563;DreamWiththeFishes;Dreamwiththe Fishes;1997
+1564;RoseannasGraveForRoseanna;Roseannas Grave;1997
+1565;HeadAboveWater;Head Above Water;1996
+1566;Hercules;Hercules;1997
+1567;LastTimeICommittedSuicideThe;Last Time I Committed Suicide The;1997
+1568;MURDERandmurder;M U R D E Randmurder;1996
+1569;MyBestFriendsWedding;My Best Friends Wedding;1997
+1570;TetsuoIIBodyHammer;Tetsuo I I Body Hammer;1992
+1571;WhentheCatsAwayChacuncherchesonchat;Chacuncherchesonchat;1996
+1572;ContemptLeMpris;Mpris Le;1963
+1573;FaceOff;Face Off;1997
+1574;Fall;Fall;1997
+1575;Gabbeh;Gabbeh;1996
+1577;Mondo;Mondo;1996
+1578;InnocentSleepThe;Innocent Sleep The;1996
+1579;ForEverMozart;For Ever Mozart;1996
+1580;MeninBlack;Menin Black;1997
+1581;OuttoSea;Outto Sea;1997
+1582;WildAmerica;Wild America;1997
+1583;SimpleWishA;Simple Wish A;1997
+1584;Contact;Contact;1997
+1585;LoveSerenade;Love Serenade;1996
+1586;GIJane;G I Jane;1997
+1587;ConantheBarbarian;Conanthe Barbarian;1982
+1588;GeorgeoftheJungle;Georgeofthe Jungle;1997
+1589;CopLand;Cop Land;1997
+1590;EventHorizon;Event Horizon;1997
+1591;Spawn;Spawn;1997
+1592;AirBud;Air Bud;1997
+1593;PicturePerfect;Picture Perfect;1997
+1594;IntheCompanyofMen;Inthe Companyof Men;1997
+1595;FreeWillyTheRescue;Free Willy The Rescue;1997
+1596;CareerGirls;Career Girls;1997
+1597;ConspiracyTheory;Conspiracy Theory;1997
+1598;DesperateMeasures;Desperate Measures;1998
+1599;Steel;Steel;1997
+1600;ShesSoLovely;Shes So Lovely;1997
+1601;Hoodlum;Hoodlum;1997
+1602;LeaveIttoBeaver;Leave Itto Beaver;1997
+1603;Mimic;Mimic;1997
+1604;MoneyTalks;Money Talks;1997
+1605;ExcessBaggage;Excess Baggage;1997
+1606;KulltheConqueror;Kullthe Conqueror;1997
+1608;AirForceOne;Air Force One;1997
+1609;;One Eight Seven;1997
+1610;HuntforRedOctoberThe;Huntfor Red October The;1990
+1611;MyOwnPrivateIdaho;My Own Private Idaho;1991
+1612;KissMeGuido;Kiss Me Guido;1997
+1613;StarMaps;Star Maps;1997
+1614;InOut;In Out;1997
+1615;EdgeThe;Edge The;1997
+1616;PeacemakerThe;Peacemaker The;1997
+1617;LAConfidential;L A Confidential;1997
+1619;SevenYearsinTibet;Seven Yearsin Tibet;1997
+1620;KisstheGirls;Kissthe Girls;1997
+1621;SoulFood;Soul Food;1997
+1622;KickedintheHead;Kickedinthe Head;1997
+1623;Wishmaster;Wishmaster;1997
+1624;ThousandAcresA;Thousand Acres A;1997
+1625;GameThe;Game The;1997
+1626;FireDownBelow;Fire Down Below;1997
+1627;UTurn;U Turn;1997
+1628;LocustsThe;Locusts The;1997
+1629;MatchMakerThe;Match Maker The;1997
+1630;LayoftheLandThe;Layofthe Land The;1997
+1631;AssignmentThe;Assignment The;1997
+1632;SmileLikeYoursA;Smile Like Yours A;1997
+1633;UleesGold;Ulees Gold;1997
+1635;IceStormThe;Ice Storm The;1997
+1636;Stag;Stag;1997
+1639;ChasingAmy;Chasing Amy;1997
+1640;HowtoBeaPlayer;Howto Bea Player;1997
+1641;FullMontyThe;Full Monty The;1997
+1642;IndianSummerakaAliveKicking;Indian Summer;1996
+1643;MrsBrownHerMajestyMrsBrown;Mrs Brown;1997
+1644;IKnowWhatYouDidLastSummer;I Know What You Did Last Summer;1997
+1645;DevilsAdvocateThe;Devils Advocate The;1997
+1646;RocketMan;Rocket Man;1997
+1647;PlayingGod;Playing God;1997
+1648;HouseofYesThe;Houseof Yes The;1997
+1649;FastCheapOutofControl;Fast Cheap Outof Control;1997
+1650;WashingtonSquare;Washington Square;1997
+1651;TellingLiesinAmerica;Telling Liesin America;1997
+1652;YearoftheHorse;Yearofthe Horse;1997
+1653;Gattaca;Gattaca;1997
+1654;FairyTaleATrueStory;Fairy Tale A True Story;1997
+1655;Phantoms;Phantoms;1998
+1656;SweptfromtheSea;Sweptfromthe Sea;1997
+1657;Wonderland;Wonderland;1997
+1658;LifeLessOrdinaryA;Life Less Ordinary A;1997
+1659;HurricaneStreets;Hurricane;1997
+1660;EvesBayou;Eves Bayou;1997
+1661;Switchback;Switchback;1997
+1662;GangRelated;Gang Related;1997
+1663;Stripes;Stripes;1981
+1664;NnetteetBoni;Nnetteet Boni;1996
+1665;Bean;Bean;1997
+1666;HugoPool;Hugo Pool;1997
+1667;MadCity;Mad City;1997
+1668;OneNightStand;One Night Stand;1997
+1669;TangoLessonThe;Tango Lesson The;1997
+1670;WelcomeToSarajevo;Welcometo Sarajevo;1997
+1671;Deceiver;Deceiver;1997
+1672;RainmakerThe;Rainmaker The;1997
+1673;BoogieNights;Boogie Nights;1997
+1674;Witness;Witness;1985
+1675;Incognito;Incognito;1997
+1676;StarshipTroopers;Starship Troopers;1997
+1677;CriticalCare;Critical Care;1997
+1678;JoyLuckClubThe;Joy Luck Club The;1993
+1679;ChairmanoftheBoard;Chairmanofthe Board;1998
+1680;SlidingDoors;Sliding Doors;1998
+1681;MortalKombatAnnihilation;Mortal Kombat Annihilation;1997
+1682;TrumanShowThe;Truman Show The;1998
+1683;WingsoftheDoveThe;Wingsofthe Dove The;1997
+1684;MrsDalloway;Mrs Dalloway;1997
+1685;ILoveYouILoveYouNot;I Love You I Love You Not;1996
+1686;RedCorner;Red Corner;1997
+1687;JackalThe;Jackal The;1997
+1688;Anastasia;Anastasia;1997
+1689;ManWhoKnewTooLittleThe;Man Who Knew Too Little The;1997
+1690;AlienResurrection;Alien Resurrection;1997
+1692;AlienEscape;Alien Escape;1997
+1693;Amistad;Amistad;1997
+1694;ApostleThe;Apostle The;1997
+1695;Artemisia;Artemisia;1997
+1696;Bent;Bent;1997
+1697;BigBangTheoryThe;Bang;1995
+1698;BoysLes;Boys Les;1997
+1699;ButcherBoyThe;Butcher Boy The;1997
+1701;DeconstructingHarry;Deconstructing Harry;1997
+1702;Flubber;Flubber;1997
+1703;ForRicherorPoorer;For Richeror Poorer;1997
+1704;GoodWillHunting;Good Will Hunting;1997
+1705;Guy;Guy;1997
+1706;HarlemRiverDrive;Tar;1997
+1707;HomeAlone;Home Alone;1997
+1708;IllGottenGains;Ill Gotten Gains;1997
+1709;LegalDeceit;Legal Deceit;1997
+1710;ManofHerDreams;Manof Her Dreams;1997
+1711;MidnightintheGardenofGoodandEvil;Midnightinthe Gardenof Goodand Evil;1997
+1713;MouseHunt;Mousehunt;1997
+1714;NeverMetPicasso;Never Met Picasso;1996
+1715;OfficeKiller;Office Killer;1997
+1716;OtherVoicesOtherRooms;Other Voices Other Rooms;1995
+1717;Scream;Scream;1997
+1718;StrangerintheHouse;Strangerinthe House;1997
+1719;SweetHereafterThe;Sweet Hereafter The;1997
+1720;TimeTracers;Time Tracers;1997
+1721;Titanic;Titanic;1997
+1722;TomorrowNeverDies;Tomorrow Never Dies;1997
+1723;Twisted;Twisted;1996
+1724;FullSpeed;toutevitesse;1996
+1725;EducationofLittleTreeThe;Educationof Little Tree The;1997
+1726;PostmanThe;Postman The;1997
+1727;HorseWhispererThe;Horse Whisperer The;1998
+1728;WinterGuestThe;Winter Guest The;1997
+1729;JackieBrown;Jackie Brown;1997
+1730;Kundun;Kundun;1997
+1731;MrMagoo;Mr Magoo;1997
+1732;BigLebowskiThe;Big Lebowski The;1998
+1733;Afterglow;Afterglow;1997
+1734;MyLifeinPinkMavieenrose;Mavieenrose;1997
+1735;GreatExpectations;Great Expectations;1998
+1738;Vermin;Vermin I;1998
+1739;NinjasHighNoonOnMegaMountain;Ninjas High Noonat Mega Mountain;1998
+1740;MenofMeans;Menof Means;1999
+1742;CaughtUp;Caught Up;1998
+1743;ArguingtheWorld;Arguingthe World;1998
+1744;Firestorm;Firestorm;1998
+1746;Senseless;Senseless;1998
+1747;WagtheDog;Wagthe Dog;1997
+1748;DarkCity;Dark City;1998
+1749;LeadingManThe;Leading Man The;1996
+1750;StarKid;Star Kid;1997
+1752;HardRain;Hard Rain;1998
+1753;HalfBaked;Half Baked;1998
+1754;Fallen;Fallen;1998
+1755;ShootingFish;Shooting Fish;1997
+1756;ProphecyIIThe;Prophecy I I The V;1998
+1757;Duoluotianshi;Duoluotianshi;1995
+1758;DangerousBeauty;Dangerous Beauty;1998
+1759;FourDaysinSeptember;O Que Isso Companheiro;1997
+1760;SpiceWorld;Spice World;1997
+1762;DeepRising;Deep Rising;1998
+1764;Tainted;Tainted;1988
+1765;LetterFromDeathRowA;Letterfrom Death Row A;1998
+1767;MusicFromAnotherRoom;Musicfrom Another Room;1998
+1768;Matisyn;Matisyn;1997
+1769;ReplacementKillersThe;Replacement Killers The;1998
+1770;BMonkey;B Monkey;1998
+1771;NightFlier;Night Flier The;1997
+1772;BluesBrothers;Blues Brothers;1998
+1773;TokyoFist;Tokyo Fist;1995
+1774;MassTransit;Mass Transit;1998
+1776;Ride;Ride;1998
+1777;WeddingSingerThe;Wedding Singer The;1998
+1779;Sphere;Sphere;1998
+1780;AynRandASenseofLife;Ayn Rand A Senseof Life;1997
+1781;FurtherGestureA;Further Gesture A;1997
+1782;LittleCity;Little City;1997
+1783;Palmetto;Palmetto;1998
+1784;AsGoodAsItGets;As Goodas It Gets;1997
+1785;KingofNewYork;Kingof New York;1990
+1787;ParalyzingFearTheStoryofPolioinAmericaA;Paralyzing Fear The Storyof Polioin America A T V;1998
+1788;MenWithGuns;Menwith Guns I;1997
+1789;SadnessofSexThe;Sadnessof Sex The;1995
+1791;Twilight;Twilight;1998
+1792;USMarshalls;U S Marshals;1998
+1793;WelcometoWoopWoop;Welcometo Woop Woop;1997
+1794;LoveandDeathonLongIsland;Loveand Deathon Long Island;1997
+1795;CallejndelosmilagrosEl;Callejndelosmilagros El;1995
+1796;InGodsHands;In Gods Hands;1998
+1797;Everest;Everest;1998
+1798;Hush;Hush;1998
+1799;SuicideKings;Suicide Kings;1997
+1801;ManintheIronMaskThe;Maninthe Iron Mask The I;1998
+1804;NewtonBoysThe;Newton Boys The;1998
+1805;WildThings;Wild Things;1998
+1806;Paulie;Paulie;1998
+1807;CoolDryPlaceA;Cool Dry Place A;1998
+1809;Hanabi;Hanabi;1997
+1810;PrimaryColors;Primary Colors;1998
+1811;NiagaraNiagara;Niagara Niagara;1997
+1812;WideAwake;Wide Awake;1998
+1814;PriceAboveRubiesA;Price Above Rubies A;1998
+1815;Eden;Eden;1996
+1816;TwoGirlsandaGuy;Two Girlsanda Guy;1997
+1817;NoLookingBack;No Looking Back;1998
+1819;StorefrontHitchcock;Storefront Hitchcock;1998
+1820;PropositionThe;Proposition The;1998
+1821;ObjectofMyAffectionThe;Objectof My Affection The;1998
+1822;MeettheDeedles;Meetthe Deedles;1998
+1824;Homegrown;Homegrown;1998
+1825;PlayersClubThe;Players Club The;1998
+1826;BarneysGreatAdventure;Barneys Great Adventure;1998
+1827;BigOneThe;Big One The;1997
+1829;ChineseBox;Chinese Box;1997
+1830;FollowtheBitch;Followthe Bitch;1996
+1831;LostinSpace;Lostin Space;1998
+1832;HeavensBurning;Heavens Burning;1997
+1833;MercuryRising;Mercury Rising;1998
+1834;SpanishPrisonerThe;Spanish Prisoner The;1997
+1835;CityofAngels;Cityof Angels;1998
+1836;LastDaysofDiscoThe;Last Daysof Disco The;1998
+1837;OddCoupleIIThe;Odd Couple I I The;1998
+1839;MyGiant;My Giant;1998
+1840;HeGotGame;He Got Game;1998
+1841;GingerbreadManThe;Gingerbread Man The;1998
+1842;Illtown;Illtown;1996
+1843;SlappyandtheStinkers;Slappyandthe Stinkers;1998
+1844;LiveFlesh;Carnetrmula;1997
+1845;ZeroEffect;Zero Effect;1998
+1846;NilByMouth;Nilby Mouth;1997
+1847;Ratchet;Ratchet;1996
+1848;BorrowersThe;Borrowers The;1997
+1849;PrinceValiant;Prince Valiant;1997
+1850;ILoveYouDontTouchMe;I Love You Dont Touch Me;1997
+1851;LeatherJacketLoveStory;Leather Jacket Love Story;1997
+1852;LoveWalkedIn;Love Walked In;1997
+1853;AlanSmitheeFilmBurnHollywoodBurnAn;Alan Smithee Film Burn Hollywood Burn An;1997
+1854;KissingaFool;Kissinga Fool;1998
+1855;KrippendorfsTribe;Krippendorfs Tribe;1998
+1856;KurtCourtney;Kurt Courtney;1998
+1857;RealBlondeThe;Real Blonde The;1997
+1858;MrNiceGuy;Yatgohoyan;1997
+1859;TasteofCherry;Tasteof Cherry A;1985
+1860;CharacterKarakter;Karakter;1997
+1861;JunkMail;Budbringeren;1997
+1862;SpeciesII;Species I I;1998
+1863;MajorLeagueBacktotheMinors;Major League Backtothe Minors;1998
+1864;SourGrapes;Sour Grapes;1998
+1865;WildManBlues;Wild Man Blues;1997
+1866;BigHitThe;Big Hit The;1998
+1867;TarzanandtheLostCity;Tarzanandthe Lost City;1998
+1868;TruceThe;Tregua La;1997
+1869;BlackDog;Black Dog;1998
+1870;DancerTexasPop;Dancer Texas Pop;1998
+1871;FriendoftheDeceasedA;Priyatelpokoynika;1997
+1872;GoNow;Go Now;1995
+1873;MisrablesLes;Misrables Les;1998
+1874;StillBreathing;Still Breathing;1997
+1875;Clockwatchers;Clockwatchers;1997
+1876;DeepImpact;Deep Impact;1998
+1877;LittleMen;Little Men;1997
+1878;Woo;Woo;1998
+1879;HangingGardenThe;Hanging Garden The;1997
+1880;LawnDogs;Lawn Dogs;1997
+1881;QuestforCamelot;Questfor Camelot;1998
+1882;Godzilla;Godzilla;1998
+1883;Bulworth;Bulworth;1998
+1884;FearandLoathinginLasVegas;Fearand Loathingin Las Vegas;1998
+1885;OppositeofSexThe;Oppositeof Sex The;1998
+1886;IGottheHookUp;I Gotthe Hook Up;1998
+1887;AlmostHeroes;Almost Heroes;1998
+1888;HopeFloats;Hope Floats;1998
+1889;Insomnia;Insomnia;1997
+1890;LittleBoyBlue;Little Boy Blue;1997
+1891;UglyThe;Ugly The;1997
+1892;PerfectMurderA;Perfect Murder A;1998
+1893;BeyondSilence;Jenseitsder Stille;1996
+1894;SixDaysSevenNights;Six Days Seven Nights;1998
+1895;CantHardlyWait;Cant Hardly Wait;1998
+1896;CousinBette;Cousin Bette;1998
+1897;HighArt;High Art;1998
+1898;LandGirlsThe;Land Girls The;1998
+1899;PassionintheDesert;Passioninthe Desert;1997
+1900;ChildrenofHeavenTheBachehaYeAseman;Bacheha Yeaseman;1997
+1901;DearJesse;Dear Jesse;1998
+1902;DreamforanInsomniac;Dreamforan Insomniac;1996
+1903;HavPlenty;Hav Plenty;1997
+1904;HenryFool;Henry Fool;1997
+1905;MarieBaieDesAnges;Marie Baiedes Anges;1997
+1906;MrJealousy;Mr Jealousy;1997
+1907;Mulan;Mulan;1998
+1908;ResurrectionMan;Resurrection Man;1998
+1909;XFilesFighttheFutureThe;X Files The;1998
+1910;IWentDown;I Went Down;1997
+1911;DoctorDolittle;Doctor Dolittle;1998
+1912;OutofSight;Outof Sight;1998
+1913;PicnicatHangingRock;Picnicat Hanging Rock;1975
+1914;SmokeSignals;Smoke Signals;1998
+1915;VoyagetotheBeginningoftheWorld;Viagemao Princpiodo Mundo;1997
+1916;Buffalo;Buffalo;1998
+1917;Armageddon;Armageddon;1998
+1918;LethalWeapon;Lethal Weapon;1998
+1919;Madeline;Madeline;1998
+1920;SmallSoldiers;Small Soldiers;1998
+1921;Pi;Pi;1998
+1922;Whatever;Whatever;1998
+1923;TheresSomethingAboutMary;Theres Something About Mary;1998
+1924;PlanfromOuterSpace;Planfrom Outer Space;1959
+1925;Wings;Wings;1927
+1926;BroadwayMelodyThe;Broadway Melody The;1929
+1927;AllQuietontheWesternFront;All Quietonthe Western Front;1930
+1928;Cimarron;Cimarron;1931
+1929;GrandHotel;Grand Hotel;1932
+1930;Cavalcade;Cavalcade;1933
+1931;MutinyontheBounty;Mutinyonthe Bounty;1935
+1932;GreatZiegfeldThe;Great Ziegfeld The;1936
+1933;LifeofmileZolaThe;Lifeof Emile Zola The;1937
+1934;YouCantTakeItWithYou;You Cant Take Itwith You;1938
+1935;HowGreenWasMyValley;How Green Was My Valley;1941
+1936;MrsMiniver;Mrs Miniver;1942
+1937;GoingMyWay;Going My Way;1944
+1938;LostWeekendThe;Lost Weekend The;1945
+1939;BestYearsofOurLivesThe;Best Yearsof Our Lives The;1946
+1940;GentlemansAgreement;Gentlemans Agreement;1947
+1941;Hamlet;Hamlet;1948
+1942;AlltheKingsMen;Allthe Kings Men;1949
+1943;GreatestShowonEarthThe;Greatest Showon Earth The;1952
+1944;FromHeretoEternity;From Hereto Eternity;1953
+1945;OntheWaterfront;Onthe Waterfront;1954
+1946;Marty;Marty;1955
+1947;WestSideStory;West Side Story;1961
+1948;TomJones;Tom Jones;1963
+1949;ManforAllSeasonsA;Manfor All Seasons A;1966
+1950;IntheHeatoftheNight;Inthe Heatofthe Night;1967
+1951;Oliver;Oliver;1968
+1952;MidnightCowboy;Midnight Cowboy;1969
+1953;FrenchConnectionThe;French Connection The;1971
+1954;Rocky;Rocky;1976
+1955;KramerVsKramer;Kramervs Kramer;1979
+1956;OrdinaryPeople;Ordinary People;1980
+1957;ChariotsofFire;Chariotsof Fire;1981
+1958;TermsofEndearment;Termsof Endearment;1983
+1959;OutofAfrica;Outof Africa;1985
+1960;LastEmperorThe;Last Emperor The;1987
+1961;RainMan;Rain Man;1988
+1962;DrivingMissDaisy;Driving Miss Daisy;1989
+1963;TaketheMoneyandRun;Takethe Moneyand Run;1969
+1964;Klute;Klute;1971
+1965;RepoMan;Repo Man;1984
+1966;Metropolitan;Metropolitan;1990
+1967;Labyrinth;Labyrinth;1986
+1968;BreakfastClubThe;Breakfast Club The;1985
+1969;NightmareonElmStreetPartFreddysRevengeA;Nightmareon Elm Street Part Freddys Revenge A;1985
+1970;NightmareonElmStreetDreamWarriorsA;Nightmareon Elm Street Dream Warriors A;1987
+1971;NightmareonElmStreetTheDreamMasterA;Nightmareon Elm Street The Dream Master A;1988
+1972;NightmareonElmStreetTheDreamChildA;Nightmareon Elm Street The Dream Child A;1989
+1973;FreddysDeadTheFinalNightmare;Freddys Dead The Final Nightmare;1991
+1974;Fridaytheth;Fridaytheth;1980
+1975;FridaythethPart;Fridaytheth Part;1981
+1976;FridaythethPartD;Fridaytheth Part I I I;1982
+1977;FridaythethTheFinalChapter;Fridaytheth The Final Chapter;1984
+1978;FridaythethPartVANewBeginning;Fridaytheth A New Beginning;1985
+1979;FridaythethPartVIJasonLives;Fridaytheth Part V I Jason Lives;1986
+1980;FridaythethPartVIITheNewBlood;Fridaytheth Part V I I The New Blood;1988
+1981;FridaythethPartVIIIJasonTakesManhattan;Fridaytheth Part V I I I Jason Takes Manhattan;1989
+1982;Halloween;Halloween;1978
+1983;HalloweenII;Halloween I I;1981
+1984;HalloweenIIISeasonoftheWitch;Halloween I I I Seasonofthe Witch;1982
+1985;HalloweenTheReturnofMichaelMyers;Halloween The Returnof Michael Myers;1988
+1986;HalloweenTheRevengeofMichaelMyers;Halloween;1989
+1987;PromNight;Prom Night;1980
+1988;HelloMaryLouPromNightII;Hello Mary Lou Prom Night I I;1987
+1989;PromNightIIITheLastKiss;Prom Night I I I The Last Kiss;1990
+1990;PromNightIVDeliverUsFromEvil;Prom Night I V Deliver Usfrom Evil;1992
+1991;ChildsPlay;Childs Play;1988
+1992;ChildsPlay;Childs Play;1990
+1993;ChildsPlay;Childs Play;1991
+1994;Poltergeist;Poltergeist;1982
+1995;PoltergeistIITheOtherSide;Poltergeist I I The Other Side;1986
+1996;PoltergeistIII;Poltergeist I I I;1988
+1997;ExorcistThe;Exorcist The;1973
+1998;ExorcistIITheHeretic;Exorcist I I The Heretic;1977
+1999;ExorcistIIIThe;Exorcist I I I The;1990
+2000;LethalWeapon;Lethal Weapon;1987
+2001;LethalWeapon;Lethal Weapon;1989
+2002;LethalWeapon;Lethal Weapon;1992
+2003;Gremlins;Gremlins;1984
+2004;GremlinsTheNewBatch;Gremlins The New Batch;1990
+2005;GooniesThe;Goonies The;1985
+2006;MaskofZorroThe;Maskof Zorro The;1998
+2007;PolishWedding;Polish Wedding;1998
+2008;ThisWorldThentheFireworks;This World Thenthe Fireworks;1997
+2009;SoylentGreen;Soylent Green;1973
+2010;Metropolis;Metropolis;1927
+2011;BacktotheFuturePartII;Backtothe Future Part I I;1989
+2012;BacktotheFuturePartIII;Backtothe Future Part I I I;1990
+2013;PoseidonAdventureThe;Poseidon Adventure The;1972
+2014;FreakyFriday;Freaky Friday;1976
+2015;AbsentMindedProfessorThe;Absent Minded Professor The;1961
+2016;AppleDumplingGangRidesAgainThe;Apple Dumpling Gang Rides Again The;1979
+2017;BabesinToyland;Babesin Toyland;1961
+2018;Bambi;Bambi;1942
+2019;SevenSamuraiTheMagnificentSevenShichininnosamurai;Shichininnosamurai;1954
+2020;DangerousLiaisons;Dangerous Liaisons;1988
+2021;Dune;Dune;1984
+2022;LastTemptationofChristThe;Last Temptationof Christ The;1988
+2023;GodfatherPartIIIThe;Godfather Part I I I The;1990
+2024;RaptureThe;Rapture The;1991
+2025;Lolita;Lolita;1997
+2026;DisturbingBehavior;Disturbing Behavior;1998
+2027;Mafia;Mafia;1996
+2028;SavingPrivateRyan;Saving Private Ryan;1998
+2029;BillysHollywoodScreenKiss;Billys Hollywood Screen Kiss;1998
+2030;EastPalaceWestPalaceDonggongxigong;Donggongxigong;1996
+2031;Duck;Million Dollar Duck The;1971
+2032;BarefootExecutiveThe;Barefoot Executive The;1971
+2033;BlackCauldronThe;Black Cauldron The;1985
+2034;BlackHoleThe;Black Hole The;1979
+2035;BlackbeardsGhost;Blackbeards Ghost;1968
+2036;BlankCheck;Blank Check;1994
+2037;Candleshoe;Candleshoe;1977
+2038;CatfromOuterSpaceThe;Catfrom Outer Space The;1978
+2039;Cheetah;Cheetah;1989
+2040;ComputerWoreTennisShoesThe;Computer Wore Tennis Shoes The;1969
+2041;Condorman;Condorman;1981
+2042;DTheMightyDucks;D The Mighty Ducks;1994
+2043;DarbyOGillandtheLittlePeople;Darby O Gillandthe Little People;1959
+2044;DevilandMaxDevlinThe;Deviland Max Devlin The;1981
+2045;FarOffPlaceA;Far Off Place A;1993
+2046;FlightoftheNavigator;Flightofthe Navigator;1986
+2047;GnomeMobileThe;Gnome Mobile The;1967
+2048;GreatMouseDetectiveThe;Great Mouse Detective The;1986
+2049;HappiestMillionaireThe;Happiest Millionaire The;1967
+2050;HerbieGoesBananas;Herbie Goes Bananas;1980
+2051;HerbieGoestoMonteCarlo;Herbie Goesto Monte Carlo;1977
+2052;HocusPocus;Hocus Pocus;1993
+2053;HoneyIBlewUptheKid;Honey I Blew Upthe Kid;1992
+2054;HoneyIShrunktheKids;Honey I Shrunkthe Kids;1989
+2055;HotLeadandColdFeet;Hot Leadand Cold Feet;1978
+2056;InSearchoftheCastaways;In Searchofthe Castaways;1962
+2057;IncredibleJourneyThe;Incredible Journey The;1963
+2058;NegotiatorThe;Negotiator The;1998
+2059;ParentTrapThe;Parent Trap The;1998
+2060;BASEketball;B A S Eketball;1998
+2061;FullTiltBoogie;Full Tilt Boogie;1997
+2062;GovernessThe;Governess The;1998
+2063;SeventhHeavenLeSeptimeciel;Septimeciel Le;1997
+2064;RogerMe;Roger Me;1989
+2065;PurpleRoseofCairoThe;Purple Roseof Cairo The;1985
+2066;OutofthePast;Outofthe Past;1947
+2067;DoctorZhivago;Doctor Zhivago;1965
+2068;FannyandAlexander;Fannyoch Alexander;1982
+2069;TriptoBountifulThe;Tripto Bountiful The;1985
+2070;TenderMercies;Tender Mercies;1983
+2071;AndtheBandPlayedOn;Andthe Band Played On T V;1993
+2072;burbsThe;burbs The;1989
+2073;Fandango;Fandango;1985
+2074;NightPorterTheIlPortieredinotte;Portieredinotte Il;1974
+2075;Mephisto;Mephisto;1981
+2076;BlueVelvet;Blue Velvet;1986
+2077;JourneyofNattyGannThe;Journeyof Natty Gann The;1985
+2078;JungleBookThe;Jungle Book The I;1967
+2079;Kidnapped;Kidnapped;1960
+2080;LadyandtheTramp;Ladyandthe Tramp;1955
+2081;LittleMermaidThe;Little Mermaid The;1989
+2082;MightyDucksThe;Mighty Ducks The;1992
+2083;MuppetChristmasCarolThe;Muppet Christmas Carol The;1992
+2084;Newsies;Newsies;1992
+2085;Dalmatians;One Hundredand One Dalmatians;1961
+2086;OneMagicChristmas;One Magic Christmas;1985
+2087;PeterPan;Peter Pan;1953
+2088;Popeye;Popeye;1980
+2089;RescuersDownUnderThe;Rescuers Down Under The;1990
+2090;RescuersThe;Rescuers The;1977
+2091;ReturnfromWitchMountain;Returnfrom Witch Mountain;1978
+2092;ReturnofJafarThe;Returnof Jafar The V;1994
+2093;ReturntoOz;Returnto Oz;1985
+2094;RocketeerThe;Rocketeer The;1991
+2095;ShaggyDAThe;Shaggy D A The;1976
+2096;SleepingBeauty;Sleeping Beauty;1959
+2097;SomethingWickedThisWayComes;Something Wicked This Way Comes;1983
+2098;SonofFlubber;Sonof Flubber;1963
+2099;SongoftheSouth;Songofthe South;1946
+2100;Splash;Splash;1984
+2101;SquantoAWarriorsTale;Squanto A Warriors Tale;1994
+2102;SteamboatWillie;Steamboat Willie;1928
+2103;TallTale;Tall Tale;1995
+2104;Tex;Tex;1982
+2105;Tron;Tron;1982
+2106;SwingKids;Swing Kids;1993
+2107;HalloweenH;Halloween H Years Later;1998
+2108;LAStory;L A Story;1991
+2109;JerkThe;Jerk The;1979
+2110;DeadMenDontWearPlaid;Dead Men Dont Wear Plaid;1982
+2111;ManwithTwoBrainsThe;Manwith Two Brains The;1983
+2112;GrandCanyon;Grand Canyon;1991
+2113;GraveyardShift;Graveyard Shift;1990
+2114;OutsidersThe;Outsiders The;1983
+2115;IndianaJonesandtheTempleofDoom;Indiana Jonesandthe Templeof Doom;1984
+2116;LordoftheRingsThe;Lordofthe Rings The;1978
+2117;NineteenEightyFour;Nineteen Eighty Four;1984
+2118;DeadZoneThe;Dead Zone The;1983
+2119;MaximumOverdrive;Maximum Overdrive;1986
+2120;NeedfulThings;Needful Things;1993
+2121;Cujo;Cujo;1983
+2122;ChildrenoftheCorn;Childrenofthe Corn;1984
+2123;AllDogsGotoHeaven;All Dogs Goto Heaven;1989
+2124;AddamsFamilyThe;Addams Family The;1991
+2125;EverAfterACinderellaStory;Ever After;1998
+2126;SnakeEyes;Snake Eyes;1998
+2127;FirstLoveLastRites;First Love Last Rites;1997
+2128;SafeMen;Safe Men;1998
+2129;SaltmenofTibetThe;Salzmnnervon Tibet Die;1997
+2130;AtlanticCity;Atlantic City;1980
+2131;AutumnSonataHstsonaten;Hstsonaten;1978
+2132;WhosAfraidofVirginiaWoolf;Whos Afraidof Virginia Woolf;1966
+2133;AdventuresinBabysitting;Adventuresin Babysitting;1987
+2134;WeirdScience;Weird Science;1985
+2135;DoctorDolittle;Doctor Dolittle;1967
+2136;NuttyProfessorThe;Nutty Professor The;1963
+2137;CharlottesWeb;Charlottes Web;1973
+2138;WatershipDown;Watership Down;1978
+2139;SecretofNIMHThe;Secretof N I M H The;1982
+2140;DarkCrystalThe;Dark Crystal The;1982
+2141;AmericanTailAn;American Tail An;1986
+2142;AmericanTailFievelGoesWestAn;American Tail Fievel Goes West An;1991
+2143;Legend;Legend;1985
+2144;SixteenCandles;Sixteen Candles;1984
+2145;PrettyinPink;Prettyin Pink;1986
+2146;StElmosFire;St Elmos Fire;1985
+2147;ClanoftheCaveBearThe;Clanofthe Cave Bear The;1986
+2148;House;House;1986
+2149;HouseIITheSecondStory;House I I The Second Story;1987
+2150;GodsMustBeCrazyThe;Gods Must Be Crazy The;1980
+2151;GodsMustBeCrazyIIThe;Gods Must Be Crazy I I The;1989
+2152;AirBudGoldenReceiver;Air Bud Golden Receiver;1998
+2153;AvengersThe;Avengers The;1998
+2154;HowStellaGotHerGrooveBack;How Stella Got Her Groove Back;1998
+2155;SlumsofBeverlyHillsThe;Slumsof Beverly Hills;1998
+2156;BestManTheIlTestimonedellosposo;Testimonedellosposo Il;1998
+2157;ChambermaidontheTitanicThe;Femmedechambredu Titanic La;1997
+2158;HenryPortraitofaSerialKillerPart;Henry Portraitofa Serial Killer Part;1998
+2159;HenryPortraitofaSerialKiller;Henry Portraitofa Serial Killer;1986
+2160;RosemarysBaby;Rosemarys Baby;1968
+2161;NeverEndingStoryThe;Unendliche Geschichte Die;1984
+2162;NeverEndingStoryIITheNextChapterThe;Never Ending Story I I The Next Chapter The;1990
+2163;AttackoftheKillerTomatoes;Attackofthe Killer Tomatoes;1978
+2164;SurfNazisMustDie;Surf Nazis Must Die;1987
+2165;YourFriendsandNeighbors;Your Friends Neighbors;1998
+2166;ReturntoParadise;Returnto Paradise;1998
+2167;Blade;Blade;1998
+2168;DancewithMe;Dancewith Me;1998
+2169;DeadManonCampus;Dead Manon Campus;1998
+2170;WrongfullyAccused;Wrongfully Accused;1998
+2171;NextStopWonderland;Next Stop Wonderland;1998
+2172;StrikeakaAllIWannaDoTheHairyBird;Strike;1998
+2173;NavigatorAMediaevalOdysseyThe;Navigator A Mediaeval Odyssey The;1988
+2174;Beetlejuice;Beetle Juice;1988
+2175;DjVu;Dj Vu;1997
+2176;Rope;Rope;1948
+2177;FamilyPlot;Family Plot;1976
+2178;Frenzy;Frenzy;1972
+2179;Topaz;Topaz;1969
+2180;TornCurtain;Torn Curtain;1966
+2181;Marnie;Marnie;1964
+2182;WrongManThe;Wrong Man The;1956
+2183;ManWhoKnewTooMuchThe;Man Who Knew Too Much The;1956
+2184;TroublewithHarryThe;Troublewith Harry The;1955
+2185;IConfess;I Confess;1953
+2186;StrangersonaTrain;Strangersona Train;1951
+2187;StageFright;Stage Fright;1950
+2188;;;1998
+2189;IMarriedAStrangePerson;I Marrieda Strange Person;1997
+2190;WhyDoFoolsFallInLove;Why Do Fools Fallin Love;1998
+2191;MerryWarA;Keepthe Aspidistra Flying;1997
+2192;SeetheSeaRegardelamer;Regardelamer;1997
+2193;Willow;Willow;1988
+2194;UntouchablesThe;Untouchables The;1987
+2195;DirtyWork;Dirty Work;1998
+2196;KnockOff;Knock Off;1998
+2197;Firelight;Firelight;1997
+2198;Modulations;Modulations;1998
+2199;Phoenix;Phoenix;1998
+2200;UnderCapricorn;Under Capricorn;1949
+2201;ParadineCaseThe;Paradine Case The;1947
+2202;Lifeboat;Lifeboat;1944
+2203;ShadowofaDoubt;Shadowofa Doubt;1943
+2204;Saboteur;Saboteur;1942
+2205;MrMrsSmith;Mr Mrs Smith;1941
+2206;Suspicion;Suspicion;1941
+2207;JamaicaInn;Jamaica Inn;1939
+2208;LadyVanishesThe;Lady Vanishes The;1938
+2209;YoungandInnocent;Youngand Innocent;1937
+2210;Sabotage;Sabotage;1936
+2211;SecretAgent;Secret Agent;1936
+2212;ManWhoKnewTooMuchThe;Man Who Knew Too Much The;1934
+2213;WaltzesfromVienna;Waltzesfrom Vienna;1934
+2214;NumberSeventeen;Number Seventeen;1932
+2215;RichandStrange;Richand Strange;1931
+2216;SkinGameThe;Skin Game The;1931
+2217;ElstreeCalling;Elstree Calling;1930
+2218;JunoandPaycock;Junoandthe Paycock;1930
+2219;Murder;Murder;1930
+2220;ManxmanThe;Manxman The;1929
+2221;Blackmail;Blackmail;1929
+2222;Champagne;Champagne;1928
+2223;FarmersWifeThe;Farmers Wife The;1928
+2224;Downhill;Downhill;1927
+2225;EasyVirtue;Easy Virtue;1928
+2226;RingThe;Ring The I;1927
+2227;LodgerThe;Lodger The;1927
+2228;MountainEagleThe;Mountain Eagle The;1926
+2229;PleasureGardenThe;Pleasure Garden The;1925
+2230;AlwaysTellYourWife;Always Tell Your Wife;1923
+2231;Rounders;Rounders;1998
+2232;Cube;Cube;1997
+2233;DiggingtoChina;Diggingto China;1998
+2234;LetsTalkAboutSex;Lets Talk About Sex I;1998
+2235;OneMansHero;One Mans Hero;1999
+2236;SimonBirch;Simon Birch;1998
+2237;WithoutLimits;Without Limits;1998
+2238;SevenBeautiesPasqualinoSettebellezze;Pasqualino Settebellezze;1975
+2239;SweptAwayTravoltidauninsolitodestinonellazzurromaredAgosto;Travoltidauninsolitodestinonellazzurromaredagosto;1974
+2240;MyBodyguard;My Bodyguard;1980
+2241;Class;Class;1983
+2242;GrandviewUSA;Grandview U S A;1984
+2243;BroadcastNews;Broadcast News;1987
+2244;AllnighterThe;Allnighter The;1987
+2245;WorkingGirl;Working Girl;1988
+2246;StarsandBars;Starsand Bars;1988
+2247;MarriedtotheMob;Marriedtothe Mob;1988
+2248;SayAnything;Say Anything;1989
+2249;MyBlueHeaven;My Blue Heaven I;1990
+2250;MenDontLeave;Men Dont Leave;1990
+2251;CabinetofDrRamirezThe;Cabinetof Dr Ramirez The;1991
+2252;Hero;Hero I;1992
+2253;Toys;Toys;1992
+2254;Choices;Choices;1981
+2255;YoungDoctorsinLove;Young Doctorsin Love;1982
+2256;Parasite;Parasite;1982
+2257;NoSmallAffair;No Small Affair;1984
+2258;MasterNinjaI;Master The;1984
+2259;BlameItonRio;Blame Iton Rio;1984
+2260;Wisdom;Wisdom;1986
+2261;OneCrazySummer;One Crazy Summer;1986
+2262;AboutLastNight;About Last Night;1986
+2263;SeventhSignThe;Seventh Sign The;1988
+2264;WereNoAngels;Were No Angels;1989
+2265;NothingButTrouble;Nothing But Trouble;1991
+2266;ButchersWifeThe;Butchers Wife The;1991
+2267;MortalThoughts;Mortal Thoughts;1991
+2268;FewGoodMenA;Few Good Men A;1992
+2269;IndecentProposal;Indecent Proposal;1993
+2270;CenturyofCinemaA;Centuryof Cinema A;1994
+2271;PermanentMidnight;Permanent Midnight;1998
+2272;OneTrueThing;One True Thing;1998
+2273;RushHour;Rush Hour;1998
+2274;LiliansStory;Lilians Story;1995
+2275;SixStringSamurai;Six String Samurai;1998
+2276;SoldiersDaughterNeverCriesA;Soldiers Daughter Never Cries A;1998
+2277;SomewhereintheCity;Somewhereinthe City;1998
+2278;Ronin;Ronin;1998
+2279;UrbanLegend;Urban Legend;1998
+2280;ClayPigeons;Clay Pigeons;1998
+2281;MonumentAve;Snitch;1998
+2282;Pecker;Pecker;1998
+2283;ShelteringSkyThe;Sheltering Sky The;1990
+2284;BanditQueen;Bandit Queen;1994
+2285;If;If;1968
+2286;FiendishPlotofDrFuManchuThe;Fiendish Plotof Dr Fu Manchu The;1980
+2287;Them;Them;1954
+2288;ThingThe;Thing The;1982
+2289;PlayerThe;Player The;1992
+2290;StardustMemories;Stardust Memories;1980
+2291;EdwardScissorhands;Edward Scissorhands;1990
+2292;OvernightDelivery;Overnight Delivery;1998
+2293;Shadrach;Shadrach;1998
+2294;Antz;Antz;1998
+2295;ImpostorsThe;Impostors The;1998
+2296;NightattheRoxburyA;Nightatthe Roxbury A;1998
+2297;WhatDreamsMayCome;What Dreams May Come;1998
+2298;Strangeland;Strangeland;1998
+2299;BattleoftheSexesThe;Battleofthe Sexes The;1959
+2300;ProducersThe;Producers The;1968
+2301;HistoryoftheWorldPartI;Historyofthe World Part I;1981
+2302;MyCousinVinny;My Cousin Vinny;1992
+2303;Nashville;Nashville;1975
+2304;LoveIstheDevil;Love Isthe Devil Studyfora Portraitof Francis Bacon;1998
+2305;Slam;Slam;1998
+2306;HolyMan;Holy Man;1998
+2307;OneToughCop;One Tough Cop;1998
+2308;Detroit;Detroit;1973
+2309;InheritorsTheDieSiebtelbauern;Siebtelbauern Die;1998
+2310;MightyThe;Mighty The;1998
+2311;;;1984
+2312;ChildrenofaLesserGod;Childrenofa Lesser God;1986
+2313;ElephantManThe;Elephant Man The;1980
+2314;Beloved;Beloved I;1998
+2315;BrideofChucky;Brideof Chucky;1998
+2316;PracticalMagic;Practical Magic;1998
+2317;AlarmistThe;Life During Wartime;1997
+2318;Happiness;Happiness;1998
+2319;ReachtheRock;Reachthe Rock;1998
+2320;AptPupil;Apt Pupil;1998
+2321;Pleasantville;Pleasantville;1998
+2322;Soldier;Soldier I;1998
+2323;CruiseThe;Cruise The;1998
+2324;LifeIsBeautifulLaVitabella;Life Is Beautiful;2000
+2325;Orgazmo;Orgazmo;1997
+2326;ShatteredImage;Shattered Image;1998
+2327;TalesfromtheDarksideTheMovie;Talesfromthe Darkside The Movie;1990
+2328;Vampires;Vampires;1998
+2329;AmericanHistoryX;American History X;1998
+2330;HandsonaHardBody;Handsona Hard Body The Documentary;1997
+2331;LivingOutLoud;Living Out Loud;1998
+2332;Belly;Belly;1998
+2333;GodsandMonsters;Godsand Monsters;1998
+2334;SiegeThe;Siege The I;1998
+2335;WaterboyThe;Waterboy The;1998
+2336;Elizabeth;Elizabeth;1998
+2337;VelvetGoldmine;Velvet Goldmine;1998
+2338;IStillKnowWhatYouDidLastSummer;I Still Know What You Did Last Summer;1998
+2339;IllBeHomeForChristmas;Ill Be Homefor Christmas;1998
+2340;MeetJoeBlack;Meet Joe Black;1998
+2341;DancingatLughnasa;Dancingat Lughnasa;1998
+2342;HardCoreLogo;Hard Core Logo;1996
+2343;NakedManThe;Naked Man The;1998
+2344;RunawayTrain;Runaway Train;1985
+2345;DesertBloom;Desert Bloom;1986
+2346;StepfordWivesThe;Stepford Wives The;1975
+2347;PopeofGreenwichVillageThe;Popeof Greenwich Village The;1984
+2348;SidandNancy;Sidand Nancy;1986
+2349;MonaLisa;Mona Lisa;1986
+2350;HeartCondition;Heart Condition;1990
+2351;NightsofCabiriaLeNottidiCabiria;Nottidi Cabiria Le;1957
+2352;BigChillThe;Big Chill The;1983
+2353;EnemyoftheState;Enemyofthe State;1998
+2354;RugratsMovieThe;Rugrats Movie The;1998
+2355;BugsLifeA;Bugs Life A;1998
+2356;Celebrity;Celebrity;1998
+2357;CentralStationCentraldoBrasil;Centraldo Brasil;1998
+2358;Savior;Savior;1998
+2359;WakingNedDevine;Waking Ned;1998
+2360;CelebrationTheFesten;Festen;1998
+2361;PinkFlamingos;Pink Flamingos;1972
+2362;GlenorGlenda;Glenor Glenda;1953
+2363;GodzillaGojira;Gojira;1954
+2364;GodzillaGojira;Gojira;1984
+2365;KingKongvsGodzillaKingukongutaiGojira;Kingu Kongutai Gojira;1962
+2366;KingKong;King Kong;1933
+2367;KingKong;King Kong;1976
+2368;KingKongLives;King Kong Lives;1986
+2369;DesperatelySeekingSusan;Desperately Seeking Susan;1985
+2370;EmeraldForestThe;Emerald Forest The;1985
+2371;Fletch;Fletch;1985
+2372;FletchLives;Fletch Lives;1989
+2373;RedSonja;Red Sonja;1985
+2374;GungHo;Gung Ho;1986
+2375;MoneyPitThe;Money Pit The;1986
+2376;ViewtoaKillA;Viewtoa Kill A;1985
+2377;Lifeforce;Lifeforce;1985
+2378;PoliceAcademy;Police Academy;1984
+2379;PoliceAcademyTheirFirstAssignment;Police Academy Their First Assignment;1985
+2380;PoliceAcademyBackinTraining;Police Academy Backin Training;1986
+2381;PoliceAcademyCitizensonPatrol;Police Academy Citizenson Patrol;1987
+2382;PoliceAcademyAssignment;Police Academy Assignment Miami Beach;1988
+2383;PoliceAcademyCityUnderSiege;Police Academy City Under Siege;1989
+2384;BabePigintheCity;Babe Piginthe City;1998
+2385;HomeFries;Home Fries;1998
+2386;JerrySpringerRingmaster;Ringmaster;1998
+2387;VeryBadThings;Very Bad Things;1998
+2388;SteamTheTurkishBathHamam;Hamam;1997
+2389;Psycho;Psycho;1998
+2390;LittleVoice;Little Voice;1998
+2391;SimplePlanA;Simple Plan A;1998
+2392;JackFrost;Jack Frost;1998
+2393;StarTrekInsurrection;Star Trek Insurrection;1998
+2394;PrinceofEgyptThe;Princeof Egypt The;1998
+2395;Rushmore;Rushmore;1998
+2396;ShakespeareinLove;Shakespearein Love;1998
+2397;MassAppeal;Mass Appeal;1984
+2398;MiracleonthStreet;Miracleonth Street;1947
+2399;SantaClausTheMovie;Santa Claus;1985
+2400;Prancer;Prancer;1989
+2401;PaleRider;Pale Rider;1985
+2402;RamboFirstBloodPartII;Rambo First Blood Part I I;1985
+2403;FirstBlood;First Blood;1982
+2404;RamboIII;Rambo I I I;1988
+2405;JeweloftheNileThe;Jewelofthe Nile The;1985
+2406;RomancingtheStone;Romancingthe Stone;1984
+2407;Cocoon;Cocoon;1985
+2408;CocoonTheReturn;Cocoon The Return;1988
+2409;RockyII;Rocky I I;1979
+2410;RockyIII;Rocky I I I;1982
+2411;RockyIV;Rocky I V;1985
+2412;RockyV;Rocky V;1990
+2413;Clue;Clue;1985
+2414;YoungSherlockHolmes;Young Sherlock Holmes;1985
+2415;VioletsAreBlue;Violets Are Blue;1986
+2416;BacktoSchool;Backto School;1986
+2417;Heartburn;Heartburn;1986
+2418;NothinginCommon;Nothingin Common;1986
+2419;Extremities;Extremities;1986
+2420;KarateKidThe;Karate Kid The;1984
+2421;KarateKidPartIIThe;Karate Kid Part I I The;1986
+2422;KarateKidIIIThe;Karate Kid Part I I I The;1989
+2423;ChristmasVacation;Christmas Vacation;1989
+2424;YouveGotMail;Youve Got Mail;1998
+2425;GeneralThe;General The;1998
+2426;TheoryofFlightThe;Theoryof Flight The;1998
+2427;ThinRedLineThe;Thin Red Line The;1998
+2428;FacultyThe;Faculty The;1998
+2429;MightyJoeYoung;Mighty Joe Young;1998
+2430;MightyJoeYoung;Mighty Joe Young;1949
+2431;PatchAdams;Patch Adams;1998
+2432;Stepmom;Stepmom;1998
+2433;CivilActionA;Civil Action A;1998
+2434;DownintheDelta;Downinthe Delta;1998
+2435;Hurlyburly;Hurlyburly;1998
+2436;TeawithMussolini;Teawith Mussolini;1999
+2437;Wilde;Wilde;1997
+2438;OutsideOzona;Outside Ozona;1998
+2439;Affliction;Affliction;1997
+2440;AnotherDayinParadise;Another Dayin Paradise;1997
+2441;HiLoCountryThe;Hi Lo Country The;1998
+2442;HilaryandJackie;Hilaryand Jackie;1998
+2443;PlayingbyHeart;Playingby Heart;1998
+2444;TwentyFourSeven;Twenty Four Seven;1997
+2445;AtFirstSight;At First Sight;1999
+2446;InDreams;In Dreams;1999
+2447;VarsityBlues;Varsity Blues;1999
+2448;Virus;Virus;1999
+2449;GarbagePailKidsMovieThe;Garbage Pail Kids Movie The;1987
+2450;HowardtheDuck;Howardthe Duck;1986
+2451;GateThe;Gate The;1987
+2452;GateIITrespassersThe;Gate I I Trespassers The;1992
+2453;BoyWhoCouldFlyThe;Boy Who Could Fly The;1986
+2454;FlyThe;Fly The;1958
+2455;FlyThe;Fly The;1986
+2456;FlyIIThe;Fly I I The;1989
+2457;RunningScared;Running Scared;1986
+2458;ArmedandDangerous;Armedand Dangerous;1986
+2459;TexasChainsawMassacreThe;Texas Chain Saw Massacre The;1974
+2460;TexasChainsawMassacreThe;Texas Chainsaw Massacre The;1986
+2461;LeatherfaceTexasChainsawMassacreIII;Leatherface Texas Chainsaw Massacre I I I;1990
+2462;ReturnoftheTexasChainsawMassacreThe;Returnofthe Texas Chainsaw Massacre The;1994
+2463;RuthlessPeople;Ruthless People;1986
+2464;TrickorTreat;Trickor Treat;1986
+2465;DeadlyFriend;Deadly Friend;1986
+2466;BelizairetheCajun;Belizairethe Cajun;1986
+2467;NameoftheRoseThe;Nameofthe Rose;2003
+2468;JumpinJackFlash;Jumpin Jack Flash;1986
+2469;PeggySueGotMarried;Peggy Sue Got Married;1986
+2470;CrocodileDundee;Crocodile Dundee;1986
+2471;CrocodileDundeeII;Crocodile Dundee I I;1988
+2472;ToughGuys;Tough Guys;1986
+2473;SoulMan;Soul Man;1986
+2474;ColorofMoneyThe;Colorof Money The;1986
+2475;PickUp;Pick Up;1986
+2476;HeartbreakRidge;Heartbreak Ridge;1986
+2477;Firewalker;Firewalker;1986
+2478;ThreeAmigos;Three Amigos;1986
+2479;Gloria;Gloria;1999
+2480;DryCleaningNettoyagesec;Nettoyagesec;1997
+2481;MyNameIsJoe;My Name Is Joe;1998
+2482;StillCrazy;Still Crazy;1998
+2483;DayoftheBeastTheElDadelabestia;Dadelabestia El;1995
+2484;Tinseltown;Tinseltown;1997
+2485;ShesAllThat;Shes All That;1999
+2486;hourWoman;Hour Woman The;1999
+2487;BloodGutsBulletsandOctane;Blood Guts Bulletsand Octane;1998
+2488;PeepingTom;Peeping Tom;1960
+2489;SpanishFly;Spanish Fly;1998
+2490;Payback;Payback I;1999
+2491;SimplyIrresistible;Simply Irresistible;1999
+2492;Dates;Dates;1998
+2493;HarmonistsThe;Comedian Harmonists;1997
+2494;LastDaysThe;Last Days The;1998
+2495;FantasticPlanetTheLaPlantesauvage;Plantesauvage La;1973
+2496;BlastfromthePast;Blastfromthe Past;1999
+2497;MessageinaBottle;Messageina Bottle;1999
+2498;MyFavoriteMartian;My Favorite Martian;1999
+2499;GodSaidHa;God Said Ha;1998
+2500;Jawbreaker;Jawbreaker;1999
+2501;OctoberSky;October Sky;1999
+2502;OfficeSpace;Office Space;1999
+2503;AppleTheSib;Sib;1998
+2504;Cigarettes;Cigarettes;1999
+2505;MM;M M;1999
+2506;OtherSisterThe;Other Sister The;1999
+2507;BreakfastofChampions;Breakfastof Champions;1999
+2508;BreaksThe;Breaks The;1999
+2509;EightDaysaWeek;Eight Daysa Week;1997
+2510;JusttheTicket;Justthe Ticket I;1999
+2511;LongGoodbyeThe;Long Goodbye The;1973
+2512;BalladofNarayamaTheNarayamaBushiko;Narayamabushiko;1983
+2513;PetSematary;Pet Sematary;1989
+2514;PetSemataryII;Pet Sematary I I;1992
+2515;ChildrenoftheCornIITheFinalSacrifice;Childrenofthe Corn I I The Final Sacrifice;1993
+2516;ChildrenoftheCornIII;Childrenofthe Corn I I I;1995
+2517;Christine;Christine;1983
+2518;NightShift;Night Shift;1982
+2519;HouseonHauntedHill;Houseon Haunted Hill;1959
+2520;Airport;Airport;1970
+2521;Airport;Airport;1974
+2522;Airport;Airport;1977
+2523;Rollercoaster;Rollercoaster;1977
+2524;ToweringInfernoThe;Towering Inferno The;1974
+2525;Alligator;Alligator;1980
+2526;Meteor;Meteor;1979
+2527;Westworld;Westworld;1973
+2528;LogansRun;Logans Run;1976
+2529;PlanetoftheApes;Planetofthe Apes;1968
+2530;BeneaththePlanetoftheApes;Beneaththe Planetofthe Apes;1970
+2531;BattleforthePlanetoftheApes;Battleforthe Planetofthe Apes;1973
+2532;ConquestofthePlanetoftheApes;Conquestofthe Planetofthe Apes;1972
+2533;EscapefromthePlanetoftheApes;Escapefromthe Planetofthe Apes;1971
+2534;Avalanche;Avalanche;1978
+2535;Earthquake;Earthquake;1974
+2536;ConcordeAirportThe;Concorde Airport The;1979
+2537;BeyondthePoseidonAdventure;Beyondthe Poseidon Adventure;1979
+2538;Dancemaker;Dancemaker;1998
+2539;AnalyzeThis;Analyze This;1999
+2540;CorruptorThe;Corruptor The;1999
+2541;CruelIntentions;Cruel Intentions;1999
+2542;LockStockTwoSmokingBarrels;Lock Stockand Two Smoking Barrels;1998
+2543;SixWaystoSunday;Six Waysto Sunday;1997
+2544;SchoolofFleshTheLcoledelachair;coledelachair L;1998
+2545;RelaxItsJustSex;Relax Its Just Sex;1998
+2546;DeepEndoftheOceanThe;Deep Endofthe Ocean The;1999
+2547;Harvest;Harvest;1998
+2548;RageCarrieThe;Rage Carrie The;1999
+2549;WingCommander;Wing Commander;1999
+2550;HauntingThe;Haunting The I;1963
+2551;DeadRingers;Dead Ringers;1988
+2552;MyBoyfriendsBack;My Boyfriends Back;1993
+2553;VillageoftheDamned;Villageofthe Damned;1960
+2554;ChildrenoftheDamned;Childrenofthe Damned;1963
+2555;BabyGeniuses;Baby Geniuses;1999
+2556;TellingYou;Telling You;1998
+2557;IStandAloneSeulcontretous;Seulcontretous;1998
+2558;ForcesofNature;Forcesof Nature;1999
+2559;KingandIThe;Kingand I The;1999
+2560;Ravenous;Ravenous;1999
+2561;TrueCrime;True Crime;1999
+2562;Bandits;Bandits;1997
+2563;Beauty;Beauty T V;1998
+2564;EmptyMirrorThe;Empty Mirror The;1996
+2565;KingandIThe;Kingand I The;1956
+2566;DougsstMovie;Dougsst Movie;1999
+2567;EDtv;Edtv;1999
+2568;ModSquadThe;Mod Squad The;1999
+2569;AmongGiants;Among Giants;1998
+2570;WalkontheMoonA;Walkonthe Moon A;1999
+2571;MatrixThe;Matrix The;1999
+2572;ThingsIHateAboutYou;Things I Hate About You;1999
+2573;Tango;Tango;1999
+2574;OutofTownersThe;Outof Towners The;1999
+2575;DreamlifeofAngelsTheLaViervedesanges;Viervedesanges La;1998
+2576;Loveetc;Loveetc;1996
+2577;Metroland;Metroland;1997
+2578;StickyFingersofTimeThe;Sticky Fingersof Time The;1997
+2579;Following;Following;1998
+2580;Go;Go;1999
+2581;NeverBeenKissed;Never Been Kissed;1999
+2582;TwinDragonsShuanglonghui;Shuanglonghui;1992
+2583;CookiesFortune;Cookies Fortune;1999
+2584;Foolish;Foolish;1999
+2585;LoversoftheArcticCircleTheLosAmantesdelCrculoPolar;Amantesdel Crculo Polar Los;1998
+2586;GoodbyeLover;Goodbye Lover;1998
+2587;Life;Life I;1999
+2588;Clubland;Clubland;1999
+2589;FriendsLovers;Friends Lovers;1999
+2590;HideousKinky;Hideous Kinky;1998
+2591;JeanneandthePerfectGuyJeanneetlegaronformidable;Jeanneetlegaronformidable;1998
+2592;JoyridersThe;Joyriders The;1999
+2593;MonsterTheIlMostro;Mostro Il;1994
+2594;OpenYourEyesAbrelosojos;Abrelosojos;1997
+2595;PhotographerFotoamator;Fotoamator;1998
+2596;SLCPunk;S L C Punk;1998
+2597;LostFound;Lost Found I;1999
+2598;PushingTin;Pushing Tin;1999
+2599;Election;Election;1999
+2600;eXistenZ;e Xisten Z;1999
+2601;LittleBitofSoulA;Little Bitof Soul A;1998
+2602;MightyPekingManHsinghsingwang;Xingxingwang;1977
+2603;N;N;1998
+2604;LetitComeDownTheLifeofPaulBowles;Let It Come Down The Lifeof Paul Bowles;1998
+2605;Entrapment;Entrapment;1999
+2606;IdleHands;Idle Hands;1999
+2607;GetReal;Get Real;1998
+2608;Heaven;Heaven;1998
+2609;KingofMasksTheBianLian;Bian Lian;1996
+2610;ThreeSeasons;Three Seasons;1999
+2611;WinslowBoyThe;Winslow Boy The;1999
+2612;MildredPierce;Mildred Pierce;1945
+2613;NightoftheComet;Nightofthe Comet;1984
+2614;ChoppingMallakaKillbots;Chopping Mall;1986
+2615;MyScienceProject;My Science Project;1985
+2616;DickTracy;Dick Tracy;1990
+2617;MummyThe;Mummy The;1999
+2618;CastleThe;Castle The I;1997
+2619;Mascara;Mascara;1999
+2620;ThisIsMyFather;This Is My Father I;1998
+2621;XiuXiuTheSentDownGirlTianyu;Tianyu;1998
+2622;MidsummerNightsDreamA;Midsummer Nights Dream A;1999
+2623;Trippin;Trippin;1999
+2624;AfterLife;Wandfururaifu;1998
+2625;BlackMaskHakhap;Hakhap;1996
+2626;EdgeofSeventeen;Edgeof Seventeen;1998
+2627;Endurance;Endurance;1999
+2628;StarWarsEpisodeIThePhantomMenace;Star Wars Episode I The Phantom Menace;1999
+2629;LoveLetterThe;Love Letter The;1999
+2630;BesiegedLAssedio;Besieged;1998
+2631;FrogsforSnakes;Frogsfor Snakes;1998
+2632;SaragossaManuscriptTheRekopisznalezionywSaragossie;Rekopisznalezionyw Saragossie;1965
+2633;MummyThe;Mummy The;1932
+2634;MummyThe;Mummy The;1959
+2635;MummysCurseThe;Mummys Curse The;1944
+2636;MummysGhostThe;Mummys Ghost The;1944
+2637;MummysHandThe;Mummys Hand The;1940
+2638;MummysTombThe;Mummys Tomb The;1942
+2639;MommieDearest;Mommie Dearest;1981
+2640;Superman;Superman;1978
+2641;SupermanII;Superman I I;1980
+2642;SupermanIII;Superman I I I;1983
+2643;SupermanIVTheQuestforPeace;Superman I V The Questfor Peace;1987
+2644;Dracula;Dracula;1931
+2645;Dracula;Dracula;1958
+2646;HouseofDracula;Houseof Dracula;1945
+2647;HouseofFrankenstein;Houseof Frankenstein;1944
+2648;Frankenstein;Frankenstein;1931
+2649;SonofFrankenstein;Sonof Frankenstein;1939
+2650;GhostofFrankensteinThe;Ghostof Frankenstein The;1942
+2651;FrankensteinMeetstheWolfMan;Frankenstein Meetsthe Wolf Man;1943
+2652;CurseofFrankensteinThe;Curseof Frankenstein The;1957
+2653;SonofDracula;Sonof Dracula;1943
+2654;WolfManThe;Wolf Man The;1941
+2655;HowlingIIYourSisterIsaWerewolf;Howling I I Stirba Werewolf Bitch;1985
+2656;Tarantula;Tarantula;1955
+2657;RockyHorrorPictureShowThe;Rocky Horror Picture Show The;1975
+2658;FlyingSaucerThe;Flying Saucer The;1950
+2659;ItCamefromHollywood;It Camefrom Hollywood;1982
+2660;ThingFromAnotherWorldThe;Thingfrom Another World The;1951
+2661;ItCamefromOuterSpace;It Camefrom Outer Space;1953
+2662;WaroftheWorldsThe;Warofthe Worlds The;1953
+2663;ItCamefromBeneaththeSea;It Camefrom Beneaththe Sea;1955
+2664;InvasionoftheBodySnatchers;Invasionofthe Body Snatchers;1956
+2665;EarthVstheFlyingSaucers;Earthvsthe Flying Saucers;1956
+2666;ItConqueredtheWorld;It Conqueredthe World;1956
+2667;MolePeopleThe;Mole People The;1956
+2668;SwampThing;Swamp Thing;1982
+2669;PorkChopHill;Pork Chop Hill;1959
+2670;RunSilentRunDeep;Run Silent Run Deep;1958
+2671;NottingHill;Notting Hill;1999
+2672;ThirteenthFloorThe;Thirteenth Floor The;1999
+2673;EternityandaDayMiaeoniotitakemiamera;Miaaioniotitakaimiamera;1998
+2674;LossofSexualInnocenceThe;Lossof Sexual Innocence The;1999
+2675;TwiceUponaYesterday;Manwith Rainin His Shoes The;1998
+2676;Instinct;Instinct;1999
+2677;BuenaVistaSocialClub;Buena Vista Social Club;1999
+2678;DesertBlue;Desert Blue;1998
+2679;FindingNorth;Finding North;1998
+2680;Floating;Floating;1999
+2681;FreeEnterprise;Free Enterprise;1998
+2682;Limbo;Limbo;1999
+2683;AustinPowersTheSpyWhoShaggedMe;Austin Powers The Spy Who Shagged Me;1999
+2684;Taxman;Taxman;1999
+2685;RedDwarfTheLeNainrouge;Nainrouge Le;1998
+2686;RedViolinTheLeViolonrouge;Violonrouge Le;1998
+2687;Tarzan;Tarzan;1999
+2688;GeneralsDaughterThe;Generals Daughter The;1999
+2689;GetBruce;Get Bruce;1999
+2690;IdealHusbandAn;Ideal Husband An;1999
+2691;LegendofTheLeggendadelpianistasulloceano;Leggendadelpianistasulloceano La;1998
+2692;RunLolaRunLolarennt;Lolarennt;1998
+2693;Trekkies;Trekkies;1997
+2694;BigDaddy;Big Daddy I;1999
+2695;BoysThe;Boys The;1996
+2696;DinnerGameTheLeDnerdecons;Dnerdecons Le;1998
+2697;MySontheFanatic;My Sonthe Fanatic;1997
+2698;Zone;Zone;1996
+2699;Arachnophobia;Arachnophobia;1990
+2700;SouthParkBiggerLongerandUncut;South Park Bigger Longer Uncut;1999
+2701;WildWildWest;Wild Wild West;1999
+2702;SummerofSam;Summerof Sam;1999
+2703;BrokenVessels;Broken Vessels;1998
+2704;LoversontheBridgeTheLesAmantsduPontNeuf;Amantsdu Pont Neuf Les;1991
+2705;LateAugustEarlySeptemberFinaotdbutseptembre;Finaotdbutseptembre;1998
+2706;AmericanPie;American Pie;1999
+2707;ArlingtonRoad;Arlington Road;1999
+2708;AutumnTaleAnContedautomne;Contedautomne;1998
+2709;MuppetsFromSpace;Muppetsfrom Space;1999
+2710;BlairWitchProjectThe;Blair Witch Project The;1999
+2711;MyLifeSoFar;My Life So Far;1999
+2712;EyesWideShut;Eyes Wide Shut;1999
+2713;LakePlacid;Lake Placid;1999
+2714;WoodThe;Wood The;1999
+2715;VelocityofGaryThe;Velocityof Gary The;1998
+2716;Ghostbusters;Ghostbusters V G;1986
+2717;GhostbustersII;Ghostbusters I I;1989
+2718;DropDeadGorgeous;Drop Dead Gorgeous;1999
+2719;HauntingThe;Haunting The;1999
+2720;InspectorGadget;Inspector Gadget;1999
+2721;Trick;Trick;1999
+2722;DeepBlueSea;Deep Blue Sea;1999
+2723;MysteryMen;Mystery Men;1999
+2724;RunawayBride;Runaway Bride;1999
+2725;TwinFallsIdaho;Twin Falls Idaho;1999
+2726;KillingThe;Killing The;1956
+2727;KillersKiss;Killers Kiss;1955
+2728;Spartacus;Spartacus;1960
+2729;Lolita;Lolita;1962
+2730;BarryLyndon;Barry Lyndon;1975
+2731;BlowsTheLesQuatrecentscoups;Quatrecentscoups Les;1959
+2732;JulesandJimJulesetJim;Juleset Jim;1962
+2733;Vibes;Vibes;1988
+2734;MosquitoCoastThe;Mosquito Coast The;1986
+2735;GoldenChildThe;Golden Child The;1986
+2736;BrightonBeachMemoirs;Brighton Beach Memoirs;1986
+2737;Assassination;Assassination;1987
+2738;CrimesoftheHeart;Crimesofthe Heart;1986
+2739;ColorPurpleThe;Color Purple The;1985
+2740;KindredThe;Kindred The;1987
+2741;NoMercy;No Mercy;1986
+2742;MnageTenuedesoire;Tenuedesoire;1986
+2743;NativeSon;Native Son;1986
+2744;Otello;Otello;1986
+2745;MissionThe;Mission The;1986
+2746;LittleShopofHorrors;Little Shopof Horrors;1986
+2747;LittleShopofHorrorsThe;Little Shopof Horrors The;1960
+2748;AllanQuartermainandtheLostCityofGold;Allan Quatermainandthe Lost Cityof Gold;1987
+2749;MorningAfterThe;Morning After The;1986
+2750;RadioDays;Radio Days;1987
+2751;FromtheHip;Fromthe Hip;1987
+2752;OutrageousFortune;Outrageous Fortune;1987
+2753;BedroomWindowThe;Bedroom Window The;1987
+2754;DeadtimeStories;Deadtime Stories;1986
+2755;LightofDay;Lightof Day;1987
+2756;WantedDeadorAlive;Wanted Deador Alive;1987
+2757;Frances;Frances;1982
+2758;Plenty;Plenty;1985
+2759;Dick;Dick;1999
+2760;GamblerTheAJtkos;Gambler The;1997
+2761;IronGiantThe;Iron Giant The;1999
+2762;SixthSenseThe;Sixth Sense The;1999
+2763;ThomasCrownAffairThe;Thomas Crown Affair The;1999
+2764;ThomasCrownAffairThe;Thomas Crown Affair The;1968
+2765;AcidHouseThe;Acid House The;1998
+2766;AdventuresofSebastianColeThe;Adventuresof Sebastian Cole The;1998
+2767;Illuminata;Illuminata;1998
+2768;StiffUpperLips;Stiff Upper Lips;1998
+2769;YardsThe;Yards The;2000
+2770;Bowfinger;Bowfinger;1999
+2771;BrokedownPalace;Brokedown Palace;1999
+2772;DetroitRockCity;Detroit Rock City;1999
+2773;AliceandMartinAliceetMartin;Aliceet Martin;1998
+2774;BetterThanChocolate;Better Than Chocolate;1999
+2775;HeadOn;Head On;1998
+2776;MarcelloMastroianniIRememberYesIRemember;Marcello Mastroiannimiricordosiomiricordo;1997
+2777;Cobra;Cobra;1925
+2778;NeverTalktoStrangers;Never Talkto Strangers;1995
+2779;HeavenCanWait;Heaven Can Wait;1978
+2780;RavenThe;Raven The;1963
+2781;TinglerThe;Tingler The;1959
+2782;PitandthePendulum;Pitandthe Pendulum;1961
+2783;TombofLigeiaThe;Tombof Ligeia The;1964
+2784;MasqueoftheRedDeathThe;Masqueofthe Red Death The;1964
+2785;TalesofTerror;Talesof Terror;1962
+2786;HauntedHoneymoon;Haunted Honeymoon;1986
+2787;CatsEye;Cats Eye;1985
+2788;AndNowforSomethingCompletelyDifferent;And Nowfor Something Completely Different;1971
+2789;DamienOmenII;Damien Omen I I;1978
+2790;FinalConflictTheakaOmenIIITheFinalConflict;Final Conflict The;1981
+2791;Airplane;Airplane;1980
+2792;AirplaneIITheSequel;Airplane I I The Sequel;1982
+2793;AmericanWerewolfinParisAn;American Werewolfin Paris An;1997
+2794;EuropeanVacation;European Vacation;1985
+2795;Vacation;Vacation;1983
+2796;FunnyFarm;Funny Farm;1988
+2797;Big;Big;1988
+2798;ProblemChild;Problem Child;1990
+2799;ProblemChild;Problem Child;1991
+2800;LittleNemoAdventuresinSlumberland;Little Nemo Adventuresin Slumberland;1989
+2801;OscarandLucindaakaOscarLucinda;Oscarand Lucinda;1997
+2802;TequilaSunrise;Tequila Sunrise;1988
+2803;PelicanBriefThe;Pelican Brief The;1993
+2804;ChristmasStoryA;Christmas Story A;1983
+2805;MickeyBlueEyes;Mickey Blue Eyes;1999
+2806;TeachingMrsTingle;Teaching Mrs Tingle;1999
+2807;UniversalSoldierTheReturn;Universal Soldier The Return;1999
+2808;UniversalSoldier;Universal Soldier;1992
+2809;LoveStinks;Love Stinks;1999
+2810;PerfectBlue;Perfect Blue;1998
+2811;WithFriendsLikeThese;With Friends Like These;1998
+2812;InTooDeep;In Too Deep;1999
+2813;SourceThe;Source The;1999
+2814;BatThe;Bat The;1959
+2815;IronEagle;Iron Eagle;1986
+2816;IronEagleII;Iron Eagle I I;1988
+2817;AcesIronEagleIII;Aces Iron Eagle I I I;1992
+2818;IronEagleIV;Iron Eagle I V;1995
+2819;ThreeDaysoftheCondor;Three Daysofthe Condor;1975
+2820;Hamlet;Hamlet I;1964
+2821;MaleandFemale;Maleand Female;1919
+2822;MedicineMan;Medicine Man;1992
+2823;SpidersTheDieSpinnenTeilDerGoldeneSee;Spinnen Teil Der Goldene See Die;1919
+2824;OntheRopes;Onthe Ropes;1999
+2825;Rosie;Rosie;1998
+2826;thWarriorThe;th Warrior The;1999
+2827;AstronautsWifeThe;Astronauts Wife The;1999
+2828;DudleyDoRight;Dudley Do Right;1999
+2829;MuseThe;Muse The;1999
+2830;CabaretBalkanBureBaruta;Burebaruta;1998
+2831;DogofFlandersA;Dogof Flanders A;1999
+2832;LostSonThe;Lost Son The;1999
+2833;LucieAubrac;Lucie Aubrac;1997
+2834;VeryThoughtofYouThe;Martha Meet Frank Danieland Laurence;1998
+2835;ChillFactor;Chill Factor;1999
+2836;OutsideProvidence;Outside Providence;1999
+2837;BedroomsHallways;Bedroomsand Hallways;1998
+2838;IWokeUpEarlytheDayIDied;I Woke Up Earlythe Day I Died;1998
+2839;WestBeirutWestBeyrouth;West Beyrouth;1998
+2840;Stigmata;Stigmata;1999
+2841;StirofEchoes;Stirof Echoes;1999
+2842;BestLaidPlans;Best Laid Plans;1999
+2843;BlackCatWhiteCatCrnamackabelimacor;Crnamackabelimacor;1998
+2844;MinusManThe;Minus Man The;1999
+2845;WhiteBoys;Whiteboyz;1999
+2846;AdventuresofMiloandOtisThe;Konekomonogatari;1986
+2847;OnlyAngelsHaveWings;Only Angels Have Wings;1939
+2848;Othello;Othello T V;1953
+2849;QueensLogic;Queens Logic;1991
+2850;PublicAccess;Public Access;1993
+2851;Saturn;Saturn;1980
+2852;SoldiersStoryA;Soldiers Story A;1984
+2853;CommunionakaAliceSweetAliceHolyTerror;Communion;1976
+2854;DontLookintheBasement;Forgotten The;1973
+2855;Nightmares;Nightmares;1983
+2856;ISawWhatYouDid;I Saw What You Did;1965
+2857;YellowSubmarine;Yellow Submarine;1968
+2858;AmericanBeauty;American Beauty;1999
+2859;StopMakingSense;Stop Making Sense;1984
+2860;BlueStreak;Blue Streak;1999
+2861;ForLoveoftheGame;For Loveofthe Game;1999
+2862;Caligula;Caligola;1979
+2863;HardDaysNightA;Hard Days Night A;1964
+2864;Splendor;Splendor;1999
+2865;SugarTown;Sugar Town;1999
+2866;BuddyHollyStoryThe;Buddy Holly Story The;1978
+2867;FrightNight;Fright Night;1985
+2868;FrightNightPartII;Fright Night Part;1988
+2869;SeparationTheLaSparation;Sparation La;1994
+2870;BarefootinthePark;Barefootinthe Park;1967
+2871;Deliverance;Deliverance;1972
+2872;Excalibur;Excalibur;1981
+2873;LuluontheBridge;Luluonthe Bridge;1998
+2874;PajamaGameThe;Pajama Game The;1957
+2875;Sommersby;Sommersby;1993
+2876;Thumbelina;Thumbelina;1994
+2877;Tommy;Tommy;1975
+2878;HellNight;Hell Night;1981
+2879;OperationCondorFeiyinggaiwak;Feiyinggaiwak;1991
+2880;OperationCondorLongxionghudi;Longxionghudi;1987
+2881;DoubleJeopardy;Double Jeopardy;1999
+2882;JakobtheLiar;Jakobthe Liar;1999
+2883;Mumford;Mumford;1999
+2884;DogPark;Dog Park;1998
+2885;Guinevere;Guinevere;1999
+2886;AdventuresofElmoinGrouchlandThe;Adventuresof Elmoin Grouchland The;1999
+2887;SimonSez;Simon Sez;1999
+2888;DriveMeCrazy;Drive Me Crazy;1999
+2889;MysteryAlaska;Mystery Alaska;1999
+2890;ThreeKings;Three Kings;1999
+2891;HappyTexas;Happy Texas;1999
+2892;NewRoseHotel;New Rose Hotel;1998
+2893;PlunkettMaCleane;Plunkett Macleane;1999
+2894;Romance;Romance;1999
+2895;NapoleonandSamantha;Napoleonand Samantha;1972
+2896;AlvarezKelly;Alvarez Kelly;1966
+2897;AndtheShipSailsOnElanaveva;Elanaveva;1983
+2898;DarkHalfThe;Dark Half The;1993
+2899;GulliversTravels;Gullivers Travels;1939
+2900;MonkeyShines;Monkey Shines;1988
+2901;Phantasm;Phantasm;1979
+2902;PsychoII;Psycho I I;1983
+2903;PsychoIII;Psycho I I I;1986
+2904;Rain;Rain;1932
+2905;Sanjuro;Tsubaki Sanjr;1962
+2906;RandomHearts;Random Hearts;1999
+2907;Superstar;Superstar;1999
+2908;BoysDontCry;Boys Dont Cry;1999
+2909;FiveWivesThreeSecretariesandMe;Five Wives Three Secretariesand Me;1998
+2910;EnnuiL;Ennui L;1998
+2911;GrandfatherTheElAbuelo;Abuelo El;1998
+2912;LimeyThe;Limey The;1999
+2913;MatingHabitsoftheEarthboundHumanThe;Mating Habitsofthe Earthbound Human The;1999
+2914;Molly;Molly;1999
+2915;RiskyBusiness;Risky Business;1983
+2916;TotalRecall;Total Recall;1990
+2917;BodyHeat;Body Heat;1981
+2918;FerrisBuellersDayOff;Ferris Buellers Day Off;1986
+2919;YearofLivingDangerously;Yearof Living Dangerously The;1982
+2920;ChildrenofParadiseLesenfantsduparadis;Enfantsduparadis Les;1945
+2921;HighPlainsDrifter;High Plains Drifter;1973
+2922;HangemHigh;Hang Em High;1968
+2923;CitizensBandakaHandlewithCare;Handlewith Care;1977
+2924;DrunkenMasterZuiquan;Juikuen;1978
+2925;ConformistTheIlConformista;Conformista Il;1970
+2926;Hairspray;Hairspray;1988
+2927;BriefEncounter;Brief Encounter;1945
+2928;RazorsEdgeThe;Razors Edge The;1984
+2929;Reds;Reds;1981
+2930;ReturnwithHonor;Returnwith Honor;1998
+2931;TimeoftheGypsiesDomzavesanje;Domzavesanje;1988
+2932;DaysofHeaven;Daysof Heaven;1978
+2933;FireWithinTheLeFeuFollet;Feufollet Le;1963
+2934;LoveBewitchedAElAmorBrujo;Amorbrujo El;1986
+2935;LadyEveThe;Lady Eve The;1941
+2936;SullivansTravels;Sullivans Travels;1941
+2937;PalmBeachStoryThe;Palm Beach Story The;1942
+2938;ManFacingSoutheastHombreMirandoalSudeste;Hombremirandoalsudeste;1986
+2939;Niagara;Niagara;1953
+2940;Gilda;Gilda;1946
+2941;SouthPacific;South Pacific;1958
+2942;Flashdance;Flashdance;1983
+2943;Indochine;Indochine;1992
+2944;DirtyDozenThe;Dirty Dozen The;1967
+2945;MikesMurder;Mikes Murder;1984
+2946;Help;Help;1965
+2947;Goldfinger;Goldfinger;1964
+2948;FromRussiawithLove;From Russiawith Love;1963
+2949;DrNo;Dr No;1962
+2950;BlueLagoonThe;Blue Lagoon The;1980
+2951;FistfulofDollarsA;Perunpugnodidollari;1964
+2952;HardakaSydneyakaHardEight;Sydney;1996
+2953;HomeAloneLostinNewYork;Home Alone Lostin New York;1992
+2954;Penitentiary;Penitentiary;1979
+2955;PenitentiaryII;Penitentiary I I;1982
+2956;SomeonetoWatchOverMe;Someoneto Watch Over Me;1987
+2957;Sparrows;Sparrows;1926
+2958;NaturallyNative;Naturally Native;1998
+2959;FightClub;Fight Club;1999
+2960;Beefcake;Beefcake;1998
+2961;StoryofUsThe;Storyof Us The;1999
+2962;FeverPitch;Fever Pitch;1997
+2963;JoetheKing;Joethe King;1999
+2964;JulienDonkeyBoy;Julien Donkey Boy;1999
+2965;OmegaCodeThe;Omega Code The;1999
+2966;StraightStoryThe;Straight Story The;1999
+2967;BadSeedThe;Bad Seed The;1956
+2968;TimeBandits;Time Bandits;1981
+2969;ManandaWomanAUnHommeetuneFemme;Unhommeetunefemme;1966
+2970;Fitzcarraldo;Fitzcarraldo;1982
+2971;AllThatJazz;All That Jazz;1979
+2972;RedSorghumHongGaoLiang;Honggaoliang;1987
+2973;CrimesandMisdemeanors;Crimesand Misdemeanors;1989
+2974;Bats;Bats;1999
+2975;BestManThe;Best Man The I;1999
+2976;BringingOuttheDead;Bringing Outthe Dead;1999
+2977;CrazyinAlabama;Crazyin Alabama;1999
+2978;ThreetoTango;Threeto Tango;1999
+2979;BodyShots;Body Shots;1999
+2980;MenCryBullets;Men Cry Bullets;1997
+2981;BrotherCanYouSpareaDime;Brother Can You Sparea Dime;1975
+2982;GuardianThe;Guardian The;1990
+2983;IpcressFileThe;Ipcress File The;1965
+2984;OnAnySunday;On Any Sunday;1971
+2985;Robocop;Robo Cop;1987
+2986;Robocop;Robo Cop;1990
+2987;WhoFramedRogerRabbit;Who Framed Roger Rabbit;1988
+2988;MelvinandHoward;Melvinand Howard;1980
+2989;ForYourEyesOnly;For Your Eyes Only;1981
+2990;LicencetoKill;Licenceto Kill;1989
+2991;LiveandLetDie;Liveand Let Die;1973
+2992;RawheadRex;Rawhead Rex;1986
+2993;Thunderball;Thunderball;1965
+2994;CityThe;City The T V;1999
+2995;HouseonHauntedHillThe;Houseon Haunted Hill;1999
+2996;MusicoftheHeart;Musicofthe Heart;1999
+2997;BeingJohnMalkovich;Being John Malkovich;1999
+2998;DreamingofJosephLees;Dreamingof Joseph Lees;1999
+2999;ManoftheCentury;Manofthe Century;1999
+3000;PrincessMononokeTheMononokeHime;Mononokehime;1997
+3001;SuburbansThe;Suburbans The;1999
+3002;MyBestFiendMeinliebsterFeind;Meinliebster Feind Klaus Kinski;1999
+3003;TrainofLifeTrainDeVie;Traindevie;1998
+3004;BachelorThe;Bachelor The;1999
+3005;BoneCollectorThe;Bone Collector The;1999
+3006;InsiderThe;Insider The;1999
+3007;AmericanMovie;American Movie;1999
+3008;LastNight;Last Night I;1998
+3009;PortraitsChinois;Portraitschinois;1996
+3010;Rosetta;Rosetta;1999
+3011;TheyShootHorsesDontThey;They Shoot Horses Dont They;1969
+3012;BattlingButler;Battling Butler;1926
+3013;BrideofReAnimator;Brideof Re Animator;1990
+3014;BustinLoose;Bustin Loose;1981
+3015;Coma;Coma I;1978
+3016;Creepshow;Creepshow;1982
+3017;Creepshow;Creepshow;1987
+3018;ReAnimator;Re Animator;1985
+3019;DrugstoreCowboy;Drugstore Cowboy;1989
+3020;FallingDown;Falling Down;1993
+3021;FunhouseThe;Funhouse The;1981
+3022;GeneralThe;General The;1927
+3023;MyBestGirl;My Best Girl;1927
+3024;Piranha;Piranha;1978
+3025;RoughNightinJericho;Rough Nightin Jericho;1967
+3026;Slaughterhouse;Slaughterhouse;1987
+3027;Slaughterhouse;s Laughterhouse I I;1988
+3028;TamingoftheShrewThe;Tamingofthe Shrew The;1967
+3029;Nighthawks;Nighthawks;1981
+3030;Yojimbo;Yojimbo;1961
+3031;Repossessed;Repossessed;1990
+3032;OmegaManThe;Omega Man The;1971
+3033;Spaceballs;Spaceballs;1987
+3034;RobinHood;Robin Hood;1973
+3035;MisterRoberts;Mister Roberts;1955
+3036;QuestforFire;Guerredufeu La;1981
+3037;LittleBigMan;Little Big Man;1970
+3038;FaceintheCrowdA;Faceinthe Crowd A;1957
+3039;TradingPlaces;Trading Places;1983
+3040;Meatballs;Meatballs;1979
+3041;MeatballsPartII;Meatballs Part I I;1984
+3042;MeatballsIII;Meatballs I I I Summer Job;1986
+3043;Meatballs;Meatballs;1992
+3044;DeadAgain;Dead Again;1991
+3045;PetersFriends;Peters Friends;1992
+3046;IncrediblyTrueAdventureofTwoGirlsinLoveThe;Incredibly True Adventureof Two Girlsin Love The;1995
+3047;ExperiencePreferredButNotEssential;Experience Preferred But Not Essential T V;1982
+3048;UndertheRainbow;Underthe Rainbow;1981
+3049;HowIWontheWar;How I Wonthe War;1967
+3050;LightItUp;Light It Up;1999
+3051;AnywhereButHere;Anywhere But Here;1999
+3052;Dogma;Dogma;1999
+3053;MessengerTheStoryofJoanofArcThe;Messenger The Storyof Joanof Arc The;1999
+3054;PokmonTheFirstMovie;Pokmon The First Movie;1999
+3055;FeliciasJourney;Felicias Journey;1999
+3056;Oxygen;Oxygen;1999
+3057;WheresMarlowe;Wheres Marlowe;1998
+3058;ApeThe;Ape The;1940
+3059;BritishIntelligence;British Intelligence;1940
+3060;CommitmentsThe;Commitments The;1991
+3061;HolidayInn;Holiday Inn;1942
+3062;LongestDayThe;Longest Day The;1962
+3063;PoisonIvy;Poison Ivy;1992
+3064;PoisonIvyNewSeduction;Poison Ivy The New Seduction V;1997
+3065;TenBenny;Nothingto Lose;1996
+3066;ToraToraTora;Tora Tora Tora;1970
+3067;WomenontheVergeofaNervousBreakdown;Mujeresalbordedeunataquedenervios;1988
+3068;VerdictThe;Verdict The;1982
+3069;EffectofGammaRaysonManintheMoonMarigoldsThe;Effectof Gamma Rayson Maninthe Moon Marigolds The;1972
+3070;AdventuresofBuckarooBonzaiAcrossthethDimensionThe;Adventuresof Buckaroo Banzai Acrosstheth Dimension The;1984
+3071;StandandDeliver;Standand Deliver;1988
+3072;Moonstruck;Moonstruck;1987
+3073;SandpiperThe;Sandpiper The;1965
+3074;JeremiahJohnson;Jeremiah Johnson;1972
+3075;Repulsion;Repulsion;1965
+3076;IrmalaDouce;Irmala Douce;1963
+3077;Up;Forty Two Up T V;1998
+3078;LibertyHeights;Liberty Heights;1999
+3079;MansfieldPark;Mansfield Park;1999
+3080;GoodbyethCenturyZbogumnadvadesetiotvek;Zbogumnadvadesetiotvek;1998
+3081;SleepyHollow;Sleepy Hollow;1999
+3082;WorldIsNotEnoughThe;World Is Not Enough The;1999
+3083;AllAboutMyMotherTodoSobreMiMadre;Todosobremimadre;1999
+3084;HomePage;Home Page;1998
+3085;LivingDeadGirlTheLaMorteVivante;Mortevivante La;1982
+3086;MarchoftheWoodenSoldiersakaLaurelHardyinToyland;Babesin Toyland;1934
+3087;Scrooged;Scrooged;1988
+3088;Harvey;Harvey;1950
+3089;BicycleThiefTheLadridibiciclette;Ladridibiciclette;1948
+3090;Matewan;Matewan;1987
+3091;Kagemusha;Kagemusha;1980
+3092;Chushingura;Chushingura;1958
+3093;McCabeMrsMiller;Mc Cabe Mrs Miller;1971
+3094;Maurice;Maurice;1987
+3095;GrapesofWrathThe;Grapesof Wrath The;1940
+3096;MyManGodfrey;My Man Godfrey;1957
+3097;ShopAroundtheCornerThe;Shop Aroundthe Corner The;1940
+3098;NaturalThe;Natural The;1984
+3099;Shampoo;Shampoo;1975
+3100;RiverRunsThroughItA;River Runs Through It A;1992
+3101;FatalAttraction;Fatal Attraction;1987
+3102;JaggedEdge;Jagged Edge;1985
+3103;StanleyIris;Stanley Iris;1990
+3104;MidnightRun;Midnight Run;1988
+3105;Awakenings;Awakenings;1990
+3106;ComeSeetheParadise;Come Seethe Paradise;1990
+3107;Backdraft;Backdraft;1991
+3108;FisherKingThe;Fisher King The;1991
+3109;RiverThe;River The;1984
+3110;Country;Country;1984
+3111;PlacesintheHeart;Placesinthe Heart;1984
+3112;NightMother;Night Mother;1986
+3113;EndofDays;Endof Days;1999
+3114;ToyStory2;Toy Story2;1999
+3115;Flawless;Flawless;1999
+3116;MissJulie;Miss Julie;1999
+3117;RidewiththeDevil;Ridewiththe Devil I;1999
+3118;Tumbleweeds;Tumbleweeds;1999
+3119;BayofBloodReazioneacatena;Reazioneacatena;1971
+3120;DistinguishedGentlemanThe;Distinguished Gentleman The;1992
+3121;HitchHikerThe;Hitch Hiker The;1953
+3122;SantaFeTrail;Santa Fe Trail;1940
+3123;SpringFeverUSAakaLauderdale;Lauderdale;1989
+3124;AgnesBrowne;Agnes Browne;1999
+3125;EndoftheAffairThe;Endofthe Affair The;1999
+3126;EndoftheAffairThe;Endofthe Affair The;1955
+3127;HolySmoke;Holy Smoke;1999
+3128;MapoftheWorldA;Mapofthe World A;1999
+3129;SweetandLowdown;Sweetand Lowdown;1999
+3130;BonfireoftheVanities;Bonfireofthe Vanities The;1990
+3131;BroadwayDamage;Broadway Damage;1997
+3132;DaddyLongLegs;Daddy Long Legs;1919
+3133;GoWest;Go West;1925
+3134;GrandIllusionGrandeillusionLa;Grandeillusion La;1937
+3135;GreatSantiniThe;Great Santini The;1979
+3136;JamesDeanStoryThe;James Dean Story The;1957
+3137;SeaWolvesThe;Sea Wolves The;1980
+3138;StealingHome;Stealing Home;1988
+3139;TarzantheFearless;Tarzanthe Fearless;1933
+3140;ThreeAgesThe;Three Ages;1923
+3141;TwoJakesThe;Two Jakes The;1990
+3142;URattleandHum;U Rattleand Hum;1988
+3143;HellinthePacific;Hellinthe Pacific;1968
+3144;GlassBottomBoatThe;Glass Bottom Boat The;1966
+3145;CradleWillRockThe;Cradle Will Rock;1999
+3146;DeuceBigalowMaleGigolo;Deuce Bigalow Male Gigolo;1999
+3147;GreenMileThe;Green Mile The;1999
+3148;CiderHouseRulesThe;Cider House Rules The;1999
+3149;Diamonds;Diamonds;1999
+3150;WarZoneThe;War Zone The;1999
+3151;BatWhispersThe;Bat Whispers The;1930
+3152;LastPictureShowThe;Last Picture Show The;1971
+3153;thVoyageofSinbadThe;th Voyageof Sinbad The;1958
+3154;BloodontheSun;Bloodonthe Sun;1945
+3155;AnnaandtheKing;Annaandthe King;1999
+3156;BicentennialMan;Bicentennial Man;1999
+3157;StuartLittle;Stuart Little;1999
+3158;EmperorandtheAssassinTheJingkeciqinwang;Jingkeciqinwang;1999
+3159;Fantasia;Fantasia;1999
+3160;Magnolia;Magnolia;1999
+3161;Onegin;Onegin;1999
+3162;Simpatico;Simpatico;1999
+3163;TopsyTurvy;Topsy Turvy;1999
+3164;AlleyCatsThe;Alley Cats The;1966
+3165;BoilingPoint;Boiling Point I;1993
+3166;BrendaStarr;Brenda Starr;1989
+3167;CarnalKnowledge;Carnal Knowledge;1971
+3168;EasyRider;Easy Rider;1969
+3169;FalconandtheSnowmanThe;Falconandthe Snowman The;1985
+3170;HiYoSilver;Hi Yo Silver;1940
+3171;RoomattheTop;Roomatthe Top;1959
+3172;UlyssesUlisse;Ulisse;1955
+3173;AnyGivenSunday;Any Given Sunday;1999
+3174;ManontheMoon;Manonthe Moon;1999
+3175;GalaxyQuest;Galaxy Quest;1999
+3176;TalentedMrRipleyThe;Talented Mr Ripley The;1999
+3177;NextFriday;Next Friday;2000
+3178;HurricaneThe;Hurricane The;1999
+3179;AngelasAshes;Angelas Ashes;1999
+3180;PlayittotheBone;Play Ittothe Bone;1999
+3181;Titus;Titus;1999
+3182;MrDeathTheRiseandFallofFredALeuchterJr;Mr Death The Riseand Fallof Fred A Leuchter Jr;1999
+3183;ThirdMiracleThe;Third Miracle The;1999
+3184;Montana;Montana;1998
+3185;SnowFallingonCedars;Snow Fallingon Cedars;1999
+3186;GirlInterrupted;Girl Interrupted;1999
+3187;Trans;Trans;1998
+3188;LifeandTimesofHankGreenbergThe;Lifeand Timesof Hank Greenberg The;1998
+3189;MyDogSkip;My Dog Skip;2000
+3190;Supernova;Supernova I;2000
+3191;QuarryThe;Quarry The;1998
+3192;TerroristTheMalli;Malli;1998
+3193;Creature;Creature;1999
+3194;WayWeWereThe;Way We Were The;1973
+3195;TessoftheStormCountry;Tessofthe Storm Country;1922
+3196;Stalag;Stalag;1953
+3197;PresidioThe;Presidio The;1988
+3198;Papillon;Papillon;1973
+3199;PalJoey;Pal Joey;1957
+3200;LastDetailThe;Last Detail The;1973
+3201;FiveEasyPieces;Five Easy Pieces;1970
+3202;EvenDwarfsStartedSmallAuchZwergehabenkleinangefangen;Auch Zwergehabenkleinangefangen;1970
+3203;DeadCalm;Dead Calm;1989
+3204;BoysfromBrazilThe;Boysfrom Brazil The;1978
+3205;BlackSundayLaMascheraDelDemonio;Mascheradeldemonio La;1960
+3206;AgainstAllOdds;Against All Odds;1984
+3207;SnowsofKilimanjaroThe;Snowsof Kilimanjaro The;1952
+3208;LoadedWeapon;Loaded Weapon;1993
+3209;LovesofCarmenThe;Lovesof Carmen The;1948
+3210;FastTimesatRidgemontHigh;Fast Timesat Ridgemont High;1982
+3211;CryintheDarkA;Cryinthe Dark A;1988
+3212;BorntoWin;Bornto Win;1971
+3213;BatmanMaskofthePhantasm;Batman Maskofthe Phantasm;1993
+3214;AmericanFlyers;American Flyers;1985
+3215;VoyageoftheDamned;Voyageofthe Damned;1976
+3216;VampyrosLesbosLasVampiras;Vampyroslesbos;1971
+3217;StarIsBornA;Star Is Born A;1937
+3218;Poison;Poison;1991
+3219;PacificHeights;Pacific Heights;1990
+3220;NightTide;Night Tide;1961
+3221;DraughtsmansContractThe;Draughtsmans Contract The;1982
+3222;Carmen;Carmen;1984
+3223;ZedTwoNoughtsA;Zed Two Noughts A;1985
+3224;WomanintheDunesSunanoonna;Sunanoonna;1964
+3225;DowntoYou;Downto You;2000
+3226;HellhoundsonMyTrail;Hellhoundson My Trail The Afterlifeof Robert Johnson V;2000
+3227;NotLoveJustFrenzyMsqueamorfrenes;Msqueamorfrenes;1996
+3228;WireySpindell;Wirey Spindell;2000
+3229;AnotherMansPoison;Another Mans Poison;1952
+3230;OdessaFileThe;Odessa File The;1974
+3231;SapheadThe;Saphead The;1920
+3232;SevenChances;Seven Chances;1925
+3233;SmashingTime;Smashing Time;1967
+3234;TrainRidetoHollywood;Train Rideto Hollywood;1975
+3235;WheretheBuffaloRoam;Wherethe Buffalo Roam;1980
+3236;Zachariah;Zachariah;1971
+3237;KestrelsEyeFalkensga;Falkensga;1998
+3238;EyeoftheBeholder;Eyeofthe Beholder;1999
+3239;IsntSheGreat;Isnt She Great;2000
+3240;BigTeaseThe;Big Tease The;1999
+3241;CupThePhrpa;Phrpa;1999
+3242;Santitos;Santitos;1999
+3243;EncinoMan;Encino Man;1992
+3244;GoodbyeGirlThe;Goodbye Girl The;1977
+3245;IAmCubaSoyCubaYaKuba;Soy Cuba Ya Kuba;1964
+3246;MalcolmX;Malcolm X;1992
+3247;SisterAct;Sister Act;1992
+3248;SisterActBackintheHabit;Sister Act Backinthe Habit;1993
+3249;HandThatRockstheCradleThe;Hand That Rocksthe Cradle The;1992
+3250;Alive;Alive;1993
+3251;AgnesofGod;Agnesof God;1985
+3252;ScentofaWoman;Scentofa Woman;1992
+3253;WaynesWorld;Waynes World;1992
+3254;WaynesWorld;Waynes World;1993
+3255;LeagueofTheirOwnA;Leagueof Their Own A;1992
+3256;PatriotGames;Patriot Games;1992
+3257;BodyguardThe;Bodyguard The;1992
+3258;DeathBecomesHer;Death Becomes Her;1992
+3259;FarandAway;Farand Away;1992
+3260;HowardsEnd;Howards End;1992
+3261;Singles;Singles;1992
+3262;TwinPeaksFireWalkwithMe;Twin Peaks Fire Walkwith Me;1992
+3263;WhiteMenCantJump;White Men Cant Jump;1992
+3264;BuffytheVampireSlayer;Buffythe Vampire Slayer;1992
+3265;HardBoiledLashoushentan;Laatsausentaan;1992
+3266;ManBitesDogCestarrivprsdechezvous;Cestarrivprsdechezvous;1992
+3267;MariachiEl;Mariachi El;1992
+3268;StopOrMyMomWillShoot;Stop Or My Mom Will Shoot;1992
+3269;ForeverYoung;Forever Young;1992
+3270;CuttingEdgeThe;Cutting Edge The;1992
+3271;OfMiceandMen;Of Miceand Men;1992
+3272;BadLieutenant;Bad Lieutenant;1992
+3273;Scream;Scream;2000
+3274;SingleWhiteFemale;Single White Female;1992
+3275;BoondockSaintsThe;Boondock Saints The;1999
+3276;GunShy;Gun Shy;2000
+3277;BelovedFriendAmigoAmado;Amic Amat;1999
+3278;Gendernauts;Gendernauts Eine Reisedurchdie Geschlechter;1999
+3279;Knockout;Knockout;1999
+3280;BabyThe;Baby The;1973
+3281;BrandonTeenaStoryThe;Brandon Teena Story The;1998
+3282;DifferentforGirls;Differentfor Girls;1996
+3283;MinnieandMoskowitz;Minnieand Moskowitz;1971
+3284;TheyMightBeGiants;They Might Be Giants;1971
+3285;BeachThe;Beach The I;2000
+3286;SnowDay;Snow Day;2000
+3287;TiggerMovieThe;Tigger Movie The;2000
+3288;CottonMary;Cotton Mary;1999
+3289;NotOneLessYigedoubunengshao;Yigedoubunengshao;1999
+3290;SoftToiletSeats;Soft Toilet Seats;1999
+3291;Trois;Trois;2000
+3292;BigComboThe;Big Combo The;1955
+3293;ConceivingAda;Conceiving Ada;1997
+3294;EatenAlive;Eaten Alive;1977
+3295;RainingStones;Raining Stones;1993
+3296;ToSirwithLove;To Sirwith Love;1967
+3297;WithByrdattheSouthPole;With Byrdatthe South Pole;1930
+3298;BoilerRoom;Boiler Room;2000
+3299;HangingUp;Hanging Up;2000
+3300;PitchBlack;Pitch Black;2000
+3301;WholeNineYardsThe;Whole Nine Yards The;2000
+3302;BeautifulPeople;Beautiful People;1999
+3303;BlackTarHeroinTheDarkEndoftheStreet;Black Tar Heroin The Dark Endofthe Street;2000
+3304;BlueCollar;Blue Collar;1978
+3305;Bluebeard;Bluebeard;1944
+3306;CircusThe;Circus The;1928
+3307;CityLights;City Lights;1931
+3308;FlamingoKidThe;Flamingo Kid The;1984
+3309;DogsLifeA;Dogs Life A;1918
+3310;KidThe;Kid The;1921
+3311;ManfromLaramieThe;Manfrom Laramie The;1955
+3312;McCullochsThe;Wild Mc Cullochs The;1975
+3313;ClassReunion;Class Reunion;1982
+3314;BigTreesThe;Big Trees The;1952
+3315;HappyGoLovely;Happy Go Lovely;1951
+3316;ReindeerGames;Reindeer Games;2000
+3317;WonderBoys;Wonder Boys;2000
+3318;Deterrence;Deterrence;1999
+3319;JudyBerlin;Judy Berlin;1999
+3320;MifuneMifunessidstesang;Mifunessidstesang;1999
+3321;WaitingGameThe;Waiting Game The;1999
+3322;Strikes;Strikes;2000
+3323;ChainofFools;Chainof Fools;2000
+3324;DrowningMona;Drowning Mona;2000
+3325;NextBestThingThe;Next Best Thing The;2000
+3326;WhatPlanetAreYouFrom;What Planet Are You From;2000
+3327;BeyondtheMat;Beyondthe Mat;1999
+3328;GhostDogTheWayoftheSamurai;Ghost Dog The Wayofthe Samurai;1999
+3329;YearMyVoiceBrokeThe;Year My Voice Broke The;1987
+3330;SplendorintheGrass;Splendorinthe Grass;1961
+3331;MyTutor;My Tutor;1983
+3332;LegendofLoboThe;Legendof Lobo The;1962
+3333;KillingofSisterGeorgeThe;Killingof Sister George The;1968
+3334;KeyLargo;Key Largo;1948
+3335;JailBait;Jail Bait;1954
+3336;ItHappenedHere;It Happened Here;1966
+3337;IllNeverForgetWhatsisName;Ill Never Forget Whatsisname;1967
+3338;ForAllMankind;For All Mankind;1989
+3339;CrossofIron;Crossof Iron;1977
+3340;BrideoftheMonster;Brideofthe Monster;1955
+3341;BornYesterday;Born Yesterday;1950
+3342;Birdy;Birdy;1984
+3343;AndGodCreatedWoman;And God Created Woman;1988
+3344;BloodFeast;Blood Feast;1963
+3345;CharlietheLonesomeCougar;Charliethe Lonesome Cougar;1967
+3346;ColorMeBloodRed;Color Me Blood Red;1965
+3347;NeverCryWolf;Never Cry Wolf;1983
+3348;NightVisitorThe;Night Visitor The;1971
+3349;PerilsofPaulineThe;Perilsof Pauline The;1947
+3350;RaisinintheSunA;Raisininthe Sun A;1961
+3351;TwoThousandManiacs;Two Thousand Maniacs;1964
+3352;BrownsRequiem;Browns Requiem;1998
+3353;CloserYouGetThe;Closer You Get The;2000
+3354;MissiontoMars;Missionto Mars;2000
+3355;NinthGateThe;Ninth Gate The;1999
+3356;CondoPainting;Condo Painting;2000
+3357;EastWestEstouest;Est Ouest;1999
+3358;DefendingYourLife;Defending Your Life;1991
+3359;BreakingAway;Breaking Away;1979
+3360;Hoosiers;Hoosiers;1986
+3361;BullDurham;Bull Durham;1988
+3362;DogDayAfternoon;Dog Day Afternoon;1975
+3363;AmericanGraffiti;American Graffiti;1973
+3364;AsphaltJungleThe;Asphalt Jungle The;1950
+3365;SearchersThe;Searchers The;1956
+3366;WhereEaglesDare;Where Eagles Dare;1968
+3367;DevilsBrigadeThe;Devils Brigade The;1968
+3368;BigCountryThe;Big Country The;1958
+3369;AnyNumberCanWinMlodieensoussol;Mlodieensoussol;1963
+3370;Betrayed;Betrayed;1988
+3371;BoundforGlory;Boundfor Glory;1976
+3372;BridgeatRemagenThe;Bridgeat Remagen The;1969
+3373;BuckandthePreacher;Buckandthe Preacher;1972
+3374;DaughtersoftheDust;Daughtersofthe Dust;1991
+3375;DestinationMoon;Destination Moon;1950
+3376;FantasticNightTheLaNuitFantastique;Nuitfantastique La;1942
+3377;HangmenAlsoDie;Hangmen Also Die;1943
+3378;OgreTheDerUnhold;Unhold Der;1996
+3379;OntheBeach;Onthe Beach;1959
+3380;Railroaded;Railroaded;1947
+3381;SlavestotheUnderground;Slavestothe Underground;1997
+3382;SongofFreedom;Songof Freedom;1936
+3383;BigFella;Big Fella;1937
+3384;TakingofPelhamOneTwoThreeThe;Takingof Pelham One Two Three The;1974
+3385;Volunteers;Volunteers;1985
+3386;JFK;J F K;1991
+3387;WhosHarryCrumb;Whos Harry Crumb;1989
+3388;HarryandtheHendersons;Harryandthe Hendersons;1987
+3389;LetsGetHarry;Lets Get Harry;1986
+3390;ShanghaiSurprise;Shanghai Surprise;1986
+3391;WhosThatGirl;Whos That Girl;1987
+3392;SheDevil;She Devil;1989
+3393;DatewithanAngel;Datewithan Angel;1987
+3394;BlindDate;Blind Date;1987
+3395;Nadine;Nadine;1987
+3396;MuppetMovieThe;Muppet Movie The;1979
+3397;GreatMuppetCaperThe;Great Muppet Caper The;1981
+3398;MuppetsTakeManhattanThe;Muppets Take Manhattan The;1984
+3399;SesameStreetPresentsFollowThatBird;Sesame Street Presents Followthat Bird;1985
+3400;WereBackADinosaursStory;Were Back A Dinosaurs Story;1993
+3401;BabySecretoftheLostLegend;Baby Secretofthe Lost Legend;1985
+3402;TurtleDiary;Turtle Diary;1985
+3403;RaisetheTitanic;Raisethe Titanic;1980
+3404;Titanic;Titanic;1953
+3405;NighttoRememberA;Nightto Remember A;1958
+3406;CaptainHoratioHornblower;Captain Horatio Hornblower R N;1951
+3407;CarriersAreWaitingTheLesConvoyeursAttendent;Convoyeursattendent Les;1999
+3408;ErinBrockovich;Erin Brockovich;2000
+3409;FinalDestination;Final Destination;2000
+3410;SoftFruit;Soft Fruit;1999
+3411;Babymother;Babymother T V;1998
+3412;BearThe;Bear The I;1999
+3413;Impact;Impact;1949
+3414;LoveIsaManySplendoredThing;Love Isa Many Splendored Thing;1955
+3415;MirrorTheZerkalo;Zerkalo;1975
+3416;TrialTheLeProcs;Procs Le;1962
+3417;CrimsonPirateThe;Crimson Pirate The;1952
+3418;ThelmaLouise;Thelma Louise;1991
+3419;SomethingforEveryone;Somethingfor Everyone;1970
+3420;AndJusticeforAll;And Justicefor All;1979
+3421;AnimalHouse;Animal House;1978
+3422;ShesGottaHaveIt;Shes Gotta Have It;1986
+3423;SchoolDaze;School Daze;1988
+3424;DotheRightThing;Dothe Right Thing;1989
+3425;MoBetterBlues;Mo Better Blues;1990
+3426;JungleFever;Jungle Fever;1991
+3427;CoogansBluff;Coogans Bluff;1968
+3428;ChampThe;Champ The;1979
+3429;CreatureComforts;Creature Comforts;1989
+3430;DeathWish;Death Wish;1974
+3431;DeathWishII;Death Wish I I;1982
+3432;DeathWish;Death Wish;1985
+3433;DeathWishTheCrackdown;Death Wish The Crackdown;1987
+3434;DeathWishVTheFaceofDeath;Death Wish V The Faceof Death;1994
+3435;DoubleIndemnity;Double Indemnity;1944
+3436;DyingYoung;Dying Young;1991
+3437;CoolasIce;Coolas Ice;1991
+3438;TeenageMutantNinjaTurtles;Teenage Mutant Ninja Turtles;1990
+3439;TeenageMutantNinjaTurtlesIITheSecretoftheOoze;Teenage Mutant Ninja Turtles I I The Secretofthe Ooze;1991
+3440;TeenageMutantNinjaTurtlesIII;Teenage Mutant Ninja Turtles I I I;1993
+3441;RedDawn;Red Dawn;1984
+3442;BandoftheHand;Bandofthe Hand;1986
+3443;BornAmerican;Born American;1986
+3444;Bloodsport;Bloodsport;1988
+3445;EyesofLauraMars;Eyesof Laura Mars;1978
+3446;FunnyBones;Funny Bones;1995
+3447;GoodEarthThe;Good Earth The;1937
+3448;GoodMorningVietnam;Good Morning Vietnam;1987
+3449;GoodMotherThe;Good Mother The;1988
+3450;GrumpyOldMen;Grumpy Old Men;1993
+3451;GuessWhosComingtoDinner;Guess Whos Comingto Dinner;1967
+3452;RomeoMustDie;Romeo Must Die;2000
+3453;HereonEarth;Hereon Earth;2000
+3454;WhateverItTakes;Whatever It Takes;2000
+3455;BuddyBoy;Buddy Boy;1999
+3456;ColorofParadiseTheRangeKhoda;Rangekhoda;1999
+3457;WakingtheDead;Wakingthe Dead;2000
+3458;BloodandSandSangreyArena;Sangreyarena;1989
+3459;Gothic;Gothic;1986
+3460;HillbillysinaHauntedHouse;Hillbillysina Haunted House;1967
+3461;LordoftheFlies;Lordofthe Flies;1963
+3462;ModernTimes;Modern Times;1936
+3463;LastResort;Last Resort;1994
+3464;SolarCrisis;Solar Crisis;1990
+3465;ThatsLife;Thats Life;1986
+3466;HeartandSouls;Heartand Souls;1993
+3467;Hud;Hud;1963
+3468;HustlerThe;Hustler The;1961
+3469;InherittheWind;Inheritthe Wind;1960
+3470;DersuUzala;Dersu Uzala;1975
+3471;CloseEncountersoftheThirdKind;Close Encountersofthe Third Kind;1977
+3472;HorrorHotelakaTheCityoftheDead;Cityofthe Dead The;1960
+3473;JonahWhoWillBeintheYear;Jonasquiauraansenlan;1976
+3474;Retroactive;Retroactive;1997
+3475;PlaceintheSunA;Placeinthe Sun A;1951
+3476;JacobsLadder;Jacobs Ladder;1990
+3477;EmpireRecords;Empire Records;1995
+3478;BambaLa;La Bamba;1987
+3479;Ladyhawke;Ladyhawke;1985
+3480;Lucas;Lucas;1986
+3481;HighFidelity;High Fidelity;2000
+3482;PriceofGlory;Priceof Glory;2000
+3483;RoadtoElDoradoThe;Roadto El Dorado The;2000
+3484;SkullsThe;Skulls The;2000
+3485;AutopsyMacchieSolari;Macchiesolari;1975
+3486;DevilGirlFromMars;Devil Girlfrom Mars;1954
+3487;DoradoEl;El Dorado;1966
+3488;HideousSunDemonThe;Hideous Sun Demon The;1959
+3489;Hook;Hook;1991
+3490;HorrorExpress;Horror Express;1973
+3491;MyChauffeur;My Chauffeur;1986
+3492;SonoftheSheikThe;Sonofthe Sheik The;1926
+3493;TorsoCorpiPresentanoTraccediViolenzaCarnale;Corpipresentanotraccediviolenzacarnale I;1973
+3494;TrueGrit;True Grit;1969
+3495;RoadsideProphets;Roadside Prophets;1992
+3496;MadameSousatzka;Madame Sousatzka;1988
+3497;MaxDuganReturns;Max Dugan Returns;1983
+3498;MidnightExpress;Midnight Express;1978
+3499;Misery;Misery;1990
+3500;MrSaturdayNight;Mr Saturday Night;1992
+3501;MurphysRomance;Murphys Romance;1985
+3502;MyLife;My Life I;1993
+3503;SolarisSolyaris;Solyaris;1972
+3504;Network;Network;1976
+3505;NoWayOut;No Way Out;1987
+3506;NorthDallasForty;North Dallas Forty;1979
+3507;OddCoupleThe;Odd Couple The;1968
+3508;OutlawJoseyWalesThe;Outlaw Josey Wales The;1976
+3509;BlackandWhite;Blackand White I;1999
+3510;Frequency;Frequency;2000
+3511;ReadytoRumble;Readyto Rumble I;2000
+3512;ReturntoMe;Returnto Me;2000
+3513;RulesofEngagement;Rulesof Engagement;2000
+3514;JoeGouldsSecret;Joe Goulds Secret;2000
+3515;MeMyselfI;Me Myself I;1999
+3516;BellBookandCandle;Bell Bookand Candle;1958
+3517;BellsThe;Bells The;1926
+3518;EndofViolenceThe;Endof Violence The;1997
+3519;ForcefromNavarone;Forcefrom Navarone;1978
+3520;HowtoStuffaWildBikini;Howto Stuffa Wild Bikini;1965
+3521;MysteryTrain;Mystery Train;1989
+3522;SaccoandVanzettiSaccoeVanzetti;Saccoe Vanzetti;1971
+3523;Taffin;Taffin;1988
+3524;Arthur;Arthur;1981
+3525;BachelorParty;Bachelor Party;1984
+3526;Parenthood;Parenthood;1989
+3527;Predator;Predator;1987
+3528;PrinceofTidesThe;Princeof Tides The;1991
+3529;PostmanAlwaysRingsTwiceThe;Postman Always Rings Twice The;1981
+3530;SmokingNoSmoking;Smoking No Smoking;1993
+3531;AlltheVermeersinNewYork;Allthe Vermeersin New York;1990
+3532;FreedomforUsnouslalibert;nouslalibert;1931
+3533;ActorsRevengeAnYukinojoHenge;Yukinojohenge;1963
+3534;Days;Days;2000
+3535;AmericanPsycho;American Psycho;2000
+3536;KeepingtheFaith;Keepingthe Faith;2000
+3537;WheretheMoneyIs;Wherethe Money Is;2000
+3538;EastisEast;East Is East;1999
+3539;FilthandtheFuryThe;Filthandthe Fury The;2000
+3540;PassionofMind;Passionof Mind;2000
+3541;ThirdWorldCop;Third World Cop;1999
+3542;ComingApart;Coming Apart;1969
+3543;Diner;Diner;1982
+3544;ShakestheClown;Shakesthe Clown;1992
+3545;Cabaret;Cabaret;1972
+3546;WhatEverHappenedtoBabyJane;What Ever Happenedto Baby Jane;1962
+3547;PrickUpYourEars;Prick Up Your Ears;1987
+3548;AuntieMame;Auntie Mame;1958
+3549;GuysandDolls;Guysand Dolls;1955
+3550;HungerThe;Hunger The;1983
+3551;MarathonMan;Marathon Man;1976
+3552;Caddyshack;Caddyshack;1980
+3553;Gossip;Gossip I;2000
+3554;LoveandBasketball;Love Basketball;2000
+3555;U;U;2000
+3556;VirginSuicidesThe;Virgin Suicides The;1999
+3557;Jennifer;Jennifer Eight;1992
+3558;LawTheLeLegge;Legge La;1959
+3559;Limelight;Limelight;1952
+3560;PhantomLoveAiNoBorei;Ainoborei;1978
+3561;StacysKnights;Stacys Knights;1983
+3562;Committed;Committed;2000
+3563;CrowSalvationThe;Crow Salvation The;2000
+3564;FlintstonesinVivaRockVegasThe;Flintstonesin Viva Rock Vegas The;2000
+3565;WheretheHeartIs;Wherethe Heart Is;2000
+3566;BigKahunaThe;Big Kahuna The;1999
+3567;BossaNova;Bossa Nova;2000
+3568;SmilingFishandGoatonFire;Goaton Fireand Smiling Fish;1999
+3569;IdiotsTheIdioterne;Idioterne;1998
+3570;LastSeptemberThe;Last September The;1999
+3571;TimeCode;Timecode;2000
+3572;Carnosaur;Carnosaur;1993
+3573;Carnosaur;Carnosaur;1995
+3574;CarnosaurPrimalSpecies;Carnosaur Primal Species;1996
+3575;DefyingGravity;Defying Gravity;1997
+3576;HiddenThe;Hidden The;1987
+3577;TwoMoonJuction;Two Moon Junction;1988
+3578;Gladiator;Gladiator;2000
+3579;IDreamedofAfrica;I Dreamedof Africa;2000
+3580;UpattheVilla;Upatthe Villa;2000
+3581;HumanTraffic;Human Traffic;1999
+3582;JailsHospitalsHipHop;Jails Hospitals Hip Hop;2000
+3583;BlackTightsLesCollantsNoirs;ou Les Collantsnoirs;1960
+3584;Breathless;Breathless;1983
+3585;GreatLocomotiveChaseThe;Great Locomotive Chase The;1956
+3586;IdolmakerThe;Idolmaker The;1980
+3587;Inferno;Inferno;1980
+3588;KingofMarvinGardensThe;Kingof Marvin Gardens The;1972
+3589;KillBabyKillOperazionePaura;Operazionepaura;1966
+3590;LordsofFlatbushThe;Lordsof Flatbush The;1974
+3591;MrMom;Mr Mom;1983
+3592;TimeMastersLesMatresduTemps;Matresdutemps Les;1982
+3593;BattlefieldEarth;Battlefield Earth A Sagaofthe Year;2000
+3594;CenterStage;Center Stage;2000
+3595;HeldUp;Held Up;1999
+3596;Screwed;Screwed;2000
+3597;Whipped;Whipped;2000
+3598;Hamlet;Hamlet;2000
+3599;AnchorsAweigh;Anchors Aweigh;1945
+3600;BlueHawaii;Blue Hawaii;1961
+3601;CastawayCowboyThe;Castaway Cowboy The;1974
+3602;GIBlues;G I Blues;1960
+3603;GayDeceiversThe;Gay Deceivers The;1969
+3604;Gypsy;Gypsy;1962
+3605;KingCreole;King Creole;1958
+3606;OntheTown;Onthe Town;1949
+3607;OneLittleIndian;One Little Indian;1973
+3608;PeeweesBigAdventure;Peewees Big Adventure;1985
+3609;RegrettoInform;Regretto Inform;1998
+3610;Roustabout;Roustabout;1964
+3611;SaludosAmigos;Saludos Amigos;1942
+3612;SlipperandtheRoseThe;Slipperandthe Rose The;1976
+3613;ThingsChange;Things Change;1988
+3614;HoneymooninVegas;Honeymoonin Vegas;1992
+3615;Dinosaur;Dinosaur;2000
+3616;Loser;Loser;2000
+3617;RoadTrip;Road Trip;2000
+3618;SmallTimeCrooks;Small Time Crooks;2000
+3619;HollywoodKnightsThe;Hollywood Knights The;1980
+3620;MythofFingerprintsThe;Mythof Fingerprints The;1997
+3621;Possession;Possession;1981
+3622;TwelveChairsThe;Twelve Chairs The;1970
+3623;MissionImpossible;Mission Impossible I I;2000
+3624;ShanghaiNoon;Shanghai Noon;2000
+3625;BetterLivingThroughCircuitry;Better Living Through Circuitry;1999
+3626;Women;Women;1999
+3627;CarnivalofSouls;Carnivalof Souls;1962
+3628;FlyingTigers;Flying Tigers;1942
+3629;GoldRushThe;Gold Rush The;1925
+3630;HouseofExorcismTheLaCasadellesorcismo;Casadellesorcismo La;1973
+3631;ItsintheWater;Itsinthe Water;1997
+3632;MonsieurVerdoux;Monsieur Verdoux;1947
+3633;OnHerMajestysSecretService;On Her Majestys Secret Service;1969
+3634;SevenDaysinMay;Seven Daysin May;1964
+3635;SpyWhoLovedMeThe;Spy Who Loved Me The;1977
+3636;ThoseWhoLoveMeCanTaketheTrainCeuxquimaimentprendrontletrain;Ceuxquimaimentprendrontletrain;1998
+3637;VagabondSanstoitniloi;Sanstoitniloi;1985
+3638;Moonraker;Moonraker;1979
+3639;ManwiththeGoldenGunThe;Manwiththe Golden Gun The;1974
+3640;KinginNewYorkA;Kingin New York A;1957
+3641;WomanofParisA;Womanof Paris A;1923
+3642;InOldCalifornia;In Old California;1942
+3643;FightingSeabeesThe;Fighting Seabees The;1944
+3644;DarkCommand;Dark Command;1940
+3645;CleoFromtoClode;Clode;1961
+3646;BigMommasHouse;Big Mommas House;2000
+3647;RunningFree;Running Free;1999
+3648;AbominableSnowmanThe;Abominable Snowman The;1957
+3649;AmericanGigolo;American Gigolo;1980
+3650;AnguishAngustia;Angustia;1987
+3651;BloodSpatteredBrideTheLaNoviaEnsangrentada;Noviaensangrentada La;1972
+3652;CityoftheLivingDeadPauranellacittdeimortiviventi;Pauranellacittdeimortiviventi;1980
+3653;EndlessSummerThe;Endless Summer The;1966
+3654;GunsofNavaroneThe;Gunsof Navarone The;1961
+3655;BlowOutLaGrandeBouffe;Grandebouffe La;1973
+3656;Lured;Lured;1947
+3657;PandoraandtheFlyingDutchman;Pandoraandthe Flying Dutchman;1951
+3658;QuatermassandthePit;Quatermassandthe Pit;1967
+3659;QuatermassII;Quatermass;1957
+3660;PuppetMaster;Puppet Master;1989
+3661;PuppetMasterII;Puppet Master I I;1991
+3662;PuppetMasterIIIToulonsRevenge;Puppet Master I I I Toulons Revenge;1991
+3663;PuppetMaster;Puppet Master;1993
+3664;PuppetMasterTheFinalChapter;Puppet Master The Final Chapter;1994
+3665;CurseofthePuppetMaster;Curseofthe Puppet Master;1998
+3666;RetroPuppetmaster;Retro Puppet Master;1999
+3667;RentACop;Renta Cop;1987
+3668;RomeoandJuliet;Romeoand Juliet I;1968
+3669;StayTuned;Stay Tuned;1992
+3670;StoryofGIJoeThe;Storyof G I Joe;1945
+3671;BlazingSaddles;Blazing Saddles;1974
+3672;Benji;Benji;1974
+3673;BenjitheHunted;Benjithe Hunted;1987
+3674;FortheLoveofBenji;Forthe Loveof Benji;1977
+3675;WhiteChristmas;White Christmas;1954
+3676;Eraserhead;Eraserhead;1977
+3677;Baraka;Baraka;1992
+3678;ManwiththeGoldenArmThe;Manwiththe Golden Arm The;1955
+3679;DeclineofWesternCivilizationThe;Declineof Western Civilization The;1981
+3680;DeclineofWesternCivilizationPartIITheMetalYearsThe;Declineof Western Civilization Part I I The Metal Years The;1988
+3681;ForaFewDollarsMore;Perqualchedollaroinpi;1965
+3682;MagnumForce;Magnum Force;1973
+3683;BloodSimple;Blood Simple;1984
+3684;FabulousBakerBoysThe;Fabulous Baker Boys The;1989
+3685;PrizzisHonor;Prizzis Honor;1985
+3686;Flatliners;Flatliners;1990
+3687;LightYears;Gandahar;1988
+3688;Porkys;Porkys;1982
+3689;PorkysIITheNextDay;Porkys I I The Next Day;1983
+3690;PorkysRevenge;Porkys Revenge;1985
+3691;PrivateSchool;Private School;1983
+3692;ClassofNukeEmHigh;Classof Nuke Em High;1986
+3693;ToxicAvengerThe;Toxic Avenger The;1985
+3694;ToxicAvengerPartIIThe;Toxic Avenger Part I I The;1989
+3695;ToxicAvengerPartIIITheLastTemptationofToxieThe;Toxic Avenger Part I I I The Last Temptationof Toxie The;1989
+3696;NightoftheCreeps;Nightofthe Creeps;1986
+3697;Predator;Predator;1990
+3698;RunningManThe;Running Man The;1987
+3699;Starman;Starman;1984
+3700;BrotherfromAnotherPlanetThe;Brotherfrom Another Planet The;1984
+3701;AlienNation;Alien Nation;1988
+3702;MadMax;Mad Max;1979
+3703;MadMaxakaTheRoadWarrior;Mad Max;1981
+3704;MadMaxBeyondThunderdome;Mad Max Beyond Thunderdome;1985
+3705;BirdonaWire;Birdona Wire;1990
+3706;AngelHeart;Angel Heart;1987
+3707;NineWeeks;Nine Weeks;1986
+3708;Firestarter;Firestarter;1984
+3709;Sleepwalkers;Sleepwalkers;1992
+3710;ActionJackson;Action Jackson;1988
+3711;Sarafina;Sarafina;1992
+3712;Soapdish;Soapdish;1991
+3713;LongWalkHomeThe;Long Walk Home The;1990
+3714;ClarasHeart;Claras Heart;1988
+3715;Burglar;Burglar;1987
+3716;FatalBeauty;Fatal Beauty;1987
+3717;GoneinSeconds;Gonein Seconds The Ride;2000
+3718;AmericanPimp;American Pimp;1999
+3719;LovesLaboursLost;Loves Labours Lost;2000
+3720;Sunshine;Sunshine;1999
+3721;Trixie;Trixie;2000
+3722;LiveVirgin;American Virgin;2000
+3723;Hamlet;Hamlet I;1990
+3724;ComingHome;Coming Home;1978
+3725;AmericanPop;American Pop;1981
+3726;AssaultonPrecinct;Assaulton Precinct;1976
+3727;NearDark;Near Dark;1987
+3728;OneFalseMove;One False Move;1992
+3729;Shaft;Shaft;1971
+3730;ConversationThe;Conversation The;1974
+3731;CuttersWay;Cutters Way;1981
+3732;FuryThe;Fury The;1978
+3733;PaperChaseThe;Paper Chase The;1973
+3734;PrinceoftheCity;Princeofthe City;1981
+3735;Serpico;Serpico;1973
+3736;BigCarnivalThe;Aceinthe Hole;1951
+3737;LonelyAretheBrave;Lonely Arethe Brave;1962
+3738;SugarlandExpressThe;Sugarland Express The;1974
+3739;TroubleinParadise;Troublein Paradise;1932
+3740;BigTroubleinLittleChina;Big Troublein Little China;1986
+3741;Badlands;Badlands;1973
+3742;BattleshipPotemkinTheBronenosetsPotyomkin;Bronenosets Potyomkin;1925
+3743;BoysandGirls;Boysand Girls;2000
+3744;Shaft;Shaft;2000
+3745;TitanAE;Titan A E;2000
+3746;ButterflyLaLenguadelasMariposas;Butterfly T V;2000
+3747;JesusSon;Jesus Son;1999
+3748;MatchThe;Match The;1999
+3749;TimeRegainedLeTempsRetrouv;Tempsretrouv Le;1999
+3750;BoricuasBond;Boricuas Bond;2000
+3751;ChickenRun;Chicken Run;2000
+3752;MeMyselfandIrene;Me Myself Irene;2000
+3753;PatriotThe;Patriot The;2000
+3754;AdventuresofRockyandBullwinkleThe;Adventuresof Rocky Bullwinkle The;2000
+3755;PerfectStormThe;Perfect Storm The;2000
+3756;GoldenBowlThe;Golden Bowl The;2000
+3757;Asylum;Asylum I;1972
+3758;Communion;Communion;1989
+3759;FunandFancyFree;Funand Fancy Free;1947
+3760;KentuckyFriedMovieThe;Kentucky Fried Movie The;1977
+3761;BloodInBloodOutakaBoundbyHonor;Boundby Honor;1993
+3762;DaughterofDrJeckyll;Daughterof Dr Jekyll;1957
+3763;FX;F X;1986
+3764;FX;F X;1991
+3765;HotSpotThe;Hot Spot The;1990
+3766;MissinginAction;Missingin Action;1984
+3767;MissinginActionTheBeginning;Missingin Action The Beginning;1985
+3768;BraddockMissinginActionIII;Braddock Missingin Action I I I;1988
+3769;ThunderboltandLightfoot;Thunderboltand Lightfoot;1974
+3770;Dreamscape;Dreamscape;1984
+3771;GoldenVoyageofSinbadThe;Golden Voyageof Sinbad The;1974
+3772;HatchetFortheHoneymoonRossoSegnoDellaFollia;Rossosegnodellafollia Il;1970
+3773;HouseParty;House Party;1990
+3774;HouseParty;House Party;1991
+3775;MakeMineMusic;Make Mine Music;1946
+3776;MelodyTime;Melody Time;1948
+3777;Nekromantik;Nekromantik;1987
+3778;OnOurMerryWay;On Our Merry Way;1948
+3779;ProjectMoonBase;Project Moon Base;1953
+3780;RocketshipXM;Rocketship X M;1950
+3781;ShaftinAfrica;Shaftin Africa;1973
+3782;ShaftsBigScore;Shafts Big Score;1972
+3783;Croupier;Croupier;1998
+3784;KidThe;Kid The;2000
+3785;ScaryMovie;Scary Movie;2000
+3786;ButImaCheerleader;But Ima Cheerleader;1999
+3787;ShowerXizhao;Shower;2001
+3788;Blowup;Blowup;1966
+3789;PawnbrokerThe;Pawnbroker The;1964
+3790;Groove;Groove;2000
+3791;Footloose;Footloose;1984
+3792;DuelintheSun;Duelinthe Sun;1946
+3793;XMen;X Men;2000
+3794;ChuckBuck;Chuck Buck;2000
+3795;FiveSensesThe;Five Senses The;1999
+3796;WisdomofCrocodilesTheakaImmortality;Wisdomof Crocodiles The;1998
+3797;InCrowdThe;In Crowd The;2000
+3798;WhatLiesBeneath;What Lies Beneath;2000
+3799;PokmontheMovie;Pokmon The Movie;2000
+3800;CriminalLoversLesAmantsCriminels;Amantscriminels Les;1999
+3801;AnatomyofaMurder;Anatomyofa Murder;1959
+3802;Freejack;Freejack;1992
+3803;GreasersPalace;Greasers Palace;1972
+3804;HOTS;H O T S;1979
+3805;Knightriders;Knightriders;1981
+3806;MacKennasGold;Mackennas Gold;1969
+3807;SinbadandtheEyeoftheTiger;Sinbadandthe Eyeofthe Tiger;1977
+3808;TwoWomenLaCiociara;Ciociara La;1960
+3809;WhatAboutBob;What About Bob;1991
+3810;WhiteSands;White Sands;1992
+3811;BreakerMorant;Breaker Morant;1980
+3812;EverythingYouAlwaysWantedtoKnowAboutSex;Everything You Always Wantedto Know About Sex But Were Afraidto Ask;1972
+3813;Interiors;Interiors;1978
+3814;LoveandDeath;Loveand Death;1975
+3816;OfficialStoryTheLaHistoriaOficial;Historiaoficial La;1985
+3817;OtherSideofSundayTheSndagsengler;Sndagsengler;1996
+3818;PotOGold;Poto Gold;1941
+3819;Tampopo;Tampopo;1985
+3820;ThomasandtheMagicRailroad;Thomasandthe Magic Railroad;2000
+3821;NuttyProfessorIITheKlumps;Nutty Professor I I The Klumps;2000
+3822;GirlontheBridgeTheLaFillesurlePont;Fillesurlepont La;1999
+3823;Wonderland;Wonderland;1999
+3824;AutumninNewYork;Autumnin New York;2000
+3825;CoyoteUgly;Coyote Ugly;2000
+3826;HollowMan;Hollow Man;2000
+3827;SpaceCowboys;Space Cowboys;2000
+3828;BetterLiving;Better Living;1998
+3829;MadAboutMambo;Mad About Mambo;2000
+3830;PsychoBeachParty;Psycho Beach Party;2000
+3831;SavingGrace;Saving Grace;2000
+3832;BlackSabbathTreVoltiDellaPauraI;Trevoltidellapaura I;1963
+3833;BrainThatWouldntDieThe;Brain That Wouldnt Die The;1962
+3834;BroncoBilly;Bronco Billy;1980
+3835;CrushThe;Crush The;1993
+3836;KellysHeroes;Kellys Heroes;1970
+3837;PhantasmII;Phantasm I I;1988
+3838;PhantasmIIILordoftheDead;Phantasm I I I Lordofthe Dead;1994
+3839;PhantasmIVOblivion;Phantasm I V Oblivion;1998
+3840;Pumpkinhead;Pumpkinhead;1989
+3841;AirAmerica;Air America;1990
+3842;MakeThemDieSlowlyCannibalFerox;Cannibalferox;1981
+3843;SleepawayCamp;Sleepaway Camp;1983
+3844;SteelMagnolias;Steel Magnolias;1989
+3845;AndGodCreatedWomanEtDieuCralaFemme;Et Dieucralafemme;1956
+3846;EasyMoney;Easy Money;1983
+3847;IlsaSheWolfoftheSS;Ilsa She Wolfofthe S S;1975
+3848;SilentFall;Silent Fall;1994
+3849;SpiralStaircaseThe;Spiral Staircase The;1946
+3850;WhateverHappenedtoAuntAlice;What Ever Happenedto Aunt Alice;1969
+3851;ImtheOneThatIWant;Imthe One That I Want;2000
+3852;TaoofSteveThe;Taoof Steve The;2000
+3853;TicCodeThe;Tic Code The;1999
+3854;AimeJaguar;Aime Jaguar;1999
+3855;AffairofLoveAnUneLiaisonPornographique;Uneliaisonpornographique;1999
+3856;AutumnHeart;Autumn Heart;2003
+3857;BlesstheChild;Blessthe Child;2000
+3858;CecilBDemented;Cecil B De Mented;2000
+3859;EyesofTammyFayeThe;Eyesof Tammy Faye The;2000
+3860;OpportunistsThe;Opportunists The;2000
+3861;ReplacementsThe;Replacements The;2000
+3862;AboutAdam;About Adam;2000
+3863;CellThe;Cell The;2000
+3864;GodzillaGojiranisenmireniamu;Gojiranisenmireniamu;1999
+3865;OriginalKingsofComedyThe;Original Kingsof Comedy The;2000
+3866;SunsetStrip;Sunset Strip;2000
+3867;AlltheRageakaItstheRage;Allthe Rage;1999
+3868;NakedGunFromtheFilesofPoliceSquadThe;Naked Gun Fromthe Filesof Police Squad The;1988
+3869;NakedGunTheSmellofFearThe;Naked Gun The Smellof Fear The;1991
+3870;OurTown;Our Town;1940
+3871;Shane;Shane;1953
+3872;SuddenlyLastSummer;Suddenly Last Summer;1959
+3873;CatBallou;Cat Ballou;1965
+3874;CouchinNewYorkA;Undivan New York;1996
+3875;DevilRidesOutThe;Devil Rides Out The;1968
+3876;JerryTom;Jerryand Tom;1998
+3877;Supergirl;Supergirl;1984
+3878;XTheUnknown;X The Unknown;1956
+3879;ArtofWarThe;Artof War The;2000
+3880;BalladofRamblinJackThe;Balladof Ramblin Jack The;2000
+3881;BittersweetMotel;Bittersweet Motel;2000
+3882;BringItOn;Bring It On;2000
+3883;CatfishinBlackBeanSauce;Catfishin Black Bean Sauce;1999
+3884;CrewThe;Crew The I;2000
+3885;LoveSex;Love Sex;2000
+3886;StealThisMovie;Steal This Movie;2000
+3887;WenttoConeyIslandonaMissionFromGodBeBackbyFive;Wentto Coney Islandona Missionfrom God Be Backby Five;1998
+3888;SkippedParts;Skipped Parts;2000
+3889;HighlanderEndgame;Highlander Endgame;2000
+3890;BackStage;Backstage;2000
+3891;TurnItUp;Turn It Up;2000
+3892;AnatomyAnatomie;Anatomie;2000
+3893;NurseBetty;Nurse Betty;2000
+3894;Solas;Solas;1999
+3895;WatcherThe;Watcher The I;2000
+3896;WayoftheGunThe;Wayofthe Gun The;2000
+3897;AlmostFamous;Almost Famous;2000
+3898;Bait;Bait;2000
+3899;Circus;Circus;2000
+3900;CrimeandPunishmentinSuburbia;Crimeand Punishmentin Suburbia;2000
+3901;Duets;Duets;2000
+3902;GoyainBordeauxGoyaenBodeos;Goyaen Burdeos;1999
+3903;Urbania;Urbania;2000
+3904;UninvitedGuestAn;Invited Guest An;1999
+3905;SpecialsThe;Specials The;2000
+3906;UnderSuspicion;Under Suspicion;2000
+3907;PrinceofCentralParkThe;Princeof Central Park;2000
+3908;UrbanLegendsFinalCut;Urban Legends Final Cut;2000
+3909;WomanonTop;Womanon Top;2000
+3910;DancerintheDark;Dancerinthe Dark;2000
+3911;BestinShow;Bestin Show;2000
+3912;Beautiful;Beautiful;2000
+3913;BarenakedinAmerica;Barenakedin America;1999
+3914;BrokenHeartsClubThe;Broken Hearts Club A Romantic Comedy The;2000
+3915;Girlfight;Girlfight;2000
+3916;RemembertheTitans;Rememberthe Titans;2000
+3917;Hellraiser;Hellraiser;1987
+3918;HellboundHellraiserII;Hellbound Hellraiser I I;1988
+3919;HellraiserIIIHellonEarth;Hellraiser I I I Hellon Earth;1992
+3920;FarawaySoCloseInWeiterFerneSoNah;Inweiter Fernesonah;1993
+3921;BeachParty;Beach Party;1963
+3922;BikiniBeach;Bikini Beach;1964
+3923;ReturnoftheFly;Returnofthe Fly;1959
+3924;PajamaParty;Pajama Party;1964
+3925;StrangerThanParadise;Stranger Than Paradise;1984
+3926;VoyagetotheBottomoftheSea;Voyagetothe Bottomofthe Sea;1961
+3927;FantasticVoyage;Fantastic Voyage;1966
+3928;AbbottandCostelloMeetFrankenstein;Bud Abbott Lou Costello Meet Frankenstein;1948
+3929;BankDickThe;Bank Dick The;1940
+3930;CreatureFromtheBlackLagoonThe;Creaturefromthe Black Lagoon;1954
+3931;GiantGilaMonsterThe;Giant Gila Monster The;1959
+3932;InvisibleManThe;Invisible Man The;1933
+3933;KillerShrewsThe;Killer Shrews The;1959
+3934;Kronos;Kronos;1957
+3935;Kronos;Captain Kronos Vampire Hunter;1974
+3936;PhantomoftheOperaThe;Phantomofthe Opera;1943
+3937;Runaway;Runaway;1984
+3938;SlumberPartyMassacreThe;Slumber Party Massacre The;1982
+3939;SlumberPartyMassacreIIThe;Slumber Party Massacre I I;1987
+3940;SlumberPartyMassacreIIIThe;Slumber Party Massacre I I I;1990
+3941;SororityHouseMassacre;Sorority House Massacre;1987
+3942;SororityHouseMassacreII;Sorority House Massacre I I;1990
+3943;Bamboozled;Bamboozled;2000
+3944;Bootmen;Bootmen;2000
+3945;DigimonTheMovie;Digimon The Movie;2000
+3946;GetCarter;Get Carter;2000
+3947;GetCarter;Get Carter;1971
+3948;MeettheParents;Meetthe Parents;2000
+3949;RequiemforaDream;Requiemfora Dream;2000
+3950;Tigerland;Tigerland;2000
+3951;TwoFamilyHouse;Two Family House;2000
+3952;ContenderThe;Contender The;2000
