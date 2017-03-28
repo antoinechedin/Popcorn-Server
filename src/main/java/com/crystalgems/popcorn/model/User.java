@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "user")
 public class User {
-    private int userId;
+    private int id;
     private String login;
     private String password;
     private Gender gender;
@@ -21,12 +22,12 @@ public class User {
     @Id
     @Column(name = "UserId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getUserId() {
-        return userId;
+    public int getId() {
+        return id;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setId(int userId) {
+        this.id = userId;
     }
 
     @Basic
@@ -84,23 +85,12 @@ public class User {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         User user = (User) o;
-
-        if (userId != user.userId) return false;
-        if (age != user.age) return false;
-        if (login != null ? !login.equals(user.login) : user.login != null) return false;
-        return password != null ? !password.equals(user.password) : user.password != null;
-
+        return Objects.equals(login, user.login);
     }
 
     @Override
     public int hashCode() {
-        int result = userId;
-        result = 31 * result + (login != null ? login.hashCode() : 0);
-        result = 31 * result + (password != null ? password.hashCode() : 0);
-        result = 31 * result + (gender != null ? gender.hashCode() : 0);
-        result = 31 * result + (age != null ? age.hashCode() : 0);
-        return result;
+        return Objects.hash(login);
     }
 }

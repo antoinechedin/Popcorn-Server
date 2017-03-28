@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,19 +12,19 @@ import java.util.Set;
 @Entity
 @Table(name = "gender")
 public class Gender {
-    private int genderId;
+    private int id;
     private String gender;
     private Set<User> users;
 
     @Id
     @Column(name = "GenderId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getGenderId() {
-        return genderId;
+    public int getId() {
+        return id;
     }
 
-    public void setGenderId(int genderId) {
-        this.genderId = genderId;
+    public void setId(int genderId) {
+        this.id = genderId;
     }
 
     @Basic
@@ -50,17 +51,12 @@ public class Gender {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Gender gender1 = (Gender) o;
-
-        if (genderId != gender1.genderId) return false;
-        return gender != null ? gender.equals(gender1.gender) : gender1.gender == null;
+        return Objects.equals(gender, gender1.gender);
     }
 
     @Override
     public int hashCode() {
-        int result = genderId;
-        result = 31 * result + (gender != null ? gender.hashCode() : 0);
-        return result;
+        return Objects.hash(gender);
     }
 }

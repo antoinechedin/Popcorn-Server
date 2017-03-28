@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "keyword")
 public class Keyword {
-    private int keywordId;
+    private int id;
     private String keyword;
     private int movieQuantity;
     private Set<Movie> movies;
@@ -19,12 +20,12 @@ public class Keyword {
     @Id
     @Column(name = "KeywordId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getKeywordId() {
-        return keywordId;
+    public int getId() {
+        return id;
     }
 
-    public void setKeywordId(int keywordId) {
-        this.keywordId = keywordId;
+    public void setId(int keywordId) {
+        this.id = keywordId;
     }
 
     @Basic
@@ -66,19 +67,12 @@ public class Keyword {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Keyword keyword1 = (Keyword) o;
-
-        if (keywordId != keyword1.keywordId) return false;
-        if (movieQuantity != keyword1.movieQuantity) return false;
-        return keyword != null ? keyword.equals(keyword1.keyword) : keyword1.keyword == null;
+        return Objects.equals(keyword, keyword1.keyword);
     }
 
     @Override
     public int hashCode() {
-        int result = keywordId;
-        result = 31 * result + (keyword != null ? keyword.hashCode() : 0);
-        result = 31 * result + movieQuantity;
-        return result;
+        return Objects.hash(keyword);
     }
 }

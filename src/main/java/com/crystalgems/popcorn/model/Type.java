@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "type")
 public class Type {
-    private int typeId;
+    private int id;
     private String type;
     private String typeDescription;
     private Set<Movie> movies;
@@ -19,12 +20,12 @@ public class Type {
     @Id
     @Column(name = "TypeId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getTypeId() {
-        return typeId;
+    public int getId() {
+        return id;
     }
 
-    public void setTypeId(int typeId) {
-        this.typeId = typeId;
+    public void setId(int typeId) {
+        this.id = typeId;
     }
 
     @Basic
@@ -47,6 +48,19 @@ public class Type {
         this.typeDescription = typeDescription;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Type type1 = (Type) o;
+        return Objects.equals(type, type1.type);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(type);
+    }
+
     @OneToMany(mappedBy = "type")
     @JsonIgnore
     public Set<Movie> getMovies() {
@@ -57,23 +71,4 @@ public class Type {
         this.movies = movies;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        Type type1 = (Type) o;
-
-        if (typeId != type1.typeId) return false;
-        if (type != null ? !type.equals(type1.type) : type1.type != null) return false;
-        return typeDescription != null ? typeDescription.equals(type1.typeDescription) : type1.typeDescription == null;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = typeId;
-        result = 31 * result + (type != null ? type.hashCode() : 0);
-        result = 31 * result + (typeDescription != null ? typeDescription.hashCode() : 0);
-        return result;
-    }
 }

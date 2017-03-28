@@ -9,8 +9,8 @@
         <module name="Popcorn-Server" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Popcorn-Server" target="1.7" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Popcorn-Server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

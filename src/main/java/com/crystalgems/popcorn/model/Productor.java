@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -8,18 +9,18 @@ import javax.persistence.*;
 @Entity
 @Table(name = "productor")
 public class Productor {
-    private int productorsId;
+    private int id;
     private String productorCompany;
 
     @Id
     @Column(name = "ProductorsId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getProductorsId() {
-        return productorsId;
+    public int getId() {
+        return id;
     }
 
-    public void setProductorsId(int productorsId) {
-        this.productorsId = productorsId;
+    public void setId(int productorsId) {
+        this.id = productorsId;
     }
 
     @Basic
@@ -36,17 +37,12 @@ public class Productor {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Productor productor = (Productor) o;
-
-        if (productorsId != productor.productorsId) return false;
-        return productorCompany != null ? productorCompany.equals(productor.productorCompany) : productor.productorCompany == null;
+        return Objects.equals(productorCompany, productor.productorCompany);
     }
 
     @Override
     public int hashCode() {
-        int result = productorsId;
-        result = 31 * result + (productorCompany != null ? productorCompany.hashCode() : 0);
-        return result;
+        return Objects.hash(productorCompany);
     }
 }

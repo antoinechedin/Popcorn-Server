@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "movies")
 public class Movie {
-    private int movieId;
+    private int id;
     private String titleMovieLens;
     private String titleImdb;
     private int year;
@@ -28,12 +29,12 @@ public class Movie {
     @Id
     @Column(name = "MovieId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getMovieId() {
-        return movieId;
+    public int getId() {
+        return id;
     }
 
-    public void setMovieId(int movieId) {
-        this.movieId = movieId;
+    public void setId(int movieId) {
+        this.id = movieId;
     }
 
     @Basic
@@ -200,20 +201,15 @@ public class Movie {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Movie movie = (Movie) o;
-
-        if (titleMovieLens != null ? !titleMovieLens.equals(movie.titleMovieLens) : movie.titleMovieLens != null)
-            return false;
-        if (titleImdb != null ? !titleImdb.equals(movie.titleImdb) : movie.titleImdb != null) return false;
-        return year == movie.year;
+        return year == movie.year &&
+                Objects.equals(titleMovieLens, movie.titleMovieLens) &&
+                Objects.equals(titleImdb, movie.titleImdb) &&
+                Objects.equals(type, movie.type);
     }
 
     @Override
     public int hashCode() {
-        int result = movieId;
-        result = 31 * result + (titleMovieLens != null ? titleMovieLens.hashCode() : 0);
-        result = 31 * result + (titleImdb != null ? titleImdb.hashCode() : 0);
-        return result;
+        return Objects.hash(titleMovieLens, titleImdb, year, type);
     }
 }

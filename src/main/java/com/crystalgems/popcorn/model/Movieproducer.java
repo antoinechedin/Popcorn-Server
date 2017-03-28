@@ -8,19 +8,19 @@ import javax.persistence.*;
 @Entity
 @Table(name = "movieproducer")
 public class Movieproducer {
-    private int movieProducerLinkId;
+    private int id;
     private int movieId;
     private int producerId;
     private String producerInfo;
 
     @Id
     @Column(name = "MovieProducerLinkId")
-    public int getMovieProducerLinkId() {
-        return movieProducerLinkId;
+    public int getId() {
+        return id;
     }
 
-    public void setMovieProducerLinkId(int movieProducerLinkId) {
-        this.movieProducerLinkId = movieProducerLinkId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Basic
@@ -60,7 +60,7 @@ public class Movieproducer {
 
         Movieproducer that = (Movieproducer) o;
 
-        if (movieProducerLinkId != that.movieProducerLinkId) return false;
+        if (id != that.id) return false;
         if (movieId != that.movieId) return false;
         if (producerId != that.producerId) return false;
         return producerInfo != null ? producerInfo.equals(that.producerInfo) : that.producerInfo == null;
@@ -68,7 +68,7 @@ public class Movieproducer {
 
     @Override
     public int hashCode() {
-        int result = movieProducerLinkId;
+        int result = id;
         result = 31 * result + movieId;
         result = 31 * result + producerId;
         result = 31 * result + (producerInfo != null ? producerInfo.hashCode() : 0);

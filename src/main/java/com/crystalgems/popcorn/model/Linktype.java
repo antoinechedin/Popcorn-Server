@@ -1,6 +1,7 @@
 package com.crystalgems.popcorn.model;
 
 import javax.persistence.*;
+import java.util.Objects;
 
 /**
  * Created by Antoine on 03/03/2017.
@@ -8,18 +9,18 @@ import javax.persistence.*;
 @Entity
 @Table(name = "linktype")
 public class Linktype {
-    private int linkTypeId;
+    private int id;
     private String linkType;
 
     @Id
     @Column(name = "LinkTypeId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getLinkTypeId() {
-        return linkTypeId;
+    public int getId() {
+        return id;
     }
 
-    public void setLinkTypeId(int linkTypeId) {
-        this.linkTypeId = linkTypeId;
+    public void setId(int linkTypeId) {
+        this.id = linkTypeId;
     }
 
     @Basic
@@ -36,17 +37,12 @@ public class Linktype {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Linktype linktype = (Linktype) o;
-
-        if (linkTypeId != linktype.linkTypeId) return false;
-        return linkType != null ? linkType.equals(linktype.linkType) : linktype.linkType == null;
+        return Objects.equals(linkType, linktype.linkType);
     }
 
     @Override
     public int hashCode() {
-        int result = linkTypeId;
-        result = 31 * result + (linkType != null ? linkType.hashCode() : 0);
-        return result;
+        return Objects.hash(linkType);
     }
 }

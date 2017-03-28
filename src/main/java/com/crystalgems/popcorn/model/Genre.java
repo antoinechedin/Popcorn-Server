@@ -11,19 +11,19 @@ import java.util.Set;
 @Entity
 @Table(name = "genre")
 public class Genre {
-    private int genreId;
+    private int id;
     private String genre;
     private Set<Movie> movies;
 
     @Id
     @Column(name = "GenreId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getGenreId() {
-        return genreId;
+    public int getId() {
+        return id;
     }
 
-    public void setGenreId(int genreId) {
-        this.genreId = genreId;
+    public void setId(int genreId) {
+        this.id = genreId;
     }
 
     @Basic
@@ -58,13 +58,12 @@ public class Genre {
 
         Genre genre1 = (Genre) o;
 
-        if (genreId != genre1.genreId) return false;
         return genre != null ? genre.equals(genre1.genre) : genre1.genre == null;
     }
 
     @Override
     public int hashCode() {
-        int result = genreId;
+        int result = id;
         result = 31 * result + (genre != null ? genre.hashCode() : 0);
         return result;
     }

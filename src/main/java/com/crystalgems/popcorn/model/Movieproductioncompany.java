@@ -8,7 +8,7 @@ import javax.persistence.*;
 @Entity
 @Table(name = "movieproductioncompany")
 public class Movieproductioncompany {
-    private int movieProductionCompnyLinkId;
+    private int id;
     private int movieId;
     private String countryCode;
     private int productionCompanyId;
@@ -16,12 +16,12 @@ public class Movieproductioncompany {
 
     @Id
     @Column(name = "MovieProductionCompnyLinkId")
-    public int getMovieProductionCompnyLinkId() {
-        return movieProductionCompnyLinkId;
+    public int getId() {
+        return id;
     }
 
-    public void setMovieProductionCompnyLinkId(int movieProductionCompnyLinkId) {
-        this.movieProductionCompnyLinkId = movieProductionCompnyLinkId;
+    public void setId(int id) {
+        this.id = id;
     }
 
     @Basic
@@ -71,7 +71,7 @@ public class Movieproductioncompany {
 
         Movieproductioncompany that = (Movieproductioncompany) o;
 
-        if (movieProductionCompnyLinkId != that.movieProductionCompnyLinkId) return false;
+        if (id != that.id) return false;
         if (movieId != that.movieId) return false;
         if (productionCompanyId != that.productionCompanyId) return false;
         return countryCode != null ? !countryCode.equals(that.countryCode) : that.countryCode != null;
@@ -79,7 +79,7 @@ public class Movieproductioncompany {
 
     @Override
     public int hashCode() {
-        int result = movieProductionCompnyLinkId;
+        int result = id;
         result = 31 * result + movieId;
         result = 31 * result + (countryCode != null ? countryCode.hashCode() : 0);
         result = 31 * result + productionCompanyId;

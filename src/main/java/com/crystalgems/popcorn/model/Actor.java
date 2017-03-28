@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,7 +12,7 @@ import java.util.Set;
 @Entity
 @Table(name = "actor")
 public class Actor {
-    private int actorId;
+    private int id;
     private String lastName;
     private String firstName;
     private int movieQuantity;
@@ -20,12 +21,12 @@ public class Actor {
     @Id
     @Column(name = "ActorId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getActorId() {
-        return actorId;
+    public int getId() {
+        return id;
     }
 
-    public void setActorId(int actorId) {
-        this.actorId = actorId;
+    public void setId(int actorId) {
+        this.id = actorId;
     }
 
     @Basic
@@ -77,21 +78,13 @@ public class Actor {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Actor actor = (Actor) o;
-
-        if (actorId != actor.actorId) return false;
-        if (movieQuantity != actor.movieQuantity) return false;
-        if (lastName != null ? !lastName.equals(actor.lastName) : actor.lastName != null) return false;
-        return firstName != null ? firstName.equals(actor.firstName) : actor.firstName == null;
+        return Objects.equals(lastName, actor.lastName) &&
+                Objects.equals(firstName, actor.firstName);
     }
 
     @Override
     public int hashCode() {
-        int result = actorId;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        result = 31 * result + movieQuantity;
-        return result;
+        return Objects.hash(lastName, firstName);
     }
 }

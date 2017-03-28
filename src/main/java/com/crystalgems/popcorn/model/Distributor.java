@@ -3,6 +3,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -11,19 +12,19 @@ import java.util.Set;
 @Entity
 @Table(name = "distributor")
 public class Distributor {
-    private int distributorId;
+    private int id;
     private String distributionCompany;
     private Set<Movie> movies;
 
     @Id
     @Column(name = "DistributorId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getDistributorId() {
-        return distributorId;
+    public int getId() {
+        return id;
     }
 
-    public void setDistributorId(int distributorId) {
-        this.distributorId = distributorId;
+    public void setId(int distributorId) {
+        this.id = distributorId;
     }
 
     @Basic
@@ -55,17 +56,12 @@ public class Distributor {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Distributor that = (Distributor) o;
-
-        if (distributorId != that.distributorId) return false;
-        return distributionCompany != null ? distributionCompany.equals(that.distributionCompany) : that.distributionCompany == null;
+        return Objects.equals(distributionCompany, that.distributionCompany);
     }
 
     @Override
     public int hashCode() {
-        int result = distributorId;
-        result = 31 * result + (distributionCompany != null ? distributionCompany.hashCode() : 0);
-        return result;
+        return Objects.hash(distributionCompany);
     }
 }

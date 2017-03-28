@@ -4,6 +4,7 @@ package com.crystalgems.popcorn.model;
 import com.owlike.genson.annotation.JsonIgnore;
 
 import javax.persistence.*;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -12,7 +13,7 @@ import java.util.Set;
 @Entity
 @Table(name = "director")
 public class Director {
-    private int directorId;
+    private int id;
     private int movieQuantity;
     private String lastName;
     private String firstName;
@@ -21,12 +22,12 @@ public class Director {
     @Id
     @Column(name = "DirectorId")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    public int getDirectorId() {
-        return directorId;
+    public int getId() {
+        return id;
     }
 
-    public void setDirectorId(int directorId) {
-        this.directorId = directorId;
+    public void setId(int directorId) {
+        this.id = directorId;
     }
 
     @Basic
@@ -78,20 +79,13 @@ public class Director {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-
         Director director = (Director) o;
-
-        if (movieQuantity != director.movieQuantity) return false;
-        if (lastName != null ? !lastName.equals(director.lastName) : director.lastName != null) return false;
-        return firstName != null ? firstName.equals(director.firstName) : director.firstName == null;
+        return Objects.equals(lastName, director.lastName) &&
+                Objects.equals(firstName, director.firstName);
     }
 
     @Override
     public int hashCode() {
-        int result = directorId;
-        result = 31 * result + movieQuantity;
-        result = 31 * result + (lastName != null ? lastName.hashCode() : 0);
-        result = 31 * result + (firstName != null ? firstName.hashCode() : 0);
-        return result;
+        return Objects.hash(lastName, firstName);
     }
 }
