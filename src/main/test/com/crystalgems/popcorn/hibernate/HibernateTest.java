@@ -1,6 +1,6 @@
 package com.crystalgems.popcorn.hibernate;
 
-import com.crystalgems.popcorn.algo.ObjectCounter;
+import com.crystalgems.popcorn.algo.ObjectRate;
 import com.crystalgems.popcorn.model.*;
 import org.junit.After;
 import org.junit.Assert;
@@ -265,15 +265,15 @@ public class HibernateTest {
         Assert.assertEquals(genre2, genre1);
         Assert.assertNotEquals(genre3, genre1);
 
-        // ObjectCounter
+        // ObjectRate
 
-        ObjectCounter objectCounter1 = new ObjectCounter(movie1, 1);
-        ObjectCounter objectCounter2 = new ObjectCounter(movie2, 1);
-        ObjectCounter objectCounter3 = new ObjectCounter(movie3, 1);
-        Assert.assertEquals(objectCounter1, objectCounter1);
-        Assert.assertNotEquals(null, objectCounter1);
-        Assert.assertEquals(objectCounter2, objectCounter1);
-        Assert.assertNotEquals(objectCounter3, objectCounter1);
+        ObjectRate objectRate1 = new ObjectRate(movie1, 1);
+        ObjectRate objectRate2 = new ObjectRate(movie2, 1);
+        ObjectRate objectRate3 = new ObjectRate(movie3, 1);
+        Assert.assertEquals(objectRate1, objectRate1);
+        Assert.assertNotEquals(null, objectRate1);
+        Assert.assertEquals(objectRate2, objectRate1);
+        Assert.assertNotEquals(objectRate3, objectRate1);
 
     }
 

@@ -1,11 +1,14 @@
 package com.crystalgems.popcorn.sevices;
 
+import com.crystalgems.popcorn.algo.ObjectRate;
+import com.crystalgems.popcorn.algo.RecommendationAlgorithm;
 import com.crystalgems.popcorn.hibernate.HibernateUtil;
 import com.crystalgems.popcorn.model.Movie;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.xml.ws.http.HTTPException;
+import java.util.List;
 
 /**
  * Created by Antoine on 23/03/2017.
@@ -87,5 +90,33 @@ public class MovieService {
             throw e;
         }
         return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/nearest-movie-list")
+    public List<ObjectRate<Movie>> getNearestMovie(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getNearMovies(movieId, length, 1, 1, 1);
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/nearest-movie-list-by-director")
+    public List<ObjectRate<Movie>> getNearestMovieByDirector(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getNearMovies(movieId, length, 1, 0, 0);
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/nearest-movie-list-by-actor")
+    public List<ObjectRate<Movie>> getNearestMovieByActor(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getNearMovies(movieId, length, 0, 1, 0);
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/nearest-movie-list-by-genre")
+    public List<ObjectRate<Movie>> getNearestMovieByGenre(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getNearMovies(movieId, length, 0, 0, 1);
     }
 }
