@@ -416,6 +416,8 @@ CREATE TABLE IF NOT EXISTS `movies` (
   `TitleMovieLens` varchar(100) DEFAULT NULL,
   `TitleIMDB` varchar(100) DEFAULT NULL,
   `Date` int(4) DEFAULT NULL,
+  `totalScore` int default 0,
+  `numberOfRantings` int default 0,
   PRIMARY KEY (`MovieId`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3953 ;
 
@@ -694,6 +696,39 @@ FOR EACH ROW BEGIN
   SET new.Password = SHA1(new.Password);
 END
 //
+DELIMITER ;
+
+--
+-- Déclencheurs `userrating`
+--
+DROP TRIGGER IF EXISTS `trigger_rating_insert`;
+DROP TRIGGER IF EXISTS `trigger_rating_delete`;
+DROP TRIGGER IF EXISTS `trigger_rating_update`;
+DELIMITER //
+CREATE TRIGGER `trigger_rating_insert` AFTER INSERT ON `userrating` FOR EACH ROW
+  BEGIN
+    UPDATE  `movies` SET `movies`.numberOfRantings = `movies`.numberOfRantings + 1 WHERE `movies`.MovieId = NEW.MovieId;
+    UPDATE  `movies` SET `movies`.totalScore = `movies`.totalScore + NEW.Rating WHERE `movies`.MovieId = NEW.MovieId;
+  END //
+
+CREATE TRIGGER `trigger_rating_delete` AFTER DELETE ON `userrating` FOR EACH ROW
+  BEGIN
+    UPDATE  `movies` SET `movies`.numberOfRantings = `movies`.numberOfRantings - 1 WHERE `movies`.MovieId = OLD.MovieId;
+    UPDATE  `movies` SET `movies`.totalScore = `movies`.totalScore - OLD.Rating WHERE `movies`.MovieId = OLD.MovieId;
+  END //
+
+CREATE TRIGGER `trigger_rating_update` AFTER UPDATE ON `userrating` FOR EACH ROW
+  BEGIN
+    IF OLD.MovieId = NEW.MovieId THEN
+      UPDATE  `movies` SET `movies`.totalScore = `movies`.totalScore - OLD.Rating + NEW.Rating WHERE `movies`.MovieId = NEW.MovieId;
+    ELSE
+      UPDATE  `movies` SET `movies`.totalScore = `movies`.totalScore - OLD.Rating WHERE `movies`.MovieId = OLD.MovieId;
+      UPDATE  `movies` SET `movies`.numberOfRantings = `movies`.numberOfRantings - 1 WHERE `movies`.MovieId = OLD.MovieId;
+
+      UPDATE  `movies` SET `movies`.totalScore = `movies`.totalScore + NEW.Rating WHERE `movies`.MovieId = NEW.MovieId;
+      UPDATE  `movies` SET `movies`.numberOfRantings = `movies`.numberOfRantings + 1 WHERE `movies`.MovieId = NEW.MovieId;
+    END IF;
+  END //
 DELIMITER ;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
