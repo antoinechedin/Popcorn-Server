@@ -3078,7 +3078,7 @@ INSERT INTO `movies` (`MovieId`, `TitleMovieLens`, `TitleIMDB`, `Date`) VALUES
 (3111, 'PlacesintheHeart', 'PlacesintheHeart', 1984),
 (3112, 'NightMother', 'NightMother', 1986),
 (3113, 'EndofDays', 'EndofDays', 1999),
-(3114, 'ToyStory', 'ToyStory', 1999),
+(3114, 'ToyStory2', 'ToyStory2', 1999),
 (3115, 'Flawless', 'Flawless', 1999),
 (3116, 'MissJulie', 'MissJulie', 1999),
 (3117, 'RidewiththeDevil', 'RidewiththeDevilI', 1999),
