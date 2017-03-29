@@ -119,4 +119,12 @@ public class MovieService {
     public List<ObjectRate<Movie>> getNearestMovieByGenre(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
         return RecommendationAlgorithm.getSimilarMoviesFrom(movieId, length, 0, 0, 1);
     }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/user-personal-recommendation-list")
+    public List<ObjectRate<Movie>> getUserPersonnalRecommendation(@QueryParam("userId") int userId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getUserPersonalRecommendation(userId, length, 1, 1);
+    }
+
 }

@@ -11,7 +11,7 @@ public class ObjectRate<T> implements Comparable {
 
     public ObjectRate(T object) {
         this.object = object;
-        this.rate = 1;
+        this.rate = 0;
     }
 
     public ObjectRate(T object, double weight) {
@@ -59,7 +59,7 @@ public class ObjectRate<T> implements Comparable {
             if (rate - objectRate.rate > 0) return -1;
             if (rate - objectRate.rate < 0) return 1;
             return 0;
-        } else
-            throw new RuntimeException();
+        }
+        return 0;
     }
 }
