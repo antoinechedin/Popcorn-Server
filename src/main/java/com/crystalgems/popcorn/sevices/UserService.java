@@ -70,7 +70,9 @@ public class UserService {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
 
             User user = HibernateUtil.getSessionFactory().getCurrentSession().load(User.class, id);
-            HibernateUtil.getSessionFactory().getCurrentSession().delete(user);
+            user.setLogin("");
+            user.setPassword(DigestUtils.sha1Hex(""));
+            HibernateUtil.getSessionFactory().getCurrentSession().save(user);
 
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
