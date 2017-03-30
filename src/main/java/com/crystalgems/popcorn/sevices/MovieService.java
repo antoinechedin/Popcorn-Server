@@ -221,4 +221,10 @@ public class MovieService {
         return RecommendationAlgorithm.getUserPersonalRecommendation(userId, length, 1, 1);
     }
 
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/user-social-recommendation-list")
+    public List<ObjectRate<Movie>> getUserSocialRecommendation(@QueryParam("userId") int userId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getUserSocialRecommendation(userId, length, 4);
+    }
 }

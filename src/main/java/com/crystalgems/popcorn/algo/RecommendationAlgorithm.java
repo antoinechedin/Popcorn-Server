@@ -75,7 +75,7 @@ public class RecommendationAlgorithm {
             throw e;
         }
         // return only the 'lenght' first
-        return movieRecomendationRate.size() > resultLength ? movieRecomendationRate.subList(0, resultLength - 1) : movieRecomendationRate;
+        return movieRecomendationRate.size() > resultLength ? movieRecomendationRate.subList(0, resultLength) : movieRecomendationRate;
     }
 
     public static List<ObjectRate<Movie>> getUserPersonalRecommendation(int userId, int length, double directorWeight, double genreWeight) {
@@ -161,6 +161,61 @@ public class RecommendationAlgorithm {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
             throw e;
         }
-        return movieRecommendationRatesList.size() > length ? movieRecommendationRatesList.subList(0, length - 1) : movieRecommendationRatesList;
+        return movieRecommendationRatesList.size() > length ? movieRecommendationRatesList.subList(0, length) : movieRecommendationRatesList;
+    }
+
+    public static List<ObjectRate<Movie>> getUserSocialRecommendation(int userId, int length, int fidelity) {
+        if (fidelity < 0) fidelity = 0;
+        if (fidelity > 5) fidelity = 5;
+        List<ObjectRate<Movie>> movieRecommendationRatesList = new ArrayList<>();
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+
+            // Get similar user list
+            List<ObjectRate<User>> userList = new ArrayList<>();
+            User user = HibernateUtil.getSessionFactory().getCurrentSession().load(User.class, userId);
+            for (Iterator<Rating> ratingIterator1 = user.getRatings().iterator(); ratingIterator1.hasNext(); ) {
+                Rating rating1 = ratingIterator1.next();
+                int score = rating1.getRating();
+                Movie movie = rating1.getMovie();
+                for (Iterator<Rating> ratingIterator2 = movie.getRatings().iterator(); ratingIterator2.hasNext(); ) {
+                    Rating rating2 = ratingIterator2.next();
+
+                    if (Math.abs(rating2.getRating() - score) <= 5 - fidelity && rating2.getUser().getId() != userId) {
+                        ObjectRate<User> userRate = new ObjectRate<User>(rating2.getUser(), 1.0 / user.getRatings().size());
+                        if (userList.contains(userRate))
+                            userList.get(userList.indexOf(userRate)).increaseCounter(1.0 / user.getRatings().size());
+                        else
+                            userList.add(userRate);
+
+                    }
+                }
+            }
+
+            Collections.sort(userList);
+            if (userList.size() > 5)
+                userList = userList.subList(0, 5);
+
+            for (int i = 0; i < userList.size(); i++) {
+                for (Iterator<Rating> ratingIterator = ((User) userList.get(i).getObject()).getRatings().iterator(); ratingIterator.hasNext(); ) {
+                    Rating rating = ratingIterator.next();
+                    if (rating.getRating() == 5) {
+                        ObjectRate<Movie> movieRate = new ObjectRate<Movie>(rating.getMovie(), userList.get(i).getRate());
+                        if (movieRecommendationRatesList.contains(movieRate))
+                            movieRecommendationRatesList.get(movieRecommendationRatesList.indexOf(movieRate)).setRate((movieRecommendationRatesList.get(movieRecommendationRatesList.indexOf(movieRate)).getRate() + 1.0) / 2.0);
+                        else
+                            movieRecommendationRatesList.add(movieRate);
+                    }
+
+                }
+            }
+
+            Collections.sort(movieRecommendationRatesList);
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return movieRecommendationRatesList.size() > length ? movieRecommendationRatesList.subList(0, length) : movieRecommendationRatesList;
     }
 }
