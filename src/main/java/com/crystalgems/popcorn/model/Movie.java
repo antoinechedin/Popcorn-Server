@@ -173,7 +173,8 @@ public class Movie {
         this.languages = languages;
     }
 
-    @OneToMany(mappedBy = "movie")
+    @OneToMany
+    @JoinColumn(name = "MovieId")
     @JsonIgnore
     public Set<Rating> getRatings() {
         return ratings;

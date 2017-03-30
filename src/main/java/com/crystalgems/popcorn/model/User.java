@@ -71,7 +71,8 @@ public class User {
         this.age = age;
     }
 
-    @OneToMany(mappedBy = "user")
+    @OneToMany
+    @JoinColumn(name = "UserId")
     @JsonIgnore
     public Set<Rating> getRatings() {
         return ratings;

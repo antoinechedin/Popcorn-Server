@@ -42,6 +42,10 @@ public class ObjectRate<T> implements Comparable {
         return rate;
     }
 
+    public void setRate(double rate) {
+        this.rate = rate;
+    }
+
     public void increaseCounter(double weight) {
         this.rate += round(weight, PLACES);
     }
