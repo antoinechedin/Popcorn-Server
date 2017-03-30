@@ -30,6 +30,22 @@ public class UserService {
         return user;
     }
 
+    @GET
+    @Path("get/user-login")
+    public Integer getUserByLogin(@QueryParam("login") String userLogin) {
+        User user;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            user = (User) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from User U where U.login = '" + userLogin + "'").uniqueResult();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+
+        return new Integer(user.getId());
+    }
+
     @PUT
     @Consumes(MediaType.APPLICATION_JSON + "; charset=UTF-8")
     @Path("update/user")
