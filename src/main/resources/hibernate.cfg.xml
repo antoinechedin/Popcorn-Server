@@ -6,7 +6,7 @@
     <session-factory>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
         <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="hibernate.connection.url">jdbc:mysql://192.168.1.10:3306/Popcorn</property>
+        <property name="hibernate.connection.url">jdbc:mysql://192.168.1.10:3306/popcorn</property>
         <property name="hibernate.connection.username">steven</property>
         <property name="hibernate.connection.password">crystalgems</property>
         <property name="hbm2ddl.auto">validate</property>
