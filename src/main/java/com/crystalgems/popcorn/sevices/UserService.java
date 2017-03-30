@@ -1,6 +1,8 @@
 package com.crystalgems.popcorn.sevices;
 
 import com.crystalgems.popcorn.hibernate.HibernateUtil;
+import com.crystalgems.popcorn.model.Age;
+import com.crystalgems.popcorn.model.Gender;
 import com.crystalgems.popcorn.model.User;
 import org.apache.commons.codec.digest.DigestUtils;
 
@@ -76,6 +78,36 @@ public class UserService {
         }
 
         return Response.status(200).build();
+    }
+
+    @POST
+    @Path("create/user")
+    public Response createUser(@QueryParam("login") String login, @QueryParam("password") String password,
+                               @QueryParam("gender") int genderId, @QueryParam("age") int ageId) {
+
+        User user = new User();
+
+
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+
+            Gender gender = (Gender) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Gender G where G.id = " + genderId).uniqueResult();
+            Age age = (Age) HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Age A where A.id = " + ageId).uniqueResult();
+
+            user.setLogin(login);
+            user.setPassword(password);
+            user.setGender(gender);
+            user.setAge(age);
+
+            HibernateUtil.getSessionFactory().getCurrentSession().save(user);
+
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+
+        return Response.status(201).build();
     }
 
     @PUT
