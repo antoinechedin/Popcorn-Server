@@ -5,9 +5,11 @@ import com.crystalgems.popcorn.algo.RecommendationAlgorithm;
 import com.crystalgems.popcorn.hibernate.HibernateUtil;
 import com.crystalgems.popcorn.model.Movie;
 
-import javax.ws.rs.*;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
-import javax.xml.ws.http.HTTPException;
 import java.util.List;
 
 /**
@@ -50,40 +52,132 @@ public class MovieService {
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
-    @Path("get/{objectType}")
-    public Object[] getByMovieId(@PathParam("objectType") String objectType, @QueryParam("movieId") int movieId) {
-        Object[] o = null;
+    @Path("get/director")
+    public Object[] getDirectorByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
             Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
-            switch (objectType) {
-                case "director":
-                    o = movie.getDirectors().toArray();
-                    break;
-                case "actor":
-                    o = movie.getActors().toArray();
-                    break;
-                case "genre":
-                    o = movie.getGenres().toArray();
-                    break;
-                case "keyword":
-                    o = movie.getKeywords().toArray();
-                    break;
-                case "country":
-                    o = movie.getCountries().toArray();
-                    break;
-                case "distributor":
-                    o = movie.getDistributors().toArray();
-                    break;
-                case "language":
-                    o = movie.getLanguages().toArray();
-                    break;
-                case "rating":
-                    o = movie.getRatings().toArray();
-                    break;
-                default:
-                    throw new HTTPException(501);
-            }
+            o = movie.getDirectors().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/actor")
+    public Object[] getActorByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getActors().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/genre")
+    public Object[] getGenreByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getGenres().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/keyword")
+    public Object[] getKeywordByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getKeywords().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/country")
+    public Object[] getCountryByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getCountries().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/distributor")
+    public Object[] getDistributorByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getDistributors().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/language")
+    public Object[] getLanguageByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getLanguages().toArray();
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
+        } catch (RuntimeException e) {
+            HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
+            throw e;
+        }
+        return o;
+    }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/rating")
+    public Object[] getRatingByMovieId(@QueryParam("movieId") int movieId) {
+        Object[] o;
+        try {
+            HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
+            Movie movie = HibernateUtil.getSessionFactory().getCurrentSession().load(Movie.class, movieId);
+            o = movie.getRatings().toArray();
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
@@ -96,27 +190,35 @@ public class MovieService {
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
     @Path("get/nearest-movie-list")
     public List<ObjectRate<Movie>> getNearestMovie(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
-        return RecommendationAlgorithm.getNearMovies(movieId, length, 1, 1, 1);
+        return RecommendationAlgorithm.getSimilarMoviesFrom(movieId, length, 1, 1, 1);
     }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
     @Path("get/nearest-movie-list-by-director")
     public List<ObjectRate<Movie>> getNearestMovieByDirector(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
-        return RecommendationAlgorithm.getNearMovies(movieId, length, 1, 0, 0);
+        return RecommendationAlgorithm.getSimilarMoviesFrom(movieId, length, 1, 0, 0);
     }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
     @Path("get/nearest-movie-list-by-actor")
     public List<ObjectRate<Movie>> getNearestMovieByActor(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
-        return RecommendationAlgorithm.getNearMovies(movieId, length, 0, 1, 0);
+        return RecommendationAlgorithm.getSimilarMoviesFrom(movieId, length, 0, 1, 0);
     }
 
     @GET
     @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
     @Path("get/nearest-movie-list-by-genre")
     public List<ObjectRate<Movie>> getNearestMovieByGenre(@QueryParam("movieId") int movieId, @QueryParam("length") int length) {
-        return RecommendationAlgorithm.getNearMovies(movieId, length, 0, 0, 1);
+        return RecommendationAlgorithm.getSimilarMoviesFrom(movieId, length, 0, 0, 1);
     }
+
+    @GET
+    @Produces(MediaType.APPLICATION_JSON + "; charset=UTF-8")
+    @Path("get/user-personal-recommendation-list")
+    public List<ObjectRate<Movie>> getUserPersonnalRecommendation(@QueryParam("userId") int userId, @QueryParam("length") int length) {
+        return RecommendationAlgorithm.getUserPersonalRecommendation(userId, length, 1, 1);
+    }
+
 }
