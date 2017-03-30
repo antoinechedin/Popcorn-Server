@@ -41,7 +41,7 @@ public class MovieService {
         Object[] movies;
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
-            movies = HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie M").setMaxResults(100).list().toArray();
+            movies = HibernateUtil.getSessionFactory().getCurrentSession().createQuery("from Movie M where M.ratingNum >= 50 order by M.totalScore/M.ratingNum desc").setMaxResults(100).list().toArray();
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().commit();
         } catch (RuntimeException e) {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();

@@ -16,6 +16,8 @@ public class Movie {
     private String titleMovieLens;
     private String titleImdb;
     private int year;
+    private int totalScore;
+    private int ratingNum;
     private Set<Director> directors;
     private Set<Actor> actors;
     private Set<Genre> genres;
@@ -65,6 +67,26 @@ public class Movie {
 
     public void setYear(int year) {
         this.year = year;
+    }
+
+    @Basic
+    @Column(name = "totalScore")
+    public int getTotalScore() {
+        return totalScore;
+    }
+
+    public void setTotalScore(int totalScore) {
+        this.totalScore = totalScore;
+    }
+
+    @Basic
+    @Column(name = "numberOfRantings")
+    public int getRatingNum() {
+        return ratingNum;
+    }
+
+    public void setRatingNum(int ratingNum) {
+        this.ratingNum = ratingNum;
     }
 
     @ManyToMany
