@@ -106,6 +106,8 @@ public class HibernateTest {
         movie1.setLanguages(new HashSet<>(Collections.singletonList(language1)));
         movie1.setRatings(new HashSet<>(Collections.singletonList(rating1)));
         movie1.setType(type1);
+        // Movie 2 Relation
+        movie2.setType(type1);
         // User 1 Relation
         user1.setGender(gender1);
         user1.setAge(age1);

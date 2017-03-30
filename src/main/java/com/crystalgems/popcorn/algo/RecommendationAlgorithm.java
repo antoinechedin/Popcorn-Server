@@ -90,7 +90,7 @@ public class RecommendationAlgorithm {
             for (Iterator<Rating> ratingIterator = user.getRatings().iterator(); ratingIterator.hasNext(); ) {
                 Rating rating = ratingIterator.next();
                 // If the movie is good enought
-                if (rating.getRating() >= 3)
+                if (rating.getRating() >= 4)
                     favouriteMovies.add(new ObjectRate<>(rating.getMovie()));
             }
 
@@ -100,7 +100,7 @@ public class RecommendationAlgorithm {
                 // Iterate favourite movies
                 for (int i = 0; i < favouriteMovies.size(); i++) {
                     Movie movie = (Movie) favouriteMovies.get(i).getObject();
-                    double localDirectorWeight = directorWeight / (favouriteMovies.size() + movie.getDirectors().size() + weightSum);
+                    double localDirectorWeight = directorWeight / (favouriteMovies.size() * movie.getDirectors().size() * weightSum);
                     // Add the directors to the list
                     for (Iterator<Director> directorIterator = movie.getDirectors().iterator(); directorIterator.hasNext(); ) {
                         ObjectRate<Director> directorRate = new ObjectRate<>(directorIterator.next(), localDirectorWeight);
@@ -130,7 +130,7 @@ public class RecommendationAlgorithm {
                 // Iterate favourite movies
                 for (int i = 0; i < favouriteMovies.size(); i++) {
                     Movie movie = (Movie) favouriteMovies.get(i).getObject();
-                    double localGenreWeight = genreWeight / (favouriteMovies.size() + movie.getGenres().size() + weightSum);
+                    double localGenreWeight = genreWeight / (favouriteMovies.size() * movie.getGenres().size() * weightSum);
                     // Add the directors to the list
                     for (Iterator<Genre> genreIterator = movie.getGenres().iterator(); genreIterator.hasNext(); ) {
                         ObjectRate<Genre> genreRate = new ObjectRate<>(genreIterator.next(), localGenreWeight);
