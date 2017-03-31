@@ -32,7 +32,7 @@ public class UserService {
 
     @GET
     @Path("get/user-login")
-    public Integer getUserByLogin(@QueryParam("login") String userLogin) {
+    public User getUserByLogin(@QueryParam("login") String userLogin) {
         User user;
         try {
             HibernateUtil.getSessionFactory().getCurrentSession().beginTransaction();
@@ -42,8 +42,7 @@ public class UserService {
             HibernateUtil.getSessionFactory().getCurrentSession().getTransaction().rollback();
             throw e;
         }
-
-        return new Integer(user.getId());
+        return user;
     }
 
     @PUT
